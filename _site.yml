@@ -1,14 +1,13 @@
 name: "catalog"
 title: "MAS data catalog"
-favicon: 'images/favicon.ico'
+favicon: 'https://github.com/macroecology-society/data-catalog/images/favicon.ico'
 description: |
   MAS data catalog
 output_dir: "docs"
 
 navbar:
   logo:
-    image: 'image/logo.png'
-    href: 
+    image: 'https://github.com/macroecology-society/data-catalog/image/logo.png'
   search: true
   right:
     - text: "Home"
