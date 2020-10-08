@@ -2,21 +2,12 @@
 title: "MAS data catalog"
 description: |
   Welcome to the website. I hope you enjoy it!
-site: radix::radix_website
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Radix at:
-# https://rstudio.github.io/radix/website.html
-
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/radix/publish_website.html#github-pages
-
-```
-
 ## Common database
+<p align="justify">
+This website offers a detailed accounting and metadata of the datasets commonly handled by the Macroecology and Society (MAS) group, a research group of the German Centre for Integrative Biodiversity Research (iDiv).
+</p>
 
 ## Acknowledgements
 <p align="justify">
@@ -24,5 +15,5 @@ This work was funded by the Volkswagen Foundation through a Freigeist Fellowship
 </p>
 
 <p align="center">
-<a href="https://www.idiv.de/en/groups_and_people/core_groups/macroecosocial.html"><img src="https://github.com/macroecology-society/data-catalog/docs/images/idiv_promo.png" width="400" height="200"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.volkswagenstiftung.de/en/funding/our-funding-portfolio-at-a-glance/freigeist-fellowships"><img src="https://github.com/macroecology-society/data-catalog/docs/images/wg_3.jpg" width="400" height="200"/></a>
+<a href="https://www.idiv.de/en/groups_and_people/core_groups/macroecosocial.html"><img src="https://github.com/macroecology-society/data-catalog/docs/images/idiv_promo.png" width="200" height="100"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.volkswagenstiftung.de/en/funding/our-funding-portfolio-at-a-glance/freigeist-fellowships"><img src="https://github.com/macroecology-society/data-catalog/docs/images/wg_3.jpg" width="200" height="100"/></a>
 </p>
