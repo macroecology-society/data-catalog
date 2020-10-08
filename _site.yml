@@ -1,5 +1,5 @@
-name: "catalog"
-title: "MAS data catalog"
+name: "MAS data catalog"
+title: 'MAS data catalog'
 favicon: 'https://github.com/macroecology-society/data-catalog/images/favicon.ico'
 description: |
   MAS data catalog
@@ -7,8 +7,9 @@ output_dir: "docs"
 
 navbar:
   logo: 
-    image: 'logo.png'
+    image: 'images/logo.png'
     base_url: 'https://github.com/macroecology-society/data-catalog/image/'
+  search: true
   right:
     - text: "Home"
       href: index.html
@@ -37,3 +38,14 @@ rss:
   full_content: true
   categories:
     - land cover
+    - water
+    - climate
+    - biota
+    - boundaries
+    - ocean
+    - soil
+    - population
+    - other
+    - raster
+    - vector
+    - tabular
