@@ -16,3 +16,17 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+<!-- badges: start -->
+[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+<!-- badges: end -->
+
+## Common database
+
+## Acknowledgements
+<p align="justify">
+This work was funded by the Volkswagen Foundation through a Freigeist Fellowship to <a href="https://orcid.org/0000-0003-3927-5856">Carsten Meyer <i class="fab fa-orcid"></i></a>, with additional support by iDiv (FZT-118, DFG). `masDMT` and the data infrastructure it supports were developed within the High-Performance Computing (HPC) Cluster EVE, a joint effort by the Helmholtz Centre for Environmental Research (UFZ) and the German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig.
+</p>
+
+<p align="center">
+<a href="https://www.idiv.de/en/groups_and_people/core_groups/macroecosocial.html"><img src="./docs/images/idiv_promo.png" width="400" height="200"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.volkswagenstiftung.de/en/funding/our-funding-portfolio-at-a-glance/freigeist-fellowships"><img src="./docs/images/wg_3.jpg" width="400" height="200"/></a>
+</p>

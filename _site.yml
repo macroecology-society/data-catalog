@@ -1,12 +1,27 @@
 name: "catalog"
 title: "MAS data catalog"
+favicon: './docs/images/favicon.ico'
 description: |
   MAS data catalog
 output_dir: "docs"
+
 navbar:
+  logo:
+    image: './docs/image/logo.png'
+    href: 
+  search: true
   right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
-output: radix::radix_article
+    - icon: fa-wrench
+      text: masDMT
+      href: https://macroecology-society.github.io/masDMT/index.html
+    - icon: fa-github
+      text: GitHub
+      href: https://github.com/macroecology-society/mas-catalog/
+    - icon: fa-envelope
+      text: mail
+      href: mailto:mas@idiv.de
+output: distill::distill_article
