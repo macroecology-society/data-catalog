@@ -1,13 +1,13 @@
 name: "catalog"
 title: "MAS data catalog"
-favicon: './docs/images/favicon.ico'
+favicon: 'images/favicon.ico'
 description: |
   MAS data catalog
 output_dir: "docs"
 
 navbar:
   logo:
-    image: './docs/image/logo.png'
+    image: 'image/logo.png'
     href: 
   search: true
   right:
