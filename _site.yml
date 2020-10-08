@@ -6,9 +6,9 @@ description: |
 output_dir: "docs"
 
 navbar:
-  logo:
-    image: 'https://github.com/macroecology-society/data-catalog/image/logo.png'
-  search: true
+  logo: 
+    image: 'logo.png'
+    base_url: 'https://github.com/macroecology-society/data-catalog/image/'
   right:
     - text: "Home"
       href: index.html
@@ -24,3 +24,16 @@ navbar:
       text: mail
       href: mailto:mas@idiv.de
 output: distill::distill_article
+base_url: https://macroecology-society.github.io/data-catalog/
+collections:
+  posts:
+    categories: true
+    categories_metadata: true
+    creative_commons: CC BY
+    disqus: data-catalog
+    share: [twitter, linkedin]
+    custom: _custom.html
+rss:
+  full_content: true
+  categories:
+    - land cover

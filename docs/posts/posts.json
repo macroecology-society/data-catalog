@@ -1,0 +1,42 @@
+[
+  {
+    "path": "posts/2020-10-08-surfacewater/",
+    "title": "surfaceWater",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2020-10-08",
+    "categories": [
+      "water"
+    ],
+    "preview": {},
+    "last_modified": "2020-10-08T06:50:49+02:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to My Blog",
+    "description": "Welcome to our new blog, My Blog. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2020-10-08",
+    "categories": [
+      "land cover",
+      "test1",
+      "test2"
+    ],
+    "preview": "posts/welcome/welcome_files/figure-html5/unnamed-chunk-1-1.png",
+    "last_modified": "2020-10-08T03:58:21+02:00",
+    "input_file": {},
+    "preview_width": 1248,
+    "preview_height": 768
+  }
+]
