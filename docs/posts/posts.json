@@ -10,9 +10,14 @@
       }
     ],
     "date": "2020-10-08",
-    "categories": [],
-    "preview": {},
-    "last_modified": "2020-10-08T20:08:08+02:00",
-    "input_file": {}
+    "categories": [
+      "climate",
+      "koppenGeiger"
+    ],
+    "preview": "posts/beckclimatemap/BECK_climateMap.png",
+    "last_modified": "2020-10-08T22:10:13+02:00",
+    "input_file": "beckclimatemap.utf8.md",
+    "preview_width": 393,
+    "preview_height": 194
   }
 ]

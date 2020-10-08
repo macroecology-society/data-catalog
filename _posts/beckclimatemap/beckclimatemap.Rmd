@@ -2,43 +2,43 @@
 title: "BECK_climateMap"
 description: |
   A short description of the post.
-preview: 'images/BECK_climateMap.png'
+preview: BECK_climateMap.png
 author:
   - name: Ruben Remelgado
     url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
 journal: "Journal of Data Science Software"
 doi: "10.23915/distill.00010"
 slug: BECK_climateMap
+categories:
+  - climate
+  - koppenGeiger
 citation_url: https://rstudio.github.io/distill
 date: 10-08-2020
 output:
   distill::distill_article:
-    self_contained: false
+    highlight: haddock
+    highlight_downlit: false
+    css: post.css
+    
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-<table width="100%" cellspacing="0" cellpadding="0">
-    <colgroup>
-        <col width="25%">
-        <col width="25%">
-        <col width="25%">
-        <col width="5%">
-        <col width="20%">
-    </colgroup>
-    <tr>
-        <td>25</td>
-        <td colspan="2">50</td>
-        <td colspan="2">25</td>     
-    </tr>
-    <tr>
-        <td colspan="2">50</td>
-        <td colspan="2">30</td>
-        <td>20</td>
-    </tr>
-</table>
 
+
+<tagname style="property:value;">
+  
+  <aside>
+      **Description**
+      climate type classification
+      **License:**
+      <code>CC-BY-SA-4.0</code>
+      **Collection ID**
+      <code>Beck_climateMap</code>
+      **License:**
+      <code>CC-BY-SA-4.0</code>
+  </aside>
+  
+  

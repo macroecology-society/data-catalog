@@ -15,7 +15,7 @@
     <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
     <item>
       <title>BECK_climateMap</title>
-      <dc:creator>Ruben Remelgado</dc:creator>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ruben Remelgado</dc:creator>
       <link>https://macroecology-society.github.io/data-catalog/posts/beckclimatemap</link>
       <description>
 
@@ -84,12 +84,12 @@ $(document).ready(function () {
 &lt;/script&gt;
 
 </description>
-      <distill:md5>39cc10f3f6089108459eeb7c914c8a66</distill:md5>
+      <distill:md5 xmlns:distill="https://distill.pub/journal/">39cc10f3f6089108459eeb7c914c8a66</distill:md5>
       <category>climate</category>
       <category>koppenGeiger</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/beckclimatemap</guid>
       <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
-      <media:content url="https://macroecology-society.github.io/data-catalog/posts/beckclimatemap/BECK_climateMap.png" medium="image" type="image/png" width="393" height="194"/>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://macroecology-society.github.io/data-catalog/posts/beckclimatemap/BECK_climateMap.png" medium="image" type="image/png" width="393" height="194"/>
     </item>
   </channel>
 </rss>
