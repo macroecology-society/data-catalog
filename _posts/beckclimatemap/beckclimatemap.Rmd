@@ -2,6 +2,7 @@
 title: "BECK_climateMap"
 description: |
   A short description of the post.
+preview: 'images/BECK_climateMap.png'
 author:
   - name: Ruben Remelgado
     url: https://example.com/norajones
@@ -9,7 +10,7 @@ author:
     affiliation_url: https://example.com/spacelysprokets
 journal: "Journal of Data Science Software"
 doi: "10.23915/distill.00010"
-slug: jones2018distill
+slug: BECK_climateMap
 citation_url: https://rstudio.github.io/distill
 date: 10-08-2020
 output:
@@ -21,7 +22,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-<table width="100%" border="none" bgcolor="#ffffff">
+<table width="100%" cellspacing="0" cellpadding="0">
     <colgroup>
         <col width="25%">
         <col width="25%">

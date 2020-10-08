@@ -12,108 +12,14 @@
       <link>https://macroecology-society.github.io/data-catalog/</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate>
     <item>
       <title>BECK_climateMap</title>
       <dc:creator>Ruben Remelgado</dc:creator>
       <link>https://macroecology-society.github.io/data-catalog/posts/beckclimatemap</link>
-      <description>
-
-
-&lt;div class="container-fluid main-container"&gt;
-
-
-
-
-&lt;div class="fluid-row" id="header"&gt;
-
-
-
-
-&lt;/div&gt;
-
-
-&lt;table width="100%" border="none" bgcolor="#ffffff"&gt;
-&lt;colgroup&gt;
-&lt;col width="25%"&gt;
-&lt;col width="25%"&gt;
-&lt;col width="25%"&gt;
-&lt;col width="5%"&gt;
-&lt;col width="20%"&gt;
-&lt;/colgroup&gt;
-&lt;tr&gt;
-&lt;td&gt;
-25
-&lt;/td&gt;
-&lt;td colspan="2"&gt;
-50
-&lt;/td&gt;
-&lt;td colspan="2"&gt;
-25
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td colspan="2"&gt;
-50
-&lt;/td&gt;
-&lt;td colspan="2"&gt;
-30
-&lt;/td&gt;
-&lt;td&gt;
-20
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-
-
-
-
-&lt;/div&gt;
-
-&lt;script&gt;
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
-
-
-&lt;/script&gt;
-
-&lt;!-- tabsets --&gt;
-
-&lt;script&gt;
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown &gt; .nav-tabs &gt; li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-&lt;/script&gt;
-
-&lt;!-- code folding --&gt;
-
-
-&lt;!-- dynamically load mathjax for compatibility with self-contained --&gt;
-&lt;script&gt;
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-&lt;/script&gt;
-
-</description>
-      <distill:md5>39cc10f3f6089108459eeb7c914c8a66</distill:md5>
+      <description>A short description of the post.</description>
       <guid>https://macroecology-society.github.io/data-catalog/posts/beckclimatemap</guid>
-      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
