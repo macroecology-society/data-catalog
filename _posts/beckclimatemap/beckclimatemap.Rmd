@@ -1,12 +1,13 @@
 ---
 title: "Beck climate map"
 description: |
-  Global Köppen-Geiger climate classification at a 1-km resolution for the present-day (1980–2016) and for projected future conditions (2071–2100) under climate change.
+  Global Köppen-Geiger climate classification at a 1-km resolution for the present-day (1980–2016) and for projected future conditions (2071–2100) under climate change
 preview: BECK_climateMap.png
 slug: BECK_climateMap
 categories:
+  - global
   - climate
-  - koppen.geiger
+  - koppen-geiger
 date: 10-08-2020
 output:
   distill::distill_article:

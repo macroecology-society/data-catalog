@@ -12,7 +12,7 @@
       <link>https://macroecology-society.github.io/data-catalog/</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Beck climate map</title>
       <link>https://macroecology-society.github.io/data-catalog/posts/beckclimatemap</link>
@@ -20,8 +20,17 @@
       <category>climate</category>
       <category>koppen.geiger</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/beckclimatemap</guid>
-      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/beckclimatemap/BECK_climateMap.png" medium="image" type="image/png" width="393" height="194"/>
+    </item>
+    <item>
+      <title>CCI Land Cover</title>
+      <link>https://macroecology-society.github.io/data-catalog/posts/ccilandcover</link>
+      <description>27 years of global Land cover data (1992-2018) provided by the European Space Agency (ESA) with a resolution of 0.028-degree (~300-m at the equator)</description>
+      <category>global</category>
+      <category>land-cover</category>
+      <guid>https://macroecology-society.github.io/data-catalog/posts/ccilandcover</guid>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

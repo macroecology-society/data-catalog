@@ -1,21 +1,68 @@
 ---
-title: "CCI_landCover"
+title: "CCI Land Cover"
 description: |
-  A short description of the post.
-author:
-  - name: Nora Jones
-    url: https://example.com/norajones
+  27 years of global Land cover data (1992-2018) provided by the European Space Agency (ESA) with a resolution of 0.028-degree (~300-m at the equator)
+preview: CCI_landCover.png
+slug: CCI_landCover
+categories:
+  - global
+  - land-cover
 date: 10-08-2020
 output:
   distill::distill_article:
-    self_contained: false
+    highlight: haddock
+    highlight_downlit: false
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
+<div width="80%;">
+<h3>Details</h3>
+<p align='justify'>
+As part of the Climate Change Initiative (CCI) promoted by ESA, this is the first, mid-resolution dataset of its kind to cover nearly three decades. As a consequence, it offers an important basis for for continuous change detection and monitoring. While initially produced as an Essential Climate Variable (ECV) and a basis for climate modeling, it has been used in other applications (e.g. ecology, land use science) depicting its wide applicability. You can explore this dataset through a decidated viewer <a href="https://maps.elie.ucl.ac.be/CCI/viewer/index.php">a dedicated viewer</a>.
+</p>
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+<h3>Subdatsets</h3>
+| data_id                                 | description |
+|-----------------------------------------|-------------|
+|`BECK_climateMap/CCI_landCover/landCover`| Land cover  |
+</div>
 
+<aside>
+  <p>**Format**</p>
+  <p>Grid</p>
+  <p>**Spatial extent:**</p>
+  <p>Global</p>
+  <p>**Temporal frequency:**</p>
+  <p>Yearly</p>
+  <p>**Documentation**</p>
+  <p><a href="https://climate.esa.int/en/projects/land-cover/">Click here for more</a></p>
+  <p>**License:**</p>
+  <p>CC-BY-SA-4.0</p>
+  <hr style="margin-top:0;margin-bottom:0;">
+  <p>**Version**</p>
+  <p>2.0.7</p>
+  <p>**Resolution**</p>
+  <p>0.002 degrees</p>
+  <p>**Time frame**</p>
+  <p>1992 - 2018</p>
+  <hr style="margin-top:0;margin-bottom:0;">
+  <p>**Legend**</p>
+  <a href="https://github.com/macroecology-society/data-catalog/legend/CCI_landCover.csv">download</a></p>
+  <p>**Bibliography**</p>
+  <a href="https://github.com/macroecology-society/data-catalog/bib/CCI_landCover.bib">BitTex Download</a></p>
+</aside>
+
+<hr>
+
+<div>
+<p>**Post author**: <a href="https://scholar.google.de/citations?hl=en&user=sWAgz2oAAAAJ&view_op=list_works&sortby=pubdate">Ruben Remelgado</a></p>
+<p>**Affiliation**: Macroecology and Society</p>
+**Where there  mistakes?**
+[Click here to edit it them in GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/ccilandcover/)
+</div>
+<aside>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
+</aside>
