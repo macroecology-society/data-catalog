@@ -64,7 +64,7 @@ The present-day map is derived from an ensemble of four high-resolution, topogra
 <p>**author**: <a href="https://scholar.google.de/citations?hl=en&user=sWAgz2oAAAAJ&view_op=list_works&sortby=pubdate">Ruben Remelgado</a></p>
 <p>**Affiliation**: Macroecology and Society</p>
 **Where there  mistakes?**
-[Click here to edit it them in GitHub repository](tree/main/_posts/beckclimatemap/beckclimatemap.Rmd)
+[Click here to edit it them in GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/beckclimatemap/)
 </div>
 <aside>
 <img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
