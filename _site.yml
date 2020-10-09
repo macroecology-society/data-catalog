@@ -13,8 +13,8 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Team"
+      href: https://www.idiv.de/en/groups_and_people/core_groups/macroecosocial.html
     - icon: fa-wrench
       text: masDMT
       href: https://macroecology-society.github.io/masDMT/index.html

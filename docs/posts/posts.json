@@ -68,7 +68,7 @@
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nGSW is a unique dataset, offering a global, yearly classifcation of seasonal and permanent water. The original dataset is provided at a 30-m resolution, and information on how to access it can be found at at the JRC’s website At the MAS lab, we aggregated this data product to 300-m, deriving per-pixel percentage cover data for permanent and seasonal water, as well as missing data.\r\n\r\n\r\nSubdatsets\r\n\r\ndata_id\r\ndescription\r\nsurfaceWater/permanent\r\nPer-pixel % of permanent water\r\nsurfaceWater/seasonal\r\nPer-pixel % of seasonal water\r\nsurfaceWater/missingData\r\nPer-pixel % of missing values\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nGlobal\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nYearly\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nLicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1.2\r\n\r\n\r\nResolution\r\n\r\n\r\n0.02 degrees\r\n\r\n\r\nTime frame\r\n\r\n\r\n1992 - 2018\r\n\r\n\r\nLegend\r\n\r\ndownload\r\n\r\n\r\nBibliography\r\n\r\nBitTex Download\r\n\r\n\r\n\r\nauthor: Ruben Remelgado\r\n\r\n\r\nAffiliation: Macroecology and Society\r\n\r\nWhere there mistakes? Click here to edit it them in GitHub repository\r\n\r\n",
     "preview": "posts/surfacewater/surfacewater.png",
     "last_modified": "2020-10-09T17:52:15+02:00",
-    "input_file": "surfacewater.utf8.md",
+    "input_file": {},
     "preview_width": 300,
     "preview_height": 150
   }
