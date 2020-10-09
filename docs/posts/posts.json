@@ -1,22 +1,17 @@
 [
   {
     "path": "posts/beckclimatemap/",
-    "title": "BECK_climateMap",
-    "description": "A short description of the post.",
-    "author": [
-      {
-        "name": "Ruben Remelgado",
-        "url": "https://example.com/norajones"
-      }
-    ],
+    "title": "Beck climate map",
+    "description": "Global maps of the Köppen-Geiger climate classification at a 1-km resolution for the present-day (1980–2016) and for projected future conditions (2071–2100) under climate change.",
+    "author": [],
     "date": "2020-10-08",
     "categories": [
       "climate",
-      "koppenGeiger"
+      "koppen.geiger"
     ],
     "preview": "posts/beckclimatemap/BECK_climateMap.png",
-    "last_modified": "2020-10-08T22:15:36+02:00",
-    "input_file": "beckclimatemap.utf8.md",
+    "last_modified": "2020-10-09T09:58:07+02:00",
+    "input_file": {},
     "preview_width": 393,
     "preview_height": 194
   }

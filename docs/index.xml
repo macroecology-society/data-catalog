@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:distill="https://distill.pub/journal/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
     <title>MAS data catalog</title>
     <link>https://macroecology-society.github.io/data-catalog/</link>
@@ -12,83 +12,15 @@
       <link>https://macroecology-society.github.io/data-catalog/</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>BECK_climateMap</title>
-      <dc:creator>Ruben Remelgado</dc:creator>
+      <title>Beck climate map</title>
       <link>https://macroecology-society.github.io/data-catalog/posts/beckclimatemap</link>
-      <description>
-
-
-&lt;div class="container-fluid main-container"&gt;
-
-
-
-
-&lt;div class="fluid-row" id="header"&gt;
-
-
-
-
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;tagname style="property:value;"&gt;&lt;/p&gt;
-&lt;aside&gt;
-&lt;strong&gt;Description&lt;/strong&gt; climate type classification &lt;strong&gt;License:&lt;/strong&gt; &lt;code&gt;CC-BY-SA-4.0&lt;/code&gt; &lt;strong&gt;Collection ID&lt;/strong&gt; &lt;code&gt;Beck_climateMap&lt;/code&gt; &lt;strong&gt;License:&lt;/strong&gt; &lt;code&gt;CC-BY-SA-4.0&lt;/code&gt;
-&lt;/aside&gt;
-
-
-
-
-&lt;/div&gt;
-
-&lt;script&gt;
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
-
-
-&lt;/script&gt;
-
-&lt;!-- tabsets --&gt;
-
-&lt;script&gt;
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown &gt; .nav-tabs &gt; li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-&lt;/script&gt;
-
-&lt;!-- code folding --&gt;
-
-
-&lt;!-- dynamically load mathjax for compatibility with self-contained --&gt;
-&lt;script&gt;
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-&lt;/script&gt;
-
-</description>
-      <distill:md5>39cc10f3f6089108459eeb7c914c8a66</distill:md5>
+      <description>Global maps of the Köppen-Geiger climate classification at a 1-km resolution for the present-day (1980–2016) and for projected future conditions (2071–2100) under climate change.</description>
       <category>climate</category>
-      <category>koppenGeiger</category>
+      <category>koppen.geiger</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/beckclimatemap</guid>
-      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/beckclimatemap/BECK_climateMap.png" medium="image" type="image/png" width="393" height="194"/>
     </item>
   </channel>

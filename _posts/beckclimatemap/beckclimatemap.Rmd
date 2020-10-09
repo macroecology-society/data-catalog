@@ -1,44 +1,71 @@
 ---
-title: "BECK_climateMap"
+title: "Beck climate map"
 description: |
-  A short description of the post.
+  Global maps of the Köppen-Geiger climate classification at a 1-km resolution for the present-day (1980–2016) and for projected future conditions (2071–2100) under climate change.
 preview: BECK_climateMap.png
-author:
-  - name: Ruben Remelgado
-    url: https://example.com/norajones
-journal: "Journal of Data Science Software"
-doi: "10.23915/distill.00010"
 slug: BECK_climateMap
 categories:
   - climate
-  - koppenGeiger
-citation_url: https://rstudio.github.io/distill
+  - koppen.geiger
 date: 10-08-2020
 output:
   distill::distill_article:
     highlight: haddock
     highlight_downlit: false
-    css: https://github.com/macroecology-society/data-catalog/blob/main/post.css
-    
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+<div width="80%;">
+<h3>Details</h3>
+<p align='justify'>
+The present-day map is derived from an ensemble of four high-resolution, topographically-corrected climatic maps. The future map is derived from an ensemble of 32 climate model projections (scenario RCP8.5), by superimposing the projected climate change anomaly on the baseline high-resolution climatic maps. For both time periods we calculate confidence levels from the ensemble spread, providing valuable indications of the reliability of the classifications. The new maps exhibit a higher classification accuracy and substantially more detail than previous maps, particularly in regions with sharp spatial or elevation gradients. The new maps including the associated confidence maps are freely available via <a href="www.gloh2o.org/koppen">www.gloh2o.org/koppen</a>.
+</p>
 
+<h3>Subdatsets</h3>
+| data_id                           | description                 |
+|---------------------------------- |-----------------------------|
+|`BECK_climateMap/futureClass`      | Future climate              |
+|`BECK_climateMap/futureConfidence` | Future climate (confidence) |
+|`BECK_climateMap/presentClass`     | Present climate             |
+|`BECK_climateMap/presentConfidence`| Present climate (confidence)|
+</div>
 
-<tagname style="property:value;">
-  
-  <aside>
-      **Description**
-      climate type classification
-      **License:**
-      <code>CC-BY-SA-4.0</code>
-      **Collection ID**
-      <code>Beck_climateMap</code>
-      **License:**
-      <code>CC-BY-SA-4.0</code>
-  </aside>
-  
-  
+<aside>
+  <p>**Format**</p>
+  <p>Grid</p>
+  <p>**Spatial extent:**</p>
+  <p>Global</p>
+  <p>**Temporal frequency:**</p>
+  <p>Multi-year Snapshot(s)</p>
+  <p>**Documentation**</p>
+  <p><a href="https://www.nature.com/articles/sdata2018214">Click here for more</a></p>
+  <p>**License:**</p>
+  <p>CC-BY-SA-4.0</p>
+  <hr style="margin-top:0;margin-bottom:0;">
+  <p>**Version**</p>
+  <p>1.0</p>
+  <p>**Resolution**</p>
+  <p>0.08 degrees</p>
+  <p>**Time frame**</p>
+  <p>1986 - 2100</p>
+  <hr style="margin-top:0;margin-bottom:0;">
+  <p>**Legend**</p>
+  <a href="">download</a></p>
+  <p>**Bibliography**</p>
+  <a href="/bib/BECK_climateMap.bib">BitTex Download</a></p>
+</aside>
+
+<hr>
+
+<div>
+<p>**author**: <a href="">Ruben Remelgado</a></p>
+<p>**Affiliation**: Macroecology and Society</p>
+**Where there  mistakes?**
+<a href="">Click here to edit it them in GitHub repository</a>
+</div>
+<aside>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
+</aside>

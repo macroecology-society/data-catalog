@@ -30,22 +30,7 @@ collections:
   posts:
     categories: true
     categories_metadata: true
-    creative_commons: CC BY
     disqus: data-catalog
     share: [twitter, linkedin]
     custom: _custom.html
-rss:
-  full_content: true
-  categories:
-    - land cover
-    - water
-    - climate
-    - biota
-    - boundaries
-    - ocean
-    - soil
-    - population
-    - other
-    - raster
-    - vector
-    - tabular
+    citations: false
