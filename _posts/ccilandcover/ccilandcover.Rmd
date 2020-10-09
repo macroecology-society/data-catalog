@@ -2,12 +2,13 @@
 title: "CCI Land Cover"
 description: |
   27 years of global Land cover data (1992-2018) provided by the European Space Agency (ESA) with a resolution of 0.028-degree (~300-m at the equator)
-preview: CCI_landCover.png
-slug: CCI_landCover
+preview: ccilandcover.png
+slug: ccilandcover
 categories:
   - global
   - land-cover
-date: 10-08-2020
+  - 300-meters
+date: 08-10-2020
 output:
   distill::distill_article:
     highlight: haddock
@@ -50,9 +51,9 @@ As part of the Climate Change Initiative (CCI) promoted by ESA, this is the firs
   <p>1992 - 2018</p>
   <hr style="margin-top:0;margin-bottom:0;">
   <p>**Legend**</p>
-  <a href="https://github.com/macroecology-society/data-catalog/legend/CCI_landCover.csv">download</a></p>
+  <a href="https://github.com/macroecology-society/data-catalog/legend/ccilandCover.csv">download</a></p>
   <p>**Bibliography**</p>
-  <a href="https://github.com/macroecology-society/data-catalog/bib/CCI_landCover.bib">BitTex Download</a></p>
+  <a href="https://github.com/macroecology-society/data-catalog/bib/ccilandCover.bib">BitTex Download</a></p>
 </aside>
 
 <hr>

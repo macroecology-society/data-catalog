@@ -1,21 +1,71 @@
 ---
-title: "surfaceWater"
+title: "GLobal surface water"
 description: |
-  A short description of the post.
-author:
-  - name: Nora Jones
-    url: https://example.com/norajones
-date: 10-08-2020
+  Multi-temporal dynamics of Global Surface Water (GSW), mapped at a 30-m resolution by the European Joint Research Centre (JRC) 
+preview: surfacewater.png
+slug: surfacewater
+categories:
+  - global
+  - water
+  - 300-m
+date: 08-10-2020
 output:
   distill::distill_article:
-    self_contained: false
+    highlight: haddock
+    highlight_downlit: false
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
+<div width="80%;">
+<h3>Details</h3>
+<p align='justify'>
+GSW is a unique dataset, offering a global, yearly classifcation of seasonal and permanent water. The original dataset is provided at a 30-m resolution, and information on how to access it <a href="https://global-surface-water.appspot.com/">can be found at at the JRC's website</a> At the MAS lab, we aggregated this data product to 300-m, deriving per-pixel percentage cover data for permanent and seasonal water, as well as missing data.
+</p>
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+<h3>Subdatsets</h3>
+| data_id                  | description                  |
+|--------------------------|------------------------------|
+|`surfaceWater/permanent`  |Per-pixel % of permanent water|
+|`surfaceWater/seasonal`   |Per-pixel % of seasonal water |
+|`surfaceWater/missingData`|Per-pixel % of missing values |
+</div>
 
+<aside>
+  <p>**Format**</p>
+  <p>Grid</p>
+  <p>**Spatial extent:**</p>
+  <p>Global</p>
+  <p>**Temporal frequency:**</p>
+  <p>Yearly</p>
+  <p>**Documentation**</p>
+  <p><a href="https://www.nature.com/articles/nature20584.epdf?author_access_token=C5JSvooRop4jWxyp_qRPLNRgN0jAjWel9jnR3ZoTv0MqBuzCNsmw_DFxRd7sX93nfPzcbm_xTiPLlZMl7XrUhadm6EiT9cGdDNgn1s6EWrPWH3IeadLUjApplBoaS6xH">Click here for more</a></p>
+  <p>**License:**</p>
+  <p>CC-BY-SA-4.0</p>
+  <hr style="margin-top:0;margin-bottom:0;">
+  <p>**Version**</p>
+  <p>1.2</p>
+  <p>**Resolution**</p>
+  <p>0.02 degrees</p>
+  <p>**Time frame**</p>
+  <p>1992 - 2018</p>
+  <hr style="margin-top:0;margin-bottom:0;">
+  <p>**Legend**</p>
+  <a href="https://github.com/macroecology-society/data-catalog/legend/surfacewater.csv">download</a></p>
+  <p>**Bibliography**</p>
+  <a href="https://github.com/macroecology-society/data-catalog/bib/surfacewater.bib">BitTex Download</a></p>
+</aside>
+
+<hr>
+
+<div>
+<p>**author**: <a href="https://scholar.google.de/citations?hl=en&user=sWAgz2oAAAAJ&view_op=list_works&sortby=pubdate">Ruben Remelgado</a></p>
+<p>**Affiliation**: Macroecology and Society</p>
+**Where there  mistakes?**
+[Click here to edit it them in GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/surfacewater/)
+</div>
+<aside>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
+</aside>

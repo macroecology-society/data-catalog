@@ -1,21 +1,74 @@
 ---
-title: "mapBiomas"
+title: "MapBiomas land cover"
 description: |
-  A short description of the post.
-author:
-  - name: Nora Jones
-    url: https://example.com/norajones
-date: 10-08-2020
+  Land cover dataset for Brazil, mapped at a 30-m resolution on an yearly basis between 1985 and 2018
+preview: mapbiomas.png
+slug: mapbiomas
+categories:
+  - brazil
+  - land-cover
+  - 30-meters
+date: 08-10-2020
 output:
   distill::distill_article:
-    self_contained: false
+    highlight: haddock
+    highlight_downlit: false
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
+<div width="80%;">
+<h3>Details</h3>
+<p align='justify'>
+The present-day map is derived from an ensemble of four high-resolution, topographically-corrected climatic maps. The future map is derived from an ensemble of 32 climate model projections (scenario RCP8.5), by superimposing the projected climate change anomaly on the baseline high-resolution climatic maps. For both time periods we calculate confidence levels from the ensemble spread, providing valuable indications of the reliability of the classifications. The new maps exhibit a higher classification accuracy and substantially more detail than previous maps, particularly in regions with sharp spatial or elevation gradients. The new maps including the associated confidence maps are freely available via <a href="www.gloh2o.org/koppen">www.gloh2o.org/koppen</a>.
+</p>
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+<h3>Subdatsets</h3>
+| data_id                 |            description               |
+|-------------------------|--------------------------------------|
+|`mapBiomas/amazonia`     |Land cover in the Amazonia bioma      |
+|`mapBiomas/caatinga`     |Land cover in the Caatinga bioma      |
+|`mapBiomas/cerrado`      |Land cover in the Cerrado bioma       |
+|`mapBiomas/pampas`       |Land cover in the Pampas bioma        |
+|`mapBiomas/pantanal`     |Land cover in the Pantanal bioma      |
+|`mapBiomas/mataatlantica`|Land cover in the Mata Atlantica bioma|
+</div>
 
+<aside>
+  <p>**Format**</p>
+  <p>Grid</p>
+  <p>**Spatial extent:**</p>
+  <p>Global</p>
+  <p>**Temporal frequency:**</p>
+  <p>Multi-year Snapshot(s)</p>
+  <p>**Documentation**</p>
+  <p><a href="https://www.nature.com/articles/sdata2018214">Click here for more</a></p>
+  <p>**License:**</p>
+  <p>CC-BY-SA-4.0</p>
+  <hr style="margin-top:0;margin-bottom:0;">
+  <p>**Version**</p>
+  <p>4.0</p>
+  <p>**Resolution**</p>
+  <p>0.08 degrees</p>
+  <p>**Time frame**</p>
+  <p>1985 - 2018</p>
+  <hr style="margin-top:0;margin-bottom:0;">
+  <p>**Legend**</p>
+  <a href="https://github.com/macroecology-society/data-catalog/legend/mapbiomas.csv">download</a></p>
+  <p>**Bibliography**</p>
+  <a href="https://github.com/macroecology-society/data-catalog/bib/mapbiomas.bib">BitTex Download</a></p>
+</aside>
+
+<hr>
+
+<div>
+<p>**author**: <a href="https://scholar.google.de/citations?hl=en&user=sWAgz2oAAAAJ&view_op=list_works&sortby=pubdate">Ruben Remelgado</a></p>
+<p>**Affiliation**: Macroecology and Society</p>
+**Where there  mistakes?**
+[Click here to edit it them in GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/mapbiomas/)
+</div>
+<aside>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
+</aside>
