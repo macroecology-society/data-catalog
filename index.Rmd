@@ -2,4 +2,5 @@
 title: ""
 site: distill::distill_website
 listing: posts
+css: post.css
 ---

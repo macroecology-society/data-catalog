@@ -9,8 +9,9 @@
       "climate",
       "koppen.geiger"
     ],
+    "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThe present-day map is derived from an ensemble of four high-resolution, topographically-corrected climatic maps. The future map is derived from an ensemble of 32 climate model projections (scenario RCP8.5), by superimposing the projected climate change anomaly on the baseline high-resolution climatic maps. For both time periods we calculate confidence levels from the ensemble spread, providing valuable indications of the reliability of the classifications. The new maps exhibit a higher classification accuracy and substantially more detail than previous maps, particularly in regions with sharp spatial or elevation gradients. The new maps including the associated confidence maps are freely available via www.gloh2o.org/koppen.\r\n\r\n\r\nSubdatsets\r\n\r\ndata_id\r\ndescription\r\nBECK_climateMap/futureClass\r\nFuture climate\r\nBECK_climateMap/futureConfidence\r\nFuture climate (confidence)\r\nBECK_climateMap/presentClass\r\nPresent climate\r\nBECK_climateMap/presentConfidence\r\nPresent climate (confidence)\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nGlobal\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nMulti-year Snapshot(s)\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nLicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1.0\r\n\r\n\r\nResolution\r\n\r\n\r\n0.08 degrees\r\n\r\n\r\nTime frame\r\n\r\n\r\n1986 - 2100\r\n\r\n\r\nLegend\r\n\r\ndownload\r\n\r\n\r\nBibliography\r\n\r\nBitTex Download\r\n\r\n\r\n\r\nauthor: Ruben Remelgado\r\n\r\n\r\nAffiliation: Macroecology and Society\r\n\r\nWhere there mistakes? Click here to edit it them in GitHub repository\r\n\r\n",
     "preview": "posts/beckclimatemap/BECK_climateMap.png",
-    "last_modified": "2020-10-09T09:58:07+02:00",
+    "last_modified": "2020-10-09T12:32:30+02:00",
     "input_file": {},
     "preview_width": 393,
     "preview_height": 194
