@@ -53,9 +53,9 @@ The present-day map is derived from an ensemble of four high-resolution, topogra
   <p>1986 - 2100</p>
   <hr style="margin-top:0;margin-bottom:0;">
   <p>**Legend**</p>
-  <a href="">download</a></p>
+  <a href="https://github.com/macroecology-society/data-catalog/legend/BECK_climateMap.csv">download</a></p>
   <p>**Bibliography**</p>
-  <a href="/bib/BECK_climateMap.bib">BitTex Download</a></p>
+  <a href="https://github.com/macroecology-society/data-catalog/bib/BECK_climateMap.bib">BitTex Download</a></p>
 </aside>
 
 <hr>
