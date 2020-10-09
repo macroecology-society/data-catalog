@@ -24,7 +24,9 @@ navbar:
     - icon: fa-envelope
       text: mail
       href: mailto:mas@idiv.de
-output: distill::distill_article
+output:
+  distill::distill_article:
+    css: post.css
 base_url: https://macroecology-society.github.io/data-catalog/
 collections:
   posts:
