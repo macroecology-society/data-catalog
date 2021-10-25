@@ -60,21 +60,21 @@
     </item>
     <item>
       <title>FLO1K</title>
-      <link>https://macroecology-society.github.io/data-catalog/posts/FLO1K</link>
+      <link>https://macroecology-society.github.io/data-catalog/posts/flo1k</link>
       <description>Global time-series of land surface streamflow</description>
       <category>water</category>
-      <guid>https://macroecology-society.github.io/data-catalog/posts/FLO1K</guid>
+      <guid>https://macroecology-society.github.io/data-catalog/posts/flo1k</guid>
       <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://macroecology-society.github.io/data-catalog/posts/FLO1K/FLO1K.png" medium="image" type="image/png" width="200" height="100"/>
+      <media:content url="https://macroecology-society.github.io/data-catalog/posts/flo1k/FLO1K.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
       <title>GADM</title>
-      <link>https://macroecology-society.github.io/data-catalog/posts/GADM</link>
+      <link>https://macroecology-society.github.io/data-catalog/posts/gadm</link>
       <description>Global database of administrative areas</description>
       <category>land managenent</category>
-      <guid>https://macroecology-society.github.io/data-catalog/posts/GADM</guid>
+      <guid>https://macroecology-society.github.io/data-catalog/posts/gadm</guid>
       <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://macroecology-society.github.io/data-catalog/posts/GADM/GADM.png" medium="image" type="image/png" width="200" height="100"/>
+      <media:content url="https://macroecology-society.github.io/data-catalog/posts/gadm/GADM.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
       <title>GAIA</title>
@@ -204,12 +204,12 @@
     </item>
     <item>
       <title>mapBiomas</title>
-      <link>https://macroecology-society.github.io/data-catalog/posts/mapBiomas</link>
+      <link>https://macroecology-society.github.io/data-catalog/posts/mapbiomas</link>
       <description>High-resolution land cover of Brazil.</description>
       <category>land cover</category>
-      <guid>https://macroecology-society.github.io/data-catalog/posts/mapBiomas</guid>
+      <guid>https://macroecology-society.github.io/data-catalog/posts/mapbiomas</guid>
       <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://macroecology-society.github.io/data-catalog/posts/mapBiomas/mapBiomas.png" medium="image" type="image/png" width="200" height="100"/>
+      <media:content url="https://macroecology-society.github.io/data-catalog/posts/mapbiomas/mapBiomas.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
       <title>MERIT_DEM</title>
@@ -258,30 +258,30 @@
     </item>
     <item>
       <title>tidalFlats</title>
-      <link>https://macroecology-society.github.io/data-catalog/posts/tidalFlats</link>
+      <link>https://macroecology-society.github.io/data-catalog/posts/tidalflats</link>
       <description>Global distribution of tidal flats</description>
       <category>water</category>
-      <guid>https://macroecology-society.github.io/data-catalog/posts/tidalFlats</guid>
+      <guid>https://macroecology-society.github.io/data-catalog/posts/tidalflats</guid>
       <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://macroecology-society.github.io/data-catalog/posts/tidalFlats/tidalFlats.png" medium="image" type="image/png" width="200" height="100"/>
+      <media:content url="https://macroecology-society.github.io/data-catalog/posts/tidalflats/tidalFlats.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
       <title>travelTime</title>
-      <link>https://macroecology-society.github.io/data-catalog/posts/travelTime</link>
+      <link>https://macroecology-society.github.io/data-catalog/posts/traveltime</link>
       <description>Global map of travel time disparities</description>
       <category>land management</category>
-      <guid>https://macroecology-society.github.io/data-catalog/posts/travelTime</guid>
+      <guid>https://macroecology-society.github.io/data-catalog/posts/traveltime</guid>
       <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://macroecology-society.github.io/data-catalog/posts/travelTime/travelTime.png" medium="image" type="image/png" width="200" height="100"/>
+      <media:content url="https://macroecology-society.github.io/data-catalog/posts/traveltime/travelTime.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
       <title>VCF5KYR</title>
-      <link>https://macroecology-society.github.io/data-catalog/posts/VCF5KYR</link>
+      <link>https://macroecology-society.github.io/data-catalog/posts/vcf5kyr</link>
       <description>AVHRR Vegetation Continuous Fields (VCF)</description>
       <category>land cover</category>
-      <guid>https://macroecology-society.github.io/data-catalog/posts/VCF5KYR</guid>
+      <guid>https://macroecology-society.github.io/data-catalog/posts/vcf5kyr</guid>
       <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://macroecology-society.github.io/data-catalog/posts/VCF5KYR/VCF5KYR.png" medium="image" type="image/png" width="200" height="100"/>
+      <media:content url="https://macroecology-society.github.io/data-catalog/posts/vcf5kyr/VCF5KYR.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
   </channel>
 </rss>

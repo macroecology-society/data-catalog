@@ -1,0 +1,28 @@
+---
+ title: IUCN_RL_ranges
+ short_description: Range maps of the IUCN Red List of Species
+ long_description: This dataset provides range maps for thousands of species. The data is divided into multiple subdasets, with each corresponding to a different taxonomic class.
+ documentation: URL to documentation (e.g. paper)
+ license: CC-BY-SA-4.0
+ version: 2021-2
+ categories: ecology
+ metadata:
+   format: Vector
+   spatial_resolution: 5 km
+   temporal_resolution: Multi-temporal snapshot
+   temporal_range: [2020,2020]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   data_id:
+      - aves
+      - amphibia
+      - chondrichthyes
+      - mammalia
+      - reptilia
+   description:
+      - aves
+      - Amphibians
+      - Birds
+      - Mammals
+      - Reptiles
+---

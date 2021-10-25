@@ -56,7 +56,7 @@ for (i in 1:length(files)) {
      
      p$data_id=params$subdatasets$data_id[d]
      p$description=paste0("<i>", params$subdatasets$description[d], "</i>")
-     p$details = paste0("<a href='",burl, '/', params$title,".html' target='_blank'>more</a>")
+     p$details = paste0("<a href='",burl, '/', params$title,"/' target='_blank'>more</a>")
      p$type=params$metadata$format
      p$topic=params$categories
      p$start=as.numeric(params$metadata$temporal_range[1])

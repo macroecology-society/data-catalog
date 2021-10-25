@@ -1,0 +1,20 @@
+---
+ title: MERIT_hydro
+ short_description: Hydrological variables derived with the Multi-Error-Removed Improved-Terrain (MERIT) Digital Elevation Model (DEM)
+ long_description: This dataset used flow direction data (based on the MERIT DEM dataset) modeled in combination withwater body datasets (G1WBM, GSWO, and OpenStreetMap) to extract river networks.
+ documentation: http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: water
+ metadata:
+   format: Grid
+   spatial_resolution: 300 m
+   temporal_resolution: Multi-temporal snapshot
+   temporal_range: [2000,2011]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   data_id:
+      - riverDensity
+   description:
+      - Per-pixel percent cover of rivers
+---

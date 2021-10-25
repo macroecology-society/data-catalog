@@ -2,6 +2,7 @@
 title: "GARD"
 description: |
   Global Assessment of Reptile Distributions (GARD)
+preview: GARD.png
 slug: GARD
 categories:
   - ecology
@@ -32,7 +33,7 @@ GARD is a comprehensive, global database of distribution maps for reptile and am
 <p>**Format**</p>
 <p>Grid</p>
 <p>**Spatial extent:**</p>
-<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//GARD/GARD_extent.png" width=120, height=90>
+<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/data-catalog/_posts/GARD/GARD_extent.png" width=120, height=90>
 <p>**Temporal frequency:**</p>
 <p>Multi-temporal snapshot</p>
 <p>**Documentation**</p>

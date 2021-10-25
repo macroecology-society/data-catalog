@@ -2,6 +2,7 @@
 title: "HWSD"
 description: |
   Harmonized World Soil Database (HWSD)
+preview: HWSD.png
 slug: HWSD
 categories:
   - geomorphology
@@ -32,7 +33,7 @@ This dataset distinguishes over 15,000 soil mapping units that combines existing
 <p>**Format**</p>
 <p>Grid</p>
 <p>**Spatial extent:**</p>
-<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//HWSD/HWSD_extent.png" width=120, height=90>
+<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/data-catalog/_posts/HWSD/HWSD_extent.png" width=120, height=90>
 <p>**Temporal frequency:**</p>
 <p>NA</p>
 <p>**Documentation**</p>

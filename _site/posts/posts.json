@@ -10,7 +10,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThe present-day map is derived from an ensemble of four high-resolution, topographically-corrected climatic maps. The future map is derived from an ensemble of 32 climate model projections (scenario RCP8.5), by superimposing the projected climate change anomaly on the baseline high-resolution climatic maps. For both time periods we calculate confidence levels from the ensemble spread, providing valuable indications of the reliability of the classifications. The new maps exhibit a higher classification accuracy and substantially more detail than previous maps, particularly in regions with sharp spatial or elevation gradients.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nfutureClass\r\nFuture climate\r\nfutureConfidence\r\nConfidence of future climate (%)\r\npresentClass\r\nPresent climate\r\npresentConfidence\r\nConfidence of present climate (%)\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nMultiyear snapshot\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nResolution\r\n\r\n\r\n1 km\r\n\r\n\r\nTime frame\r\n\r\n\r\n1986 to 2100\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"BECK_climateMap\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"BECK_climateMap/futureClass\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"BECK_climateMap/futureClass/1km\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/BECK_climateMap/BECK_climateMap.png",
-    "last_modified": "2021-10-25T16:04:29+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -26,7 +26,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis data provides information on the spatial and temporal evolution of 22 land cover classes, which have been defined using the United Nations Food and Agriculture Organization’s (UN FAO) Land Cover Classification System (LCCS).\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nlandCover\r\nLand cover classification\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nYearly\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n2.0.7\r\n\r\n\r\nResolution\r\n\r\n\r\n300 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n1992 to 2018\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"CCI_landCover\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"CCI_landCover/landCover\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"CCI_landCover/landCover/300m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/CCI_landCover/CCI_landCover.png",
-    "last_modified": "2021-10-25T16:04:37+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -42,7 +42,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis data builds on the CCI land cover, deriving global masks that inform on any occurrence of a given land cover group.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\ndesertic\r\nMaximum extent of bare land\r\nwater\r\nMaximum extent of open water\r\nagriculture\r\nMaximum extent of agriculture\r\nwetlands\r\nMaximum extent of wetlands (inc. wet forests)\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nYearly\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n2.0.7\r\n\r\n\r\nResolution\r\n\r\n\r\n1 km\r\n\r\n\r\nTime frame\r\n\r\n\r\n1992 to 2018\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"CCI_landCover_history\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"CCI_landCover_history/desertic\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"CCI_landCover_history/desertic/1km\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/CCI_landCover_history/CCI_landCover_history.png",
-    "last_modified": "2021-10-25T16:04:46+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -58,7 +58,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nCHELSA provides monthly data on precipitation and temperature, derived by downscaling global atmospheric models. The temperature data is based on statistical downscaling of atmospheric temperatures, while the precipitation data incorporates orographic predictors such as wind fields, valley exposition, and boundary layer height, with a subsequent bias correction.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nprecipitationTotal\r\nTotal precipitation of the given month\r\ntemperatureMean\r\nMean temperature of the given month\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nMonthly\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n2.1\r\n\r\n\r\nResolution\r\n\r\n\r\n1 km\r\n\r\n\r\nTime frame\r\n\r\n\r\n1979 to 2019\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"CHELSA\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"CHELSA/precipitationTotal\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"CHELSA/precipitationTotal/1km\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/CHELSA/CHELSA.png",
-    "last_modified": "2021-10-25T16:05:00+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -74,13 +74,13 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset provides yearly, global maps on the spatial and temporal variability of night lights. This dataset derives a temporally consistent NTL dataset by harmonizing DMSP data with simulated DMSP-like NTL observations from the VIIRS data.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nnightLights\r\nNight-time radiances\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nYearly\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nResolution\r\n\r\n\r\n1 km\r\n\r\n\r\nTime frame\r\n\r\n\r\n1992 to 2020\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"DMSP\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"DMSP/nightLights\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"DMSP/nightLights/1km\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/DMSP/DMSP.png",
-    "last_modified": "2021-10-25T16:05:12+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
   },
   {
-    "path": "posts/FLO1K/",
+    "path": "posts/flo1k/",
     "title": "FLO1K",
     "description": "Global time-series of land surface streamflow",
     "author": [],
@@ -89,14 +89,14 @@
       "water"
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset provides yearly statistical metrics on streamflow dynamics. These data were derived with artificial neural networks (ANNs) regression, trained with 6600 monitoring and a variety of environmental predictors, such as topography and climate.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nmin\r\nMinimum streamflow\r\nmean\r\nMean streamflow\r\nmax\r\nMaximum streamflow\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nYearly\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nResolution\r\n\r\n\r\n1 km\r\n\r\n\r\nTime frame\r\n\r\n\r\n1992 to 2015\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"FLO1K\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"FLO1K/min\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"FLO1K/min/1km\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
-    "preview": "posts/FLO1K/FLO1K.png",
-    "last_modified": "2021-10-25T16:05:23+02:00",
+    "preview": "posts/flo1k/FLO1K.png",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
   },
   {
-    "path": "posts/GADM/",
+    "path": "posts/gadm/",
     "title": "GADM",
     "description": "Global database of administrative areas",
     "author": [],
@@ -105,8 +105,8 @@
       "land managenent"
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nGADM provides up-to-date administrative boundaries,\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\ncontinents\r\nContinental boundaries\r\nunsd\r\nRegional disaggregation used by the UNSD\r\nlevel0\r\nCountry boundaries\r\nlevel1\r\nSmooth country boundaries\r\nlevel2\r\nCountry-specific level 2 boundaries (e.g. regions)\r\nlevel3\r\nCountry-specific level 3 boundaries (e.g. districts)\r\nlevel4\r\nCountry-specific level 4 boundaries (e.g. municipalities)\r\nlevel5\r\nCountry-specific level 5 boundaries (e.g. cities)\r\n\r\n\r\nFormat\r\n\r\n\r\nVector\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nNA\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n3.6\r\n\r\n\r\nResolution\r\n\r\n\r\n10 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n2019 to 2019\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"GADM\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"GADM/continents\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"GADM/continents/10m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
-    "preview": "posts/GADM/GADM.png",
-    "last_modified": "2021-10-25T16:05:34+02:00",
+    "preview": "posts/gadm/GADM.png",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -122,7 +122,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset was derived with landsat satellite data, and informs users on the first year an impervious pixel was observed starting from 1985. The original dataset, with a spatial resolution of 30-m, was then disaggregated into yearly layers.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nurbanCover\r\nUrban cover density of a given year\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nSnapshot / Yearly\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nResolution\r\n\r\n\r\n300 m\r\n\r\n\r\n1 km\r\n\r\n\r\nTime frame\r\n\r\n\r\n1985 to 2018\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"GAIA\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"GAIA/urbanCover\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"GAIA/urbanCover/300m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/GAIA/GAIA.png",
-    "last_modified": "2021-10-25T16:05:48+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -138,7 +138,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nGARD is a comprehensive, global database of distribution maps for reptile and amphibian species.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nrangeMaps\r\nSpecies-specific range maps\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nMulti-temporal snapshot\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1.1\r\n\r\n\r\nResolution\r\n\r\n\r\n20 km\r\n\r\n\r\nTime frame\r\n\r\n\r\n2019 to 2019\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"GARD\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"GARD/rangeMaps\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"GARD/rangeMaps/20km\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/GARD/distill-preview.png",
-    "last_modified": "2021-10-25T16:06:04+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 510,
     "preview_height": 350
@@ -154,7 +154,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset provides a global map of bathymetric, expressing the depth of the ocean on a pixel-by-pixel basis, as well as land surface elevation.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nbathymetry\r\nOCean bathymetry\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nNA\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n2\r\n\r\n\r\nResolution\r\n\r\n\r\n500 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n2021 to 2021\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"GEBCO\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"GEBCO/bathymetry\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"GEBCO/bathymetry/500m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/GEBCO/GEBCO.png",
-    "last_modified": "2021-10-25T16:06:17+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -170,7 +170,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset consists of several, pre-designed tiling systems designed within the MAS group, which can be used to tile large spatial datasets when making use of multicore processing.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nhighResolution\r\nTiling system designed to download GEE data\r\nmidResolution\r\nTiling system designed to process 300-m data\r\n\r\n\r\nFormat\r\n\r\n\r\nVector\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nNA\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nResolution\r\n\r\n\r\n30 m\r\n\r\n\r\n300 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n2919 to 2019\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"geoprocessing_tiles\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"geoprocessing_tiles/highResolution\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"geoprocessing_tiles/highResolution/30m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/geoprocessing_tiles/geoprocessing_tiles.png",
-    "last_modified": "2021-10-25T16:06:30+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -186,7 +186,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nProduced by the Joint Research Centre (JRC), this dataset offers a global, multi-temporal perspetice on the spatial distribution of human populations and on urbanization patterns linked to population growth.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nbuilt\r\nPresence of built structures\r\npop\r\nPer pixel population density\r\nsmod\r\nClassification of settlement types\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nMulti-temporal snapshots\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nlicense under which the dataset falls (e.g. CC-BY-SA-4.0)\r\n\r\n\r\nVersion\r\n\r\n\r\n2\r\n\r\n\r\nResolution\r\n\r\n\r\n300 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n1975 to 2015\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"GHS\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"GHS/built\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"GHS/built/300m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/GHS/GHS.png",
-    "last_modified": "2021-10-25T16:09:48+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -202,7 +202,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset draws individual mining operations, derived through a dense database of Landsat acquisitions. Individual polygons are drawn within a 10 km buffer from the approximate geographical coordinates of more than 6,000 active mining sites across the globe.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nextent\r\nSpatial extent of individual mines\r\n\r\n\r\nFormat\r\n\r\n\r\nVector\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nMulti-temporal snapshot\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nResolution\r\n\r\n\r\n30 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n2000 to 2017\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"globalMines\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"globalMines/extent\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"globalMines/extent/30m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/globalMines/globalMines.png",
-    "last_modified": "2021-10-25T16:10:25+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -218,7 +218,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset offers different classifications of mountains following different definitions. The K1 resource used a 1 km DEM which was processed using a combination of elevation, slope and relative relief. Relative relief, or ruggedness, is the difference between maximum and minimum elevation in a moving neighborhood analysis window (NAW) and is computed for every raster cell. The K1 layer defined six classes of mountains, where the upper three classes were defined by elevation ranges. The lower three classes were defined either by a combination of elevation and slope, or elevation and relative relief. The circular NAW for computing the relative relief used a 5 pixel (~7 km) radius for an approximate NAW size of 150 km2. The K2 resource was developed using ruggedness as the determining factor, where any relative relief greater than 200m in the NAW was considered mountainous. The original K2 resource used a 1 km DEM and an approximately 9km2 NAW to determine relative relief and then generalized the relative relief surface to an approximately 4.5 km grid (at the equator). The K3 resource was developed using a finer spatial resolution (250 m) DEM and feature-based extraction algorithms with variable NAW sizes used to extract a set of global Hammond landforms with 16 landform types, of which four were mountain classes. E. H. Hammond was a pioneer of landform mapping and described three parameters for distinguishing different types of plains, hills, mountains, and tablelands. The three classification parameters are slope, relative relief, and profile, where the profile parameter assesses the amount of relatively flat terrain in upland locations to delineate tablelands. The 250 m global Hammond landforms product was based on an automated extraction of classes in a GIS environment, and the K3 mountains product was an export of the four mountain classes into a global mountains datalayer.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nk1Class\r\nK1 mountain classification\r\nk3Class\r\nK2 mountain classification\r\nk3Class\r\nK3 mountain classification\r\ngmba\r\nGlobal Mountain Biodiveristy Assessment (GMBA)\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nNA\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n2\r\n\r\n\r\nResolution\r\n\r\n\r\n300 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n2000 to 2017\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"GME\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"GME/k1Class\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"GME/k1Class/300m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/GME/GME.png",
-    "last_modified": "2021-10-25T16:10:34+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -234,7 +234,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset characterizes the global coverage of rivers and streams. The GRWL Database is the first global compilation of river planform geometry at a constant-frequency discharge, derived with discharge data from 3693 gauge stations, and 7376 Landsat TM, ETM+ scenes.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nwaterClass\r\nHigh-resolution classification of water bodies\r\ncannal\r\nPer-pixel percent cover of cannals\r\nlake\r\nPer-pixel percent cover of lakes\r\nriver\r\nPer-pixel percent cover of rivers\r\ntidal\r\nPer-pixel percent cover of tidal streams\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid / Vector\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nMulti-temporal snapshot\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nResolution\r\n\r\n\r\n30 m\r\n\r\n\r\n300 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n1982 to 2018\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"GRWL\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"GRWL/waterClass\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"GRWL/waterClass/30m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/GRWL/GRWL.png",
-    "last_modified": "2021-10-25T16:10:43+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -250,7 +250,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset offers yearly data on the spatial extent of permanent and seasonal water. The original dataset, a classification of water seasonality with a 30 m resolution, was aggregated to 300 m. The output depict per-pixel percentages of permanent and seasonal water, as well as the percentage of missing data. This data was collected through Google Earth Engine (GEE).\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\npermanent\r\nPer-pixel percent of permanent water cover\r\nseasonal\r\nPer-pixel percent of seasonal water cover\r\nmissingData\r\nPer-pixel percent of missing data\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nYearly\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1.3\r\n\r\n\r\nResolution\r\n\r\n\r\n300 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n1992 to 2018\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"GSW\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"GSW/permanent\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"GSW/permanent/300m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/GSW/GSW.png",
-    "last_modified": "2021-10-25T16:10:53+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -266,7 +266,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset provides historical metrics on the global behavior of surface water measured over the full extent of the GSW dataset.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nmaxExtent\r\nMaximum extent of surface water\r\npermanentWater\r\nMaximum extent of permanent water\r\nseasonalFrequency\r\nMaximum extent of seasonal water\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nMulti-temporal snapshot\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1.3\r\n\r\n\r\nResolution\r\n\r\n\r\n300 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n1992 to 2018\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"GSW_history\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"GSW_history/maxExtent\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"GSW_history/maxExtent/300m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/GSW_history/GSW_history.png",
-    "last_modified": "2021-10-25T16:11:04+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -282,7 +282,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset distinguishes over 15,000 soil mapping units that combines existing regional and national updates of soil information worldwide (SOTER, ESD, Soil Map of China, WISE) with the scale FAO-UNESCO Soil Map of the World.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nsalineSoils\r\nMask of saline soils\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nNA\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1.2\r\n\r\n\r\nResolution\r\n\r\n\r\n1 km\r\n\r\n\r\nTime frame\r\n\r\n\r\n2008 to 2008\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"HWSD\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"HWSD/salineSoils\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"HWSD/salineSoils/1km\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/HWSD/distill-preview.png",
-    "last_modified": "2021-10-25T16:11:14+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 510,
     "preview_height": 350
@@ -298,7 +298,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nYearly, linear interpolation of the GHS population dataset.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\npop\r\nPopulation density\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nYearly\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nResolution\r\n\r\n\r\n300 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n1992 to 2018\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"iGHS\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"iGHS/pop\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"iGHS/pop/300m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/iGHS/iGHS.png",
-    "last_modified": "2021-10-25T16:11:26+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -314,7 +314,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset provides range maps for thousands of species. The data is divided into multiple subdasets, with each corresponding to a different taxonomic class.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\naves\r\naves\r\namphibia\r\nAmphibians\r\nchondrichthyes\r\nBirds\r\nmammalia\r\nMammals\r\nreptilia\r\nReptiles\r\n\r\n\r\nFormat\r\n\r\n\r\nVector\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nMulti-temporal snapshot\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n2021-2\r\n\r\n\r\nResolution\r\n\r\n\r\n5 km\r\n\r\n\r\nTime frame\r\n\r\n\r\n2020 to 2020\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"IUCN_RL_ranges\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"IUCN_RL_ranges/aves\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"IUCN_RL_ranges/aves/5km\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/IUCN_RL_ranges/IUCN_RL_ranges.png",
-    "last_modified": "2021-10-25T16:11:37+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -330,13 +330,13 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset consists of a series of maps quantifying the linear distance (in of number of pixels) from a given pixel to the nearest target feature.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\noastalFlats\r\nDistance to coastal flats\r\ncoral\r\nDistance to corals\r\nlake\r\nDistance to lakes\r\nocean\r\nDistance to the ocean\r\nreservoirs\r\nDistance to reservoirs\r\nriver\r\nDistance to rivers\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nSnapshot\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nResolution\r\n\r\n\r\n300 m\r\n\r\n\r\n1 km\r\n\r\n\r\nTime frame\r\n\r\n\r\n2019 to 2019\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"linearDistance\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"linearDistance/oastalFlats\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"linearDistance/oastalFlats/300m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/linearDistance/linearDistance.png",
-    "last_modified": "2021-10-25T16:11:49+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
   },
   {
-    "path": "posts/mapBiomas/",
+    "path": "posts/mapbiomas/",
     "title": "mapBiomas",
     "description": "High-resolution land cover of Brazil.",
     "author": [],
@@ -345,8 +345,8 @@
       "land cover"
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis product belongs to the Brazilian Annual Land Use and Land Cover Mapping Project, producing the first annual, high-resolution land cover dataset of Brazil.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\namazonia\r\nLand cover of the Amazonia region\r\ncerrado\r\nLand cover of Cerrado region\r\npampa\r\nLand cover of the Pampa region\r\npantanal\r\nLand cover of the Pantanal region\r\nmataatlantica\r\nLand cover of the Mata Atlantica region\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nYearly\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n4\r\n\r\n\r\nResolution\r\n\r\n\r\n30 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n1985 to 2020\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"mapBiomas\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"mapBiomas/amazonia\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"mapBiomas/amazonia/30m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
-    "preview": "posts/mapBiomas/mapBiomas.png",
-    "last_modified": "2021-10-25T16:12:11+02:00",
+    "preview": "posts/mapbiomas/mapBiomas.png",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -362,7 +362,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nMERIT DEM is a high accuracy global DEM with a resolution of 90 m. It combines multiple existing DEM datasets (NASA SRTM3 DEM, JAXA AW3D DEM, Viewfinder Panoramas DEM), making use of their combined strenghts to address their individual weaknesses. The present version of this dataset was aggregated to 300 m. Furthermore, the dataset was combined with GEBCO bathymetry data, which was added to oceanic data gaps in the MERIT DEM.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nminElevation\r\nMinimum elevation\r\nmeanElevation\r\nMean elevation\r\nmaxElevation\r\nMaximum elevation\r\nelevationMeanLand\r\nLand surface mean elevation\r\nhillshade\r\nTopographic hillshade\r\nslope\r\nSlope in degrees\r\nslopeMean\r\nMean slope in degrees\r\nsmoothSlope\r\nSlope smoothed with 5x5 window mean\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nMulti-temporal snapshot\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nResolution\r\n\r\n\r\n300 m\r\n\r\n\r\n1 km\r\n\r\n\r\nTime frame\r\n\r\n\r\n2000 to 2011\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"MERIT_DEM\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"MERIT_DEM/minElevation\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"MERIT_DEM/minElevation/300m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/MERIT_DEM/MERIT_DEM.png",
-    "last_modified": "2021-10-25T16:12:34+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -378,7 +378,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset used flow direction data (based on the MERIT DEM dataset) modeled in combination withwater body datasets (G1WBM, GSWO, and OpenStreetMap) to extract river networks.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nriverDensity\r\nPer-pixel percent cover of rivers\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nMulti-temporal snapshot\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nResolution\r\n\r\n\r\n300 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n2000 to 2011\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"MERIT_hydro\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"MERIT_hydro/riverDensity\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"MERIT_hydro/riverDensity/300m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/MERIT_hydro/MERIT_hydro.png",
-    "last_modified": "2021-10-25T16:12:47+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -394,7 +394,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset provides per-pixel estimtes of areas within a WGS84, lat/lon grid. This layer was derived with the Harvesine method, which estimates the distance in meters of a distance between two geographical points. This method was used to estimate the distance between the edges of a pixel, across both latitude and longitude. These distances were then used to estimate the are of the pixel.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nhectares\r\nPer pixel area in hectares\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nNA\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nResolution\r\n\r\n\r\n300 m\r\n\r\n\r\n1 km\r\n\r\n\r\nTime frame\r\n\r\n\r\n2019 to 2019\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"pixelArea\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"pixelArea/hectares\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"pixelArea/hectares/300m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/pixelArea/pixelArea.png",
-    "last_modified": "2021-10-25T16:12:58+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -410,7 +410,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset provides global maps of soil properties derived with state-of-the-art machine learning methods. SoilGrids prediction models are fitted using over 230,000 soil profile observations from the WoSIS database and a series of environmental covariates. Covariates were selected from a pool of over 400 environmental layers (e.g. climate, land cover), and originated from different data products derived with Earth observation data. The outputs of SoilGrids are global soil property maps at six standard depth intervals (according to the GlobalSoilMap IUSS working group and its specifications). Prediction uncertainty is quantified by the lower and upper limits of a 90% prediction interval.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nsoilDepth\r\nSoil depth, expressed in meters\r\nbdod0to5cm\r\nBulk density of the fine earth fraction (0-5cm)\r\nbdod100to200cm\r\nBulk density of the fine earth fraction (100-200cm)\r\nbdod15to30cm\r\nBulk density of the fine earth fraction (15-30cm)\r\nbdod30to60cm\r\nBulk density of the fine earth fraction (30-60cm)\r\nbdod5to15cm\r\nBulk density of the fine earth fraction (5-15cm)\r\nbdod60to100cm\r\nBulk density of the fine earth fraction (60-100cm)\r\ncec0to5cm\r\nCation Exchange Capacity of the soil (0-5cm)\r\ncec100to200cm\r\nCation Exchange Capacity of the soil (100-200cm)\r\ncec15to30cm\r\nCation Exchange Capacity of the soil (15-30cm)\r\ncec30to60cm\r\nCation Exchange Capacity of the soil (30-60cm)\r\ncec5to15cm\r\nCation Exchange Capacity of the soil (5-15cm)\r\ncec60to100cm\r\nCation Exchange Capacity of the soil (60-100cm)\r\nnitrogen0to5cm\r\nTotal nitrogen (N) (0-5cm)\r\nnitrogen100to200cm\r\nTotal nitrogen (N) (100-200cm)\r\nnitrogen15to30cm\r\nTotal nitrogen (N) (15-30cm)\r\nnitrogen30to60cm\r\nTotal nitrogen (N) (30-60cm)\r\nnitrogen5to15cm\r\nTotal nitrogen (N) (5-15cm)\r\nnitrogen60to100cm\r\nTotal nitrogen (N) (60-100cm)\r\nocd0to5cm\r\nOrganic carbon density (0-5cm)\r\nocd100to200cm\r\nOrganic carbon density (100-200cm)\r\nocd15to30cm\r\nOrganic carbon density (15-30cm)\r\nocd30to60cm\r\nOrganic carbon density (30-60cm)\r\nocd5to15cm\r\nOrganic carbon density (5-15cm)\r\nocd60to100cm\r\nOrganic carbon density (60-100cm)\r\nocd0to5cm\r\nOrganic carbon density (0-5cm)\r\nocs0to30cm\r\nOrganic carbon density (100-200cm)\r\nsand0to5cm\r\nProportion of sand particles (> 0.05 mm) in the fine earth fraction (15-30cm)\r\nsand100to200cm\r\nProportion of sand particles (> 0.05 mm) in the fine earth fraction (30-60cm)\r\nsand15to30cm\r\nProportion of sand particles (> 0.05 mm) in the fine earth fraction (5-15cm)\r\nsand30to60cm\r\nProportion of sand particles (> 0.05 mm) in the fine earth fraction (60-100cm)\r\nsand5to15cm\r\nProportion of sand particles (> 0.05 mm) in the fine earth fraction (5-15cm)\r\nsand60to100cm\r\nProportion of sand particles (> 0.05 mm) in the fine earth fraction (60-100cm)\r\nsoc0to5cm\r\nSoil organic carbon content in the fine earth fraction (0-5cm)\r\nsoc100to200cm\r\nSoil organic carbon content in the fine earth fraction (100-200cm)\r\nsoc15to30cm\r\nSoil organic carbon content in the fine earth fraction (15-30cm)\r\nsoc30to60cm\r\nSoil organic carbon content in the fine earth fraction (30-60cm)\r\nsoc5to15cm\r\nSoil organic carbon content in the fine earth fraction (5-15cm)\r\nsoc60to100cm\r\nSoil organic carbon content in the fine earth fraction (60-100cm)\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nMulti-temporal snapshot\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n2\r\n\r\n\r\nResolution\r\n\r\n\r\n1 km\r\n\r\n\r\nTime frame\r\n\r\n\r\n2010 to 2010\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"soilGrids\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"soilGrids/soilDepth\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"soilGrids/soilDepth/1km\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/soilGrids/soilGrids.png",
-    "last_modified": "2021-10-25T16:13:11+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -426,13 +426,13 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset provides monthly climate and climatic water balance variables. TerraClimate uses climatically aided interpolation, combining high-spatial resolution climatological normals from the WorldClim dataset, with coarser resolution time varying (i.e., monthly) data from other sources to produce a monthly dataset of precipitation, temperature, wind speed, vapor pressure, and solar radiation. TerraClimate additionally produces monthly surface water balance datasets using a water balance model that incorporates reference evapotranspiration, precipitation, temperature, and interpolated plant extractable soil water capacity.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\ntotalPrecipitation\r\nTotal precipitation\r\nminPDSI\r\nMinimum Palmer Drought Severity Index (PDSI)\r\nmaxPDSI\r\nMaximum Palmer Drought Severity Index (PDSI)\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nMonthly\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nResolution\r\n\r\n\r\n4 km\r\n\r\n\r\nTime frame\r\n\r\n\r\n1992 to 2018\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"TerraClimate\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"TerraClimate/totalPrecipitation\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"TerraClimate/totalPrecipitation/4km\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
     "preview": "posts/TerraClimate/TerraClimate.png",
-    "last_modified": "2021-10-25T16:13:26+02:00",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
   },
   {
-    "path": "posts/tidalFlats/",
+    "path": "posts/tidalflats/",
     "title": "tidalFlats",
     "description": "Global distribution of tidal flats",
     "author": [],
@@ -441,14 +441,14 @@
       "water"
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis datasets maps tidal flats globally, derived with 707,528 Landsat acquisitions. These acquisitions were classified using Machine learning thorugh Google Earth Engine.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\ntidalFlats\r\nPer-pixel percent cover of tidal flats\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nYearly\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nResolution\r\n\r\n\r\n300 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n1992 to 2018\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"tidalFlats\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"tidalFlats/tidalFlats\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"tidalFlats/tidalFlats/300m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
-    "preview": "posts/tidalFlats/tidalFlats.png",
-    "last_modified": "2021-10-25T16:13:38+02:00",
+    "preview": "posts/tidalflats/tidalFlats.png",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
   },
   {
-    "path": "posts/travelTime/",
+    "path": "posts/traveltime/",
     "title": "travelTime",
     "description": "Global map of travel time disparities",
     "author": [],
@@ -457,14 +457,14 @@
       "land management"
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset offers information on the travel-time requirements. Each pixel reports on the amount of time required to travel from it to the nearest city with at least 50,000 inhabitants.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nhoursTo50000ha\r\nNumber of hours to nearest city with at least 50,000 inhabitants.\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nMulti-temporal snapshots\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n2\r\n\r\n\r\nResolution\r\n\r\n\r\n1 km\r\n\r\n\r\nTime frame\r\n\r\n\r\n2000 to 2015\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"travelTime\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"travelTime/hoursTo50000ha\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"travelTime/hoursTo50000ha/1km\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
-    "preview": "posts/travelTime/travelTime.png",
-    "last_modified": "2021-10-25T16:13:52+02:00",
+    "preview": "posts/traveltime/travelTime.png",
+    "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
   },
   {
-    "path": "posts/VCF5KYR/",
+    "path": "posts/vcf5kyr/",
     "title": "VCF5KYR",
     "description": "AVHRR Vegetation Continuous Fields (VCF)",
     "author": [],
@@ -473,8 +473,8 @@
       "land cover"
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset provides global maps with per-pixel percentages of different vegetation types on an yearly basis. A water mask was applied with all pure water pixels (defined as ??? 95% water coverage) set to zero.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nTreeCover\r\nPercent of tree cover\r\nNonTreeVegetation\r\nPercent of short vegetation\r\nNonVegetated\r\nPercent of non-vegetated surfaces\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nYearly\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nResolution\r\n\r\n\r\n5 km\r\n\r\n\r\nTime frame\r\n\r\n\r\n1982 to 2016\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"VCF5KYR\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"VCF5KYR/TreeCover\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"VCF5KYR/TreeCover/5km\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
-    "preview": "posts/VCF5KYR/VCF5KYR.png",
-    "last_modified": "2021-10-25T16:14:03+02:00",
+    "preview": "posts/vcf5kyr/VCF5KYR.png",
+    "last_modified": "2021-10-25T19:43:23+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100

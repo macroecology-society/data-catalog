@@ -3,7 +3,7 @@ title: "MAS data catalog"
 favicon: 'images/favicon.ico'
 description: |
   MAS data catalog
-output_dir: "_site"
+output_dir: "docs"
 navbar:
   logo: 
     image: 'images/logo.png'
