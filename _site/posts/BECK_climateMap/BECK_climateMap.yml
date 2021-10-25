@@ -1,0 +1,27 @@
+---
+ title: BECK_climateMap
+ short_description: Global Koppen-Geiger climate classification at a 1-km resolution for the present-day (1980 to 2016) and for projected future conditions (2071 to 2100) under climate change
+ long_description: The present-day map is derived from an ensemble of four high-resolution, topographically-corrected climatic maps. The future map is derived from an ensemble of 32 climate model projections (scenario RCP8.5), by superimposing the projected climate change anomaly on the baseline high-resolution climatic maps. For both time periods we calculate confidence levels from the ensemble spread, providing valuable indications of the reliability of the classifications. The new maps exhibit a higher classification accuracy and substantially more detail than previous maps, particularly in regions with sharp spatial or elevation gradients.
+ documentation: https://www.nature.com/articles/sdata2018214
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: climate
+ metadata:
+   format: Grid
+   spatial_resolution: 1 km
+   temporal_resolution: Multiyear snapshot
+   temporal_range: [1986, 2100]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   data_id:
+      - futureClass
+      - futureConfidence
+      - presentClass
+      - presentConfidence
+   description:
+      - Future climate
+      - Confidence of future climate (%)
+      - Present climate
+      - Confidence of present climate (%)
+---
+

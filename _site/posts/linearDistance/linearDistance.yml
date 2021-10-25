@@ -1,0 +1,30 @@
+---
+ title: linearDistance
+ short_description: Linear Distance maps 
+ long_description: This dataset consists of a series of maps quantifying the linear distance (in of number of pixels) from a given pixel to the nearest target feature.
+ documentation: NA
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: utilities
+ metadata:
+   format: Grid
+   spatial_resolution: [300 m, 1 km]
+   temporal_resolution: Snapshot
+   temporal_range: [2019,2019]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   data_id:
+      - oastalFlats
+      - coral
+      - lake
+      - ocean
+      - reservoirs
+      - river
+   description:
+      - Distance to coastal flats
+      - Distance to corals
+      - Distance to lakes
+      - Distance to the ocean
+      - Distance to reservoirs
+      - Distance to rivers
+---

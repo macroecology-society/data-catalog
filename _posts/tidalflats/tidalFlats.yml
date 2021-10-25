@@ -1,0 +1,20 @@
+---
+ title: tidalFlats
+ short_description: Global distribution of tidal flats
+ long_description: This datasets maps tidal flats globally, derived with 707,528 Landsat acquisitions. These acquisitions were classified using Machine learning thorugh Google Earth Engine. 
+ documentation: https://www.nature.com/articles/s41586-018-0805-8
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: water
+ metadata:
+   format: Grid
+   spatial_resolution: 300 m
+   temporal_resolution: Yearly
+   temporal_range: [1992,2018]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   data_id:
+      - tidalFlats
+   description:
+      - Per-pixel percent cover of tidal flats
+---

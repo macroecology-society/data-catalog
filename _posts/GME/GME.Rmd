@@ -1,0 +1,78 @@
+---
+title: "GME"
+description: |
+  Global Mountain Maps
+preview: GME.png
+slug: GME
+categories:
+  - geomorphology
+date: 2021-10-25
+output:
+  distill::distill_article:
+    highlight_downlit: false
+bibliography: GME.bib
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div width="80%;">
+<h3>Details</h3>
+<p align="justify">
+This dataset offers different classifications of mountains following different definitions. The K1 resource used a 1 km DEM which was processed using a combination of elevation, slope and relative relief. Relative relief, or ruggedness, is the difference between maximum and minimum elevation in a moving neighborhood analysis window (NAW) and is computed for every raster cell. The K1 layer defined six classes of mountains, where the upper three classes were defined by elevation ranges. The lower three classes were defined either by a combination of elevation and slope, or elevation and relative relief. The circular NAW for computing the relative relief used a 5 pixel (~7 km) radius for an approximate NAW size of 150 km2. The K2 resource was developed using ruggedness as the determining factor, where any relative relief greater than 200m in the NAW was considered mountainous. The original K2 resource used a 1 km DEM and an approximately 9km2 NAW to determine relative relief and then generalized the relative relief surface to an approximately 4.5 km grid (at the equator). The K3 resource was developed using a finer spatial resolution (250 m) DEM and feature-based extraction algorithms with variable NAW sizes used to extract a set of global Hammond landforms with 16 landform types, of which four were mountain classes. E. H. Hammond was a pioneer of landform mapping and described three parameters for distinguishing different types of plains, hills, mountains, and tablelands. The three classification parameters are slope, relative relief, and profile, where the profile parameter assesses the amount of relatively flat terrain in upland locations to delineate tablelands. The 250 m global Hammond landforms product was based on an automated extraction of classes in a GIS environment, and the K3 mountains product was an export of the four mountain classes into a global mountains datalayer.
+</p>
+
+<h3>Subdatsets</h3>
+| name                              | description                 |
+|---------------------------------- |-----------------------------|
+|`k1Class`|K1 mountain classification|
+|`k3Class`|K2 mountain classification|
+|`k3Class`|K3 mountain classification|
+|`gmba`|Global Mountain Biodiveristy Assessment (GMBA)|
+</div>
+
+<aside>
+<p>**Format**</p>
+<p>Grid</p>
+<p>**Spatial extent:**</p>
+<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//GME/GME_extent.png" width=120, height=90>
+<p>**Temporal frequency:**</p>
+<p>NA</p>
+<p>**Documentation**</p>
+<p><a href="https://rmgsc.cr.usgs.gov/gme/">Click here for more</a></p>
+<p>**license:**</p>
+<p>CC-BY-SA-4.0</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p>**Version**</p>
+<p>2</p>
+<p>**Resolution**</p>
+<p>300 m</p>
+<p>**Time frame**</p>
+<p>2000 to 2017</p>
+</aside>
+
+<hr>
+
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resoluton
+list_data("GME")
+
+
+# data call for specific subdataset 
+list_data("GME/k1Class")
+
+
+# data call to subdataset with a specific resolution
+list_data("GME/k1Class/300m")
+```
+
+<aside>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
+<p>**Where there  mistakes?**</p>
+[Propose an edit at our GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/GME/GME.Rmd)
+<p>**Interested in out work?**</p>
+<p>[Find us through our group page](https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html)</p>
+</aside>
+
+<hr>

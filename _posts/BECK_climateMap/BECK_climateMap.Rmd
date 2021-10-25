@@ -1,0 +1,78 @@
+---
+title: "BECK_climateMap"
+description: |
+  Global Koppen-Geiger climate classification at a 1-km resolution for the present-day (1980 to 2016) and for projected future conditions (2071 to 2100) under climate change
+preview: BECK_climateMap.png
+slug: BECK_climateMap
+categories:
+  - climate
+date: 2021-10-25
+output:
+  distill::distill_article:
+    highlight_downlit: false
+bibliography: BECK_climateMap.bib
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div width="80%;">
+<h3>Details</h3>
+<p align="justify">
+The present-day map is derived from an ensemble of four high-resolution, topographically-corrected climatic maps. The future map is derived from an ensemble of 32 climate model projections (scenario RCP8.5), by superimposing the projected climate change anomaly on the baseline high-resolution climatic maps. For both time periods we calculate confidence levels from the ensemble spread, providing valuable indications of the reliability of the classifications. The new maps exhibit a higher classification accuracy and substantially more detail than previous maps, particularly in regions with sharp spatial or elevation gradients.
+</p>
+
+<h3>Subdatsets</h3>
+| name                              | description                 |
+|---------------------------------- |-----------------------------|
+|`futureClass`|Future climate|
+|`futureConfidence`|Confidence of future climate (%)|
+|`presentClass`|Present climate|
+|`presentConfidence`|Confidence of present climate (%)|
+</div>
+
+<aside>
+<p>**Format**</p>
+<p>Grid</p>
+<p>**Spatial extent:**</p>
+<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//BECK_climateMap/BECK_climateMap_extent.png" width=120, height=90>
+<p>**Temporal frequency:**</p>
+<p>Multiyear snapshot</p>
+<p>**Documentation**</p>
+<p><a href="https://www.nature.com/articles/sdata2018214">Click here for more</a></p>
+<p>**license:**</p>
+<p>CC-BY-SA-4.0</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p>**Version**</p>
+<p>1</p>
+<p>**Resolution**</p>
+<p>1 km</p>
+<p>**Time frame**</p>
+<p>1986 to 2100</p>
+</aside>
+
+<hr>
+
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resoluton
+list_data("BECK_climateMap")
+
+
+# data call for specific subdataset 
+list_data("BECK_climateMap/futureClass")
+
+
+# data call to subdataset with a specific resolution
+list_data("BECK_climateMap/futureClass/1km")
+```
+
+<aside>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
+<p>**Where there  mistakes?**</p>
+[Propose an edit at our GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/BECK_climateMap/BECK_climateMap.Rmd)
+<p>**Interested in out work?**</p>
+<p>[Find us through our group page](https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html)</p>
+</aside>
+
+<hr>

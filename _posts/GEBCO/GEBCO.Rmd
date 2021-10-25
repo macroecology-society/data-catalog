@@ -1,0 +1,75 @@
+---
+title: "GEBCO"
+description: |
+  General Bathymetric Chart of the Oceans (GEBCO)
+preview: GEBCO.png
+slug: GEBCO
+categories:
+  - geomorphology
+date: 2021-10-25
+output:
+  distill::distill_article:
+    highlight_downlit: false
+bibliography: GEBCO.bib
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div width="80%;">
+<h3>Details</h3>
+<p align="justify">
+This dataset provides a global map of bathymetric, expressing the depth of the ocean on a pixel-by-pixel basis, as well as land surface elevation.
+</p>
+
+<h3>Subdatsets</h3>
+| name                              | description                 |
+|---------------------------------- |-----------------------------|
+|`bathymetry`|OCean bathymetry|
+</div>
+
+<aside>
+<p>**Format**</p>
+<p>Grid</p>
+<p>**Spatial extent:**</p>
+<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//GEBCO/GEBCO_extent.png" width=120, height=90>
+<p>**Temporal frequency:**</p>
+<p>NA</p>
+<p>**Documentation**</p>
+<p><a href="https://www.gebco.net/data_and_products/gridded_bathymetry_data/">Click here for more</a></p>
+<p>**license:**</p>
+<p>CC-BY-SA-4.0</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p>**Version**</p>
+<p>2</p>
+<p>**Resolution**</p>
+<p>500 m</p>
+<p>**Time frame**</p>
+<p>2021 to 2021</p>
+</aside>
+
+<hr>
+
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resoluton
+list_data("GEBCO")
+
+
+# data call for specific subdataset 
+list_data("GEBCO/bathymetry")
+
+
+# data call to subdataset with a specific resolution
+list_data("GEBCO/bathymetry/500m")
+```
+
+<aside>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
+<p>**Where there  mistakes?**</p>
+[Propose an edit at our GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/GEBCO/GEBCO.Rmd)
+<p>**Interested in out work?**</p>
+<p>[Find us through our group page](https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html)</p>
+</aside>
+
+<hr>

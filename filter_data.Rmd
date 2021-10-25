@@ -1,0 +1,191 @@
+---
+title: ""
+output:
+  distill::distill_article:
+    highlight: rstudio
+    highlight_downlit: false
+---
+
+```{css echo=FALSE}
+d-title {
+    display: none;
+  }
+```
+
+<br>
+
+```{r setup, echo=FALSE, warning=FALSE}
+
+set.seed(100)
+knitr::opts_chunk$set(fig.height = 2.75, fig.width = 5, comment = NA)
+options(opacityDim=0)
+
+```
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+
+# prep workspace
+require(dplyr)  # tidy data manipulation
+require(leaflet)  # interative mapping
+require(DT)  # interactive tables
+require(crosstalk)  # inter-widget interactivity
+require(yaml)
+require(sf)
+require(govdown)
+
+burl = 'https://macroecology-society.github.io/data-catalog/posts/' # base url of posts
+files = list.files('_posts/', 'yml', full.names=T, recursive=T) # list parameter files
+
+# compile relevant metadata
+vectors = list()
+
+for (i in 1:length(files)) {
+  
+  params = read_yaml(files[i])
+  
+  for (d in 1:length(params$subdatasets$data_id)) {
+     
+     bb = st_bbox(
+       c(xmin=params$metadata$spatial_extent[1], 
+         xmax=params$metadata$spatial_extent[2], 
+         ymin=params$metadata$spatial_extent[3], 
+         ymax=params$metadata$spatial_extent[4])
+     )
+     
+     p = st_as_sf(st_as_sfc(bb))
+     
+     p$data_id=params$subdatasets$data_id[d]
+     p$description=paste0("<i>", params$subdatasets$description[d], "</i>")
+     p$details = paste0("<a href='",burl, '/', params$title,".html' target='_blank'>more</a>")
+     p$type=params$metadata$format
+     p$topic=params$categories
+     p$start=as.numeric(params$metadata$temporal_range[1])
+     p$end=as.numeric(params$metadata$temporal_range[2])
+     p$group = strsplit(params$subdatasets$data_id[d], '/')[[1]][1]
+     
+     p$resolution=min(sapply(params$metadata$spatial_resolution, function(r) {
+       tmp = strsplit(r, ' ')[[1]]
+       if (tmp[2] == 'm') return(as.numeric(tmp[1]))
+       if (tmp[2] == 'km') return(as.numeric(tmp[1])*1000)
+       if (tmp[2] == 'deg') return(as.numeric(tmp[1])*111000)
+     }))
+     
+     vectors[[length(vectors)+1]] = p
+     
+   }
+  
+}
+
+vectors = do.call(rbind, vectors)
+vectors$start[is.na(vectors$start)] = 0
+vectors$end[is.na(vectors$end)] = 0
+vectors = vectors[rev(order(st_area(vectors))),]
+vectors$group = as.factor(vectors$group)
+
+# add table with metadata
+shared_meta <- SharedData$new(vectors)
+
+# leaflet color palette
+pal <- colorFactor(topo.colors(length(unique(vectors$group))), vectors$group)
+
+```
+
+```{r filters, echo=FALSE}
+
+unstrap(bscols(
+  list(
+    filter_checkbox(
+      columns=2, 
+      id = "data_category",
+      label = "Data category",
+      sharedData = shared_meta,
+      group = ~topic
+      ),
+    filter_slider(
+      id = "highest_resolution",
+      label = "Highest resolution", 
+      sharedData = shared_meta,
+      column = ~resolution,
+      step = 100,
+      round = TRUE,
+      sep = "",
+      ticks = TRUE,
+      width=300
+    )
+  ), 
+  addPolygons(
+    setView(
+      addTiles(
+        leaflet(
+          shared_meta, options=leafletOptions(worldCopyJump=TRUE), 
+          width=300, height=300)), 0, 0, 0), 
+    fillColor=FALSE, fillOpacity=0, color=~pal(group), 
+    opacity=0.5, smoothFactor=0.5)
+))
+
+unstrap(bscols(
+  filter_slider(
+    id = "start",
+    label = "Starting year",
+    sharedData = shared_meta,
+    column = ~start,
+    step = 10,
+    round = TRUE,
+    sep = "",
+    ticks = TRUE, 
+    width=300
+    ),
+  filter_slider(
+    id = "End year",
+    label = "Ending year",
+    sharedData = shared_meta,
+    column = ~end,
+    step = 10,
+    round = TRUE,
+    sep = "",
+    ticks = TRUE, 
+    width=300
+  )
+))
+
+```
+
+```{r datatable, echo=FALSE}
+ 
+df = datatable(
+  shared_meta, 
+  fillContainer=FALSE, 
+  filter = "none",  # allows filtering on each column
+  extensions = c(
+    "Buttons",  # add download buttons, etc
+    "Scroller"  # for scrolling down the rows rather than pagination
+  ),
+  rownames = FALSE,  # remove rownames
+  selection='single', 
+  style = "bootstrap",
+  class = "display",
+  width = "100%",
+  options = list(
+    dom = "Blrtip",  # specify content (search box, etc)
+    deferRender = TRUE,
+    scrollY = 300,
+    scroller = TRUE,
+    columnDefs = list(
+      list(
+        visible = FALSE,
+        targets = c(3:9)
+      )
+    ), 
+    buttons = list(
+      I("colvis"),  # turn columns on and off
+      "csv",  # download as .csv
+      "excel", # download as .xlsx
+      "copy" # copy select data
+    )
+  ), 
+  escape=FALSE
+)
+
+formatStyle(df, columns=c('data_id', 'description', 'details'), fontSize='11px')
+
+```

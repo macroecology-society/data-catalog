@@ -1,21 +1,77 @@
 ---
 title: "VCF5KYR"
 description: |
-  A short description of the post.
-author:
-  - name: Nora Jones
-    url: https://example.com/norajones
-date: 10-08-2020
+  AVHRR Vegetation Continuous Fields (VCF)
+preview: VCF5KYR.png
+slug: VCF5KYR
+categories:
+  - land cover
+date: 2021-10-25
 output:
   distill::distill_article:
-    self_contained: false
+    highlight_downlit: false
+bibliography: VCF5KYR.bib
 ---
-
+  
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
+<div width="80%;">
+<h3>Details</h3>
+<p align="justify">
+This dataset provides global maps with per-pixel percentages of different vegetation types on an yearly basis. A water mask was applied with all pure water pixels (defined as ??? 95% water coverage) set to zero.
+</p>
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+<h3>Subdatsets</h3>
+| name                              | description                 |
+|---------------------------------- |-----------------------------|
+|`TreeCover`|Percent of tree cover|
+|`NonTreeVegetation`|Percent of short vegetation|
+|`NonVegetated`|Percent of non-vegetated surfaces|
+</div>
 
+<aside>
+<p>**Format**</p>
+<p>Grid</p>
+<p>**Spatial extent:**</p>
+<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//VCF5KYR/VCF5KYR_extent.png" width=120, height=90>
+<p>**Temporal frequency:**</p>
+<p>Yearly</p>
+<p>**Documentation**</p>
+<p><a href="https://lpdaac.usgs.gov/products/vcf5kyrv001/">Click here for more</a></p>
+<p>**license:**</p>
+<p>CC-BY-SA-4.0</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p>**Version**</p>
+<p>1</p>
+<p>**Resolution**</p>
+<p>5 km</p>
+<p>**Time frame**</p>
+<p>1982 to 2016</p>
+</aside>
+
+<hr>
+
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resoluton
+list_data("VCF5KYR")
+
+
+# data call for specific subdataset 
+list_data("VCF5KYR/TreeCover")
+
+
+# data call to subdataset with a specific resolution
+list_data("VCF5KYR/TreeCover/5km")
+```
+
+<aside>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
+<p>**Where there  mistakes?**</p>
+[Propose an edit at our GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/VCF5KYR/VCF5KYR.Rmd)
+<p>**Interested in out work?**</p>
+<p>[Find us through our group page](https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html)</p>
+</aside>
+
+<hr>

@@ -1,0 +1,74 @@
+---
+title: "GARD"
+description: |
+  Global Assessment of Reptile Distributions (GARD)
+slug: GARD
+categories:
+  - ecology
+date: 2021-10-25
+output:
+  distill::distill_article:
+    highlight_downlit: false
+bibliography: GARD.bib
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div width="80%;">
+<h3>Details</h3>
+<p align="justify">
+GARD is a comprehensive, global database of distribution maps for reptile and amphibian species.
+</p>
+
+<h3>Subdatsets</h3>
+| name                              | description                 |
+|---------------------------------- |-----------------------------|
+|`rangeMaps`|Species-specific range maps|
+</div>
+
+<aside>
+<p>**Format**</p>
+<p>Grid</p>
+<p>**Spatial extent:**</p>
+<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//GARD/GARD_extent.png" width=120, height=90>
+<p>**Temporal frequency:**</p>
+<p>Multi-temporal snapshot</p>
+<p>**Documentation**</p>
+<p><a href="http://www.gardinitiative.org/">Click here for more</a></p>
+<p>**license:**</p>
+<p>CC-BY-SA-4.0</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p>**Version**</p>
+<p>1.1</p>
+<p>**Resolution**</p>
+<p>20 km</p>
+<p>**Time frame**</p>
+<p>2019 to 2019</p>
+</aside>
+
+<hr>
+
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resoluton
+list_data("GARD")
+
+
+# data call for specific subdataset 
+list_data("GARD/rangeMaps")
+
+
+# data call to subdataset with a specific resolution
+list_data("GARD/rangeMaps/20km")
+```
+
+<aside>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
+<p>**Where there  mistakes?**</p>
+[Propose an edit at our GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/GARD/GARD.Rmd)
+<p>**Interested in out work?**</p>
+<p>[Find us through our group page](https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html)</p>
+</aside>
+
+<hr>

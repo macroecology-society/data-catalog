@@ -1,21 +1,75 @@
 ---
 title: "travelTime"
 description: |
-  A short description of the post.
-author:
-  - name: Nora Jones
-    url: https://example.com/norajones
-date: 10-08-2020
+  Global map of travel time disparities
+preview: travelTime.png
+slug: travelTime
+categories:
+  - land management
+date: 2021-10-25
 output:
   distill::distill_article:
-    self_contained: false
+    highlight_downlit: false
+bibliography: travelTime.bib
 ---
-
+  
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
+<div width="80%;">
+<h3>Details</h3>
+<p align="justify">
+This dataset offers information on the travel-time requirements. Each pixel reports on the amount of time required to travel from it to the nearest city with at least 50,000 inhabitants.
+</p>
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+<h3>Subdatsets</h3>
+| name                              | description                 |
+|---------------------------------- |-----------------------------|
+|`hoursTo50000ha`|Number of hours to nearest city with at least 50,000 inhabitants.|
+</div>
 
+<aside>
+<p>**Format**</p>
+<p>Grid</p>
+<p>**Spatial extent:**</p>
+<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//travelTime/travelTime_extent.png" width=120, height=90>
+<p>**Temporal frequency:**</p>
+<p>Multi-temporal snapshots</p>
+<p>**Documentation**</p>
+<p><a href="https://www.nature.com/articles/nature25181">Click here for more</a></p>
+<p>**license:**</p>
+<p>CC-BY-SA-4.0</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p>**Version**</p>
+<p>2</p>
+<p>**Resolution**</p>
+<p>1 km</p>
+<p>**Time frame**</p>
+<p>2000 to 2015</p>
+</aside>
+
+<hr>
+
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resoluton
+list_data("travelTime")
+
+
+# data call for specific subdataset 
+list_data("travelTime/hoursTo50000ha")
+
+
+# data call to subdataset with a specific resolution
+list_data("travelTime/hoursTo50000ha/1km")
+```
+
+<aside>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
+<p>**Where there  mistakes?**</p>
+[Propose an edit at our GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/travelTime/travelTime.Rmd)
+<p>**Interested in out work?**</p>
+<p>[Find us through our group page](https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html)</p>
+</aside>
+
+<hr>

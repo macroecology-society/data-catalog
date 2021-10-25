@@ -1,0 +1,80 @@
+---
+title: "GRWL"
+description: |
+  Global River Widths from Landsat (GRWL) Database
+preview: GRWL.png
+slug: GRWL
+categories:
+  - water
+date: 2021-10-25
+output:
+  distill::distill_article:
+    highlight_downlit: false
+bibliography: GRWL.bib
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div width="80%;">
+<h3>Details</h3>
+<p align="justify">
+This dataset characterizes the global coverage of rivers and streams. The GRWL Database is the first global compilation of river planform geometry at a constant-frequency discharge, derived with discharge data from 3693 gauge stations, and 7376 Landsat TM, ETM+ scenes.
+</p>
+
+<h3>Subdatsets</h3>
+| name                              | description                 |
+|---------------------------------- |-----------------------------|
+|`waterClass`|High-resolution classification of water bodies|
+|`cannal`|Per-pixel percent cover of cannals|
+|`lake`|Per-pixel percent cover of lakes|
+|`river`|Per-pixel percent cover of rivers|
+|`tidal`|Per-pixel percent cover of tidal streams|
+</div>
+
+<aside>
+<p>**Format**</p>
+<p>Grid / Vector</p>
+<p>**Spatial extent:**</p>
+<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//GRWL/GRWL_extent.png" width=120, height=90>
+<p>**Temporal frequency:**</p>
+<p>Multi-temporal snapshot</p>
+<p>**Documentation**</p>
+<p><a href="https://www.science.org/doi/10.1126/science.aat0636">Click here for more</a></p>
+<p>**license:**</p>
+<p>CC-BY-SA-4.0</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p>**Version**</p>
+<p>1</p>
+<p>**Resolution**</p>
+<p>30 m</p>
+<p>300 m</p>
+<p>**Time frame**</p>
+<p>1982 to 2018</p>
+</aside>
+
+<hr>
+
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resoluton
+list_data("GRWL")
+
+
+# data call for specific subdataset 
+list_data("GRWL/waterClass")
+
+
+# data call to subdataset with a specific resolution
+list_data("GRWL/waterClass/30m")
+```
+
+<aside>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
+<p>**Where there  mistakes?**</p>
+[Propose an edit at our GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/GRWL/GRWL.Rmd)
+<p>**Interested in out work?**</p>
+<p>[Find us through our group page](https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html)</p>
+</aside>
+
+<hr>

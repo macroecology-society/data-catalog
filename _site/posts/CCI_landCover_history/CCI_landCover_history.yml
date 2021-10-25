@@ -1,0 +1,27 @@
+---
+ title: CCI_landCover_history
+ short_description: Historical maximum extent of generic land cover types.
+ long_description: This data builds on the CCI land cover, deriving global masks that inform on any occurrence of a given land cover group.
+ documentation: https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-land-cover?tab=overview
+ license: CC-BY-SA-4.0
+ version: 2.0.7
+ categories: land cover
+ metadata:
+   format: Grid
+   spatial_resolution: 1 km
+   temporal_resolution: Yearly
+   temporal_range: [1992, 2018]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   data_id:
+      - desertic
+      - water
+      - agriculture
+      - wetlands
+      
+   description:
+      - Maximum extent of bare land
+      - Maximum extent of open water
+      - Maximum extent of agriculture
+      - Maximum extent of wetlands (inc. wet forests)
+---

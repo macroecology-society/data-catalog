@@ -1,0 +1,34 @@
+---
+ title: MERIT_DEM
+ short_description: Multi-Error-Removed Improved-Terrain (MERIT) Digital Elevation Model (DEM)
+ long_description: MERIT DEM is a high accuracy global DEM with a resolution of 90 m. It combines multiple existing DEM datasets (NASA SRTM3 DEM, JAXA AW3D DEM, Viewfinder Panoramas DEM), making use of their combined strenghts to address their individual weaknesses. The present version of this dataset was aggregated to 300 m. Furthermore, the dataset was combined with GEBCO bathymetry data, which was added to oceanic data gaps in the MERIT DEM.
+ documentation: http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: geomorphology
+ metadata:
+   format: Grid
+   spatial_resolution: [300 m,  1 km]
+   temporal_resolution: Multi-temporal snapshot
+   temporal_range: [2000,2011]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   data_id:
+      - minElevation
+      - meanElevation
+      - maxElevation
+      - elevationMeanLand
+      - hillshade
+      - slope
+      - slopeMean
+      - smoothSlope
+   description:
+      - Minimum elevation
+      - Mean elevation
+      - Maximum elevation
+      - Land surface mean elevation
+      - Topographic hillshade
+      - Slope in degrees
+      - Mean slope in degrees
+      - Slope smoothed with 5x5 window mean
+---

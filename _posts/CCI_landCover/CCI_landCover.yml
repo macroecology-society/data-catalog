@@ -1,0 +1,20 @@
+---
+ title: CCI_landCover
+ short_description: Global, yearly land cover derived in the context of the Climate Change Initiative (CCI)
+ long_description: This data provides information on the spatial and temporal evolution of 22 land cover classes, which have been defined using the United Nations Food and Agriculture Organization's (UN FAO) Land Cover Classification System (LCCS).
+ documentation: https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-land-cover?tab=overview
+ license: CC-BY-SA-4.0
+ version: 2.0.7
+ categories: land cover
+ metadata:
+   format: Grid
+   spatial_resolution: 300 m
+   temporal_resolution: Yearly
+   temporal_range: [1992, 2018]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   data_id:
+      - landCover
+   description:
+      - Land cover classification
+---

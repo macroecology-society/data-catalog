@@ -1,0 +1,74 @@
+---
+title: "iGHS"
+description: |
+  Interpolated Global Human Settlement (GHS) data
+preview: iGHS.png
+slug: iGHS
+categories:
+  - land cover
+date: 2021-10-25
+output:
+  distill::distill_article:
+    highlight_downlit: false
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div width="80%;">
+<h3>Details</h3>
+<p align="justify">
+Yearly, linear interpolation of the GHS population dataset.
+</p>
+
+<h3>Subdatsets</h3>
+| name                              | description                 |
+|---------------------------------- |-----------------------------|
+|`pop`|Population density|
+</div>
+
+<aside>
+<p>**Format**</p>
+<p>Grid</p>
+<p>**Spatial extent:**</p>
+<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//iGHS/iGHS_extent.png" width=120, height=90>
+<p>**Temporal frequency:**</p>
+<p>Yearly</p>
+<p>**Documentation**</p>
+<p><a href="NA">Click here for more</a></p>
+<p>**license:**</p>
+<p>CC-BY-SA-4.0</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p>**Version**</p>
+<p>1</p>
+<p>**Resolution**</p>
+<p>300 m</p>
+<p>**Time frame**</p>
+<p>1992 to 2018</p>
+</aside>
+
+<hr>
+
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resoluton
+list_data("iGHS")
+
+
+# data call for specific subdataset 
+list_data("iGHS/pop")
+
+
+# data call to subdataset with a specific resolution
+list_data("iGHS/pop/300m")
+```
+
+<aside>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
+<p>**Where there  mistakes?**</p>
+[Propose an edit at our GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/iGHS/iGHS.Rmd)
+<p>**Interested in out work?**</p>
+<p>[Find us through our group page](https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html)</p>
+</aside>
+
+<hr>

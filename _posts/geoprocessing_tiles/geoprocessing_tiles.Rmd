@@ -1,0 +1,76 @@
+---
+title: "geoprocessing_tiles"
+description: |
+  Global tiling systems
+preview: geoprocessing_tiles.png
+slug: geoprocessing_tiles
+categories:
+  - utilities
+date: 2021-10-25
+output:
+  distill::distill_article:
+    highlight_downlit: false
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div width="80%;">
+<h3>Details</h3>
+<p align="justify">
+This dataset consists of several, pre-designed tiling systems designed within the MAS group, which can be used to tile large spatial datasets when making use of multicore processing.
+</p>
+
+<h3>Subdatsets</h3>
+| name                              | description                 |
+|---------------------------------- |-----------------------------|
+|`highResolution`|Tiling system designed to download GEE data|
+|`midResolution`|Tiling system designed to process 300-m data|
+</div>
+
+<aside>
+<p>**Format**</p>
+<p>Vector</p>
+<p>**Spatial extent:**</p>
+<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//geoprocessing_tiles/geoprocessing_tiles_extent.png" width=120, height=90>
+<p>**Temporal frequency:**</p>
+<p>NA</p>
+<p>**Documentation**</p>
+<p><a href="None">Click here for more</a></p>
+<p>**license:**</p>
+<p>CC-BY-SA-4.0</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p>**Version**</p>
+<p>1</p>
+<p>**Resolution**</p>
+<p>30 m</p>
+<p>300 m</p>
+<p>**Time frame**</p>
+<p>2919 to 2019</p>
+</aside>
+
+<hr>
+
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resoluton
+list_data("geoprocessing_tiles")
+
+
+# data call for specific subdataset 
+list_data("geoprocessing_tiles/highResolution")
+
+
+# data call to subdataset with a specific resolution
+list_data("geoprocessing_tiles/highResolution/30m")
+```
+
+<aside>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
+<p>**Where there  mistakes?**</p>
+[Propose an edit at our GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/geoprocessing_tiles/geoprocessing_tiles.Rmd)
+<p>**Interested in out work?**</p>
+<p>[Find us through our group page](https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html)</p>
+</aside>
+
+<hr>

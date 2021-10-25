@@ -1,0 +1,34 @@
+---
+ title: GADM
+ short_description: Global database of administrative areas
+ long_description: GADM provides up-to-date administrative boundaries, 
+ documentation: https://gadm.org/
+ license: CC-BY-SA-4.0
+ version: 3.6
+ categories: land managenent
+ metadata:
+   format: Vector
+   spatial_resolution: 10 m
+   temporal_resolution: NA
+   temporal_range: [2019,2019]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   data_id:
+      - continents
+      - unsd
+      - level0
+      - level1
+      - level2
+      - level3
+      - level4
+      - level5
+   description:
+      - Continental boundaries
+      - Regional disaggregation used by the UNSD
+      - Country boundaries
+      - Smooth country boundaries
+      - Country-specific level 2 boundaries (e.g. regions)
+      - Country-specific level 3 boundaries (e.g. districts)
+      - Country-specific level 4 boundaries (e.g. municipalities)
+      - Country-specific level 5 boundaries (e.g. cities)
+---

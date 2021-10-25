@@ -1,0 +1,80 @@
+---
+title: "linearDistance"
+description: |
+  Linear Distance maps
+preview: linearDistance.png
+slug: linearDistance
+categories:
+  - utilities
+date: 2021-10-25
+output:
+  distill::distill_article:
+    highlight_downlit: false
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div width="80%;">
+<h3>Details</h3>
+<p align="justify">
+This dataset consists of a series of maps quantifying the linear distance (in of number of pixels) from a given pixel to the nearest target feature.
+</p>
+
+<h3>Subdatsets</h3>
+| name                              | description                 |
+|---------------------------------- |-----------------------------|
+|`oastalFlats`|Distance to coastal flats|
+|`coral`|Distance to corals|
+|`lake`|Distance to lakes|
+|`ocean`|Distance to the ocean|
+|`reservoirs`|Distance to reservoirs|
+|`river`|Distance to rivers|
+</div>
+
+<aside>
+<p>**Format**</p>
+<p>Grid</p>
+<p>**Spatial extent:**</p>
+<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//linearDistance/linearDistance_extent.png" width=120, height=90>
+<p>**Temporal frequency:**</p>
+<p>Snapshot</p>
+<p>**Documentation**</p>
+<p><a href="NA">Click here for more</a></p>
+<p>**license:**</p>
+<p>CC-BY-SA-4.0</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p>**Version**</p>
+<p>1</p>
+<p>**Resolution**</p>
+<p>300 m</p>
+<p>1 km</p>
+<p>**Time frame**</p>
+<p>2019 to 2019</p>
+</aside>
+
+<hr>
+
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resoluton
+list_data("linearDistance")
+
+
+# data call for specific subdataset 
+list_data("linearDistance/oastalFlats")
+
+
+# data call to subdataset with a specific resolution
+list_data("linearDistance/oastalFlats/300m")
+```
+
+<aside>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
+<p>**Where there  mistakes?**</p>
+[Propose an edit at our GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/linearDistance/linearDistance.Rmd)
+<p>**Interested in out work?**</p>
+<p>[Find us through our group page](https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html)</p>
+</aside>
+
+<hr>

@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "MAS data catalog"
 site: distill::distill_website
 listing: posts
 css: post.css

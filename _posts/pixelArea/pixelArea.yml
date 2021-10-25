@@ -1,0 +1,20 @@
+---
+ title: pixelArea
+ short_description: Global map of per-pixel areas
+ long_description: This dataset provides per-pixel estimtes of areas within a WGS84, lat/lon grid. This layer was derived with the Harvesine method, which estimates the distance in meters of a distance between two geographical points. This method was used to estimate the distance between the edges of a pixel, across both latitude and longitude. These distances were then used to estimate the are of the pixel.
+ documentation: NA
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: utilities
+ metadata:
+   format: Grid
+   spatial_resolution: [300 m, 1 km]
+   temporal_resolution: NA
+   temporal_range: [2019,2019]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   data_id:
+      - hectares
+   description:
+      - Per pixel area in hectares
+---

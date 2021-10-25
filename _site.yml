@@ -1,26 +1,27 @@
-name: "MAS data catalog"
-title: 'MAS data catalog'
-favicon: 'https://github.com/macroecology-society/data-catalog/images/favicon.ico'
+name: "mas_data_catalog"
+title: "MAS data catalog"
+favicon: 'images/favicon.ico'
 description: |
   MAS data catalog
-output_dir: "docs"
-
+output_dir: "_site"
 navbar:
   logo: 
     image: 'images/logo.png'
-    base_url: 'https://github.com/macroecology-society/data-catalog/image/'
+    base_url: 'https://github.com/macroecology-society/data-catalog/'
   search: true
   right:
     - text: "Home"
       href: index.html
     - text: "Team"
-      href: https://www.idiv.de/en/groups_and_people/core_groups/macroecosocial.html
+      href: https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html
+    - text: "Advanced search"
+      href: filter_data.html
     - icon: fa-wrench
       text: masDMT
       href: https://macroecology-society.github.io/masDMT/index.html
     - icon: fa-github
       text: GitHub
-      href: https://github.com/macroecology-society/mas-catalog/
+      href: https://github.com/macroecology-society/data-catalog
     - icon: fa-envelope
       text: mail
       href: mailto:mas@idiv.de
@@ -35,4 +36,4 @@ collections:
     disqus: data-catalog
     share: [twitter, linkedin]
     custom: _custom.html
-    citations: false
+    citations: true

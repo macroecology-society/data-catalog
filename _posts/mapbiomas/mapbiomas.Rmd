@@ -1,74 +1,79 @@
 ---
-title: "MapBiomas land cover"
+title: "mapBiomas"
 description: |
-  Land cover dataset for Brazil, mapped at a 30-m resolution on an yearly basis between 1985 and 2018
-preview: mapbiomas.png
-slug: mapbiomas
+  High-resolution land cover of Brazil.
+preview: mapBiomas.png
+slug: mapBiomas
 categories:
-  - brazil
-  - land-cover
-  - 30-meters
-date: 08-10-2020
+  - land cover
+date: 2021-10-25
 output:
   distill::distill_article:
-    highlight: haddock
     highlight_downlit: false
+bibliography: mapBiomas.bib
 ---
-
+  
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
 <div width="80%;">
 <h3>Details</h3>
-<p align='justify'>
-The present-day map is derived from an ensemble of four high-resolution, topographically-corrected climatic maps. The future map is derived from an ensemble of 32 climate model projections (scenario RCP8.5), by superimposing the projected climate change anomaly on the baseline high-resolution climatic maps. For both time periods we calculate confidence levels from the ensemble spread, providing valuable indications of the reliability of the classifications. The new maps exhibit a higher classification accuracy and substantially more detail than previous maps, particularly in regions with sharp spatial or elevation gradients. The new maps including the associated confidence maps are freely available via <a href="www.gloh2o.org/koppen">www.gloh2o.org/koppen</a>.
+<p align="justify">
+This product belongs to the Brazilian Annual Land Use and Land Cover Mapping Project, producing the first annual, high-resolution land cover dataset of Brazil.
 </p>
 
 <h3>Subdatsets</h3>
-| data_id                 |            description               |
-|-------------------------|--------------------------------------|
-|`mapBiomas/amazonia`     |Land cover in the Amazonia bioma      |
-|`mapBiomas/caatinga`     |Land cover in the Caatinga bioma      |
-|`mapBiomas/cerrado`      |Land cover in the Cerrado bioma       |
-|`mapBiomas/pampas`       |Land cover in the Pampas bioma        |
-|`mapBiomas/pantanal`     |Land cover in the Pantanal bioma      |
-|`mapBiomas/mataatlantica`|Land cover in the Mata Atlantica bioma|
+| name                              | description                 |
+|---------------------------------- |-----------------------------|
+|`amazonia`|Land cover of the Amazonia region|
+|`cerrado`|Land cover of Cerrado region|
+|`pampa`|Land cover of the Pampa region|
+|`pantanal`|Land cover of the Pantanal region|
+|`mataatlantica`|Land cover of the Mata Atlantica region|
 </div>
 
 <aside>
-  <p>**Format**</p>
-  <p>Grid</p>
-  <p>**Spatial extent:**</p>
-  <p>Global</p>
-  <p>**Temporal frequency:**</p>
-  <p>Multi-year Snapshot(s)</p>
-  <p>**Documentation**</p>
-  <p><a href="https://www.nature.com/articles/sdata2018214">Click here for more</a></p>
-  <p>**License:**</p>
-  <p>CC-BY-SA-4.0</p>
-  <hr style="margin-top:0;margin-bottom:0;">
-  <p>**Version**</p>
-  <p>4.0</p>
-  <p>**Resolution**</p>
-  <p>0.08 degrees</p>
-  <p>**Time frame**</p>
-  <p>1985 - 2018</p>
-  <hr style="margin-top:0;margin-bottom:0;">
-  <p>**Legend**</p>
-  <a href="https://github.com/macroecology-society/data-catalog/legend/mapbiomas.csv">download</a></p>
-  <p>**Bibliography**</p>
-  <a href="https://github.com/macroecology-society/data-catalog/bib/mapbiomas.bib">BitTex Download</a></p>
+<p>**Format**</p>
+<p>Grid</p>
+<p>**Spatial extent:**</p>
+<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//mapBiomas/mapBiomas_extent.png" width=120, height=90>
+<p>**Temporal frequency:**</p>
+<p>Yearly</p>
+<p>**Documentation**</p>
+<p><a href="https://mapbiomas.org/">Click here for more</a></p>
+<p>**license:**</p>
+<p>CC-BY-SA-4.0</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p>**Version**</p>
+<p>4</p>
+<p>**Resolution**</p>
+<p>30 m</p>
+<p>**Time frame**</p>
+<p>1985 to 2020</p>
 </aside>
 
 <hr>
 
-<div>
-<p>**author**: <a href="https://scholar.google.de/citations?hl=en&user=sWAgz2oAAAAJ&view_op=list_works&sortby=pubdate">Ruben Remelgado</a></p>
-<p>**Affiliation**: Macroecology and Society</p>
-**Where there  mistakes?**
-[Click here to edit it them in GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/mapbiomas/)
-</div>
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resoluton
+list_data("mapBiomas")
+
+
+# data call for specific subdataset 
+list_data("mapBiomas/amazonia")
+
+
+# data call to subdataset with a specific resolution
+list_data("mapBiomas/amazonia/30m")
+```
+
 <aside>
 <img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
+<p>**Where there  mistakes?**</p>
+[Propose an edit at our GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/mapBiomas/mapBiomas.Rmd)
+<p>**Interested in out work?**</p>
+<p>[Find us through our group page](https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html)</p>
 </aside>
+
+<hr>

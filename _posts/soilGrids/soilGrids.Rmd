@@ -1,0 +1,113 @@
+---
+title: "soilGrids"
+description: |
+  Gridded soil database (soilGrids)
+preview: soilGrids.png
+slug: soilGrids
+categories:
+  - geomorphology
+date: 2021-10-25
+output:
+  distill::distill_article:
+    highlight_downlit: false
+bibliography: soilGrids.bib
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div width="80%;">
+<h3>Details</h3>
+<p align="justify">
+This dataset provides global maps of soil properties derived with state-of-the-art machine learning methods. SoilGrids prediction models are fitted using over 230,000 soil profile observations from the WoSIS database and a series of environmental covariates. Covariates were selected from a pool of over 400 environmental layers (e.g. climate, land cover), and originated from different data products derived with Earth observation data. The outputs of SoilGrids are global soil property maps at six standard depth intervals (according to the GlobalSoilMap IUSS working group and its specifications). Prediction uncertainty is quantified by the lower and upper limits of a 90% prediction interval.
+</p>
+
+<h3>Subdatsets</h3>
+| name                              | description                 |
+|---------------------------------- |-----------------------------|
+|`soilDepth`|Soil depth, expressed in meters|
+|`bdod0to5cm`|Bulk density of the fine earth fraction (0-5cm)|
+|`bdod100to200cm`|Bulk density of the fine earth fraction (100-200cm)|
+|`bdod15to30cm`|Bulk density of the fine earth fraction (15-30cm)|
+|`bdod30to60cm`|Bulk density of the fine earth fraction (30-60cm)|
+|`bdod5to15cm`|Bulk density of the fine earth fraction (5-15cm)|
+|`bdod60to100cm`|Bulk density of the fine earth fraction (60-100cm)|
+|`cec0to5cm`|Cation Exchange Capacity of the soil (0-5cm)|
+|`cec100to200cm`|Cation Exchange Capacity of the soil (100-200cm)|
+|`cec15to30cm`|Cation Exchange Capacity of the soil (15-30cm)|
+|`cec30to60cm`|Cation Exchange Capacity of the soil (30-60cm)|
+|`cec5to15cm`|Cation Exchange Capacity of the soil (5-15cm)|
+|`cec60to100cm`|Cation Exchange Capacity of the soil (60-100cm)|
+|`nitrogen0to5cm`|Total nitrogen (N) (0-5cm)|
+|`nitrogen100to200cm`|Total nitrogen (N) (100-200cm)|
+|`nitrogen15to30cm`|Total nitrogen (N) (15-30cm)|
+|`nitrogen30to60cm`|Total nitrogen (N) (30-60cm)|
+|`nitrogen5to15cm`|Total nitrogen (N) (5-15cm)|
+|`nitrogen60to100cm`|Total nitrogen (N) (60-100cm)|
+|`ocd0to5cm`|Organic carbon density (0-5cm)|
+|`ocd100to200cm`|Organic carbon density (100-200cm)|
+|`ocd15to30cm`|Organic carbon density (15-30cm)|
+|`ocd30to60cm`|Organic carbon density (30-60cm)|
+|`ocd5to15cm`|Organic carbon density (5-15cm)|
+|`ocd60to100cm`|Organic carbon density (60-100cm)|
+|`ocd0to5cm`|Organic carbon density (0-5cm)|
+|`ocs0to30cm`|Organic carbon density (100-200cm)|
+|`sand0to5cm`|Proportion of sand particles (> 0.05 mm) in the fine earth fraction (15-30cm)|
+|`sand100to200cm`|Proportion of sand particles (> 0.05 mm) in the fine earth fraction (30-60cm)|
+|`sand15to30cm`|Proportion of sand particles (> 0.05 mm) in the fine earth fraction (5-15cm)|
+|`sand30to60cm`|Proportion of sand particles (> 0.05 mm) in the fine earth fraction (60-100cm)|
+|`sand5to15cm`|Proportion of sand particles (> 0.05 mm) in the fine earth fraction (5-15cm)|
+|`sand60to100cm`|Proportion of sand particles (> 0.05 mm) in the fine earth fraction (60-100cm)|
+|`soc0to5cm`|Soil organic carbon content in the fine earth fraction (0-5cm)|
+|`soc100to200cm`|Soil organic carbon content in the fine earth fraction (100-200cm)|
+|`soc15to30cm`|Soil organic carbon content in the fine earth fraction (15-30cm)|
+|`soc30to60cm`|Soil organic carbon content in the fine earth fraction (30-60cm)|
+|`soc5to15cm`|Soil organic carbon content in the fine earth fraction (5-15cm)|
+|`soc60to100cm`|Soil organic carbon content in the fine earth fraction (60-100cm)|
+</div>
+
+<aside>
+<p>**Format**</p>
+<p>Grid</p>
+<p>**Spatial extent:**</p>
+<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//soilGrids/soilGrids_extent.png" width=120, height=90>
+<p>**Temporal frequency:**</p>
+<p>Multi-temporal snapshot</p>
+<p>**Documentation**</p>
+<p><a href="https://soilgrids.org/">Click here for more</a></p>
+<p>**license:**</p>
+<p>CC-BY-SA-4.0</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p>**Version**</p>
+<p>2</p>
+<p>**Resolution**</p>
+<p>1 km</p>
+<p>**Time frame**</p>
+<p>2010 to 2010</p>
+</aside>
+
+<hr>
+
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resoluton
+list_data("soilGrids")
+
+
+# data call for specific subdataset 
+list_data("soilGrids/soilDepth")
+
+
+# data call to subdataset with a specific resolution
+list_data("soilGrids/soilDepth/1km")
+```
+
+<aside>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
+<p>**Where there  mistakes?**</p>
+[Propose an edit at our GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/soilGrids/soilGrids.Rmd)
+<p>**Interested in out work?**</p>
+<p>[Find us through our group page](https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html)</p>
+</aside>
+
+<hr>

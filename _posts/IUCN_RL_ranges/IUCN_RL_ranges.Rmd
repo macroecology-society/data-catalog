@@ -1,0 +1,79 @@
+---
+title: "IUCN_RL_ranges"
+description: |
+  Range maps of the IUCN Red List of Species
+preview: IUCN_RL_ranges.png
+slug: IUCN_RL_ranges
+categories:
+  - ecology
+date: 2021-10-25
+output:
+  distill::distill_article:
+    highlight_downlit: false
+bibliography: IUCN_RL_ranges.bib
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div width="80%;">
+<h3>Details</h3>
+<p align="justify">
+This dataset provides range maps for thousands of species. The data is divided into multiple subdasets, with each corresponding to a different taxonomic class.
+</p>
+
+<h3>Subdatsets</h3>
+| name                              | description                 |
+|---------------------------------- |-----------------------------|
+|`aves`|aves|
+|`amphibia`|Amphibians|
+|`chondrichthyes`|Birds|
+|`mammalia`|Mammals|
+|`reptilia`|Reptiles|
+</div>
+
+<aside>
+<p>**Format**</p>
+<p>Vector</p>
+<p>**Spatial extent:**</p>
+<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//IUCN_RL_ranges/IUCN_RL_ranges_extent.png" width=120, height=90>
+<p>**Temporal frequency:**</p>
+<p>Multi-temporal snapshot</p>
+<p>**Documentation**</p>
+<p><a href="URL to documentation (e.g. paper)">Click here for more</a></p>
+<p>**license:**</p>
+<p>CC-BY-SA-4.0</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p>**Version**</p>
+<p>2021-2</p>
+<p>**Resolution**</p>
+<p>5 km</p>
+<p>**Time frame**</p>
+<p>2020 to 2020</p>
+</aside>
+
+<hr>
+
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resoluton
+list_data("IUCN_RL_ranges")
+
+
+# data call for specific subdataset 
+list_data("IUCN_RL_ranges/aves")
+
+
+# data call to subdataset with a specific resolution
+list_data("IUCN_RL_ranges/aves/5km")
+```
+
+<aside>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
+<p>**Where there  mistakes?**</p>
+[Propose an edit at our GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/IUCN_RL_ranges/IUCN_RL_ranges.Rmd)
+<p>**Interested in out work?**</p>
+<p>[Find us through our group page](https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html)</p>
+</aside>
+
+<hr>
