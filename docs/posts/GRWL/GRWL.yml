@@ -1,0 +1,28 @@
+---
+ title: GRWL
+ short_description: Global River Widths from Landsat (GRWL) Database
+ long_description: This dataset characterizes the global coverage of rivers and streams. The GRWL Database is the first global compilation of river planform geometry at a constant-frequency discharge, derived with discharge data from 3693 gauge stations, and 7376 Landsat TM, ETM+ scenes.
+ documentation: https://www.science.org/doi/10.1126/science.aat0636
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: water
+ metadata:
+   format: Grid / Vector
+   spatial_resolution: [30 m, 300 m]
+   temporal_resolution: Multi-temporal snapshot
+   temporal_range: [1982,2018]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   data_id:
+      - waterClass
+      - cannal
+      - lake
+      - river
+      - tidal
+   description:
+      - High-resolution classification of water bodies
+      - Per-pixel percent cover of cannals
+      - Per-pixel percent cover of lakes
+      - Per-pixel percent cover of rivers
+      - Per-pixel percent cover of tidal streams
+---

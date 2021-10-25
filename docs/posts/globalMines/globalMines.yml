@@ -1,0 +1,20 @@
+---
+ title: globalMines
+ short_description: Global, spatial distribution of mining operations
+ long_description: This dataset draws individual mining operations, derived through a dense database of Landsat acquisitions. Individual polygons are drawn within a 10 km buffer from the approximate geographical coordinates of more than 6,000 active mining sites across the globe.
+ documentation: https://www.nature.com/articles/s41597-020-00624-w
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: land cover
+ metadata:
+   format: Vector
+   spatial_resolution: 30 m
+   temporal_resolution: Multi-temporal snapshot
+   temporal_range: [2000, 2017]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   data_id:
+      - extent
+   description:
+      - Spatial extent of individual mines
+---

@@ -1,0 +1,28 @@
+---
+ title: mapBiomas
+ short_description: High-resolution land cover of Brazil.
+ long_description: This product belongs to the Brazilian Annual Land Use and Land Cover Mapping Project, producing the first annual, high-resolution land cover dataset of Brazil.
+ documentation: https://mapbiomas.org/
+ license: CC-BY-SA-4.0
+ version: 4.0
+ categories: land cover
+ metadata:
+   format: Grid
+   spatial_resolution: 30 m
+   temporal_resolution: Yearly
+   temporal_range: [1985,2020]
+   spatial_extent: [-73.9830625, -28.6341164, -33.8689056, 5.2842873]
+ subdatasets:
+   data_id:
+      - amazonia
+      - cerrado
+      - pampa
+      - pantanal
+      - mataatlantica
+   description:
+      - Land cover of the Amazonia region
+      - Land cover of Cerrado region
+      - Land cover of the Pampa region
+      - Land cover of the Pantanal region
+      - Land cover of the Mata Atlantica region
+---

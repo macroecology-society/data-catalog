@@ -1,0 +1,24 @@
+---
+ title: VCF5KYR
+ short_description: AVHRR Vegetation Continuous Fields (VCF)
+ long_description: This dataset provides global maps with per-pixel percentages of different vegetation types on an yearly basis. A water mask was applied with all pure water pixels (defined as ??? 95% water coverage) set to zero.
+ documentation: https://lpdaac.usgs.gov/products/vcf5kyrv001/
+ license: CC-BY-SA-4.0
+ version: 1.0 
+ categories: land cover
+ metadata:
+   format: Grid
+   spatial_resolution: 5 km
+   temporal_resolution: Yearly
+   temporal_range: [1982, 2016]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   data_id:
+      - TreeCover
+      - NonTreeVegetation
+      - NonVegetated
+   description:
+      - Percent of tree cover
+      - Percent of short vegetation
+      - Percent of non-vegetated surfaces
+---

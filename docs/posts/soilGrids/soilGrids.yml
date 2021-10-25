@@ -1,0 +1,97 @@
+---
+ title: soilGrids
+ short_description: Gridded soil database (soilGrids) 
+ long_description: This dataset provides global maps of soil properties derived with state-of-the-art machine learning methods. SoilGrids prediction models are fitted using over 230,000 soil profile observations from the WoSIS database and a series of environmental covariates. Covariates were selected from a pool of over 400 environmental layers (e.g. climate, land cover), and originated from different data products derived with Earth observation data. The outputs of SoilGrids are global soil property maps at six standard depth intervals (according to the GlobalSoilMap IUSS working group and its specifications). Prediction uncertainty is quantified by the lower and upper limits of a 90% prediction interval.
+ documentation: https://soilgrids.org/
+ license: CC-BY-SA-4.0
+ version: 2.0
+ categories: geomorphology
+ metadata:
+   format: Grid
+   spatial_resolution: [1 km]
+   temporal_resolution: Multi-temporal snapshot
+   temporal_range: [2010,2010]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   data_id:
+      - soilDepth
+      - bdod0to5cm
+      - bdod100to200cm
+      - bdod15to30cm
+      - bdod30to60cm
+      - bdod5to15cm
+      - bdod60to100cm
+      - cec0to5cm
+      - cec100to200cm
+      - cec15to30cm
+      - cec30to60cm
+      - cec5to15cm
+      - cec60to100cm
+      - nitrogen0to5cm
+      - nitrogen100to200cm
+      - nitrogen15to30cm
+      - nitrogen30to60cm
+      - nitrogen5to15cm
+      - nitrogen60to100cm
+      - ocd0to5cm
+      - ocd100to200cm
+      - ocd15to30cm
+      - ocd30to60cm
+      - ocd5to15cm
+      - ocd60to100cm
+      - ocd0to5cm
+      - ocs0to30cm
+      - sand0to5cm
+      - sand100to200cm
+      - sand15to30cm
+      - sand30to60cm
+      - sand5to15cm
+      - sand60to100cm
+      - soc0to5cm
+      - soc100to200cm
+      - soc15to30cm
+      - soc30to60cm
+      - soc5to15cm
+      - soc60to100cm
+   description:
+      - Soil depth, expressed in meters
+      - Bulk density of the fine earth fraction (0-5cm)
+      - Bulk density of the fine earth fraction (100-200cm)
+      - Bulk density of the fine earth fraction (15-30cm)
+      - Bulk density of the fine earth fraction (30-60cm)
+      - Bulk density of the fine earth fraction (5-15cm)
+      - Bulk density of the fine earth fraction (60-100cm)
+      - Cation Exchange Capacity of the soil (0-5cm)
+      - Cation Exchange Capacity of the soil (100-200cm)
+      - Cation Exchange Capacity of the soil (15-30cm)
+      - Cation Exchange Capacity of the soil (30-60cm)
+      - Cation Exchange Capacity of the soil (5-15cm)
+      - Cation Exchange Capacity of the soil (60-100cm)
+      - Total nitrogen (N) (0-5cm)
+      - Total nitrogen (N) (100-200cm)
+      - Total nitrogen (N) (15-30cm)
+      - Total nitrogen (N) (30-60cm)
+      - Total nitrogen (N) (5-15cm)
+      - Total nitrogen (N) (60-100cm)
+      - Organic carbon density (0-5cm)
+      - Organic carbon density (100-200cm)
+      - Organic carbon density (15-30cm)
+      - Organic carbon density (30-60cm)
+      - Organic carbon density (5-15cm)
+      - Organic carbon density (60-100cm)
+      - Organic carbon density (0-5cm)
+      - Organic carbon density (100-200cm)
+      - Proportion of sand particles (> 0.05 mm) in the fine earth fraction (15-30cm)
+      - Proportion of sand particles (> 0.05 mm) in the fine earth fraction (30-60cm)
+      - Proportion of sand particles (> 0.05 mm) in the fine earth fraction (5-15cm)
+      - Proportion of sand particles (> 0.05 mm) in the fine earth fraction (60-100cm)
+      - Proportion of sand particles (> 0.05 mm) in the fine earth fraction (5-15cm)
+      - Proportion of sand particles (> 0.05 mm) in the fine earth fraction (60-100cm)
+      - Soil organic carbon content in the fine earth fraction (0-5cm)
+      - Soil organic carbon content in the fine earth fraction (100-200cm)
+      - Soil organic carbon content in the fine earth fraction (15-30cm)
+      - Soil organic carbon content in the fine earth fraction (30-60cm)
+      - Soil organic carbon content in the fine earth fraction (5-15cm)
+      - Soil organic carbon content in the fine earth fraction (60-100cm)
+---
+
