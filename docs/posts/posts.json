@@ -80,7 +80,7 @@
     "preview_height": 100
   },
   {
-    "path": "posts/flo1k/",
+    "path": "posts/FLO1K/",
     "title": "FLO1K",
     "description": "Global time-series of land surface streamflow",
     "author": [],
@@ -89,14 +89,14 @@
       "water"
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset provides yearly statistical metrics on streamflow dynamics. These data were derived with artificial neural networks (ANNs) regression, trained with 6600 monitoring and a variety of environmental predictors, such as topography and climate.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nmin\r\nMinimum streamflow\r\nmean\r\nMean streamflow\r\nmax\r\nMaximum streamflow\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nYearly\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nResolution\r\n\r\n\r\n1 km\r\n\r\n\r\nTime frame\r\n\r\n\r\n1992 to 2015\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"FLO1K\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"FLO1K/min\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"FLO1K/min/1km\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
-    "preview": "posts/flo1k/FLO1K.png",
+    "preview": "posts/FLO1K/FLO1K.png",
     "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
   },
   {
-    "path": "posts/gadm/",
+    "path": "posts/GADM/",
     "title": "GADM",
     "description": "Global database of administrative areas",
     "author": [],
@@ -105,7 +105,7 @@
       "land managenent"
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nGADM provides up-to-date administrative boundaries,\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\ncontinents\r\nContinental boundaries\r\nunsd\r\nRegional disaggregation used by the UNSD\r\nlevel0\r\nCountry boundaries\r\nlevel1\r\nSmooth country boundaries\r\nlevel2\r\nCountry-specific level 2 boundaries (e.g. regions)\r\nlevel3\r\nCountry-specific level 3 boundaries (e.g. districts)\r\nlevel4\r\nCountry-specific level 4 boundaries (e.g. municipalities)\r\nlevel5\r\nCountry-specific level 5 boundaries (e.g. cities)\r\n\r\n\r\nFormat\r\n\r\n\r\nVector\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nNA\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n3.6\r\n\r\n\r\nResolution\r\n\r\n\r\n10 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n2019 to 2019\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"GADM\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"GADM/continents\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"GADM/continents/10m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
-    "preview": "posts/gadm/GADM.png",
+    "preview": "posts/GADM/GADM.png",
     "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
@@ -336,7 +336,7 @@
     "preview_height": 100
   },
   {
-    "path": "posts/mapbiomas/",
+    "path": "posts/mapBiomas/",
     "title": "mapBiomas",
     "description": "High-resolution land cover of Brazil.",
     "author": [],
@@ -345,7 +345,7 @@
       "land cover"
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis product belongs to the Brazilian Annual Land Use and Land Cover Mapping Project, producing the first annual, high-resolution land cover dataset of Brazil.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\namazonia\r\nLand cover of the Amazonia region\r\ncerrado\r\nLand cover of Cerrado region\r\npampa\r\nLand cover of the Pampa region\r\npantanal\r\nLand cover of the Pantanal region\r\nmataatlantica\r\nLand cover of the Mata Atlantica region\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nYearly\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n4\r\n\r\n\r\nResolution\r\n\r\n\r\n30 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n1985 to 2020\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"mapBiomas\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"mapBiomas/amazonia\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"mapBiomas/amazonia/30m\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
-    "preview": "posts/mapbiomas/mapBiomas.png",
+    "preview": "posts/mapBiomas/mapBiomas.png",
     "last_modified": "2021-10-25T19:43:22+02:00",
     "input_file": {},
     "preview_width": 200,
@@ -464,7 +464,7 @@
     "preview_height": 100
   },
   {
-    "path": "posts/vcf5kyr/",
+    "path": "posts/VCF5KYR/",
     "title": "VCF5KYR",
     "description": "AVHRR Vegetation Continuous Fields (VCF)",
     "author": [],
@@ -473,7 +473,7 @@
       "land cover"
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset provides global maps with per-pixel percentages of different vegetation types on an yearly basis. A water mask was applied with all pure water pixels (defined as ??? 95% water coverage) set to zero.\r\n\r\n\r\nSubdatsets\r\n\r\nname\r\ndescription\r\nTreeCover\r\nPercent of tree cover\r\nNonTreeVegetation\r\nPercent of short vegetation\r\nNonVegetated\r\nPercent of non-vegetated surfaces\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nYearly\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nResolution\r\n\r\n\r\n5 km\r\n\r\n\r\nTime frame\r\n\r\n\r\n1982 to 2016\r\n\r\n\r\n# data call without specifying subdataset and resoluton\r\nlist_data(\"VCF5KYR\")\r\n\r\n\r\n# data call for specific subdataset \r\nlist_data(\"VCF5KYR/TreeCover\")\r\n\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"VCF5KYR/TreeCover/5km\")\r\n\r\n\r\nWhere there mistakes?\r\n\r\nPropose an edit at our GitHub repository\r\n\r\nInterested in out work?\r\n\r\n\r\nFind us through our group page\r\n\r\n",
-    "preview": "posts/vcf5kyr/VCF5KYR.png",
+    "preview": "posts/VCF5KYR/VCF5KYR.png",
     "last_modified": "2021-10-25T19:43:23+02:00",
     "input_file": {},
     "preview_width": 200,
