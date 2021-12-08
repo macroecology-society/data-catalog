@@ -6,7 +6,7 @@ preview: VCF5KYR.png
 slug: VCF5KYR
 categories:
   - land cover
-date: 2021-10-25
+date: 2021-12-03
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -35,7 +35,7 @@ This dataset provides global maps with per-pixel percentages of different vegeta
 <p>**Format**</p>
 <p>Grid</p>
 <p>**Spatial extent:**</p>
-<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//VCF5KYR/VCF5KYR_extent.png" width=120, height=90>
+<img src="/Users/rr70wedu/Documents/GitHub/data-catalog/_posts//VCF5KYR/VCF5KYR_extent.png" width=120, height=90>
 <p>**Temporal frequency:**</p>
 <p>Yearly</p>
 <p>**Documentation**</p>
@@ -49,6 +49,8 @@ This dataset provides global maps with per-pixel percentages of different vegeta
 <p>5 km</p>
 <p>**Time frame**</p>
 <p>1982 to 2016</p>
+<p>**Status**</p>
+<p style="border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:20px;width:80px;">available</p>
 </aside>
 
 <hr>

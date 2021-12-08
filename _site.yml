@@ -10,7 +10,7 @@ navbar:
     base_url: 'https://github.com/macroecology-society/data-catalog/'
   search: true
   right:
-    - text: "Home"
+    - text: "catalog"
       href: index.html
     - text: "Team"
       href: https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html

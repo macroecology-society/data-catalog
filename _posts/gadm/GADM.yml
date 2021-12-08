@@ -6,6 +6,7 @@
  license: CC-BY-SA-4.0
  version: 3.6
  categories: land managenent
+ status: available
  metadata:
    format: Vector
    spatial_resolution: 10 m

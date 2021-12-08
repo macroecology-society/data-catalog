@@ -6,6 +6,7 @@
  license: CC-BY-SA-4.0
  version: 2021-2
  categories: ecology
+ status: available
  metadata:
    format: Vector
    spatial_resolution: 5 km

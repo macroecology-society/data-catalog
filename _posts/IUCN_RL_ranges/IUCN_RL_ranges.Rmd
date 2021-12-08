@@ -6,7 +6,7 @@ preview: IUCN_RL_ranges.png
 slug: IUCN_RL_ranges
 categories:
   - ecology
-date: 2021-10-25
+date: 2021-12-03
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -37,7 +37,7 @@ This dataset provides range maps for thousands of species. The data is divided i
 <p>**Format**</p>
 <p>Vector</p>
 <p>**Spatial extent:**</p>
-<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//IUCN_RL_ranges/IUCN_RL_ranges_extent.png" width=120, height=90>
+<img src="/Users/rr70wedu/Documents/GitHub/data-catalog/_posts//IUCN_RL_ranges/IUCN_RL_ranges_extent.png" width=120, height=90>
 <p>**Temporal frequency:**</p>
 <p>Multi-temporal snapshot</p>
 <p>**Documentation**</p>
@@ -51,6 +51,8 @@ This dataset provides range maps for thousands of species. The data is divided i
 <p>5 km</p>
 <p>**Time frame**</p>
 <p>2020 to 2020</p>
+<p>**Status**</p>
+<p style="border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:20px;width:80px;">available</p>
 </aside>
 
 <hr>

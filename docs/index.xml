@@ -12,14 +12,14 @@
       <link>https://macroecology-society.github.io/data-catalog/</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 25 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Dec 2021 00:00:00 +0000</lastBuildDate>
     <item>
       <title>BECK_climateMap</title>
       <link>https://macroecology-society.github.io/data-catalog/posts/BECK_climateMap</link>
       <description>Global Koppen-Geiger climate classification at a 1-km resolution for the present-day (1980 to 2016) and for projected future conditions (2071 to 2100) under climate change</description>
       <category>climate</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/BECK_climateMap</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/BECK_climateMap/BECK_climateMap.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -28,7 +28,7 @@
       <description>Global, yearly land cover derived in the context of the Climate Change Initiative (CCI)</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/CCI_landCover</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/CCI_landCover/CCI_landCover.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -37,7 +37,7 @@
       <description>Historical maximum extent of generic land cover types.</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/CCI_landCover_history</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/CCI_landCover_history/CCI_landCover_history.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -46,7 +46,7 @@
       <description>Global time-series of climate precipitation and temperature.</description>
       <category>climate</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/CHELSA</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/CHELSA/CHELSA.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -55,7 +55,7 @@
       <description>data from the Defense Meteorological Satellite Program (DMSP) Nighttime light (NTL)</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/DMSP</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/DMSP/DMSP.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -64,7 +64,7 @@
       <description>Global time-series of land surface streamflow</description>
       <category>water</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/FLO1K</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/FLO1K/FLO1K.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -73,7 +73,7 @@
       <description>Global database of administrative areas</description>
       <category>land managenent</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GADM</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GADM/GADM.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -82,7 +82,7 @@
       <description>Global time-series of impervious surfaces</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GAIA</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GAIA/GAIA.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -91,7 +91,7 @@
       <description>Global Assessment of Reptile Distributions (GARD)</description>
       <category>ecology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GARD</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GARD/GARD.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -100,7 +100,7 @@
       <description>General Bathymetric Chart of the Oceans (GEBCO)</description>
       <category>geomorphology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GEBCO</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GEBCO/GEBCO.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -109,7 +109,7 @@
       <description>Global tiling systems</description>
       <category>utilities</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/geoprocessing_tiles</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/geoprocessing_tiles/geoprocessing_tiles.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -118,7 +118,7 @@
       <description>Global Human Settlements (GHS)</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GHS</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GHS/GHS.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -127,7 +127,7 @@
       <description>Global, spatial distribution of mining operations</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/globalMines</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/globalMines/globalMines.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -136,7 +136,7 @@
       <description>Global Mountain Maps</description>
       <category>geomorphology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GME</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GME/GME.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -145,7 +145,7 @@
       <description>Global River Widths from Landsat (GRWL) Database</description>
       <category>water</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GRWL</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GRWL/GRWL.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -154,7 +154,7 @@
       <description>Global Surface Water (GSW)</description>
       <category>water</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GSW</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GSW/GSW.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -163,7 +163,7 @@
       <description>Global Surface Water (GSW) history</description>
       <category>water</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GSW_history</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GSW_history/GSW_history.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -172,7 +172,7 @@
       <description>Harmonized World Soil Database (HWSD)</description>
       <category>geomorphology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/HWSD</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/HWSD/HWSD.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -181,7 +181,7 @@
       <description>Interpolated Global Human Settlement (GHS) data</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/iGHS</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/iGHS/iGHS.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -190,7 +190,7 @@
       <description>Range maps of the IUCN Red List of Species</description>
       <category>ecology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/IUCN_RL_ranges</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/IUCN_RL_ranges/IUCN_RL_ranges.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -199,7 +199,7 @@
       <description>Linear Distance maps</description>
       <category>utilities</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/linearDistance</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/linearDistance/linearDistance.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -208,7 +208,7 @@
       <description>High-resolution land cover of Brazil.</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/mapBiomas</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/mapBiomas/mapBiomas.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -217,7 +217,7 @@
       <description>Multi-Error-Removed Improved-Terrain (MERIT) Digital Elevation Model (DEM)</description>
       <category>geomorphology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/MERIT_DEM</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/MERIT_DEM/MERIT_DEM.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -226,7 +226,7 @@
       <description>Hydrological variables derived with the Multi-Error-Removed Improved-Terrain (MERIT) Digital Elevation Model (DEM)</description>
       <category>water</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/MERIT_hydro</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/MERIT_hydro/MERIT_hydro.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -235,7 +235,7 @@
       <description>Global map of per-pixel areas</description>
       <category>utilities</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/pixelArea</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/pixelArea/pixelArea.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -244,7 +244,7 @@
       <description>Gridded soil database (soilGrids)</description>
       <category>geomorphology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/soilGrids</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/soilGrids/soilGrids.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -253,7 +253,7 @@
       <description>Global climate and water balance time series.</description>
       <category>climate</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/TerraClimate</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/TerraClimate/TerraClimate.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -262,7 +262,7 @@
       <description>Global distribution of tidal flats</description>
       <category>water</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/tidalflats</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/tidalflats/tidalFlats.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -271,7 +271,7 @@
       <description>Global map of travel time disparities</description>
       <category>land management</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/traveltime</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/traveltime/travelTime.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -280,7 +280,7 @@
       <description>AVHRR Vegetation Continuous Fields (VCF)</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/VCF5KYR</guid>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/VCF5KYR/VCF5KYR.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
   </channel>

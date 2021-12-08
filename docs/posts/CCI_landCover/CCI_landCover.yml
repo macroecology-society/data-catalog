@@ -6,6 +6,7 @@
  license: CC-BY-SA-4.0
  version: 2.0.7
  categories: land cover
+ status: available
  metadata:
    format: Grid
    spatial_resolution: 300 m

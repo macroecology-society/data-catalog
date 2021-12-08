@@ -6,7 +6,7 @@ preview: HWSD.png
 slug: HWSD
 categories:
   - geomorphology
-date: 2021-10-25
+date: 2021-12-03
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -33,7 +33,7 @@ This dataset distinguishes over 15,000 soil mapping units that combines existing
 <p>**Format**</p>
 <p>Grid</p>
 <p>**Spatial extent:**</p>
-<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/data-catalog/_posts/HWSD/HWSD_extent.png" width=120, height=90>
+<img src="/Users/rr70wedu/Documents/GitHub/data-catalog/_posts//HWSD/HWSD_extent.png" width=120, height=90>
 <p>**Temporal frequency:**</p>
 <p>NA</p>
 <p>**Documentation**</p>
@@ -47,6 +47,8 @@ This dataset distinguishes over 15,000 soil mapping units that combines existing
 <p>1 km</p>
 <p>**Time frame**</p>
 <p>2008 to 2008</p>
+<p>**Status**</p>
+<p style="border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:20px;width:80px;">available</p>
 </aside>
 
 <hr>

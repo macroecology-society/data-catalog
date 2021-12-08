@@ -6,6 +6,7 @@
  license: CC-BY-SA-4.0
  version: 1.0
  categories: land cover
+ status: available
  metadata:
    format: Vector
    spatial_resolution: 30 m

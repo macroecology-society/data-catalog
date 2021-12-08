@@ -6,7 +6,7 @@ preview: MERIT_DEM.png
 slug: MERIT_DEM
 categories:
   - geomorphology
-date: 2021-10-25
+date: 2021-12-03
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -40,7 +40,7 @@ MERIT DEM is a high accuracy global DEM with a resolution of 90 m. It combines m
 <p>**Format**</p>
 <p>Grid</p>
 <p>**Spatial extent:**</p>
-<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//MERIT_DEM/MERIT_DEM_extent.png" width=120, height=90>
+<img src="/Users/rr70wedu/Documents/GitHub/data-catalog/_posts//MERIT_DEM/MERIT_DEM_extent.png" width=120, height=90>
 <p>**Temporal frequency:**</p>
 <p>Multi-temporal snapshot</p>
 <p>**Documentation**</p>
@@ -55,6 +55,8 @@ MERIT DEM is a high accuracy global DEM with a resolution of 90 m. It combines m
 <p>1 km</p>
 <p>**Time frame**</p>
 <p>2000 to 2011</p>
+<p>**Status**</p>
+<p style="border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:20px;width:80px;">available</p>
 </aside>
 
 <hr>

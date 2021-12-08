@@ -6,6 +6,7 @@
  license: CC-BY-SA-4.0
  version: 1.0
  categories: geomorphology
+ status: available
  metadata:
    format: Grid
    spatial_resolution: [300 m,  1 km]

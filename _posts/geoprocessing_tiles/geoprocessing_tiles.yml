@@ -6,6 +6,7 @@
  license: CC-BY-SA-4.0
  version: 1.0
  categories: utilities
+ status: available
  metadata:
    format: Vector
    spatial_resolution: [30 m, 300 m]

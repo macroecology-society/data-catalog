@@ -6,7 +6,7 @@ preview: GADM.png
 slug: GADM
 categories:
   - land managenent
-date: 2021-10-25
+date: 2021-12-03
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -40,7 +40,7 @@ GADM provides up-to-date administrative boundaries,
 <p>**Format**</p>
 <p>Vector</p>
 <p>**Spatial extent:**</p>
-<img src="/Users/rr70wedu/Documents/MAS_Lab/mas-websites/mas_data_catalog/_posts//GADM/GADM_extent.png" width=120, height=90>
+<img src="/Users/rr70wedu/Documents/GitHub/data-catalog/_posts//GADM/GADM_extent.png" width=120, height=90>
 <p>**Temporal frequency:**</p>
 <p>NA</p>
 <p>**Documentation**</p>
@@ -54,6 +54,8 @@ GADM provides up-to-date administrative boundaries,
 <p>10 m</p>
 <p>**Time frame**</p>
 <p>2019 to 2019</p>
+<p>**Status**</p>
+<p style="border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:20px;width:80px;">available</p>
 </aside>
 
 <hr>
