@@ -6,79 +6,164 @@ preview: GADM.png
 slug: GADM
 categories:
   - land managenent
-date: 2021-12-03
+date: 2021-12-24
 output:
   distill::distill_article:
     highlight_downlit: false
-bibliography: GADM.bib
 ---
   
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-<div width="80%;">
-<h3>Details</h3>
+<div style="width=80%;margin-top:0;margin-bottom:0;">
+<h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-GADM provides up-to-date administrative boundaries,
+The GADM dataset provides up-to-date administrative boundaries, vectorized on a country-by-country basis and up to five management levels. In addition, we aggregated the GADM dataset into continents and regions. The regional aggregation dissolves countries following the global geoscheme of the United Nations Statistical Division (UNSD).
 </p>
 
-<h3>Subdatsets</h3>
-| name                              | description                 |
-|---------------------------------- |-----------------------------|
-|`continents`|Continental boundaries|
-|`unsd`|Regional disaggregation used by the UNSD|
-|`level0`|Country boundaries|
-|`level1`|Smooth country boundaries|
-|`level2`|Country-specific level 2 boundaries (e.g. regions)|
-|`level3`|Country-specific level 3 boundaries (e.g. districts)|
-|`level4`|Country-specific level 4 boundaries (e.g. municipalities)|
-|`level5`|Country-specific level 5 boundaries (e.g. cities)|
-</div>
-
-<aside>
-<p>**Format**</p>
-<p>Vector</p>
-<p>**Spatial extent:**</p>
-<img src="/Users/rr70wedu/Documents/GitHub/data-catalog/_posts//GADM/GADM_extent.png" width=120, height=90>
-<p>**Temporal frequency:**</p>
-<p>NA</p>
-<p>**Documentation**</p>
-<p><a href="https://gadm.org/">Click here for more</a></p>
-<p>**license:**</p>
-<p>CC-BY-SA-4.0</p>
-<hr style="margin-top:0;margin-bottom:0;">
-<p>**Version**</p>
-<p>3.6</p>
-<p>**Resolution**</p>
-<p>10 m</p>
-<p>**Time frame**</p>
-<p>2019 to 2019</p>
-<p>**Status**</p>
-<p style="border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:20px;width:80px;">available</p>
-</aside>
-
-<hr>
-
+<h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`continents` | Continent boundaries</summary>
+|content|description|
+|-------|-----------|
+|ogc_fid|Unique feature identifier|
+|region|Continent name|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`unsd` | Continent boundaries</summary>
+|content|description|
+|-------|-----------|
+|ogc_fid|Unique feature identifier|
+|region|Region name|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`level0` | Country boundaries</summary>
+|content|description|
+|-------|-----------|
+|ogc_fid0|Unique feature identifier|
+|gid_0|Country ISO3 code|
+|name_0|Country name|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`level1` | Level 1 administrative boundaries (e.g. Regions)</summary>
+|content|description|
+|-------|-----------|
+|ogc_fid0|Unique feature identifier|
+|gid_0|Country ISO3 code|
+|name_0|Country name|
+|gif_1|Unique identifier of administrative area (level 1)|
+|name_1|Name of administrative area (level 1)|
+|engtype_1|Type of administrative area (English name)|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`level2` | Level 2 administrative boundaries (e.g. Districts)</summary>
+|content|description|
+|-------|-----------|
+|ogc_fid0|Unique feature identifier|
+|gid_0|Country ISO3 code|
+|name_0|Country name|
+|gif_1|Unique identifier of administrative area (level 1)|
+|name_1|Name of administrative area (level 1)|
+|gid_2|Unique identifier of administrative area (level 2)|
+|name_2|Name of administrative area (level 2)|
+|engtype_2|Type of administrative area (English name)|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`level3` | Level 3 administrative boundaries (e.g. Counties)</summary>
+|content|description|
+|-------|-----------|
+|ogc_fid0|Unique feature identifier|
+|gid_0|Country ISO3 code|
+|name_0|Country name|
+|gif_1|Unique identifier of administrative area (level 1)|
+|name_1|Name of administrative area (level 1)|
+|gid_2|Unique identifier of administrative area (level 2)|
+|name_2|Name of administrative area (level 2)|
+|gid_3|Unique identifier of administrative area (level 3)|
+|name_3|Name of administrative area (level 3)|
+|engtype_3|Type of administrative area (English name)|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`level4` | Level 4 administrative boundaries (e.g. Municiplality)</summary>
+|content|description|
+|-------|-----------|
+|ogc_fid0|Unique feature identifier|
+|gid_0|Country ISO3 code|
+|name_0|Country name|
+|gif_1|Unique identifier of administrative area (level 1)|
+|name_1|Name of administrative area (level 1)|
+|gid_2|Unique identifier of administrative area (level 2)|
+|name_2|Name of administrative area (level 2)|
+|gid_3|Unique identifier of administrative area (level 3)|
+|name_3|Name of administrative area (level 3)|
+|gid_4|Unique identifier of administrative area (level 4)|
+|name_4|Name of administrative area (level 4)|
+|engtype_4|Type of administrative area (English name)|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`level5` | Level 5 administrative boundaries (e.g. Commune)</summary>
+|content|description|
+|-------|-----------|
+|ogc_fid0|Unique feature identifier|
+|gid_0|Country ISO3 code|
+|name_0|Country name|
+|gif_1|Unique identifier of administrative area (level 1)|
+|name_1|Name of administrative area (level 1)|
+|gid_2|Unique identifier of administrative area (level 2)|
+|name_2|Name of administrative area (level 2)|
+|gid_3|Unique identifier of administrative area (level 3)|
+|name_3|Name of administrative area (level 3)|
+|gid_4|Unique identifier of administrative area (level 4)|
+|name_4|Name of administrative area (level 4)|
+|gid_5|Unique identifier of administrative area (level 5)|
+|name_5|Name of administrative area (level 5)|
+|engtype_5|Type of administrative area (English name)|
+</details>
+<h3 style="margin-top:5;margin-bottom:5;">masDMT query</h3>
+<div style="width=80%;margin-top:5;margin-bottom:5;background-color:#777777;">
 ```{r eval=FALSE, echo=TRUE}
-# data call without specifying subdataset and resoluton
+# data call without specifying subdataset and resolution
 list_data("GADM")
-
 
 # data call for specific subdataset 
 list_data("GADM/continents")
 
-
 # data call to subdataset with a specific resolution
 list_data("GADM/continents/10m")
 ```
+</div>
+<hr style="margin-top:0;margin-bottom:0;">
+<h3 style="margin-bottom:0;">References</h3>
+<p style='margin-top:0;margin-bottom:5;'><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GADM/GADM.bib download=GADM/GADM.bibtex'><small>(Download bibtex)</small></a></p>
+[1]  (2012)
+</div>
 
 <aside>
-<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
-<p>**Where there  mistakes?**</p>
-[Propose an edit at our GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/GADM/GADM.Rmd)
-<p>**Interested in out work?**</p>
-<p>[Find us through our group page](https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html)</p>
+<p style="margin-top:0;margin-bottom:0;">**Format**</p>
+<p style="margin-top:0;">Vector</p>
+<p style="margin-top:0;">**Spatial extent:**</p>
+<img src="GADM_extent.png" width=120, height=90>
+<p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
+<p style="margin-top:0;">NA</p>
+<p style="margin-top:0;margin-bottom:0;">**Resolution**</p>
+<p style="margin-top:0;">10 m</p>
+<p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
+<p style="margin-top:0;">2019 to 2019</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://gadm.org/'>documentation.</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://gadm.org/'>Data access</a></p></p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p style="margin-top:0;margin-bottom:0;">**license:**</p>
+<p style="margin-top:0;">CC-BY-SA-4.0</p>
+<p style="margin-top:0;margin-bottom:0;">**Version**</p>
+<p style="margin-top:0;">3.6</p>
+<p style="margin-top:0;margin-bottom:0;border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;">available</p>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="120;">
+<br>
+<br>
+<p style="margin-bottom:0;padding:0;">**Where there  mistakes?**</p>
+<p><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GADM/GADM.yml'>Propose an edit at our GitHub repository</a></p>
 </aside>
-
-<hr>

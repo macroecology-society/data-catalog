@@ -1,0 +1,35 @@
+---
+ title: fireRegime
+ short_description: |
+  Global annual maps of fire recurrence
+ long_description: |
+  This dataset offers multi-temporal metrics that describe per-pixel 
+  frequencies of fires. It provides data on the mean frequency of ires 
+ documentation: https://lpdaac.usgs.gov/products/mcd64a1v006/
+ data_access: mas@idiv.de
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: [land cover,climate]
+ status: available
+ metadata:
+   format: Grid
+   spatial_resolution: 1 km
+   temporal_resolution: Yearly
+   temporal_range: [2001,2018]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   recurrence:
+    variable: Fire recurrence (Nr. burn years / Nr. years)
+    content:
+     value_range: 0...1
+   meanInterval:
+    variable: Mean interval between burning years
+    content:
+     value_range: 0...n
+   minInterval:
+    variable: Minium interval between burning years
+    content: 0...n
+   maxInterval:
+    variable: Maximum interval between burning years
+    content:
+     value_range: 0...n

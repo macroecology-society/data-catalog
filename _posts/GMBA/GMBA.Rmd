@@ -1,0 +1,80 @@
+---
+title: "GMBA"
+description: |
+  Global Mountain Biodiversity Assessment (GMBA)
+preview: GMBA.png
+slug: GMBA
+categories:
+  - geomorphology
+date: 2021-12-24
+output:
+  distill::distill_article:
+    highlight_downlit: false
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div style="width=80%;margin-top:0;margin-bottom:0;">
+<h3 style="margin-top:5;margin-bottom:5;">Details</h3>
+<p align="justify">
+This dataset provides expert-drawn spatial extents of individual mountains resulting in robust global inventory.
+</p>
+
+<h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`inventory` | Global mountain inventory</summary>
+|content|description|
+|-------|-----------|
+|ogc_fid|Unique feature identifier|
+|name|Mountain name|
+|country|Country where mountain is found|
+</details>
+<h3 style="margin-top:5;margin-bottom:5;">masDMT query</h3>
+<div style="width=80%;margin-top:5;margin-bottom:5;background-color:#777777;">
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resolution
+list_data("GMBA")
+
+# data call for specific subdataset 
+list_data("GMBA/inventory")
+
+# data call to subdataset with a specific resolution
+list_data("GMBA/inventory/2degrees")
+```
+</div>
+<hr style="margin-top:0;margin-bottom:0;">
+<h3 style="margin-bottom:0;">References</h3>
+<p style='margin-top:0;margin-bottom:5;'><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GMBA/GMBA.bib download=GMBA/GMBA.bibtex'><small>(Download bibtex)</small></a></p>
+[1] Körner, Jetz, Paulsen, Payne, Rudmann-Maurer, and M. Spehn (2017)
+</div>
+
+<aside>
+<p style="margin-top:0;margin-bottom:0;">**Format**</p>
+<p style="margin-top:0;">Vector</p>
+<p style="margin-top:0;">**Spatial extent:**</p>
+<img src="GMBA_extent.png" width=120, height=90>
+<p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
+<p style="margin-top:0;">Snapshot</p>
+<p style="margin-top:0;margin-bottom:0;">**Resolution**</p>
+<p style="margin-top:0;">2 degrees</p>
+<p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
+<p style="margin-top:0;">2021 to 2021</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://www.gmba.unibe.ch/'>documentation.</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://ilias.unibe.ch/goto_ilias3_unibe_cat_1000515.html'>Data access</a></p></p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p style="margin-top:0;margin-bottom:0;">**license:**</p>
+<p style="margin-top:0;">CC-BY-SA-4.0</p>
+<p style="margin-top:0;margin-bottom:0;">**Version**</p>
+<p style="margin-top:0;">1.2</p>
+<p style="margin-top:0;margin-bottom:0;border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;">available</p>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="120;">
+<br>
+<br>
+<p style="margin-bottom:0;padding:0;">**Where there  mistakes?**</p>
+<p><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GMBA/GMBA.yml'>Propose an edit at our GitHub repository</a></p>
+</aside>

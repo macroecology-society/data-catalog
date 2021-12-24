@@ -1,8 +1,16 @@
 ---
  title: GSW
- short_description: Global Surface Water (GSW)
- long_description: This dataset offers yearly data on the spatial extent of permanent and seasonal water. The original dataset, a classification of water seasonality with a  30 m resolution, was aggregated to 300 m. The output depict per-pixel percentages of permanent and seasonal water, as well as the percentage of missing data. This data was collected through Google Earth Engine (GEE). 
+ short_description: |
+  Yearly time-series of Global Surface Water (GSW)
+ long_description: |
+  This dataset offers yearly data on the spatial extent of permanent 
+  and seasonal water. The original dataset, a classification of water 
+  seasonality with a  30 m resolution, was aggregated to 300 m. The 
+  output depict per-pixel percentages of permanent and seasonal water, 
+  as well as the percentage of missing data. This data was collected 
+  through Google Earth Engine (GEE). 
  documentation: https://global-surface-water.appspot.com/
+ data_access: https://global-surface-water.appspot.com/download
  license: CC-BY-SA-4.0
  version: 1.3
  categories: water
@@ -14,12 +22,15 @@
    temporal_range: [1992, 2018]
    spatial_extent: [-180,180,-90,90]
  subdatasets:
-   data_id:
-      - permanent
-      - seasonal
-      - missingData
-   description:
-      - Per-pixel percent of permanent water cover
-      - Per-pixel percent of seasonal water cover
-      - Per-pixel percent of missing data
----
+  permanent:
+   variable: Per-pixel percent of permanent water cover
+   content:
+    value_range: 0...100
+  seasonal:
+   variable: Per-pixel percent of seasonal water cover
+   content:
+    value_range: 0...100
+  missingData:
+   variable: Per-pixel percent of missing data
+   content:
+    value_range: 0...100

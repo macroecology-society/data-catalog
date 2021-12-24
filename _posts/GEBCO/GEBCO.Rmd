@@ -6,72 +6,73 @@ preview: GEBCO.png
 slug: GEBCO
 categories:
   - geomorphology
-date: 2021-12-03
+date: 2021-12-24
 output:
   distill::distill_article:
     highlight_downlit: false
-bibliography: GEBCO.bib
 ---
   
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-<div width="80%;">
-<h3>Details</h3>
+<div style="width=80%;margin-top:0;margin-bottom:0;">
+<h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
 This dataset provides a global map of bathymetric, expressing the depth of the ocean on a pixel-by-pixel basis, as well as land surface elevation.
 </p>
 
-<h3>Subdatsets</h3>
-| name                              | description                 |
-|---------------------------------- |-----------------------------|
-|`bathymetry`|OCean bathymetry|
-</div>
-
-<aside>
-<p>**Format**</p>
-<p>Grid</p>
-<p>**Spatial extent:**</p>
-<img src="/Users/rr70wedu/Documents/GitHub/data-catalog/_posts//GEBCO/GEBCO_extent.png" width=120, height=90>
-<p>**Temporal frequency:**</p>
-<p>NA</p>
-<p>**Documentation**</p>
-<p><a href="https://www.gebco.net/data_and_products/gridded_bathymetry_data/">Click here for more</a></p>
-<p>**license:**</p>
-<p>CC-BY-SA-4.0</p>
-<hr style="margin-top:0;margin-bottom:0;">
-<p>**Version**</p>
-<p>2</p>
-<p>**Resolution**</p>
-<p>500 m</p>
-<p>**Time frame**</p>
-<p>2021 to 2021</p>
-<p>**Status**</p>
-<p style="border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:20px;width:80px;">available</p>
-</aside>
-
-<hr>
-
+<h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`bathymetry` | OCean bathymetry</summary>
+|content|description|
+|-------|-----------|
+|value_range|-n...n|
+</details>
+<h3 style="margin-top:5;margin-bottom:5;">masDMT query</h3>
+<div style="width=80%;margin-top:5;margin-bottom:5;background-color:#777777;">
 ```{r eval=FALSE, echo=TRUE}
-# data call without specifying subdataset and resoluton
+# data call without specifying subdataset and resolution
 list_data("GEBCO")
-
 
 # data call for specific subdataset 
 list_data("GEBCO/bathymetry")
 
-
 # data call to subdataset with a specific resolution
 list_data("GEBCO/bathymetry/500m")
 ```
+</div>
+<hr style="margin-top:0;margin-bottom:0;">
+<h3 style="margin-bottom:0;">References</h3>
+<p style='margin-top:0;margin-bottom:5;'><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GEBCO/GEBCO.bib download=GEBCO/GEBCO.bibtex'><small>(Download bibtex)</small></a></p>
+[1] Jakobsson, Mayer, Bringensparr, Castro, Mohammad, Johnson, Ketter, Accettella, Amblas, An, Arndt, Canals, Casamor, Chauché, Coakley, Danielson, Demarte, Dickson, Dorschel, Dowdeswell, Dreutter, Fremand, Gallant, Hall, Hehemann, Hodnesdal, Hong, Ivaldi, Kane, Klaucke, Krawczyk, Kristoffersen, Kuipers, Millan, Masetti, Morlighem, Noormets, Prescott, Rebesco, Rignot, Semiletov, Tate, Travaglini, Velicogna, Weatherall, Weinrebe, Willis, Wood, Zarayskaya, Zhang, Zimmermann, and Zinglersen (2020)
+</div>
 
 <aside>
-<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
-<p>**Where there  mistakes?**</p>
-[Propose an edit at our GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/GEBCO/GEBCO.Rmd)
-<p>**Interested in out work?**</p>
-<p>[Find us through our group page](https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html)</p>
+<p style="margin-top:0;margin-bottom:0;">**Format**</p>
+<p style="margin-top:0;">Grid</p>
+<p style="margin-top:0;">**Spatial extent:**</p>
+<img src="GEBCO_extent.png" width=120, height=90>
+<p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
+<p style="margin-top:0;">NA</p>
+<p style="margin-top:0;margin-bottom:0;">**Resolution**</p>
+<p style="margin-top:0;">500 m</p>
+<p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
+<p style="margin-top:0;">2021 to 2021</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://www.gebco.net/data_and_products/gridded_bathymetry_data/'>documentation.</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://www.gebco.net/data_and_products/gridded_bathymetry_data/'>Data access</a></p></p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p style="margin-top:0;margin-bottom:0;">**license:**</p>
+<p style="margin-top:0;">CC-BY-SA-4.0</p>
+<p style="margin-top:0;margin-bottom:0;">**Version**</p>
+<p style="margin-top:0;">2</p>
+<p style="margin-top:0;margin-bottom:0;border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;">available</p>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="120;">
+<br>
+<br>
+<p style="margin-bottom:0;padding:0;">**Where there  mistakes?**</p>
+<p><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GEBCO/GEBCO.yml'>Propose an edit at our GitHub repository</a></p>
 </aside>
-
-<hr>

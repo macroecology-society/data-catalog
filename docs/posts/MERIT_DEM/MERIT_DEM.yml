@@ -1,8 +1,17 @@
 ---
  title: MERIT_DEM
- short_description: Multi-Error-Removed Improved-Terrain (MERIT) Digital Elevation Model (DEM)
- long_description: MERIT DEM is a high accuracy global DEM with a resolution of 90 m. It combines multiple existing DEM datasets (NASA SRTM3 DEM, JAXA AW3D DEM, Viewfinder Panoramas DEM), making use of their combined strenghts to address their individual weaknesses. The present version of this dataset was aggregated to 300 m. Furthermore, the dataset was combined with GEBCO bathymetry data, which was added to oceanic data gaps in the MERIT DEM.
+ short_description: |
+  Multi-Error-Removed Improved-Terrain (MERIT) Digital Elevation Model (DEM)
+ long_description: |
+  MERIT DEM is a high accuracy global DEM with a resolution of 
+  90 m. It combines multiple existing DEM datasets (NASA SRTM3 
+  DEM, JAXA AW3D DEM, Viewfinder Panoramas DEM), making use of 
+  their combined strenghts to address their individual weaknesses. 
+  The present version of this dataset was aggregated to 300 m. 
+  Furthermore, the dataset was combined with GEBCO bathymetry 
+  data, which was added to oceanic data gaps in the MERIT DEM.
  documentation: http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/
+ data_access: http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/
  license: CC-BY-SA-4.0
  version: 1.0
  categories: geomorphology
@@ -14,22 +23,35 @@
    temporal_range: [2000,2011]
    spatial_extent: [-180,180,-90,90]
  subdatasets:
-   data_id:
-      - minElevation
-      - meanElevation
-      - maxElevation
-      - elevationMeanLand
-      - hillshade
-      - slope
-      - slopeMean
-      - smoothSlope
-   description:
-      - Minimum elevation
-      - Mean elevation
-      - Maximum elevation
-      - Land surface mean elevation
-      - Topographic hillshade
-      - Slope in degrees
-      - Mean slope in degrees
-      - Slope smoothed with 5x5 window mean
----
+   minElevation:
+    variable: Minimum per-pixel elevation
+    content:
+     value_range: 0...n
+   meanElevation:
+    variable: Mean per-pixel elevation
+    content:
+     value_range: 0...n
+   maxElevation:
+    variable: Maximum per-pixel elevation
+    content:
+     value_range: 0...n
+   elevationMeanLand:
+    variable: Mean elevation over land
+    content:
+     value_range: 0...n
+   hillshade:
+    variable: Topographic hillshade
+    content:
+     value_range: 0...n
+   slope:
+    variable: Topographic slope (degrees)
+    content:
+     value_range: 0...n
+   slopeMean:
+    variable: Mean topograhic slope (degrees)
+    content:
+     value_range: 0...n
+   smoothSlope:
+    variable: Slope smoothed with 5x5 window mean (degrees)
+    content:
+     value_range: 0...n

@@ -1,0 +1,36 @@
+---
+ title: LAI_phenology
+ short_description: |
+  Typical phenology of deciduous forests derived with PROBA-V data time-series
+ long_description: |
+  This dataset provides information on the average per-pixel 
+  phenology of deciduous forests. It maps the Start of Season 
+  (SoS), Mid of Season (MoS) and End of Season (EoS), which is 
+  through a threshold method applied over a time-series of intra 
+  and inter-annual Normalized Difference Vegetation Index (NDVI). 
+  The NDVI time-series was measured with the PROBA-V between 1999 and 2017.
+ documentation: https://www.sciencedirect.com/science/article/pii/S0303243419301278?via%3Dihub
+ data_access: k.bornez@creaf.uab.cat
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: [land cover, ecology]
+ status: available
+ metadata:
+  format: Grid
+  spatial_resolution: 1 km
+  temporal_resolution: Multi-year snapshot
+  temporal_range: [start year, end year]
+  spatial_extent: [-180,180,-90,90]
+ subdatasets:
+  SoS:
+   variable: Start of Season (i.e. greenup)
+   content:
+    value_range: e.g. 1...366
+  MoS:
+   variable: Mid of Season (i.e. maturity)
+   content:
+    value_range: e.g. 1...366
+  EoS:
+   variable: End of Season (i.e. senescence)
+   content:
+    value_range: e.g. 1...366

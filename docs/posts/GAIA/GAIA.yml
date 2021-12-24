@@ -1,8 +1,16 @@
 ---
  title: GAIA
- short_description: Global time-series of impervious surfaces
- long_description: This dataset was derived with landsat satellite data, and informs users on the first year an impervious pixel was observed starting from 1985. The original dataset, with a spatial resolution of 30-m, was then disaggregated into yearly layers.
+ short_description: |
+  Global time-series of impervious surfaces
+ long_description: |
+  This dataset was derived thorugh the classification of dense 
+  satellite time series obtained with multiple Landsat sensors. 
+  It provides data on  the first year an impervious pixel was 
+  observed starting from 1985. The original dataset, with a 
+  spatial resolution of 30-m, was then split into yearly layers 
+  and aggreated into 300-m layers with yearly per-pixel percentages.
  documentation: https://www.sciencedirect.com/science/article/abs/pii/S0034425719305292
+ data_access: http://data.ess.tsinghua.edu.cn/
  license: CC-BY-SA-4.0
  version: 1.0
  categories: land cover
@@ -14,8 +22,7 @@
    temporal_range: [1985,2018]
    spatial_extent: [-180,180,-90,90]
  subdatasets:
-   data_id:
-      - urbanCover
-   description:
-      - Urban cover density of a given year
----
+   urbanCover:
+      variable: Density of impervious surfaces (%)
+      content:
+       value_range: 0...100

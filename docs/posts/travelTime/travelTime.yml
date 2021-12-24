@@ -1,8 +1,13 @@
 ---
  title: travelTime
- short_description: Global map of travel time disparities
- long_description: This dataset offers information on the travel-time requirements. Each pixel reports on the amount of time required to travel from it to the nearest city with at least 50,000 inhabitants.
+ short_description: |
+  Global map of travel time disparities
+ long_description: |
+  This dataset offers information on the travel-time requirements. 
+  Each pixel reports on the amount of time required to travel from 
+  it to the nearest city with at least 50,000 inhabitants.
  documentation: https://www.nature.com/articles/nature25181
+ data_access: https://forobs.jrc.ec.europa.eu/products/gam/
  license: CC-BY-SA-4.0
  version: 2.0
  categories: land management
@@ -14,8 +19,7 @@
    temporal_range: [2000,2015]
    spatial_extent: [-180,180,-90,90]
  subdatasets:
-   data_id:
-      - hoursTo50000ha
-   description:
-      - Number of hours to nearest city with at least 50,000 inhabitants.
----
+   hoursTo50000ha:
+    variable: Number of hours to nearest city with at least 50,000 inhabitants.
+    content:
+     value_range: 0...n

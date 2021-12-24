@@ -1,8 +1,16 @@
 ---
  title: DMSP
- short_description: data from the Defense Meteorological Satellite Program (DMSP) Nighttime light (NTL)
- long_description: This dataset provides yearly, global maps on the spatial and temporal variability of night lights. This dataset derives a temporally consistent NTL dataset by harmonizing DMSP data with simulated DMSP-like NTL observations from the VIIRS data.
+ short_description: |
+  Gime-series of Nighttime light mapped by the 
+  Defense Meteorological Satellite Program (DMSP) 
+ long_description: |
+  This dataset provides yearly, global maps on the spatial and temporal 
+  variability of night lights (NTL). This dataset derives a temporally 
+  consistent NTL dataset by harmonizing DMSP data, availble up to 2013, 
+  with simulated DMSP-like NTL observations from the VIIRS data. With 
+  this method, we obtain a longer DMSP time-series, up to 2018.
  documentation: https://www.nature.com/articles/s41597-020-0510-y
+ data_access: https://doi.org/10.6084/m9.figshare.9828827.v2
  license: CC-BY-SA-4.0
  version: 1.0
  categories: land cover
@@ -14,8 +22,7 @@
    temporal_range: [1992,2020]
    spatial_extent: [-180,180,-90,90]
  subdatasets:
-   data_id:
-      - nightLights
-   description:
-      - Night-time radiances
----
+   nightLights:
+    variable: Night-time radiances
+    content:
+     value_range: 0...n

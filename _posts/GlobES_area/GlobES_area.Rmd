@@ -1,0 +1,484 @@
+---
+title: "GlobES_area"
+description: |
+  Global annual maps of per-pixel ecosystems areas from 1992 to 2018
+preview: GlobES_area.png
+slug: GlobES_area
+categories:
+  - ecology
+date: 2021-12-24
+output:
+  distill::distill_article:
+    highlight_downlit: false
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div style="width=80%;margin-top:0;margin-bottom:0;">
+<h3 style="margin-top:5;margin-bottom:5;">Details</h3>
+<p align="justify">
+This dataset provides yearly, global time-series of per-pixel areas (in hectares) of 71 ecosystem types, including natural, semi-natural and artificial ecosystems. The distinction of ecosystem types follows he IUCN habitat classification scheme, being compatible with the assessments of habitat requirements for over 100,000 species.
+</p>
+
+<h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`65` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`66` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`67` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`68` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`69` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`70` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`71` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`0108` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`0109` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`129` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`130` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`193` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`194` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`195` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`196` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`197` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`198` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`199` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`0308` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`257` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`258` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`259` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`260` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`261` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`262` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`263` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`321` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`322` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`324` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`325` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`326` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`327` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`0508` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`328` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`329` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`332` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`333` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`334` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`335` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`384` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`0801` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`0802` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`0803` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`0908` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`0910` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1001` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1002` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1003` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1004` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1101` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1102` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1103` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1104` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1105` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1204` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1205` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1207` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1304` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1305` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1401` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1402` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1403` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1404` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1405` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1406` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1502` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1505` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1508` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`1513` | Per-pixel area of foreal forests</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<h3 style="margin-top:5;margin-bottom:5;">masDMT query</h3>
+<div style="width=80%;margin-top:5;margin-bottom:5;background-color:#777777;">
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resolution
+list_data("GlobES_area")
+
+# data call for specific subdataset 
+list_data("GlobES_area/65")
+
+# data call to subdataset with a specific resolution
+list_data("GlobES_area/65/1km")
+```
+</div>
+<hr style="margin-top:0;margin-bottom:0;">
+
+</div>
+
+<aside>
+<p style="margin-top:0;margin-bottom:0;">**Format**</p>
+<p style="margin-top:0;">Grid</p>
+<p style="margin-top:0;">**Spatial extent:**</p>
+<img src="GlobES_area_extent.png" width=120, height=90>
+<p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
+<p style="margin-top:0;">Yearly</p>
+<p style="margin-top:0;margin-bottom:0;">**Resolution**</p>
+<p style="margin-top:0;">1 km</p>
+<p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
+<p style="margin-top:0;">1992 to 2018</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='mailto:mas@idiv.de?Data information request: '>documentation</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='mailto:mas@idiv.de?Data information request: '>Data access</a></p></p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p style="margin-top:0;margin-bottom:0;">**license:**</p>
+<p style="margin-top:0;">CC-BY-SA-4.0</p>
+<p style="margin-top:0;margin-bottom:0;">**Version**</p>
+<p style="margin-top:0;">1</p>
+<p style="margin-top:0;margin-bottom:0;border-radius:15px;vertical-align:middle;text-align:center;background:#3498db;color:#ffffff;height:25px;width:70px;">developing</p>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="120;">
+<br>
+<br>
+<p style="margin-bottom:0;padding:0;">**Where there  mistakes?**</p>
+<p><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GlobES_area/GlobES_area.yml'>Propose an edit at our GitHub repository</a></p>
+</aside>

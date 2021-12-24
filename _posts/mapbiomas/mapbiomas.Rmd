@@ -6,76 +6,262 @@ preview: mapBiomas.png
 slug: mapBiomas
 categories:
   - land cover
-date: 2021-12-03
+date: 2021-12-24
 output:
   distill::distill_article:
     highlight_downlit: false
-bibliography: mapBiomas.bib
 ---
   
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-<div width="80%;">
-<h3>Details</h3>
+<div style="width=80%;margin-top:0;margin-bottom:0;">
+<h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-This product belongs to the Brazilian Annual Land Use and Land Cover Mapping Project, producing the first annual, high-resolution land cover dataset of Brazil.
+This product belongs to the Brazilian Annual Land Use and Land Cover Mapping Project, producing the first annual, high-resolution land cover dataset of Brazil. It was derived through the classification of dense time-series of Landsat acquisitions, and mapped with a 30-m resolution.
 </p>
 
-<h3>Subdatsets</h3>
-| name                              | description                 |
-|---------------------------------- |-----------------------------|
-|`amazonia`|Land cover of the Amazonia region|
-|`cerrado`|Land cover of Cerrado region|
-|`pampa`|Land cover of the Pampa region|
-|`pantanal`|Land cover of the Pantanal region|
-|`mataatlantica`|Land cover of the Mata Atlantica region|
-</div>
-
-<aside>
-<p>**Format**</p>
-<p>Grid</p>
-<p>**Spatial extent:**</p>
-<img src="/Users/rr70wedu/Documents/GitHub/data-catalog/_posts//mapBiomas/mapBiomas_extent.png" width=120, height=90>
-<p>**Temporal frequency:**</p>
-<p>Yearly</p>
-<p>**Documentation**</p>
-<p><a href="https://mapbiomas.org/">Click here for more</a></p>
-<p>**license:**</p>
-<p>CC-BY-SA-4.0</p>
-<hr style="margin-top:0;margin-bottom:0;">
-<p>**Version**</p>
-<p>4</p>
-<p>**Resolution**</p>
-<p>30 m</p>
-<p>**Time frame**</p>
-<p>1985 to 2020</p>
-<p>**Status**</p>
-<p style="border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:20px;width:80px;">available</p>
-</aside>
-
-<hr>
-
+<h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`amazonia` | Land cover of the Amazonia region</summary>
+|content|description|
+|-------|-----------|
+|1|Forest|
+|3|Forest Formation|
+|4|Savanna Formation|
+|5|Mangrove|
+|9|Forest Plantation|
+|10|Non Forest Natural Formation|
+|11|Wetlands|
+|12|Grassland|
+|13|Other non Forest Formations|
+|14|Farming|
+|15|Pasture|
+|18|Agriculture|
+|19|Temporary Crop|
+|20|Sugar cane|
+|21|Mosaic Agriculture and Pasture|
+|22|Non vegetated Area|
+|23|Beach, Dune and Sand Spot|
+|24|Urban Area|
+|25|Other non Vegetaded Areas|
+|26|Water|
+|27|Non Observed|
+|29|Rocky Outcrop|
+|30|Mining|
+|31|Aquaculture|
+|32|Salt Flat|
+|33|River,Lake and Ocean|
+|36|Perennial Corp|
+|39|Soybean|
+|40|Rice|
+|41|Other temporary Crops|
+|46|Coffee|
+|47|Citrus|
+|48|Other Perennial Crop|
+|49|Wooded Restinga|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`cerrado` | Land cover of the Cerrado region</summary>
+|content|description|
+|-------|-----------|
+|1|Forest|
+|3|Forest Formation|
+|4|Savanna Formation|
+|5|Mangrove|
+|9|Forest Plantation|
+|10|Non Forest Natural Formation|
+|11|Wetlands|
+|12|Grassland|
+|13|Other non Forest Formations|
+|14|Farming|
+|15|Pasture|
+|18|Agriculture|
+|19|Temporary Crop|
+|20|Sugar cane|
+|21|Mosaic Agriculture and Pasture|
+|22|Non vegetated Area|
+|23|Beach, Dune and Sand Spot|
+|24|Urban Area|
+|25|Other non Vegetaded Areas|
+|26|Water|
+|27|Non Observed|
+|29|Rocky Outcrop|
+|30|Mining|
+|31|Aquaculture|
+|32|Salt Flat|
+|33|River,Lake and Ocean|
+|36|Perennial Corp|
+|39|Soybean|
+|40|Rice|
+|41|Other temporary Crops|
+|46|Coffee|
+|47|Citrus|
+|48|Other Perennial Crop|
+|49|Wooded Restinga|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`pampa` | Land cover of the Pampa region</summary>
+|content|description|
+|-------|-----------|
+|1|Forest|
+|3|Forest Formation|
+|4|Savanna Formation|
+|5|Mangrove|
+|9|Forest Plantation|
+|10|Non Forest Natural Formation|
+|11|Wetlands|
+|12|Grassland|
+|13|Other non Forest Formations|
+|14|Farming|
+|15|Pasture|
+|18|Agriculture|
+|19|Temporary Crop|
+|20|Sugar cane|
+|21|Mosaic Agriculture and Pasture|
+|22|Non vegetated Area|
+|23|Beach, Dune and Sand Spot|
+|24|Urban Area|
+|25|Other non Vegetaded Areas|
+|26|Water|
+|27|Non Observed|
+|29|Rocky Outcrop|
+|30|Mining|
+|31|Aquaculture|
+|32|Salt Flat|
+|33|River,Lake and Ocean|
+|36|Perennial Corp|
+|39|Soybean|
+|40|Rice|
+|41|Other temporary Crops|
+|46|Coffee|
+|47|Citrus|
+|48|Other Perennial Crop|
+|49|Wooded Restinga|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`pantanal` | Land cover of the Pantanal region</summary>
+|content|description|
+|-------|-----------|
+|1|Forest|
+|3|Forest Formation|
+|4|Savanna Formation|
+|5|Mangrove|
+|9|Forest Plantation|
+|10|Non Forest Natural Formation|
+|11|Wetlands|
+|12|Grassland|
+|13|Other non Forest Formations|
+|14|Farming|
+|15|Pasture|
+|18|Agriculture|
+|19|Temporary Crop|
+|20|Sugar cane|
+|21|Mosaic Agriculture and Pasture|
+|22|Non vegetated Area|
+|23|Beach, Dune and Sand Spot|
+|24|Urban Area|
+|25|Other non Vegetaded Areas|
+|26|Water|
+|27|Non Observed|
+|29|Rocky Outcrop|
+|30|Mining|
+|31|Aquaculture|
+|32|Salt Flat|
+|33|River,Lake and Ocean|
+|36|Perennial Corp|
+|39|Soybean|
+|40|Rice|
+|41|Other temporary Crops|
+|46|Coffee|
+|47|Citrus|
+|48|Other Perennial Crop|
+|49|Wooded Restinga|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`mataatlantica` | Land cover of the Mata Atlantica region</summary>
+|content|description|
+|-------|-----------|
+|1|Forest|
+|3|Forest Formation|
+|4|Savanna Formation|
+|5|Mangrove|
+|9|Forest Plantation|
+|10|Non Forest Natural Formation|
+|11|Wetlands|
+|12|Grassland|
+|13|Other non Forest Formations|
+|14|Farming|
+|15|Pasture|
+|18|Agriculture|
+|19|Temporary Crop|
+|20|Sugar cane|
+|21|Mosaic Agriculture and Pasture|
+|22|Non vegetated Area|
+|23|Beach, Dune and Sand Spot|
+|24|Urban Area|
+|25|Other non Vegetaded Areas|
+|26|Water|
+|27|Non Observed|
+|29|Rocky Outcrop|
+|30|Mining|
+|31|Aquaculture|
+|32|Salt Flat|
+|33|River,Lake and Ocean|
+|36|Perennial Corp|
+|39|Soybean|
+|40|Rice|
+|41|Other temporary Crops|
+|46|Coffee|
+|47|Citrus|
+|48|Other Perennial Crop|
+|49|Wooded Restinga|
+</details>
+<h3 style="margin-top:5;margin-bottom:5;">masDMT query</h3>
+<div style="width=80%;margin-top:5;margin-bottom:5;background-color:#777777;">
 ```{r eval=FALSE, echo=TRUE}
-# data call without specifying subdataset and resoluton
+# data call without specifying subdataset and resolution
 list_data("mapBiomas")
-
 
 # data call for specific subdataset 
 list_data("mapBiomas/amazonia")
 
-
 # data call to subdataset with a specific resolution
 list_data("mapBiomas/amazonia/30m")
 ```
+</div>
+<hr style="margin-top:0;margin-bottom:0;">
+<h3 style="margin-bottom:0;">References</h3>
+<p style='margin-top:0;margin-bottom:5;'><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/mapBiomas/mapBiomas.bib download=mapBiomas/mapBiomas.bibtex'><small>(Download bibtex)</small></a></p>
+[1]  (2021)
+</div>
 
 <aside>
-<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
-<p>**Where there  mistakes?**</p>
-[Propose an edit at our GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/mapBiomas/mapBiomas.Rmd)
-<p>**Interested in out work?**</p>
-<p>[Find us through our group page](https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html)</p>
+<p style="margin-top:0;margin-bottom:0;">**Format**</p>
+<p style="margin-top:0;">Grid</p>
+<p style="margin-top:0;">**Spatial extent:**</p>
+<img src="mapBiomas_extent.png" width=120, height=90>
+<p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
+<p style="margin-top:0;">Yearly</p>
+<p style="margin-top:0;margin-bottom:0;">**Resolution**</p>
+<p style="margin-top:0;">30 m</p>
+<p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
+<p style="margin-top:0;">1985 to 2020</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://mapbiomas.org/'>documentation.</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://mapbiomas.org/download'>Data access</a></p></p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p style="margin-top:0;margin-bottom:0;">**license:**</p>
+<p style="margin-top:0;">CC-BY-SA-4.0</p>
+<p style="margin-top:0;margin-bottom:0;">**Version**</p>
+<p style="margin-top:0;">4</p>
+<p style="margin-top:0;margin-bottom:0;border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;">available</p>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="120;">
+<br>
+<br>
+<p style="margin-bottom:0;padding:0;">**Where there  mistakes?**</p>
+<p><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/mapBiomas/mapBiomas.yml'>Propose an edit at our GitHub repository</a></p>
 </aside>
-
-<hr>

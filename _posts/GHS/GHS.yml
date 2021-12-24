@@ -1,25 +1,38 @@
 ---
  title: GHS
- short_description: Global Human Settlements (GHS)
- long_description: Produced by the Joint Research Centre (JRC), this dataset offers a global, multi-temporal perspetice on the spatial distribution of human populations and on urbanization patterns linked to population growth.
+ short_description: |
+  Global Human Settlements (GHS)
+ long_description: |
+  Produced by the Joint Research Centre (JRC), this dataset 
+  offers a global, multi-temporal perspetice on the spatial 
+  distribution of human populations and on urbanization patterns 
+  linked to population growth. It integrates gridded data on urban 
+  settlements with census data on human populations to generate a 
+  combine product, downscaling census data to the pixel level.
  documentation: https://ghsl.jrc.ec.europa.eu/datasets.php
- license: license under which the dataset falls (e.g. CC-BY-SA-4.0)
+ data_access: https://ghsl.jrc.ec.europa.eu/download.php
+ license: CC-BY-SA-4.0
  version: 2.0
  categories: land cover
  status: available
  metadata:
    format: Grid
    spatial_resolution: 300 m
-   temporal_resolution: Multi-temporal snapshots
+   temporal_resolution: Multi-temporal snapshot
    temporal_range: [1975,2015]
    spatial_extent: [-180,180,-90,90]
  subdatasets:
-   data_id:
-      - built
-      - pop
-      - smod
-   description:
-      - Presence of built structures
-      - Per pixel population density
-      - Classification of settlement types
----
+   built:
+    variable: Presence of built structures
+    content:
+     value_range: 0...1
+   pop:
+    variable: Number of people per pixel
+    content:
+     value_range: 0...n
+   smod:
+    variable: Classification of settlement types
+    content:
+     1: Cities
+     2: Towns and suburbs
+     3: Rural areas

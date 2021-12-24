@@ -1,8 +1,15 @@
 ---
  title: FLO1K
- short_description: Global time-series of land surface streamflow
- long_description: This dataset provides yearly statistical metrics on streamflow dynamics. These data were derived with artificial neural networks (ANNs) regression, trained with 6600 monitoring and a variety of environmental predictors, such as topography and climate.
+ short_description: |
+  Global time-series of land surface streamflow
+ long_description: |
+  This dataset provides yearly statistical metrics 
+  on streamflow dynamics. They were derived with 
+  artificial neural networks (ANNs) regression, 
+  trained with 6600 monitoring and a variety of 
+  environmental predictors, such as topography and climate.
  documentation: https://www.nature.com/articles/sdata201852
+ data_access: https://figshare.com/collections/FLO1K_global_maps_of_mean_maximum_and_minimum_annual_streamflow_at_1_km_resolution_from_1960_through_2015/3890224
  license: CC-BY-SA-4.0
  version: 1.0
  categories: water
@@ -14,12 +21,15 @@
    temporal_range: [1992,2015]
    spatial_extent: [-180,180,-90,90]
  subdatasets:
-   data_id:
-      - min
-      - mean
-      - max
-   description:
-      - Minimum streamflow
-      - Mean streamflow
-      - Maximum streamflow
----
+  min:
+    variable: Minimum streamflow
+    content:
+     value_range: 0...n
+  max:
+    variable: Maximum streamflow
+    content:
+     value_range: 0...n
+  mean:
+    variable: Mean streamflow
+    content:
+     value_range: 0...n

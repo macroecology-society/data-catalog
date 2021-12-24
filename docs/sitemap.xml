@@ -5,131 +5,191 @@
     <lastmod>2021-10-25T19:43:24+02:00</lastmod>
   </url>
   <url>
-    <loc>https://macroecology-society.github.io/data-catalog/filter_data.html</loc>
-    <lastmod>2021-10-25T20:19:29+02:00</lastmod>
-  </url>
-  <url>
     <loc>https://macroecology-society.github.io/data-catalog/</loc>
     <lastmod>2021-10-25T19:43:24+02:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/BECK_climateMap/</loc>
-    <lastmod>2021-12-03T15:24:02+01:00</lastmod>
+    <lastmod>2021-12-24T13:08:02+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/BirdLife_ranges/</loc>
+    <lastmod>2021-12-24T13:08:10+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/CCI_landCover/</loc>
-    <lastmod>2021-12-03T15:24:08+01:00</lastmod>
+    <lastmod>2021-12-24T13:08:24+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/CCI_landCover_history/</loc>
-    <lastmod>2021-12-03T15:24:14+01:00</lastmod>
+    <lastmod>2021-12-24T13:08:35+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/CCI_permafrost/</loc>
+    <lastmod>2021-12-24T13:08:47+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/CCI_SM/</loc>
+    <lastmod>2021-12-24T13:09:01+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/CCI_SM_history/</loc>
+    <lastmod>2021-12-24T13:09:12+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/CHELSA/</loc>
-    <lastmod>2021-12-03T15:24:21+01:00</lastmod>
+    <lastmod>2021-12-24T13:09:26+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/DMSP/</loc>
-    <lastmod>2021-12-03T15:24:28+01:00</lastmod>
+    <lastmod>2021-12-24T13:09:35+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/fireFrequency/</loc>
+    <lastmod>2021-12-24T13:09:45+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/fireRegime/</loc>
+    <lastmod>2021-12-24T13:09:55+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/FLO1K/</loc>
-    <lastmod>2021-12-03T15:24:35+01:00</lastmod>
+    <lastmod>2021-12-24T13:10:09+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/GADM/</loc>
-    <lastmod>2021-12-03T15:24:43+01:00</lastmod>
+    <lastmod>2021-12-24T13:10:17+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/GAIA/</loc>
-    <lastmod>2021-12-03T15:24:49+01:00</lastmod>
+    <lastmod>2021-12-24T13:10:25+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/GARD/</loc>
-    <lastmod>2021-12-03T15:24:59+01:00</lastmod>
+    <lastmod>2021-12-24T13:10:34+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/GEBCO/</loc>
-    <lastmod>2021-12-03T15:25:08+01:00</lastmod>
+    <lastmod>2021-12-24T13:10:46+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/geoprocessing_tiles/</loc>
-    <lastmod>2021-12-03T15:27:04+01:00</lastmod>
+    <lastmod>2021-12-24T13:10:57+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/GFC/</loc>
+    <lastmod>2021-12-24T13:11:09+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/GFPLAIN/</loc>
+    <lastmod>2021-12-24T13:11:21+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/GHS/</loc>
-    <lastmod>2021-12-03T15:27:12+01:00</lastmod>
+    <lastmod>2021-12-24T13:11:31+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/globalMines/</loc>
-    <lastmod>2021-12-03T15:27:19+01:00</lastmod>
+    <lastmod>2021-12-24T13:11:42+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/GlobES/</loc>
+    <lastmod>2021-12-24T13:11:50+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/GLW_aw/</loc>
+    <lastmod>2021-12-24T13:12:01+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/GLW_nr/</loc>
+    <lastmod>2021-12-24T13:12:15+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/GMBA/</loc>
+    <lastmod>2021-12-24T13:12:30+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/GME/</loc>
-    <lastmod>2021-12-03T15:27:29+01:00</lastmod>
+    <lastmod>2021-12-24T13:13:38+01:00</lastmod>
   </url>
   <url>
-    <loc>https://macroecology-society.github.io/data-catalog/posts/GRWL/</loc>
-    <lastmod>2021-12-03T15:27:36+01:00</lastmod>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/GRWL_class/</loc>
+    <lastmod>2021-12-24T13:13:47+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/GSW/</loc>
-    <lastmod>2021-12-03T15:27:44+01:00</lastmod>
+    <lastmod>2021-12-24T13:14:02+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/GSW_history/</loc>
-    <lastmod>2021-12-03T15:27:51+01:00</lastmod>
+    <lastmod>2021-12-24T13:14:10+01:00</lastmod>
   </url>
   <url>
-    <loc>https://macroecology-society.github.io/data-catalog/posts/HWSD/</loc>
-    <lastmod>2021-12-03T15:27:59+01:00</lastmod>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/iGFC/</loc>
+    <lastmod>2021-12-24T13:14:22+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/iGHS/</loc>
-    <lastmod>2021-12-03T15:28:04+01:00</lastmod>
+    <lastmod>2021-12-24T13:14:33+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/IUCN_RL_ranges/</loc>
-    <lastmod>2021-12-03T15:28:11+01:00</lastmod>
+    <lastmod>2021-12-24T13:14:44+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/LAI_phenology/</loc>
+    <lastmod>2021-12-24T13:14:57+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/LandTenure/</loc>
+    <lastmod>2021-12-24T13:15:09+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/linearDistance/</loc>
-    <lastmod>2021-12-03T15:28:18+01:00</lastmod>
+    <lastmod>2021-12-24T13:15:20+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/LTQA/</loc>
+    <lastmod>2021-12-24T13:15:28+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/mapBiomas/</loc>
-    <lastmod>2021-12-03T15:28:26+01:00</lastmod>
+    <lastmod>2021-12-24T13:15:38+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/MERIT_DEM/</loc>
-    <lastmod>2021-12-03T15:28:33+01:00</lastmod>
+    <lastmod>2021-12-24T13:15:47+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/MERIT_hydro/</loc>
-    <lastmod>2021-12-03T15:28:39+01:00</lastmod>
+    <lastmod>2021-12-24T13:15:57+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/pixelArea/</loc>
-    <lastmod>2021-12-03T15:28:46+01:00</lastmod>
+    <lastmod>2021-12-24T13:16:06+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/soilGrids/</loc>
-    <lastmod>2021-12-03T15:28:55+01:00</lastmod>
+    <lastmod>2021-12-24T13:16:15+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/SST/</loc>
+    <lastmod>2021-12-24T13:16:25+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/TerraClimate/</loc>
-    <lastmod>2021-12-03T15:29:03+01:00</lastmod>
+    <lastmod>2021-12-24T13:16:39+01:00</lastmod>
   </url>
   <url>
-    <loc>https://macroecology-society.github.io/data-catalog/posts/tidalflats/</loc>
-    <lastmod>2021-12-03T15:29:12+01:00</lastmod>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/tidalFlats/</loc>
+    <lastmod>2021-12-24T13:16:46+01:00</lastmod>
   </url>
   <url>
-    <loc>https://macroecology-society.github.io/data-catalog/posts/traveltime/</loc>
-    <lastmod>2021-12-03T15:29:18+01:00</lastmod>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/travelTime/</loc>
+    <lastmod>2021-12-24T13:16:57+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/VCF5KYR/</loc>
-    <lastmod>2021-12-03T15:29:25+01:00</lastmod>
+    <lastmod>2021-12-24T13:17:05+01:00</lastmod>
   </url>
 </urlset>

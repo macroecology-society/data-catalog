@@ -1,0 +1,77 @@
+---
+ title: LandTenure
+ short_description: |
+  National-scale land tenure data
+ long_description: |
+  This dataset compiles land tenure databases compiled by 
+  the MAS lab. This is an ongoing data collection effort, 
+  and the subdatasets identified here will be extended in due time.
+ documentation: mas@idiv.de
+ data_access: mas@idiv.de
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: land management
+ status: developing
+ metadata:
+  format: Grid
+  spatial_resolution: 1 m
+  temporal_resolution: Multi-year snapshot
+  temporal_range: [TBD, TBD]
+  spatial_extent: [-180,180,-90,90]
+ subdatasets:
+  ARG:
+   variable: Land tenure of Argentina
+   content:
+    TBD: TBD
+  BOL:
+   variable: Land tenure of Bolivia
+   content:
+    TBD: TBD
+  bra:
+   variable: Land tenure of Brazil
+   content:
+    TBD: TBD
+  CND:
+   variable: Land tenure of Canada
+   content:
+    TBD: TBD
+  CHL:
+   variable: Land tenure of Chile
+   content:
+    TBD: TBD
+  COL:
+   variable: Land tenure of Colombia
+   content:
+    TBD: TBD
+  CRI:
+   variable: Land tenure of Costa Rica
+   content:
+    TBD: TBD
+  HND:
+   variable: Land tenure of Honduras
+   content:
+    TBD: TBD
+  MEX:
+   variable: Land tenure of Mexico
+   content:
+    TBD: TBD
+  PAN:
+   variable: Land tenure of Panama
+   content:
+    TBD: TBD
+  PER:
+   variable: Land tenure of Peru
+   content:
+    TBD: TBD
+  PRY:
+   variable: Land tenure of Paraguay
+   content:
+    TBD: TBD
+  USA:
+   variable: Land tenure of USA
+   content:
+    TBD: TBD
+  URY:
+   variable: Land tenure of Uruguay
+   content:
+    TBD: TBD

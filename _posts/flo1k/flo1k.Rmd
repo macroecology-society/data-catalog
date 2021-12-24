@@ -6,74 +6,85 @@ preview: FLO1K.png
 slug: FLO1K
 categories:
   - water
-date: 2021-12-03
+date: 2021-12-24
 output:
   distill::distill_article:
     highlight_downlit: false
-bibliography: FLO1K.bib
 ---
   
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-<div width="80%;">
-<h3>Details</h3>
+<div style="width=80%;margin-top:0;margin-bottom:0;">
+<h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-This dataset provides yearly statistical metrics on streamflow dynamics. These data were derived with artificial neural networks (ANNs) regression, trained with 6600 monitoring and a variety of environmental predictors, such as topography and climate.
+This dataset provides yearly statistical metrics on streamflow dynamics. They were derived with artificial neural networks (ANNs) regression, trained with 6600 monitoring and a variety of environmental predictors, such as topography and climate.
 </p>
 
-<h3>Subdatsets</h3>
-| name                              | description                 |
-|---------------------------------- |-----------------------------|
-|`min`|Minimum streamflow|
-|`mean`|Mean streamflow|
-|`max`|Maximum streamflow|
-</div>
-
-<aside>
-<p>**Format**</p>
-<p>Grid</p>
-<p>**Spatial extent:**</p>
-<img src="/Users/rr70wedu/Documents/GitHub/data-catalog/_posts//FLO1K/FLO1K_extent.png" width=120, height=90>
-<p>**Temporal frequency:**</p>
-<p>Yearly</p>
-<p>**Documentation**</p>
-<p><a href="https://www.nature.com/articles/sdata201852">Click here for more</a></p>
-<p>**license:**</p>
-<p>CC-BY-SA-4.0</p>
-<hr style="margin-top:0;margin-bottom:0;">
-<p>**Version**</p>
-<p>1</p>
-<p>**Resolution**</p>
-<p>1 km</p>
-<p>**Time frame**</p>
-<p>1992 to 2015</p>
-<p>**Status**</p>
-<p style="border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:20px;width:80px;">available</p>
-</aside>
-
-<hr>
-
+<h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`min` | Minimum streamflow</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`max` | Maximum streamflow</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`mean` | Mean streamflow</summary>
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<h3 style="margin-top:5;margin-bottom:5;">masDMT query</h3>
+<div style="width=80%;margin-top:5;margin-bottom:5;background-color:#777777;">
 ```{r eval=FALSE, echo=TRUE}
-# data call without specifying subdataset and resoluton
+# data call without specifying subdataset and resolution
 list_data("FLO1K")
-
 
 # data call for specific subdataset 
 list_data("FLO1K/min")
 
-
 # data call to subdataset with a specific resolution
 list_data("FLO1K/min/1km")
 ```
+</div>
+<hr style="margin-top:0;margin-bottom:0;">
+<h3 style="margin-bottom:0;">References</h3>
+<p style='margin-top:0;margin-bottom:5;'><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/FLO1K/FLO1K.bib download=FLO1K/FLO1K.bibtex'><small>(Download bibtex)</small></a></p>
+[1] Barbarossa, Huijbregts, Beusen, Beck, King, and Schipper (2018)
+</div>
 
 <aside>
-<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
-<p>**Where there  mistakes?**</p>
-[Propose an edit at our GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/FLO1K/FLO1K.Rmd)
-<p>**Interested in out work?**</p>
-<p>[Find us through our group page](https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html)</p>
+<p style="margin-top:0;margin-bottom:0;">**Format**</p>
+<p style="margin-top:0;">Grid</p>
+<p style="margin-top:0;">**Spatial extent:**</p>
+<img src="FLO1K_extent.png" width=120, height=90>
+<p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
+<p style="margin-top:0;">Yearly</p>
+<p style="margin-top:0;margin-bottom:0;">**Resolution**</p>
+<p style="margin-top:0;">1 km</p>
+<p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
+<p style="margin-top:0;">1992 to 2015</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://www.nature.com/articles/sdata201852'>documentation.</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://figshare.com/collections/FLO1K_global_maps_of_mean_maximum_and_minimum_annual_streamflow_at_1_km_resolution_from_1960_through_2015/3890224'>Data access</a></p></p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p style="margin-top:0;margin-bottom:0;">**license:**</p>
+<p style="margin-top:0;">CC-BY-SA-4.0</p>
+<p style="margin-top:0;margin-bottom:0;">**Version**</p>
+<p style="margin-top:0;">1</p>
+<p style="margin-top:0;margin-bottom:0;border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;">available</p>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="120;">
+<br>
+<br>
+<p style="margin-bottom:0;padding:0;">**Where there  mistakes?**</p>
+<p><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/FLO1K/FLO1K.yml'>Propose an edit at our GitHub repository</a></p>
 </aside>
-
-<hr>

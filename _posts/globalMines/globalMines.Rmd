@@ -6,72 +6,77 @@ preview: globalMines.png
 slug: globalMines
 categories:
   - land cover
-date: 2021-12-03
+date: 2021-12-24
 output:
   distill::distill_article:
     highlight_downlit: false
-bibliography: globalMines.bib
 ---
   
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-<div width="80%;">
-<h3>Details</h3>
+<div style="width=80%;margin-top:0;margin-bottom:0;">
+<h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
 This dataset draws individual mining operations, derived through a dense database of Landsat acquisitions. Individual polygons are drawn within a 10 km buffer from the approximate geographical coordinates of more than 6,000 active mining sites across the globe.
 </p>
 
-<h3>Subdatsets</h3>
-| name                              | description                 |
-|---------------------------------- |-----------------------------|
-|`extent`|Spatial extent of individual mines|
-</div>
-
-<aside>
-<p>**Format**</p>
-<p>Vector</p>
-<p>**Spatial extent:**</p>
-<img src="/Users/rr70wedu/Documents/GitHub/data-catalog/_posts//globalMines/globalMines_extent.png" width=120, height=90>
-<p>**Temporal frequency:**</p>
-<p>Multi-temporal snapshot</p>
-<p>**Documentation**</p>
-<p><a href="https://www.nature.com/articles/s41597-020-00624-w">Click here for more</a></p>
-<p>**license:**</p>
-<p>CC-BY-SA-4.0</p>
-<hr style="margin-top:0;margin-bottom:0;">
-<p>**Version**</p>
-<p>1</p>
-<p>**Resolution**</p>
-<p>30 m</p>
-<p>**Time frame**</p>
-<p>2000 to 2017</p>
-<p>**Status**</p>
-<p style="border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:20px;width:80px;">available</p>
-</aside>
-
-<hr>
-
+<h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
+<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
+<summary style="font-size: 16px;">`extent` | Spatial extent of individual mines</summary>
+|content|description|
+|-------|-----------|
+|ogc_fid0|Unique feature identifier|
+|iso3_code|ISO3 code of country where mine is located|
+|country_name|Name of country where mine is located|
+|area|Area of polygon (m2)|
+</details>
+<h3 style="margin-top:5;margin-bottom:5;">masDMT query</h3>
+<div style="width=80%;margin-top:5;margin-bottom:5;background-color:#777777;">
 ```{r eval=FALSE, echo=TRUE}
-# data call without specifying subdataset and resoluton
+# data call without specifying subdataset and resolution
 list_data("globalMines")
-
 
 # data call for specific subdataset 
 list_data("globalMines/extent")
 
-
 # data call to subdataset with a specific resolution
 list_data("globalMines/extent/30m")
 ```
+</div>
+<hr style="margin-top:0;margin-bottom:0;">
+<h3 style="margin-bottom:0;">References</h3>
+<p style='margin-top:0;margin-bottom:5;'><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/globalMines/globalMines.bib download=globalMines/globalMines.bibtex'><small>(Download bibtex)</small></a></p>
+[1] Maus, Giljum, Gutschlhofer, da
+Silva, Probst, Gass, Luckeneder, Lieber, and McCallum (2020)
+</div>
 
 <aside>
-<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="100%;">
-<p>**Where there  mistakes?**</p>
-[Propose an edit at our GitHub repository](https://github.com/macroecology-society/data-catalog/tree/main/_posts/globalMines/globalMines.Rmd)
-<p>**Interested in out work?**</p>
-<p>[Find us through our group page](https://www.idiv.de/en/groups-and-people/core-groups/macroecosocial.html)</p>
+<p style="margin-top:0;margin-bottom:0;">**Format**</p>
+<p style="margin-top:0;">Vector</p>
+<p style="margin-top:0;">**Spatial extent:**</p>
+<img src="globalMines_extent.png" width=120, height=90>
+<p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
+<p style="margin-top:0;">Multi-temporal snapshot</p>
+<p style="margin-top:0;margin-bottom:0;">**Resolution**</p>
+<p style="margin-top:0;">30 m</p>
+<p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
+<p style="margin-top:0;">2000 to 2017</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://www.nature.com/articles/s41597-020-00624-w'>documentation.</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://www.fineprint.global/visualisations/viewer/'>Data access</a></p></p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p style="margin-top:0;margin-bottom:0;">**license:**</p>
+<p style="margin-top:0;">CC-BY-SA-4.0</p>
+<p style="margin-top:0;margin-bottom:0;">**Version**</p>
+<p style="margin-top:0;">1</p>
+<p style="margin-top:0;margin-bottom:0;border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;">available</p>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="120;">
+<br>
+<br>
+<p style="margin-bottom:0;padding:0;">**Where there  mistakes?**</p>
+<p><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/globalMines/globalMines.yml'>Propose an edit at our GitHub repository</a></p>
 </aside>
-
-<hr>

@@ -1,23 +1,37 @@
 ---
  title: geoprocessing_tiles
- short_description: Global tiling systems
- long_description: This dataset consists of several, pre-designed tiling systems designed within the MAS group, which can be used to tile large spatial datasets when making use of multicore processing.
- documentation: None
+ short_description: |
+  Global tiling systems
+ long_description: |
+  This dataset consists of several, pre-designed tiling systems 
+  designed within the MAS group, which can be used to tile large 
+  spatial datasets when making use of multicore processing.
+ documentation: mas@idiv.de
+ data_access: mas@idiv.de
  license: CC-BY-SA-4.0
  version: 1.0
  categories: utilities
  status: available
  metadata:
    format: Vector
-   spatial_resolution: [30 m, 300 m]
+   spatial_resolution: 1 m
    temporal_resolution: NA
    temporal_range: [2919,2019]
    spatial_extent: [-180,180,-90,90]
  subdatasets:
-   data_id:
-      - highResolution
-      - midResolution
-   description:
-      - Tiling system designed to download GEE data
-      - Tiling system designed to process 300-m data
----
+   highResolution:
+    variable: Tiling system designed to download 300-m data from GEE
+    content:
+     left: Minimum longitude
+     bottom: Minimum latitude
+     right: Maximum longitude
+     top: Maximum latitude
+     tile: Unique tile identifier
+   midResolution:
+    variable: Tiling system designed to process 300-m data
+    content:
+     left: Minimum longitude
+     bottom: Minimum latitude
+     right: Maximum longitude
+     top: Maximum latitude
+     tile: Unique tile identifier

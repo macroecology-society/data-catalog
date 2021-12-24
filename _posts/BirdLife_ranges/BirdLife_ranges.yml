@@ -1,0 +1,31 @@
+---
+ title: BirdLife_ranges
+ short_description: |
+  Range maps of the Birdlife initiative
+ long_description: |
+  This dataset provides range maps for thousands 
+  of bird species, combining expert knowledge on 
+  species-specific ranges and behavior.sources
+ documentation: https://www.birdlife.org/
+ data_access: https://www.birdlife.org/
+ license: CC-BY-SA-4.0
+ version: 2021-2
+ categories: ecology
+ status: available
+ metadata:
+   format: Vector
+   spatial_resolution: 5 km
+   temporal_resolution: Multi-temporal snapshot
+   temporal_range: [2020,2020]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   rangeMaps:
+    variable: bird class species
+    content:
+     ogc_fid: Unique feature identifier
+     species: Species name
+     presence: Code specifying occupancy type
+     origin: Code specifying origin type
+     seasonal: Code specifying seasonal presence type
+     compiler: Name of actor responsible for the record
+     citation: Citation of the record

@@ -1,8 +1,21 @@
 ---
  title: TerraClimate
- short_description: Global climate and water balance time series.
- long_description: This dataset provides monthly climate and climatic water balance variables. TerraClimate uses climatically aided interpolation, combining high-spatial resolution climatological normals from the WorldClim dataset, with coarser resolution time varying (i.e., monthly) data from other sources to produce a monthly dataset of precipitation, temperature, wind speed, vapor pressure, and solar radiation. TerraClimate additionally produces monthly surface water balance datasets using a water balance model that incorporates reference evapotranspiration, precipitation, temperature, and interpolated plant extractable soil water capacity.
+ short_description: |
+  Global climate and water balance time series.
+ long_description: |
+  This dataset provides monthly climate and climatic water 
+  balance variables. TerraClimate uses climatically aided 
+  interpolation, combining high-spatial resolution climatological 
+  normals from the WorldClim dataset, with coarser resolution time 
+  varying (i.e., monthly) data from other sources to produce a monthly 
+  dataset of precipitation, temperature, wind speed, vapor pressure, 
+  and solar radiation. TerraClimate additionally produces monthly 
+  surface water balance datasets using a water balance model that 
+  incorporates reference evapotranspiration, precipitation, 
+  temperature, and interpolated plant extractable 
+  soil water capacity.
  documentation: https://www.nature.com/articles/sdata2017191
+ data_access: https://www.climatologylab.org/terraclimate.html
  license: CC-BY-SA-4.0
  version: 1.0
  categories: climate
@@ -14,12 +27,15 @@
    temporal_range: [1992, 2018]
    spatial_extent: [-180,180,-90,90]
  subdatasets:
-   data_id:
-      - totalPrecipitation
-      - minPDSI
-      - maxPDSI
-   description:
-      - Total precipitation
-      - Minimum Palmer Drought Severity Index (PDSI)
-      - Maximum Palmer Drought Severity Index (PDSI)
----
+   totalPrecipitation:
+    variable: Total precipitation (mm)
+    content:
+     value_range: 0...n
+   minPDSI:
+    variable: Minimum Palmer Drought Severity Index (PDSI)
+    content:
+     value_range: 0...n
+   maxPDSI:
+    variable: Maximum Palmer Drought Severity Index (PDSI)
+    content:
+     value_range: 0...n

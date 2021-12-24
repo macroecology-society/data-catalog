@@ -1,8 +1,15 @@
 ---
  title: iGHS
- short_description: Interpolated Global Human Settlement (GHS) data
- long_description: Yearly, linear interpolation of the GHS population dataset.
- documentation: NA
+ short_description: |
+  Interpolated Global Human Settlement (GHS) data
+ long_description: |
+  This dataset extends on the GHS population dataset. 
+  The original depicts number of inhabitats per pixel 
+  in 1975, 1990, 2000, and 2015. Here, we linearly 
+  interpolated this data on a yearly basis, deriving 
+  global population counts between 1992 and 2018.
+ documentation: mas@idiv.de
+ data_access: mas@idiv.de
  license: CC-BY-SA-4.0
  version: 1.0
  categories: land cover
@@ -14,8 +21,7 @@
    temporal_range: [1992, 2018]
    spatial_extent: [-180,180,-90,90]
  subdatasets:
-   data_id:
-      - pop
-   description:
-      - Population density
----
+   pop:
+    variable: Number of people per pixel
+    content:
+     value_range: 0...n
