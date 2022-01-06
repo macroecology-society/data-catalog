@@ -1,8 +1,8 @@
 .distill-site-nav {
-  color: #777777;
-  background-color: #f8f8f8;
+  color: #ffffff;
   font-size: 15px;
   font-weight: 300;
+  background: linear-gradient(to right, #414345, #232526);
 }
 
 .distill-site-nav a {
@@ -11,7 +11,8 @@
 }
 
 .distill-site-nav a:hover {
-  color: black;
+  color: #f0f0f0;
+  font-weight: bold; 
 }
 
 .distill-site-header {
@@ -40,4 +41,11 @@ code {
     max-width: 15%!important;
     height: auto!important;
     vertical-align: text-top!important;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
 }

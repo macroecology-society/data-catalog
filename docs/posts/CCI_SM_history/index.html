@@ -3082,10 +3082,10 @@ distill-header .nav a {
   <!--radix_placeholder_site_in_header-->
 <style type="text/css">
 .distill-site-nav {
-  color: #777777;
-  background-color: #f8f8f8;
+  color: #ffffff;
   font-size: 15px;
   font-weight: 300;
+  background: linear-gradient(to right, #414345, #232526);
 }
 
 .distill-site-nav a {
@@ -3094,7 +3094,8 @@ distill-header .nav a {
 }
 
 .distill-site-nav a:hover {
-  color: black;
+  color: #f0f0f0;
+  font-weight: bold; 
 }
 
 .distill-site-header {
@@ -3125,6 +3126,13 @@ code {
     vertical-align: text-top!important;
 }
 
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
 </style>
 <!--/radix_placeholder_site_in_header-->
 
@@ -3145,7 +3153,7 @@ code {
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
 <a class="logo">
-<img src="../../images/logo.png" alt="Logo"/>
+<img src="../../images/favicon.ico" alt="Logo"/>
 </a>
 <a href="../../index.html" class="title">MAS data catalog</a>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
@@ -3378,7 +3386,7 @@ available
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
 <!--radix_placeholder_navigation_after_body--><html><body>
 <div class="distill-site-nav distill-site-footer">
-<p>Developed by <a href="https://github.com/RRemelgado">Ruben Remelgado</a> With <a href="https://rstudio.github.io/distill/website.html">Distill</a></p>
+<p>Developed by <a href="https://github.com/RRemelgado" style="cursor:pointer;" alt="more about author"><u>Ruben Remelgado</u></a> With <a href="https://rstudio.github.io/distill/website.html">Distill</a></p>
 <p><a href="https://www.apache.org/licenses/LICENSE-2.0">Software licensed under the Apache License, v2.0</a>.</p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->

@@ -1,6 +1,10 @@
 ---
-title: "MAS data catalog"
+title: ""
 site: distill::distill_website
 listing: posts
 css: post.css
 ---
+
+```{css, echo=FALSE}
+d-title, d-byline {display: none}
+```

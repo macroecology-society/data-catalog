@@ -6,7 +6,7 @@ preview: soilGrids.png
 slug: soilGrids
 categories:
   - geomorphology
-date: 2021-12-24
+date: 2022-01-05
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -23,224 +23,261 @@ This dataset provides global maps of soil properties derived with state-of-the-a
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`soilDepth` | Soil depth (m)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`soilDepth`<span style="color:#C8C8C8;"> | </span>Soil depth (m)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...200|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`bdod0to5cm` | Bulk density (cg/cm3) of the fine earth fraction (0-5cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`bdod0to5cm`<span style="color:#C8C8C8;"> | </span>Bulk density (cg/cm3) of the fine earth fraction (0-5cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...200|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`bdod5to15cm` | Bulk density (cg/cm3) of the fine earth fraction (5-15cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`bdod5to15cm`<span style="color:#C8C8C8;"> | </span>Bulk density (cg/cm3) of the fine earth fraction (5-15cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...200|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`bdod15to30cm` | Bulk density (cg/cm3) of the fine earth fraction (15-30cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`bdod15to30cm`<span style="color:#C8C8C8;"> | </span>Bulk density (cg/cm3) of the fine earth fraction (15-30cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...200|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`bdod30to60cm` | Bulk density (cg/cm3) of the fine earth fraction (30-60cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`bdod30to60cm`<span style="color:#C8C8C8;"> | </span>Bulk density (cg/cm3) of the fine earth fraction (30-60cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...200|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`bdod60to100cm` | Bulk density (cg/cm3) of the fine earth fraction (60-100cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`bdod60to100cm`<span style="color:#C8C8C8;"> | </span>Bulk density (cg/cm3) of the fine earth fraction (60-100cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...200|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`bdod100to200cm` | Bulk density (cg/cm3) of the fine earth fraction (100-200cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`bdod100to200cm`<span style="color:#C8C8C8;"> | </span>Bulk density (cg/cm3) of the fine earth fraction (100-200cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...200|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`cec0to5cm` | Cation Exchange Capacity (in mmol(c)/kg) of the soil (0-5cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`cec0to5cm`<span style="color:#C8C8C8;"> | </span>Cation Exchange Capacity (in mmol(c)/kg) of the soil (0-5cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...900|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`cec5to15cm` | Cation Exchange Capacity (in mmol(c)/kg) of the soil (5-15cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`cec5to15cm`<span style="color:#C8C8C8;"> | </span>Cation Exchange Capacity (in mmol(c)/kg) of the soil (5-15cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...900|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`cec15to30cm` | Cation Exchange Capacity (in mmol(c)/kg) of the soil (15-30cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`cec15to30cm`<span style="color:#C8C8C8;"> | </span>Cation Exchange Capacity (in mmol(c)/kg) of the soil (15-30cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...900|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`cec30to60cm` | Cation Exchange Capacity (in mmol(c)/kg) of the soil (30-60cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`cec30to60cm`<span style="color:#C8C8C8;"> | </span>Cation Exchange Capacity (in mmol(c)/kg) of the soil (30-60cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...900|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`cec60to100cm` | Cation Exchange Capacity (in mmol(c)/kg) of the soil (60-100cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`cec60to100cm`<span style="color:#C8C8C8;"> | </span>Cation Exchange Capacity (in mmol(c)/kg) of the soil (60-100cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...900|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`cec100to200cm` | Cation Exchange Capacity (in mmol(c)/kg) of the soil (100-200cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`cec100to200cm`<span style="color:#C8C8C8;"> | </span>Cation Exchange Capacity (in mmol(c)/kg) of the soil (100-200cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...900|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`nitrogen0to5cm` | Total nitrogen (cg/kg) (0-5cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`nitrogen0to5cm`<span style="color:#C8C8C8;"> | </span>Total nitrogen (cg/kg) (0-5cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...1300|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`nitrogen5to15cm` | Total nitrogen (cg/kg) (5-15cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`nitrogen5to15cm`<span style="color:#C8C8C8;"> | </span>Total nitrogen (cg/kg) (5-15cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...1300|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`nitrogen15to30cm` | Total nitrogen (cg/kg) (15-30cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`nitrogen15to30cm`<span style="color:#C8C8C8;"> | </span>Total nitrogen (cg/kg) (15-30cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...1300|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`nitrogen30to60cm` | Total nitrogen (cg/kg) (30-60cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`nitrogen30to60cm`<span style="color:#C8C8C8;"> | </span>Total nitrogen (cg/kg) (30-60cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...1300|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`nitrogen60to100cm` | Total nitrogen (cg/kg) (60-100cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`nitrogen60to100cm`<span style="color:#C8C8C8;"> | </span>Total nitrogen (cg/kg) (60-100cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...1300|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`nitrogen100to200cm` | Total nitrogen (cg/kg) (100-200cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`nitrogen100to200cm`<span style="color:#C8C8C8;"> | </span>Total nitrogen (cg/kg) (100-200cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...1300|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`ocd0to5cm` | Organic carbon density (g/dm3, 0-5cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`ocd0to5cm`<span style="color:#C8C8C8;"> | </span>Organic carbon density (g/dm3, 0-5cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...1300|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`ocd5to15cm` | Organic carbon density (g/dm3, 5-15cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`ocd5to15cm`<span style="color:#C8C8C8;"> | </span>Organic carbon density (g/dm3, 5-15cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...1300|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`ocd15to30cm` | Organic carbon density (g/dm3, 15-30cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`ocd15to30cm`<span style="color:#C8C8C8;"> | </span>Organic carbon density (g/dm3, 15-30cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...1300|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`ocd30to60cm` | Organic carbon density (g/dm3, 30-60cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`ocd30to60cm`<span style="color:#C8C8C8;"> | </span>Organic carbon density (g/dm3, 30-60cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...1300|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`ocd60to100cm` | Organic carbon density (g/dm3, 60-100cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`ocd60to100cm`<span style="color:#C8C8C8;"> | </span>Organic carbon density (g/dm3, 60-100cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...1300|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`ocd100to200cm` | Organic carbon density (g/dm3, 100-200cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`ocd100to200cm`<span style="color:#C8C8C8;"> | </span>Organic carbon density (g/dm3, 100-200cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...1300|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`sand0to5cm` | Proportion of sand particles (> 0.05 mm, cm3/dm3) in the fine earth fraction (0-5cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`sand0to5cm`<span style="color:#C8C8C8;"> | </span>Proportion of sand particles (> 0.05 mm, cm3/dm3) in the fine earth fraction (0-5cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...1300|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`sand5to15cm` | Proportion of sand particles (> 0.05 mm, cm3/dm3) in the fine earth fraction (5-15cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`sand5to15cm`<span style="color:#C8C8C8;"> | </span>Proportion of sand particles (> 0.05 mm, cm3/dm3) in the fine earth fraction (5-15cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...1300|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`sand15to30cm` | Proportion of sand particles (> 0.05 mm, cm3/dm3) in the fine earth fraction (15-30cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`sand15to30cm`<span style="color:#C8C8C8;"> | </span>Proportion of sand particles (> 0.05 mm, cm3/dm3) in the fine earth fraction (15-30cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...1300|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`sand30to60cm` | Proportion of sand particles (> 0.05 mm, cm3/dm3) in the fine earth fraction (30-60cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`sand30to60cm`<span style="color:#C8C8C8;"> | </span>Proportion of sand particles (> 0.05 mm, cm3/dm3) in the fine earth fraction (30-60cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...1300|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`sand60to100cm` | Proportion of sand particles (> 0.05 mm, cm3/dm3) in the fine earth fraction (60-100cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`sand60to100cm`<span style="color:#C8C8C8;"> | </span>Proportion of sand particles (> 0.05 mm, cm3/dm3) in the fine earth fraction (60-100cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...1300|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`sand100to200cm` | Proportion of sand particles (> 0.05 mm, cm3/dm3) in the fine earth fraction (100-200cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`sand100to200cm`<span style="color:#C8C8C8;"> | </span>Proportion of sand particles (> 0.05 mm, cm3/dm3) in the fine earth fraction (100-200cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...1300|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`soc0to5cm` | Soil organic carbon content (dg/kg) in the fine earth fraction (0-5cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`soc0to5cm`<span style="color:#C8C8C8;"> | </span>Soil organic carbon content (dg/kg) in the fine earth fraction (0-5cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...5000|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`soc5to15cm` | Soil organic carbon content (dg/kg) in the fine earth fraction (5-15cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`soc5to15cm`<span style="color:#C8C8C8;"> | </span>Soil organic carbon content (dg/kg) in the fine earth fraction (5-15cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...5000|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`soc15to30cm` | Soil organic carbon content (dg/kg) in the fine earth fraction (15-30cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`soc15to30cm`<span style="color:#C8C8C8;"> | </span>Soil organic carbon content (dg/kg) in the fine earth fraction (15-30cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...5000|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`soc30to60cm` | Soil organic carbon content (dg/kg) in the fine earth fraction (30-60cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`soc30to60cm`<span style="color:#C8C8C8;"> | </span>Soil organic carbon content (dg/kg) in the fine earth fraction (30-60cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...5000|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`soc60to100cm` | Soil organic carbon content (dg/kg) in the fine earth fraction (60-100cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`soc60to100cm`<span style="color:#C8C8C8;"> | </span>Soil organic carbon content (dg/kg) in the fine earth fraction (60-100cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...5000|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`soc100to200cm` | Soil organic carbon content (dg/kg) in the fine earth fraction (100-200cm)</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`soc100to200cm`<span style="color:#C8C8C8;"> | </span>Soil organic carbon content (dg/kg) in the fine earth fraction (100-200cm)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...5000|
@@ -260,11 +297,15 @@ list_data("soilGrids/soilDepth/1km")
 </div>
 <hr style="margin-top:0;margin-bottom:0;">
 <h3 style="margin-bottom:0;">References</h3>
-<p style='margin-top:0;margin-bottom:5;'><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/soilGrids/soilGrids.bib download=soilGrids/soilGrids.bibtex'><small>(Download bibtex)</small></a></p>
+<p style='margin-top:0;margin-bottom:5;'>
+             <a target='_blank' href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/soilGrids/soilGrids.bib' download='soilGrids/soilGrids.bibtex'><small>(Download bibtex)</small></a></p>
 [1] Hengl, Mendes de Jesus, Heuvelink, Ruiperez Gonzalez, Kilibarda, Blagotić, Shangguan, Wright, Geng, Bauer-Marschallinger, Guevara, Vargas, MacMillan, Batjes, Leenaars, Ribeiro, Wheeler, Mantel, and Kempen (2017)
+<hr>
 </div>
 
 <aside>
+<p style="padding:5px;margin-top:0;margin-bottom:0;border-radius:10px;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
+<hr style="margin-top:20px;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
@@ -283,7 +324,6 @@ list_data("soilGrids/soilDepth/1km")
 <p style="margin-top:0;">CC-BY-SA-4.0</p>
 <p style="margin-top:0;margin-bottom:0;">**Version**</p>
 <p style="margin-top:0;">2</p>
-<p style="margin-top:0;margin-bottom:0;border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;">available</p>
 <br>
 <br>
 <img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="120;">

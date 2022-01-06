@@ -93,10 +93,10 @@
       29: Polar, tundra (ET)
       30: Polar, frost (EF)
    presentConfidence:
-    variable: Per-pixel confidence on the climate type of `presentClass`
+    variable: Per-pixel confidence on the climate type of "presentClass"
     content:
       value_range: 0...100
    futureConfidence:
-    variable: Per-pixel confidence on the climate type of `futureClass`
+    variable: Per-pixel confidence on the climate type of "futureClass"
     content:
       value_range: 0...100

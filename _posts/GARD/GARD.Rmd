@@ -6,7 +6,7 @@ preview: GARD.png
 slug: GARD
 categories:
   - ecology
-date: 2021-12-24
+date: 2022-01-05
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -23,8 +23,9 @@ GARD is a comprehensive, global database of distribution maps for over 11,000 re
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`rangeMaps` | </summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`rangeMaps`<span style="color:#C8C8C8;"> | </span></summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |ogc_fid0|Feature unique identifier|
@@ -70,12 +71,15 @@ list_data("GARD/rangeMaps/20km")
 </div>
 <hr style="margin-top:0;margin-bottom:0;">
 <h3 style="margin-bottom:0;">References</h3>
-<p style='margin-top:0;margin-bottom:5;'><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GARD/GARD.bib download=GARD/GARD.bibtex'><small>(Download bibtex)</small></a></p>
-[1] Roll, Feldman, Novosolov, Allison, Bauer, Bernard, Böhm, Castro-Herrera, Chirio, Collen, Colli, Dabool, Das, Doan, Grismer, Hoogmoed, Itescu, Kraus, LeBreton, Lewin, Martins, Maza, Meirte, Nagy, de
-C. Nogueira, Pauwels, Pincheira-Donoso, Powney, Sindaco, Tallowin, Torres-Carvajal, Trape, Vidan, Uetz, Wagner, Wang, Orme, Grenyer, and Meiri (2017)
+<p style='margin-top:0;margin-bottom:5;'>
+             <a target='_blank' href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GARD/GARD.bib' download='GARD/GARD.bibtex'><small>(Download bibtex)</small></a></p>
+[1] Roll, Feldman, Novosolov, et al. (2017)
+<hr>
 </div>
 
 <aside>
+<p style="padding:5px;margin-top:0;margin-bottom:0;border-radius:10px;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
+<hr style="margin-top:20px;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
@@ -94,7 +98,6 @@ C. Nogueira, Pauwels, Pincheira-Donoso, Powney, Sindaco, Tallowin, Torres-Carvaj
 <p style="margin-top:0;">CC-BY-SA-4.0</p>
 <p style="margin-top:0;margin-bottom:0;">**Version**</p>
 <p style="margin-top:0;">1.1</p>
-<p style="margin-top:0;margin-bottom:0;border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;">available</p>
 <br>
 <br>
 <img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="120;">

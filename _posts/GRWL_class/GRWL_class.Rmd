@@ -6,7 +6,7 @@ preview: GRWL_class.png
 slug: GRWL_class
 categories:
   - water
-date: 2021-12-24
+date: 2022-01-05
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -23,26 +23,30 @@ This dataset distinguishes water bodies connected to river networks. The GRWL Da
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`cannal` | Per-pixel percent cover of cannals</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`cannal`<span style="color:#C8C8C8;"> | </span>Per-pixel percent cover of cannals</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...100|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`lake` | Per-pixel percent cover of lakes</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`lake`<span style="color:#C8C8C8;"> | </span>Per-pixel percent cover of lakes</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...100|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`river` | Per-pixel percent cover of rivers</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`river`<span style="color:#C8C8C8;"> | </span>Per-pixel percent cover of rivers</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...100|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`tidal` | Per-pixel percent cover of tidal rivers</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`tidal`<span style="color:#C8C8C8;"> | </span>Per-pixel percent cover of tidal rivers</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...100|
@@ -62,11 +66,15 @@ list_data("GRWL_class/cannal/30m")
 </div>
 <hr style="margin-top:0;margin-bottom:0;">
 <h3 style="margin-bottom:0;">References</h3>
-<p style='margin-top:0;margin-bottom:5;'><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GRWL_class/GRWL_class.bib download=GRWL_class/GRWL_class.bibtex'><small>(Download bibtex)</small></a></p>
+<p style='margin-top:0;margin-bottom:5;'>
+             <a target='_blank' href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GRWL_class/GRWL_class.bib' download='GRWL_class/GRWL_class.bibtex'><small>(Download bibtex)</small></a></p>
 [1] Allen and Pavelsky (2018)
+<hr>
 </div>
 
 <aside>
+<p style="padding:5px;margin-top:0;margin-bottom:0;border-radius:10px;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
+<hr style="margin-top:20px;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid / Vector</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
@@ -86,7 +94,6 @@ list_data("GRWL_class/cannal/30m")
 <p style="margin-top:0;">CC-BY-SA-4.0</p>
 <p style="margin-top:0;margin-bottom:0;">**Version**</p>
 <p style="margin-top:0;">1</p>
-<p style="margin-top:0;margin-bottom:0;border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;">available</p>
 <br>
 <br>
 <img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="120;">

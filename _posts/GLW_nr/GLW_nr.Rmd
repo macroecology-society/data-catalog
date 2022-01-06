@@ -7,7 +7,7 @@ preview: GLW_nr.png
 slug: GLW_nr
 categories:
   - land use
-date: 2021-12-24
+date: 2022-01-05
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -24,44 +24,51 @@ This dataset downscales national and subnational statistics based on the spatial
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`cattle` | Frequency of cattle</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`cattle`<span style="color:#C8C8C8;"> | </span>Frequency of cattle</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...n|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`buffalos` | Frequency of buffalo</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`buffalos`<span style="color:#C8C8C8;"> | </span>Frequency of buffalo</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...n|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`sheep` | Frequency of sheep</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`sheep`<span style="color:#C8C8C8;"> | </span>Frequency of sheep</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...n|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`goats` | Frequency of goats</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`goats`<span style="color:#C8C8C8;"> | </span>Frequency of goats</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...n|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`pigs` | Frequency of pigs</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`pigs`<span style="color:#C8C8C8;"> | </span>Frequency of pigs</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...n|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`chickens` | Frequency of chickens</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`chickens`<span style="color:#C8C8C8;"> | </span>Frequency of chickens</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...n|
 </details>
-<details style='cursor:pointer;border: none;box-shadow: 3px 3px 4px #f8f8f8;'>
-<summary style="font-size: 16px;">`ducks` | Frequency of ducks</summary>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`ducks`<span style="color:#C8C8C8;"> | </span>Frequency of ducks</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...n|
@@ -81,11 +88,15 @@ list_data("GLW_nr/cattle/10km")
 </div>
 <hr style="margin-top:0;margin-bottom:0;">
 <h3 style="margin-bottom:0;">References</h3>
-<p style='margin-top:0;margin-bottom:5;'><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GLW_nr/GLW_nr.bib download=GLW_nr/GLW_nr.bibtex'><small>(Download bibtex)</small></a></p>
+<p style='margin-top:0;margin-bottom:5;'>
+             <a target='_blank' href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GLW_nr/GLW_nr.bib' download='GLW_nr/GLW_nr.bibtex'><small>(Download bibtex)</small></a></p>
 [1] Gilbert, Nicolas, Cinardi, et al. (2018)
+<hr>
 </div>
 
 <aside>
+<p style="padding:5px;margin-top:0;margin-bottom:0;border-radius:10px;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
+<hr style="margin-top:20px;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
@@ -104,7 +115,6 @@ list_data("GLW_nr/cattle/10km")
 <p style="margin-top:0;">CC-BY-SA-4.0</p>
 <p style="margin-top:0;margin-bottom:0;">**Version**</p>
 <p style="margin-top:0;">3</p>
-<p style="margin-top:0;margin-bottom:0;border-radius:15px;vertical-align:middle;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;">available</p>
 <br>
 <br>
 <img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="120;">

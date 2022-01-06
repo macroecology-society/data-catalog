@@ -6,7 +6,7 @@ description: |
 output_dir: "docs"
 navbar:
   logo: 
-    image: 'images/logo.png'
+    image: 'images/favicon.ico'
     base_url: 'https://github.com/macroecology-society/data-catalog/'
   search: true
   right:

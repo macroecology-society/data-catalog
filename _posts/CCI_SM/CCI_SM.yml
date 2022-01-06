@@ -28,5 +28,5 @@
   meanMoisture:
    variable: Mean monthly soil moisture (m3/m3)
    content:
-    value_range: e.g. 0...1
+    value_range: 0...1
 
