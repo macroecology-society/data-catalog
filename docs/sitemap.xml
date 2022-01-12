@@ -9,6 +9,10 @@
     <lastmod>2022-01-05T20:11:06+01:00</lastmod>
   </url>
   <url>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/GSW_history/</loc>
+    <lastmod>2022-01-12T09:45:56+01:00</lastmod>
+  </url>
+  <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/TerraClimate/</loc>
     <lastmod>2022-01-12T07:46:15+01:00</lastmod>
   </url>
@@ -25,7 +29,7 @@
     <lastmod>2022-01-12T09:29:16+01:00</lastmod>
   </url>
   <url>
-    <loc>https://macroecology-society.github.io/data-catalog/posts/AgriStats/</loc>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/agriStats/</loc>
     <lastmod>2022-01-11T17:01:37+01:00</lastmod>
   </url>
   <url>
@@ -51,10 +55,6 @@
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/CCI_SM/</loc>
     <lastmod>2022-01-11T17:03:36+01:00</lastmod>
-  </url>
-  <url>
-    <loc>https://macroecology-society.github.io/data-catalog/posts/CCI_SM_history/</loc>
-    <lastmod>2022-01-11T17:04:25+01:00</lastmod>
   </url>
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/CHELSA/</loc>
@@ -153,10 +153,6 @@
     <lastmod>2022-01-11T17:12:37+01:00</lastmod>
   </url>
   <url>
-    <loc>https://macroecology-society.github.io/data-catalog/posts/GSW_history/</loc>
-    <lastmod>2022-01-12T09:45:56+01:00</lastmod>
-  </url>
-  <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/HydroSHEDS/</loc>
     <lastmod>2022-01-11T17:13:29+01:00</lastmod>
   </url>
@@ -231,5 +227,9 @@
   <url>
     <loc>https://macroecology-society.github.io/data-catalog/posts/SST/</loc>
     <lastmod>2022-01-11T17:19:48+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://macroecology-society.github.io/data-catalog/posts/CCI_SM_history/</loc>
+    <lastmod>2021-12-24T13:09:12+01:00</lastmod>
   </url>
 </urlset>

@@ -14,6 +14,15 @@
     <generator>Distill</generator>
     <lastBuildDate>Wed, 12 Jan 2022 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>GSW_history</title>
+      <link>https://macroecology-society.github.io/data-catalog/posts/GSW_history</link>
+      <description>Historical metrics on Global Surface Water (GSW)</description>
+      <category>water</category>
+      <guid>https://macroecology-society.github.io/data-catalog/posts/GSW_history</guid>
+      <pubDate>Wed, 12 Jan 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://macroecology-society.github.io/data-catalog/posts/GSW_history/GSW_history.png" medium="image" type="image/png" width="200" height="100"/>
+    </item>
+    <item>
       <title>TerraClimate</title>
       <link>https://macroecology-society.github.io/data-catalog/posts/TerraClimate</link>
       <description>Global climate and water balance time series.</description>
@@ -51,14 +60,14 @@
     </item>
     <item>
       <title>agriStats</title>
-      <link>https://macroecology-society.github.io/data-catalog/posts/AgriStats</link>
+      <link>https://macroecology-society.github.io/data-catalog/posts/agriStats</link>
       <description>Global database on national and 
 sub-national cropland statistics</description>
       <category>land use</category>
       <category>land cover</category>
-      <guid>https://macroecology-society.github.io/data-catalog/posts/AgriStats</guid>
+      <guid>https://macroecology-society.github.io/data-catalog/posts/agriStats</guid>
       <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
-      <media:content url="https://macroecology-society.github.io/data-catalog/posts/AgriStats/agriStats.png" medium="image" type="image/png" width="200" height="100"/>
+      <media:content url="https://macroecology-society.github.io/data-catalog/posts/agriStats/agriStats.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
       <title>BECK_climateMap</title>
@@ -118,14 +127,6 @@ CCI land cover dataset</description>
       <guid>https://macroecology-society.github.io/data-catalog/posts/CCI_SM</guid>
       <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/CCI_SM/CCI_SM.png" medium="image" type="image/png" width="200" height="100"/>
-    </item>
-    <item>
-      <title>CCI_SM_history</title>
-      <link>https://macroecology-society.github.io/data-catalog/posts/CCI_SM_history</link>
-      <description>Historical metrics on the spatial and temporal variability of soil moisture</description>
-      <category>climate</category>
-      <guid>https://macroecology-society.github.io/data-catalog/posts/CCI_SM_history</guid>
-      <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CHELSA</title>
@@ -349,15 +350,6 @@ compiled and harmonized subnational livestock distribution data for 2010.</descr
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GSW/GSW.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
-      <title>GSW_history</title>
-      <link>https://macroecology-society.github.io/data-catalog/posts/GSW_history</link>
-      <description>Historical metrics on Global Surface Water (GSW)</description>
-      <category>water</category>
-      <guid>https://macroecology-society.github.io/data-catalog/posts/GSW_history</guid>
-      <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
-      <media:content url="https://macroecology-society.github.io/data-catalog/posts/GSW_history/GSW_history.png" medium="image" type="image/png" width="200" height="100"/>
-    </item>
-    <item>
       <title>HydroSHEDS</title>
       <link>https://macroecology-society.github.io/data-catalog/posts/HydroSHEDS</link>
       <description>Global database of deliniated watershed with 
@@ -532,6 +524,15 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</description>
       <guid>https://macroecology-society.github.io/data-catalog/posts/SST</guid>
       <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/SST/SST.png" medium="image" type="image/png" width="200" height="100"/>
+    </item>
+    <item>
+      <title>CCI_SM</title>
+      <link>https://macroecology-society.github.io/data-catalog/posts/CCI_SM_history</link>
+      <description>Historical metrics on the spatial and temporal variability of soil moisture</description>
+      <category>climate</category>
+      <guid>https://macroecology-society.github.io/data-catalog/posts/CCI_SM_history</guid>
+      <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://macroecology-society.github.io/data-catalog/posts/CCI_SM_history/CCI_SM.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
   </channel>
 </rss>
