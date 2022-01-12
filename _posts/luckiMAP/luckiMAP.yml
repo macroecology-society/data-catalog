@@ -1,0 +1,29 @@
+---
+ title: luckiMAP
+ short_description: |
+  Global time-series of crop-specific areas
+ long_description: |
+  This database offers yearly maps of crop types and cropping areas 
+  obtained through the statistical and spatial-temporal downscaling 
+  of national and sub-national statistics on crop production.
+ documentation: mas@idiv.de
+ data_access: mas@idiv.de
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: [land use, land cover]
+ status: developing
+ metadata:
+   format: Grid
+   spatial_resolution: 100 m
+   temporal_resolution: Yearly
+   temporal_range: [1992,2018]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   cropType:
+    variable: Crop type classification
+    content:
+     TBD: TBD
+   cropArea:
+    variable: Per-pixel crop area (ha)
+    content:
+     TBD: TBD

@@ -28,7 +28,8 @@
      value_range: 0...n
    minInterval:
     variable: Minium interval between burning years
-    content: 0...n
+    content:
+     value_range: 0...n
    maxInterval:
     variable: Maximum interval between burning years
     content:

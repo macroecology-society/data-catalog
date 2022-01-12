@@ -33,3 +33,14 @@
    variable: Maximum extent of seasonal water (%)
    content:
     value_range: 0...100
+  recurrence:
+   variable: Recurrence of surface water (%)
+   content:
+    value_range: 0...100
+  seasonality:
+   variable: |
+    Seasonality gradient of the maximum extents of 
+    seasonal/permanent water, from fully seasonal 
+    (-100%) to fully permanent (100%)
+   content:
+    value_range: -100...100

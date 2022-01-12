@@ -6,7 +6,7 @@ preview: CCI_SM.png
 slug: CCI_SM
 categories:
   - climate
-date: 2022-01-05
+date: 2022-01-11
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -28,7 +28,7 @@ This dataset was developed in the context of the Climate Change Initiative (CCI)
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
-|value_range|e.g. 0...1|
+|value_range|0...1|
 </details>
 <h3 style="margin-top:5;margin-bottom:5;">masDMT query</h3>
 <div style="width=80%;margin-top:5;margin-bottom:5;background-color:#777777;">
@@ -48,13 +48,13 @@ list_data("CCI_SM/meanMoisture/25km")
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/CCI_SM/CCI_SM.bib' download='CCI_SM/CCI_SM.bibtex'><small>(Download bibtex)</small></a></p>
 [1] Gruber, Scanlon, van der
-Schalie, et al. (2019)
+Schalie, Wagner, and Dorigo (2019)
 <hr>
 </div>
 
 <aside>
-<p style="padding:5px;margin-top:0;margin-bottom:0;border-radius:10px;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
-<hr style="margin-top:20px;margin-bottom:0;">
+<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
+<hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>

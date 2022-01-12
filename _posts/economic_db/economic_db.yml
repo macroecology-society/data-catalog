@@ -1,0 +1,25 @@
+---
+ title: economic_db
+ short_description: |
+  Global database on economic indicators
+ long_description: |
+  This database harmonizes national, subnational, and household level 
+  datasets to provide globally consistent data on variables relevant 
+  for the assessment of economci indicators such as GDP.
+ documentation: mas@idiv.de
+ data_access: mas@idiv.de
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: economy
+ status: available
+ metadata:
+   format: Table
+   spatial_resolution: 1 m
+   temporal_resolution: Snapshot / Yearly
+   temporal_range: [1985,2018]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   TBD:
+      variable: TBD
+      TBD:
+       TBD: 0...100
