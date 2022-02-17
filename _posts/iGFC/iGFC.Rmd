@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <div style="width=80%;margin-top:0;margin-bottom:0;">
 <h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-This dataset fuses multiple remote sensing products derived from satellite with different spatial resolutions, such as Landsat, AVHRR, and Spot. This dataset extends on the time-series data from the Global Forest Change (GFC) dataset, which covers the period from 2000 to the present, using a spatially and temporally explicit machine learning algorithm. This method integrates coarse resolution data on vegetation dynamics, data on high and low-resoluton data on change dynamics, and high and mid-resolution data on land cover, to construct a consistent yearly forest density data product from 1992 to 2018 mapped with a 300-m resolution.
+This dataset fuses multiple remote sensing products derived from satellite with different spatial resolutions, to extend the Global Forest Change (GFC) dataset back to 1992.
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>

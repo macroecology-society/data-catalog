@@ -20,23 +20,23 @@ knitr::opts_chunk$set(echo = FALSE)
 <div style="width=80%;margin-top:0;margin-bottom:0;">
 <h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-This database offers yearly maps of crop types and cropping areas obtained through the statistical and spatial-temporal downscaling of national and sub-national statistics on crop production.
+Bias correction and gap filling of the GSW dataset
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`cropType`<span style="color:#C8C8C8;"> | </span>Crop type classification</summary>
+<summary style="font-size:16px;">`permanent`<span style="color:#C8C8C8;"> | </span>Per-pixel percentage of permanent water</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
-|TBD|TBD|
+|value_range|0...100|
 </details>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`cropArea`<span style="color:#C8C8C8;"> | </span>Per-pixel crop area (ha)</summary>
+<summary style="font-size:16px;">`seasonal`<span style="color:#C8C8C8;"> | </span>Per-pixel percentage of seasonal water</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
-|TBD|TBD|
+|value_range|0...100|
 </details>
 <h3 style="margin-top:5;margin-bottom:5;">masDMT query</h3>
 <div style="width=80%;margin-top:5;margin-bottom:5;background-color:#777777;">
@@ -45,10 +45,10 @@ This database offers yearly maps of crop types and cropping areas obtained throu
 list_data("iGSW")
 
 # data call for specific subdataset 
-list_data("iGSW/cropType")
+list_data("iGSW/permanent")
 
 # data call to subdataset with a specific resolution
-list_data("iGSW/cropType/100m")
+list_data("iGSW/permanent/300m")
 ```
 </div>
 <hr style="margin-top:0;margin-bottom:0;">
@@ -66,7 +66,7 @@ list_data("iGSW/cropType/100m")
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>
-<p style="margin-top:0;">100 m</p>
+<p style="margin-top:0;">300 m</p>
 <p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
 <p style="margin-top:0;">1992 to 2018</p>
 <hr style="margin-top:0;margin-bottom:0;">

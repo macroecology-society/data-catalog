@@ -2500,14 +2500,14 @@ distill-header .nav a {
 Details
 </h3>
 <p align="justify">
-This database offers yearly maps of crop types and cropping areas obtained through the statistical and spatial-temporal downscaling of national and sub-national statistics on crop production.
+Bias correction and gap filling of the GSW dataset
 </p>
 <h3 style="margin-top:5;margin-bottom:5;">
 Subdatasets
 </h3>
 <details style="cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;">
 <summary style="font-size:16px;">
-<code>cropType</code><span style="color:#C8C8C8;"> | </span>Crop type classification
+<code>permanent</code><span style="color:#C8C8C8;"> | </span>Per-pixel percentage of permanent water
 </summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 <table>
@@ -2519,15 +2519,15 @@ Subdatasets
 </thead>
 <tbody>
 <tr class="odd">
-<td>TBD</td>
-<td>TBD</td>
+<td>value_range</td>
+<td>0…100</td>
 </tr>
 </tbody>
 </table>
 </details>
 <details style="cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;">
 <summary style="font-size:16px;">
-<code>cropArea</code><span style="color:#C8C8C8;"> | </span>Per-pixel crop area (ha)
+<code>seasonal</code><span style="color:#C8C8C8;"> | </span>Per-pixel percentage of seasonal water
 </summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 <table>
@@ -2539,8 +2539,8 @@ Subdatasets
 </thead>
 <tbody>
 <tr class="odd">
-<td>TBD</td>
-<td>TBD</td>
+<td>value_range</td>
+<td>0…100</td>
 </tr>
 </tbody>
 </table>
@@ -2554,10 +2554,10 @@ masDMT query
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">list_data</span>(<span class="st">&quot;iGSW&quot;</span>)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># data call for specific subdataset </span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">list_data</span>(<span class="st">&quot;iGSW/cropType&quot;</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">list_data</span>(<span class="st">&quot;iGSW/permanent&quot;</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># data call to subdataset with a specific resolution</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">list_data</span>(<span class="st">&quot;iGSW/cropType/100m&quot;</span>)</span></code></pre></div>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">list_data</span>(<span class="st">&quot;iGSW/permanent/300m&quot;</span>)</span></code></pre></div>
 </div>
 </div>
 <hr style="margin-top:0;margin-bottom:0;">
@@ -2588,7 +2588,7 @@ Yearly
 <strong>Resolution</strong>
 </p>
 <p style="margin-top:0;">
-100 m
+300 m
 </p>
 <p style="margin-top:0;margin-bottom:0;">
 <strong>Time frame</strong>

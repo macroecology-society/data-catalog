@@ -3,9 +3,7 @@
  short_description: |
   Gap-filled Global Surface Water (GSW)
  long_description: |
-  This database offers yearly maps of crop types and cropping areas 
-  obtained through the statistical and spatial-temporal downscaling 
-  of national and sub-national statistics on crop production.
+  Bias correction and gap filling of the GSW dataset
  documentation: mas@idiv.de
  data_access: mas@idiv.de
  license: CC-BY-SA-4.0
@@ -14,16 +12,16 @@
  status: developing
  metadata:
    format: Grid
-   spatial_resolution: 100 m
+   spatial_resolution: 300 m
    temporal_resolution: Yearly
    temporal_range: [1992,2018]
    spatial_extent: [-180,180,-90,90]
  subdatasets:
-   cropType:
-    variable: Crop type classification
+   permanent:
+    variable: Per-pixel percentage of permanent water
     content:
-     TBD: TBD
-   cropArea:
-    variable: Per-pixel crop area (ha)
+     value_range: 0...100
+   seasonal:
+    variable: Per-pixel percentage of seasonal water
     content:
-     TBD: TBD
+     value_range: 0...100
