@@ -6,7 +6,7 @@ preview: LTQA.png
 slug: LTQA
 categories:
   - utilities
-date: 2022-01-11
+date: 2022-02-17
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -24,25 +24,37 @@ This dataset provides per-pixel information on the frequency and quality of Land
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`frequency`<span style="color:#C8C8C8;"> | </span>Number of satellite acquisitions per pixel</summary>
+<summary style="font-size:16px;">`imageFrequency`<span style="color:#C8C8C8;"> | </span>Number of satellite acquisitions per pixel</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
-|value_range|e.g. 0...n|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`monthFrequency`<span style="color:#C8C8C8;"> | </span>Number of observed months</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
 </details>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
 <summary style="font-size:16px;">`quality`<span style="color:#C8C8C8;"> | </span>Sum of quality weights per pixel</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
-|value_range|e.g. 0...n|
+|value_range|0...n|
 </details>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`qualityIndex`<span style="color:#C8C8C8;"> | </span>Per-pixel acquisition quality ('quality'/'frequency')</summary>
+<summary style="font-size:16px;">`distributionQuality`<span style="color:#C8C8C8;"> | </span>Maximum monthly data quality ('quality'/'imageFrequency')  divided by 12</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
-|value_range|e.g. 0...1|
+|value_range|0...1|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`nrTiles`<span style="color:#C8C8C8;"> | </span>Number of tiles contribution with acquisitions</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0...n|
 </details>
 <h3 style="margin-top:5;margin-bottom:5;">masDMT query</h3>
 <div style="width=80%;margin-top:5;margin-bottom:5;background-color:#777777;">
@@ -51,10 +63,10 @@ This dataset provides per-pixel information on the frequency and quality of Land
 list_data("LTQA")
 
 # data call for specific subdataset 
-list_data("LTQA/frequency")
+list_data("LTQA/imageFrequency")
 
 # data call to subdataset with a specific resolution
-list_data("LTQA/frequency/1km")
+list_data("LTQA/imageFrequency/1km")
 ```
 </div>
 <hr style="margin-top:0;margin-bottom:0;">
@@ -63,7 +75,7 @@ list_data("LTQA/frequency/1km")
 </div>
 
 <aside>
-<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
+<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#228B22;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>

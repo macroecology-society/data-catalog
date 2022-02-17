@@ -19,7 +19,7 @@
  data_access: https://soilgrids.org/
  license: CC-BY-SA-4.0
  version: 2.0
- categories: geomorphology
+ categories: soil
  status: available
  metadata:
    format: Grid

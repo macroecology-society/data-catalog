@@ -7,7 +7,7 @@ preview: MERIT_hydro.png
 slug: MERIT_hydro
 categories:
   - water
-date: 2022-01-11
+date: 2022-02-17
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -47,13 +47,13 @@ list_data("MERIT_hydro/riverDensity/300m")
 <hr style="margin-top:0;margin-bottom:0;">
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
-             <a target='_blank' href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/MERIT_hydro/MERIT_hydro.bib' download='MERIT_hydro/MERIT_hydro.bibtex'><small>(Download bibtex)</small></a></p>
+             <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/MERIT_hydro/MERIT_hydro.bib' download='MERIT_hydro/MERIT_hydro.bibtex'><small>(bibtex)</small></a></p>
 [1] Yamazaki, Ikeshima, Sosa, Bates, Allen, and Pavelsky (2019)
 <hr>
 </div>
 
 <aside>
-<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
+<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#228B22;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
@@ -66,7 +66,7 @@ list_data("MERIT_hydro/riverDensity/300m")
 <p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
 <p style="margin-top:0;">2000 to 2011</p>
 <hr style="margin-top:0;margin-bottom:0;">
-<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/'>documentation.</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/'>documentation</a></p></p>
 <p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/'>Data access</a></p></p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**license:**</p>

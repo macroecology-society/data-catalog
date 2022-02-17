@@ -6,7 +6,7 @@ preview: GSW.png
 slug: GSW
 categories:
   - water
-date: 2022-01-11
+date: 2022-02-17
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -24,21 +24,14 @@ This dataset offers yearly data on the spatial extent of permanent and seasonal 
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`permanent`<span style="color:#C8C8C8;"> | </span>Per-pixel percent of permanent water cover</summary>
+<summary style="font-size:16px;">`permanent`<span style="color:#C8C8C8;"> | </span>Per-pixel densities of permanent water cover (%)</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...100|
 </details>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`seasonal`<span style="color:#C8C8C8;"> | </span>Per-pixel percent of seasonal water cover</summary>
-<hr style="margin-top:0;margin-bottom:20px;">
-|content|description|
-|-------|-----------|
-|value_range|0...100|
-</details>
-<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`missingData`<span style="color:#C8C8C8;"> | </span>Per-pixel percent of missing data</summary>
+<summary style="font-size:16px;">`seasonal`<span style="color:#C8C8C8;"> | </span>Per-pixel densities of seasonal water cover (%)</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
@@ -60,13 +53,13 @@ list_data("GSW/permanent/300m")
 <hr style="margin-top:0;margin-bottom:0;">
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
-             <a target='_blank' href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GSW/GSW.bib' download='GSW/GSW.bibtex'><small>(Download bibtex)</small></a></p>
+             <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/GSW/GSW.bib' download='GSW/GSW.bibtex'><small>(bibtex)</small></a></p>
 [1] Pekel, Cottam, Gorelick, and Belward (2016)
 <hr>
 </div>
 
 <aside>
-<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
+<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#228B22;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
@@ -79,7 +72,7 @@ list_data("GSW/permanent/300m")
 <p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
 <p style="margin-top:0;">1992 to 2018</p>
 <hr style="margin-top:0;margin-bottom:0;">
-<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://global-surface-water.appspot.com/'>documentation.</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://global-surface-water.appspot.com/'>documentation</a></p></p>
 <p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://global-surface-water.appspot.com/download'>Data access</a></p></p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**license:**</p>

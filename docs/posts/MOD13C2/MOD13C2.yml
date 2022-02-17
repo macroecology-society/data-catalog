@@ -1,0 +1,26 @@
+---
+ title: MOD13C2
+ short_description: |
+  Global, annual, NDVI metrics derived with MODIS 
+ long_description: |
+  This 5-km dataset  on the annual Normalized Difference 
+  Vegetation Index (NDVI) metrics, estimated from monthly 
+  aggregates. These data are bias and trend corrected 
+  following the methodology adopted by Hansen et al. (2016).
+ documentation: carsten.meyer@idiv.de
+ data_access: carsten.meyer@idiv.de
+ license: CC-BY-SA-4.0
+ version: 5
+ categories: vegetation
+ status: "available"
+ metadata:
+  format: "Grid"
+  spatial_resolution: 5 km
+  temporal_resolution: yearly
+  temporal_range: [1992, 2022]
+  spatial_extent: [-180,180,-90,90]
+ subdatasets:
+  ndviPeak:
+   variable: Mean of NDVI values between the 75th and 100th percentile
+   content:
+    value_range: -1...1

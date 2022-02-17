@@ -6,7 +6,7 @@ preview: CCI_SM.png
 slug: CCI_SM
 categories:
   - climate
-date: 2022-01-11
+date: 2022-02-17
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -19,12 +19,40 @@ knitr::opts_chunk$set(echo = FALSE)
 <div style="width=80%;margin-top:0;margin-bottom:0;">
 <h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-This dataset was developed in the context of the Climate Change Initiative (CCI), and maps soil moisture on monthly basis from 1978 to the present. The ESA CCI Soil moisture is a data fusion product, combining inputs from both passive and active satellite sensors. The original data is daily, but we aggregated it on a monthly basis. Here, we derived a monthly weighted average, weighting the time series of soil moisture at each pixel coordinate by the corresponding data quality.
+This product is based on daily soil moisture estimates, developed in the context of the Climate Change Initiative (CCI). Here, we aggregated those monthly estimates into monthly averages weighted based on prediction uncertainties, and then used those monthly estimates to derive annual climatologies.
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`meanMoisture`<span style="color:#C8C8C8;"> | </span>Mean monthly soil moisture (m3/m3)</summary>
+<summary style="font-size:16px;">`mean`<span style="color:#C8C8C8;"> | </span>Mean moisture (m3/m3)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0...1|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`min`<span style="color:#C8C8C8;"> | </span>Minimum moisture (m3/m3)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0...1|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`max`<span style="color:#C8C8C8;"> | </span>Maximum moisture (m3/m3)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0...1|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`amplitude`<span style="color:#C8C8C8;"> | </span>Moisture amplitude (m3/m3)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0...1|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`standardDeviation`<span style="color:#C8C8C8;"> | </span>Moisture standard deviaiton (m3/m3)</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
@@ -37,23 +65,23 @@ This dataset was developed in the context of the Climate Change Initiative (CCI)
 list_data("CCI_SM")
 
 # data call for specific subdataset 
-list_data("CCI_SM/meanMoisture")
+list_data("CCI_SM/mean")
 
 # data call to subdataset with a specific resolution
-list_data("CCI_SM/meanMoisture/25km")
+list_data("CCI_SM/mean/25km")
 ```
 </div>
 <hr style="margin-top:0;margin-bottom:0;">
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
-             <a target='_blank' href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/CCI_SM/CCI_SM.bib' download='CCI_SM/CCI_SM.bibtex'><small>(Download bibtex)</small></a></p>
+             <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/CCI_SM/CCI_SM.bib' download='CCI_SM/CCI_SM.bibtex'><small>(bibtex)</small></a></p>
 [1] Gruber, Scanlon, van der
 Schalie, Wagner, and Dorigo (2019)
 <hr>
 </div>
 
 <aside>
-<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
+<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#228B22;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
@@ -64,9 +92,9 @@ Schalie, Wagner, and Dorigo (2019)
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>
 <p style="margin-top:0;">25 km</p>
 <p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
-<p style="margin-top:0;">1978 to 2020</p>
+<p style="margin-top:0;">1992 to 2020</p>
 <hr style="margin-top:0;margin-bottom:0;">
-<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://climate.esa.int/en/projects/soil-moisture/key-documents/'>documentation.</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://climate.esa.int/en/projects/soil-moisture/key-documents/'>documentation</a></p></p>
 <p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://climate.esa.int/en/projects/soil-moisture/data/'>Data access</a></p></p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**license:**</p>

@@ -6,7 +6,7 @@ preview: GRWL_class.png
 slug: GRWL_class
 categories:
   - water
-date: 2022-01-11
+date: 2022-02-17
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -67,13 +67,13 @@ list_data("GRWL_class/cannal/30m")
 <hr style="margin-top:0;margin-bottom:0;">
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
-             <a target='_blank' href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GRWL_class/GRWL_class.bib' download='GRWL_class/GRWL_class.bibtex'><small>(Download bibtex)</small></a></p>
+             <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/GRWL_class/GRWL_class.bib' download='GRWL_class/GRWL_class.bibtex'><small>(bibtex)</small></a></p>
 [1] Allen and Pavelsky (2018)
 <hr>
 </div>
 
 <aside>
-<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
+<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#228B22;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid / Vector</p>
@@ -87,7 +87,7 @@ list_data("GRWL_class/cannal/30m")
 <p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
 <p style="margin-top:0;">1982 to 2018</p>
 <hr style="margin-top:0;margin-bottom:0;">
-<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://www.science.org/doi/10.1126/science.aat0636'>documentation.</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://www.science.org/doi/10.1126/science.aat0636'>documentation</a></p></p>
 <p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://zenodo.org/record/1297434'>Data access</a></p></p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**license:**</p>

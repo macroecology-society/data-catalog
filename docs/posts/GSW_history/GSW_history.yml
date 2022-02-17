@@ -22,25 +22,14 @@
    spatial_extent: [-180,180,-90,90]
  subdatasets:
   maxExtent:
-   variable: Maximum extent of surface water (%)
+   variable: Maximum recorded extent (%)
    content:
     value_range: 0...100
-  permanentWater:
-   variable: Maximum extent of permanent water (%)
-   content:
-    value_range: 0...100
-  seasonalFrequency:
-   variable: Maximum extent of seasonal water (%)
+  occurrence:
+   variable: Intra and inter-annual water cover instability (%)
    content:
     value_range: 0...100
   recurrence:
-   variable: Recurrence of surface water (%)
+   variable: Inter-annual water return frequency (%)
    content:
     value_range: 0...100
-  seasonality:
-   variable: |
-    Seasonality gradient of the maximum extents of 
-    seasonal/permanent water, from fully seasonal 
-    (-100%) to fully permanent (100%)
-   content:
-    value_range: -100...100

@@ -6,7 +6,7 @@ preview: GSW_history.png
 slug: GSW_history
 categories:
   - water
-date: 2022-01-12
+date: 2022-02-17
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -24,42 +24,25 @@ This dataset provides historical metrics on the global behavior of surface water
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`maxExtent`<span style="color:#C8C8C8;"> | </span>Maximum extent of surface water (%)</summary>
+<summary style="font-size:16px;">`maxExtent`<span style="color:#C8C8C8;"> | </span>Maximum recorded extent (%)</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...100|
 </details>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`permanentWater`<span style="color:#C8C8C8;"> | </span>Maximum extent of permanent water (%)</summary>
+<summary style="font-size:16px;">`occurrence`<span style="color:#C8C8C8;"> | </span>Intra and inter-annual water cover instability (%)</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...100|
 </details>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`seasonalFrequency`<span style="color:#C8C8C8;"> | </span>Maximum extent of seasonal water (%)</summary>
+<summary style="font-size:16px;">`recurrence`<span style="color:#C8C8C8;"> | </span>Inter-annual water return frequency (%)</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...100|
-</details>
-<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`recurrence`<span style="color:#C8C8C8;"> | </span>Recurrence of surface water (%)</summary>
-<hr style="margin-top:0;margin-bottom:20px;">
-|content|description|
-|-------|-----------|
-|value_range|0...100|
-</details>
-<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`seasonality`<span style="color:#C8C8C8;"> | </span>Seasonality gradient of the maximum extents of 
-seasonal/permanent water, from fully seasonal 
-(-100%) to fully permanent (100%)
-</summary>
-<hr style="margin-top:0;margin-bottom:20px;">
-|content|description|
-|-------|-----------|
-|value_range|-100...100|
 </details>
 <h3 style="margin-top:5;margin-bottom:5;">masDMT query</h3>
 <div style="width=80%;margin-top:5;margin-bottom:5;background-color:#777777;">
@@ -77,13 +60,13 @@ list_data("GSW_history/maxExtent/300m")
 <hr style="margin-top:0;margin-bottom:0;">
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
-             <a target='_blank' href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GSW_history/GSW_history.bib' download='GSW_history/GSW_history.bibtex'><small>(Download bibtex)</small></a></p>
+             <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/GSW_history/GSW_history.bib' download='GSW_history/GSW_history.bibtex'><small>(bibtex)</small></a></p>
 [1] Pekel, Cottam, Gorelick, et al. (2016)
 <hr>
 </div>
 
 <aside>
-<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#229954;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
+<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#228B22;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
@@ -96,7 +79,7 @@ list_data("GSW_history/maxExtent/300m")
 <p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
 <p style="margin-top:0;">1992 to 2018</p>
 <hr style="margin-top:0;margin-bottom:0;">
-<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://global-surface-water.appspot.com/'>documentation.</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://global-surface-water.appspot.com/'>documentation</a></p></p>
 <p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://global-surface-water.appspot.com/download'>Data access</a></p></p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**license:**</p>

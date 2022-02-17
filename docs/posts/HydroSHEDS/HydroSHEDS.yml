@@ -4,9 +4,12 @@
     Global database of deliniated watershed with 
     different levels of spatial disaggregation
   long_description: |
-    HydroBASINS offers spatial data on watershed boundaries at multiple 
-    hierarchical levels. The watershed deliniation foolows the topological 
-    concept of the Pfafstetter coding system.
+    HydroBASINS offers spatial data on watershed 
+    boundaries at multiple hierarchical levels. 
+    The watershed deliniation follows the topological 
+    concept of the Pfafstetter coding system (levels 1-12). 
+    Here, we use only a subset of the afformentioned dataset, 
+    comprising Pfafstetter levels 2, 3, and 12.
   documentation: https://www.hydrosheds.org/page/hydrobasins
   data_access: https://www.hydrosheds.org/page/hydrobasins
   license: CC-BY-SA-4.0
@@ -39,7 +42,7 @@
       ORDER: Indicator of river order (classical ordering system)
       SORT: Indicator showing the record number (sequence) in which the original polygons are stored in the shapefile
     level3:
-     variable: Sub-continental basins
+     variable: Basins of major rivers and lakes
      content:
       HYBAS_ID: Unique basin identifier
       EXT_DOWN: Hybas_id of the next downstream polygon
@@ -56,26 +59,8 @@
       COAST: Indicator for lumped coastal basins
       ORDER: Indicator of river order (classical ordering system)
       SORT: Indicator showing the record number (sequence) in which the original polygons are stored in the shapefile
-    level4:
-     variable: Sub-continental basins
-     content:
-      HYBAS_ID: Unique basin identifier
-      EXT_DOWN: Hybas_id of the next downstream polygon
-      NEXT_SINK: Hybas_id of the next downstream sink
-      MAIN_BAS: Hybas_id of the most downstream sink, i.e. the outlet of the main river basin
-      DIST_SINK: Distance from polygon outlet to the next downstream sink along the river network, in kilometers
-      DIST_MAIN: Distance from polygon outlet to the most downstream sink, i.e. the outlet of the main river basin along the river network, in kilometers
-      SUB_AREA: Area of the individual polygon (i.e. sub-basin), in square kilometers
-      UP_AREA: Total upstream area, in square kilometers
-      PFAF_ID: Pfafstetter code
-      SIDE: Indicates the side of a sub-basin in relation to the river network
-      LAKE: Indicator for lake types
-      ENDO: Indicator for endorheic (inland) basins without surface flow connection to the ocean
-      COAST: Indicator for lumped coastal basins
-      ORDER: Indicator of river order (classical ordering system)
-      SORT: Indicator showing the record number (sequence) in which the original polygons are stored in the shapefile
-    level5:
-     variable: Sub-continental basins
+    level12:
+     variable: Fine-scale basin subdivisions
      content:
       HYBAS_ID: Unique basin identifier
       EXT_DOWN: Hybas_id of the next downstream polygon

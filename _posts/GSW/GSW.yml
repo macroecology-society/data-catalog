@@ -23,14 +23,10 @@
    spatial_extent: [-180,180,-90,90]
  subdatasets:
   permanent:
-   variable: Per-pixel percent of permanent water cover
+   variable: Per-pixel densities of permanent water cover (%)
    content:
     value_range: 0...100
   seasonal:
-   variable: Per-pixel percent of seasonal water cover
-   content:
-    value_range: 0...100
-  missingData:
-   variable: Per-pixel percent of missing data
+   variable: Per-pixel densities of seasonal water cover (%)
    content:
     value_range: 0...100

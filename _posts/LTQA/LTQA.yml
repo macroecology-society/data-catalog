@@ -25,15 +25,23 @@
   temporal_range: [1982,2020]
   spatial_extent: [-180,180,-90,90]
  subdatasets:
-  frequency:
+  imageFrequency:
    variable: Number of satellite acquisitions per pixel
    content:
-    value_range: e.g. 0...n
+    value_range:0...n
+  monthFrequency:
+   variable: Number of observed months
+   content:
+    value_range:0...n
   quality:
    variable: Sum of quality weights per pixel
    content:
-    value_range: e.g. 0...n
-  qualityIndex:
-   variable: Per-pixel acquisition quality ('quality'/'frequency')
+    value_range: 0...n
+  distributionQuality:
+   variable: Maximum monthly data quality ('quality'/'imageFrequency')  divided by 12
    content:
-    value_range: e.g. 0...1
+    value_range: 0...1
+  nrTiles:
+   variable: Number of tiles contribution with acquisitions
+   content:
+    value_range: 0...n

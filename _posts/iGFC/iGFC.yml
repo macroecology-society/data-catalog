@@ -14,8 +14,8 @@
   change dynamics, and high and mid-resolution data on land 
   cover, to construct a consistent yearly forest density data 
   product from 1992 to 2018 mapped with a 300-m resolution.
- documentation: mas@idiv.de
- data_access: mas@idiv.de
+ documentation: carsten.meyer@idiv.de
+ data_access: carsten.meyer@idiv.de
  license: CC-BY-SA-4.0
  version: 1.0
  categories: land cover

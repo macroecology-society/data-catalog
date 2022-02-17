@@ -3,14 +3,11 @@
  short_description: |
   Global time-series of soil moisture, from 1978 to the present
  long_description: |
-  This dataset was developed in the context of the Climate Change 
-  Initiative (CCI), and maps soil moisture on monthly basis from 
-  1978 to the present. The ESA CCI Soil moisture is a data fusion 
-  product, combining inputs from both passive and active satellite 
-  sensors. The original data is daily, but we aggregated it on a 
-  monthly basis. Here, we derived a monthly weighted average, 
-  weighting the time series of soil moisture at each pixel 
-  coordinate by the corresponding data quality.
+  This product is based on daily soil moisture estimates, developed 
+  in the context of the Climate Change Initiative (CCI). Here, we 
+  aggregated those monthly estimates into monthly averages weighted 
+  based on prediction uncertainties, and then used those monthly 
+  estimates to derive annual climatologies.
  documentation: https://climate.esa.int/en/projects/soil-moisture/key-documents/
  data_access: https://climate.esa.int/en/projects/soil-moisture/data/
  license: CC-BY-SA-4.0
@@ -21,12 +18,27 @@
    format: Grid
    spatial_resolution: 25 km
    temporal_resolution: Yearly
-   temporal_range: [1978, 2020]
+   temporal_range: [1992, 2020]
    spatial_extent: [-180,180,-90,90]
  subdatasets:
   # example applied to gridded data
-  meanMoisture:
-   variable: Mean monthly soil moisture (m3/m3)
+  mean:
+   variable: Mean moisture (m3/m3)
    content:
     value_range: 0...1
-
+  min:
+   variable: Minimum moisture (m3/m3)
+   content:
+    value_range: 0...1
+  max:
+   variable: Maximum moisture (m3/m3)
+   content:
+    value_range: 0...1
+  amplitude:
+   variable: Moisture amplitude (m3/m3)
+   content:
+    value_range: 0...1
+  standardDeviation:
+   variable: Moisture standard deviaiton (m3/m3)
+   content:
+    value_range: 0...1
