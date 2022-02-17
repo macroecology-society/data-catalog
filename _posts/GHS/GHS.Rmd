@@ -1,0 +1,100 @@
+---
+title: "GHS"
+description: |
+  Global Human Settlements (GHS)
+preview: GHS.png
+slug: GHS
+categories:
+  - land cover
+date: 2022-02-17
+output:
+  distill::distill_article:
+    highlight_downlit: false
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div style="width=80%;margin-top:0;margin-bottom:0;">
+<h3 style="margin-top:5;margin-bottom:5;">Details</h3>
+<p align="justify">
+Produced by the Joint Research Centre (JRC), this dataset offers a global, multi-temporal perspetice on the spatial distribution of human populations and on urbanization patterns linked to population growth. It integrates gridded data on urban settlements with census data on human populations to generate a combine product, downscaling census data to the pixel level.
+</p>
+
+<h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`built`<span style="color:#C8C8C8;"> | </span>Presence of built structures</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0...1|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`pop`<span style="color:#C8C8C8;"> | </span>Number of people per pixel</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0...n|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`smod`<span style="color:#C8C8C8;"> | </span>Classification of settlement types</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|1|Cities|
+|2|Towns and suburbs|
+|3|Rural areas|
+</details>
+<h3 style="margin-top:5;margin-bottom:5;">masDMT query</h3>
+<div style="width=80%;margin-top:5;margin-bottom:5;background-color:#777777;">
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resolution
+list_data("GHS")
+
+# data call for specific subdataset 
+list_data("GHS/built")
+
+# data call to subdataset with a specific resolution
+list_data("GHS/built/300m")
+```
+</div>
+<hr style="margin-top:0;margin-bottom:0;">
+<h3 style="margin-bottom:0;">References</h3>
+<p style='margin-top:0;margin-bottom:5;'>
+             <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/GHS/GHS.bib' download='GHS/GHS.bibtex'><small>(bibtex)</small></a></p>
+[1] Schiavina, Freire, and MacManus (2019)
+[2] Pesaresi, Florczyk, Schiavina, Melchiorri, and Maffenini (2019)
+[3] Corbane, Florczyk, Pesaresi, Martino, Panagiotis, and Vasileios (2019)
+<hr>
+</div>
+
+<aside>
+<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#228B22;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p style="margin-top:0;margin-bottom:0;">**Format**</p>
+<p style="margin-top:0;">Grid</p>
+<p style="margin-top:0;">**Spatial extent:**</p>
+<img src="GHS_extent.png" width=120, height=90>
+<p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
+<p style="margin-top:0;">Multi-temporal snapshot</p>
+<p style="margin-top:0;margin-bottom:0;">**Resolution**</p>
+<p style="margin-top:0;">300 m</p>
+<p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
+<p style="margin-top:0;">1975 to 2015</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://ghsl.jrc.ec.europa.eu/datasets.php'>documentation</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://ghsl.jrc.ec.europa.eu/download.php'>Data access</a></p></p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p style="margin-top:0;margin-bottom:0;">**license:**</p>
+<p style="margin-top:0;">CC-BY-SA-4.0</p>
+<p style="margin-top:0;margin-bottom:0;">**Version**</p>
+<p style="margin-top:0;">2</p>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="120;">
+<br>
+<br>
+<p style="margin-bottom:0;padding:0;">**Where there  mistakes?**</p>
+<p><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GHS/GHS.yml'>Propose an edit at our GitHub repository</a></p>
+</aside>

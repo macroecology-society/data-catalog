@@ -1,0 +1,303 @@
+---
+ title: GlobES_area
+ short_description: |
+  Global annual maps of per-pixel ecosystems areas from 1992 to 2018
+ long_description: |
+  This dataset provides yearly, global time-series of per-pixel areas 
+  (in hectares) of 71 ecosystem types, including natural, semi-natural 
+  and artificial ecosystems. The distinction of ecosystem types follows 
+  he IUCN habitat classification scheme, being compatible with the 
+  assessments of habitat requirements for over 100,000 species.
+ documentation: carsten.meyer@idiv.de
+ data_access: carsten.meyer@idiv.de
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: ecology
+ status: available
+ metadata:
+   format: Grid
+   spatial_resolution: 1 km
+   temporal_resolution: Yearly
+   temporal_range: [1992,2018]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   "0101":
+    variable: Per-pixel area of boreal forests
+    content:
+     value_range: 0...n
+   "0102":
+    variable: Per-pixel area of subarctic forests
+    content:
+     value_range: 0...n
+   "0103":
+    variable: Per-pixel area of subantarctic forests
+    content:
+     value_range: 0...n
+   "0104":
+    variable: Per-pixel area of temperate forests
+    content:
+     value_range: 0...n
+   "0105":
+    variable: Per-pixel area of sub-/tropical dry forests
+    content:
+     value_range: 0...n
+   "0106":
+    variable: Per-pixel area of sub-/tropical moist lowland forests
+    content:
+     value_range: 0...n
+   "0107":
+    variable: Per-pixel area of sub-/tropical above-tide mangroves
+    content:
+     value_range: 0...n
+   "0108":
+    variable: Per-pixel area of sub-/tropical swamp forests
+    content:
+     value_range: 0...n
+   "0109":
+    variable: Per-pixel area of sub-/tropical moist montane forests
+    content:
+     value_range: 0...n
+   "0201":
+    variable: Per-pixel area of dry savannas
+    content:
+     value_range: 0...n
+   "0202":
+    variable: Per-pixel area of wet savannas
+    content:
+     value_range: 0...n
+   "0301":
+    variable: Per-pixel area of subarctic shrubland
+    content:
+     value_range: 0...n
+   "0302":
+    variable: Per-pixel area of subantarctic shrubland
+    content:
+     value_range: 0...n
+   "0303":
+    variable: Per-pixel area of boreal shrubland
+    content:
+     value_range: 0...n
+   "0304":
+    variable: Per-pixel area of temperate shrubland
+    content:
+     value_range: 0...n
+   "0305":
+    variable: Per-pixel area of sub-/tropical dry shrubland
+    content:
+     value_range: 0...n
+   "0306":
+    variable: Per-pixel area of sub-/tropical moist shrubland
+    content:
+     value_range: 0...n
+   "0307":
+    variable: Per-pixel area of sub-/tropical high-altitude shrubland
+    content:
+     value_range: 0...n
+   "0308":
+    variable: Per-pixel area of Mediterranean shrubland
+    content:
+     value_range: 0...n
+   "0401":
+    variable: Per-pixel area of foreal forests
+    content:
+     value_range: 0...n
+   "0402":
+    variable: Per-pixel area of foreal forests
+    content:
+     value_range: 0...n
+   "0403":
+    variable: Per-pixel area of subantarctic grassland
+    content:
+     value_range: 0...n
+   "0404":
+    variable: Per-pixel area of temperate grassland
+    content:
+     value_range: 0...n
+   "0405":
+    variable: Per-pixel area of sub-/tropical dry grassland
+    content:
+     value_range: 0...n
+   "0406":
+    variable: Per-pixel area of sub-/tropical moist grassland
+    content:
+     value_range: 0...n
+   "0407":
+    variable: Per-pixel area of sub-/tropical high-altitutde grassland
+    content:
+     value_range: 0...n
+   "0501":
+    variable: Per-pixel area of permanent rivers/streams/creeks
+    content:
+     value_range: 0...n
+   "0502":
+    variable: Per-pixel area of seasonal rivers/streams/creeks 
+    content:
+     value_range: 0...n
+   "0504":
+    variable: Per-pixel area of bogs/marshes/swamps/fens/peatlands
+    content:
+     value_range: 0...n
+   "0505":
+    variable: Per-pixel area of permanent freshwater lakes (> 8ha)
+    content:
+     value_range: 0...n
+   "0506":
+    variable: Per-pixel area of seasonal freshwater lakes (> 8ha)
+    content:
+     value_range: 0...n
+   "0507":
+    variable: Per-pixel area of permanent freshwater marshes/pools (< 8ha)
+    content:
+     value_range: 0...n
+   "0508":
+    variable: Per-pixel area of seasonal freshwater marshes/pools (< 8ha)
+    content:
+     value_range: 0...n
+   "0510":
+    variable: Per-pixel area of tundra wetlands
+    content:
+     value_range: 0...n
+   "0511":
+    variable: Per-pixel area of alpine wetlands
+    content:
+     value_range: 0...n
+   "0514":
+    variable: Per-pixel area of permanent saline/brackish lakes/flats
+    content:
+     value_range: 0...n
+   "0515":
+    variable: Per-pixel area of seasonal saline/brackish lakes/flats
+    content:
+     value_range: 0...n
+   "0516":
+    variable: Per-pixel area of permanent saline/brackish marshes/pools
+    content:
+     value_range: 0...n
+   "0517":
+    variable: Per-pixel area of seasonal saline/brackish marshes/pools
+    content:
+     value_range: 0...n
+   "0600":
+    variable: Per-pixel area of rocky areas
+    content:
+     value_range: 0...n
+   "0801":
+    variable: Per-pixel area of hot deserts
+    content:
+     value_range: 0...n
+   "0802":
+    variable: Per-pixel area of temperate deserts
+    content:
+     value_range: 0...n
+   "0803":
+    variable: Per-pixel area of cold deserts
+    content:
+     value_range: 0...n
+   "0908":
+    variable: Per-pixel area of coral reefs
+    content:
+     value_range: 0...n
+   "0910":
+    variable: Per-pixel area of estuaries
+    content:
+     value_range: 0...n
+   "1001":
+    variable: Per-pixel area of foreal forests
+    content:
+     value_range: 0...n
+   "1002":
+    variable: Per-pixel area of foreal forests
+    content:
+     value_range: 0...n
+   "1003":
+    variable: Per-pixel area of foreal forests
+    content:
+     value_range: 0...n
+   "1004":
+    variable: Per-pixel area of foreal forests
+    content:
+     value_range: 0...n
+   "1101":
+    variable: Per-pixel area of foreal forests
+    content:
+     value_range: 0...n
+   "1102":
+    variable: Per-pixel area of foreal forests
+    content:
+     value_range: 0...n
+   "1103":
+    variable: Per-pixel area of foreal forests
+    content:
+     value_range: 0...n
+   "1104":
+    variable: Per-pixel area of foreal forests
+    content:
+     value_range: 0...n
+   "1105":
+    variable: Per-pixel area of foreal forests
+    content:
+     value_range: 0...n
+   "1204":
+    variable: Per-pixel area of mud/salt flats
+    content:
+     value_range: 0...n
+   "1205":
+    variable: Per-pixel area of salt marshes
+    content:
+     value_range: 0...n
+   "1207":
+    variable: Per-pixel area of below-tide mangroves
+    content:
+     value_range: 0...n
+   "1304":
+    variable: Per-pixel area of coastal backish/saline lagoons
+    content:
+     value_range: 0...n
+   "1305":
+    variable: Per-pixel area of costal freshwater lakes
+    content:
+     value_range: 0...n
+   "1401":
+    variable: Per-pixel area of arable lands
+    content:
+     value_range: 0...n
+   "1402":
+    variable: Per-pixel area of pasturelands
+    content:
+     value_range: 0...n
+   "1403":
+    variable: Per-pixel area of plantations
+    content:
+     value_range: 0...n
+   "1404":
+    variable: Per-pixel area of rural gardens
+    content:
+     value_range: 0...n
+   "1405":
+    variable: Per-pixel area of urban areas
+    content:
+     value_range: 0...n
+   "1406":
+    variable: Per-pixel area of degraded forests
+    content:
+     value_range: 0...n
+   "1502":
+    variable: Per-pixel area of artificial ponds (< 8ha)
+    content:
+     value_range: 0...n
+   "1505":
+    variable: Per-pixel area of open escavations
+    content:
+     value_range: 0...n
+   "1508":
+    variable: Per-pixel area of seasonally flooded agriculture
+    content:
+     value_range: 0...n
+   "1511":
+    variable: Per-pixel area of marine anthropogenic structures
+    content:
+     value_range: 0...n
+   "1513":
+    variable: Per-pixel area of mari-/brackish ponds
+    content:
+     value_range: 0...n

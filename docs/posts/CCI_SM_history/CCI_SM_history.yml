@@ -1,0 +1,39 @@
+---
+ title: CCI_SM_history
+ short_description: |
+  Historical metrics on the spatial and temporal variability of soil moisture
+ long_description: |
+  This dataset builds on global soil moisture dataset of ESA's Climate Change 
+  Initiative (CCI), providing simple metrics on its temporal variability on a 
+  per-pixel basis. 
+ documentation: https://climate.esa.int/en/projects/soil-moisture/key-documents/
+ data_access: https://climate.esa.int/en/projects/soil-moisture/data/
+ license: CC-BY-SA-4.0
+ version: v06.1
+ categories: climate
+ status: available
+ metadata:
+   format: Grid
+   spatial_resolution: 25 km
+   temporal_resolution: Yearly
+   temporal_range: [1978, 2021]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+  # example applied to gridded data
+  moistureMean:
+   variable: Soil moisture historical mean (m3/m3)
+   content:
+    value_range: e.g. 0...1
+  moistureMin:
+   variable: Soil moisture historical min (m3/m3)
+   content:
+    value_range: e.g. 0...1
+  moistureMax:
+   variable: Soil moisture historical max (m3/m3)
+   content:
+    value_range: e.g. 0...1
+  moistureAmplitude:
+   variable: Soil moisture historical amplitude (m3/m3)
+   content:
+    value_range: e.g. 0...1
+

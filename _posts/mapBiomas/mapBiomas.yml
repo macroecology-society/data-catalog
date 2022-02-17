@@ -1,0 +1,207 @@
+---
+ title: mapBiomas
+ short_description: |
+  High-resolution land cover of Brazil.
+ long_description: |
+  This product belongs to the Brazilian Annual Land Use and Land Cover 
+  Mapping Project, producing the first annual, high-resolution land cover 
+  dataset of Brazil. It was derived through the classification of dense 
+  time-series of Landsat acquisitions, and mapped with a 30-m resolution.
+ documentation: https://mapbiomas.org/
+ data_access: https://mapbiomas.org/download
+ license: CC-BY-SA-4.0
+ version: 4.0
+ categories: land cover
+ status: available
+ metadata:
+   format: Grid
+   spatial_resolution: 30 m
+   temporal_resolution: Yearly
+   temporal_range: [1985,2020]
+   spatial_extent: [-73.9830625, -28.6341164, -33.8689056, 5.2842873]
+ subdatasets:
+   amazonia:
+    variable: Land cover of the Amazonia region
+    content:
+      1: Forest
+      3: Forest Formation
+      4: Savanna Formation
+      5: Mangrove
+      9:  Forest Plantation
+      10:  Non Forest Natural Formation
+      11:  Wetlands
+      12:  Grassland
+      13:  Other non Forest Formations
+      14:  Farming
+      15:  Pasture
+      18:  Agriculture
+      19:  Temporary Crop
+      20:  Sugar cane
+      21:  Mosaic Agriculture and Pasture
+      22:  Non vegetated Area
+      23:  Beach, Dune and Sand Spot
+      24:  Urban Area
+      25:  Other non Vegetaded Areas
+      26:  Water
+      27:  Non Observed
+      29:  Rocky Outcrop
+      30:  Mining
+      31:  Aquaculture
+      32:  Salt Flat
+      33:  River,Lake and Ocean
+      36:  Perennial Corp
+      39:  Soybean
+      40:  Rice
+      41:  Other temporary Crops
+      46:  Coffee
+      47:  Citrus
+      48:  Other Perennial Crop
+      49: Wooded Restinga
+   cerrado:
+    variable: Land cover of the Cerrado region
+    content:
+      1: Forest
+      3: Forest Formation
+      4: Savanna Formation
+      5: Mangrove
+      9:  Forest Plantation
+      10:  Non Forest Natural Formation
+      11:  Wetlands
+      12:  Grassland
+      13:  Other non Forest Formations
+      14:  Farming
+      15:  Pasture
+      18:  Agriculture
+      19:  Temporary Crop
+      20:  Sugar cane
+      21:  Mosaic Agriculture and Pasture
+      22:  Non vegetated Area
+      23:  Beach, Dune and Sand Spot
+      24:  Urban Area
+      25:  Other non Vegetaded Areas
+      26:  Water
+      27:  Non Observed
+      29:  Rocky Outcrop
+      30:  Mining
+      31:  Aquaculture
+      32:  Salt Flat
+      33:  River,Lake and Ocean
+      36:  Perennial Corp
+      39:  Soybean
+      40:  Rice
+      41:  Other temporary Crops
+      46:  Coffee
+      47:  Citrus
+      48:  Other Perennial Crop
+      49: Wooded Restinga
+   pampa:
+    variable: Land cover of the Pampa region
+    content:
+      1: Forest
+      3: Forest Formation
+      4: Savanna Formation
+      5: Mangrove
+      9:  Forest Plantation
+      10:  Non Forest Natural Formation
+      11:  Wetlands
+      12:  Grassland
+      13:  Other non Forest Formations
+      14:  Farming
+      15:  Pasture
+      18:  Agriculture
+      19:  Temporary Crop
+      20:  Sugar cane
+      21:  Mosaic Agriculture and Pasture
+      22:  Non vegetated Area
+      23:  Beach, Dune and Sand Spot
+      24:  Urban Area
+      25:  Other non Vegetaded Areas
+      26:  Water
+      27:  Non Observed
+      29:  Rocky Outcrop
+      30:  Mining
+      31:  Aquaculture
+      32:  Salt Flat
+      33:  River,Lake and Ocean
+      36:  Perennial Corp
+      39:  Soybean
+      40:  Rice
+      41:  Other temporary Crops
+      46:  Coffee
+      47:  Citrus
+      48:  Other Perennial Crop
+      49: Wooded Restinga
+   pantanal:
+    variable: Land cover of the Pantanal region
+    content:
+      1: Forest
+      3: Forest Formation
+      4: Savanna Formation
+      5: Mangrove
+      9:  Forest Plantation
+      10:  Non Forest Natural Formation
+      11:  Wetlands
+      12:  Grassland
+      13:  Other non Forest Formations
+      14:  Farming
+      15:  Pasture
+      18:  Agriculture
+      19:  Temporary Crop
+      20:  Sugar cane
+      21:  Mosaic Agriculture and Pasture
+      22:  Non vegetated Area
+      23:  Beach, Dune and Sand Spot
+      24:  Urban Area
+      25:  Other non Vegetaded Areas
+      26:  Water
+      27:  Non Observed
+      29:  Rocky Outcrop
+      30:  Mining
+      31:  Aquaculture
+      32:  Salt Flat
+      33:  River,Lake and Ocean
+      36:  Perennial Corp
+      39:  Soybean
+      40:  Rice
+      41:  Other temporary Crops
+      46:  Coffee
+      47:  Citrus
+      48:  Other Perennial Crop
+      49: Wooded Restinga
+   mataatlantica:
+    variable: Land cover of the Mata Atlantica region
+    content:
+      1: Forest
+      3: Forest Formation
+      4: Savanna Formation
+      5: Mangrove
+      9:  Forest Plantation
+      10:  Non Forest Natural Formation
+      11:  Wetlands
+      12:  Grassland
+      13:  Other non Forest Formations
+      14:  Farming
+      15:  Pasture
+      18:  Agriculture
+      19:  Temporary Crop
+      20:  Sugar cane
+      21:  Mosaic Agriculture and Pasture
+      22:  Non vegetated Area
+      23:  Beach, Dune and Sand Spot
+      24:  Urban Area
+      25:  Other non Vegetaded Areas
+      26:  Water
+      27:  Non Observed
+      29:  Rocky Outcrop
+      30:  Mining
+      31:  Aquaculture
+      32:  Salt Flat
+      33:  River,Lake and Ocean
+      36:  Perennial Corp
+      39:  Soybean
+      40:  Rice
+      41:  Other temporary Crops
+      46:  Coffee
+      47:  Citrus
+      48:  Other Perennial Crop
+      49: Wooded Restinga

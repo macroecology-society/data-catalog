@@ -1,0 +1,31 @@
+---
+ title: CCI_SC
+ short_description: |
+  Global time-series of annual snow cover
+ long_description: |
+  This dataset extends on the AVHRR-based, daily, per-pixel proportions 
+  of snow cover estimated in the scope of Climate Change Initiative (CCI). 
+  Here, we aggregated the daily layers on a monthly basis, reporting on 
+  maximum,  annual, per-pixel percentages, and on the frequency of months 
+  with observed snow cover.
+ documentation: Link to online documentation, or e-mail of who to ask information to.
+ data_access: https://catalogue.ceda.ac.uk/uuid/d9df331e346f4a50b18bcf41a64b98c7
+ license: CC-BY-SA-4.0
+ version: 1 
+ categories: [land cover,climate]
+ status: "available"
+ metadata:
+  format: "Grid"
+  spatial_resolution: 5 km
+  temporal_resolution: yearly
+  temporal_range: [1992,2018]
+  spatial_extent: [-180,180,-90,90]
+ subdatasets:
+  maxCover:
+   variable: Maximum annual snow cover (%)
+   content:
+    value_range: 0...100
+  nrMonths:
+   variable: Number of months with snow
+   content:
+    value_range: 0...100

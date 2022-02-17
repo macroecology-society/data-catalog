@@ -1,0 +1,102 @@
+---
+ title: BECK_climateMap
+ short_description: |
+  Global Koppen-Geiger climate classification at a 1-km resolution for the 
+  present-day (1980 to 2016) and for projected future conditions (2071 to 2100) 
+  under climate change
+ long_description: |
+  The present-day map is derived from an ensemble of four high-resolution, 
+  topographically-corrected climatic maps. The future map is derived from an 
+  ensemble of 32 climate model projections (scenario RCP8.5), by superimposing 
+  the projected climate change anomaly on the baseline high-resolution climatic 
+  maps. For both time periods we calculate confidence levels from the ensemble 
+  spread, providing valuable indications of the reliability of the classifications. 
+  The new maps exhibit a higher classification accuracy and substantially more detail 
+  than previous maps, particularly in regions with sharp spatial or elevation gradients.
+ documentation: https://www.nature.com/articles/sdata2018214
+ data_access: http://www.gloh2o.org/koppen/
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: climate
+ status: available
+ metadata:
+   format: Grid
+   spatial_resolution: 1 km
+   temporal_resolution: Multiyear snapshot
+   temporal_range: [1986, 2100]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   presentClass:
+    variable: Present climate (1980-2016)
+    content:
+      1: Tropical, rainforest (Af)
+      2: Tropical, monsoon (Am)
+      3: Tropical, savannah (Aw)
+      4: Arid, desert, hot (BWh)
+      5: Arid, desert, cold (BWk)
+      6: Arid, steppe, hot (BSh)
+      7: Arid, steppe, cold (BSk)
+      8: Temperate, dry summer, hot summer (Csa)
+      9: Temperate, dry summer, warm summer (Csb)
+      10: Temperate, dry summer, cold summer (Csc)
+      11: Temperate, dry winter, hot summer (Cwa)
+      12: Temperate, dry winter, warm summer (Cwb)
+      13: Temperate, dry winter, cold summer (Cwc)
+      14: Temperate, no dry season, hot summer (Cfa)
+      15: Temperate, no dry season, warm summer (Cfb)
+      16: Temperate, no dry season, cold summer (Cfc)
+      17: Cold, dry summer, hot summer (Dsa)
+      18: Cold, dry summer, warm summer (Dsb)
+      19: Cold, dry summer, cold summer (Dsc)
+      20: Cold, dry summer, very cold winter (Dsd)
+      21: Cold, dry winter, hot summer (Dwa)
+      22: Cold, dry winter, warm summer (Dwb)
+      23: Cold, dry winter, cold summer (Dwc)
+      24: Cold, dry winter, very cold winter (Dwd)
+      25: Cold, no dry season, hot summer (Dfa)
+      26: Cold, no dry season, warm summer (Dfb)
+      27: Cold, no dry season, cold summer (Dfc)
+      28: Cold, no dry season, very cold winter (Dfd)
+      29: Polar, tundra (ET)
+      30: Polar, frost (EF)
+   futureClass:
+    variable: Present climate (2006-2100)
+    content:
+      1: Tropical, rainforest (Af)
+      2: Tropical, monsoon (Am)
+      3: Tropical, savannah (Aw)
+      4: Arid, desert, hot (BWh)
+      5: Arid, desert, cold (BWk)
+      6: Arid, steppe, hot (BSh)
+      7: Arid, steppe, cold (BSk)
+      8: Temperate, dry summer, hot summer (Csa)
+      9: Temperate, dry summer, warm summer (Csb)
+      10: Temperate, dry summer, cold summer (Csc)
+      11: Temperate, dry winter, hot summer (Cwa)
+      12: Temperate, dry winter, warm summer (Cwb)
+      13: Temperate, dry winter, cold summer (Cwc)
+      14: Temperate, no dry season, hot summer (Cfa)
+      15: Temperate, no dry season, warm summer (Cfb)
+      16: Temperate, no dry season, cold summer (Cfc)
+      17: Cold, dry summer, hot summer (Dsa)
+      18: Cold, dry summer, warm summer (Dsb)
+      19: Cold, dry summer, cold summer (Dsc)
+      20: Cold, dry summer, very cold winter (Dsd)
+      21: Cold, dry winter, hot summer (Dwa)
+      22: Cold, dry winter, warm summer (Dwb)
+      23: Cold, dry winter, cold summer (Dwc)
+      24: Cold, dry winter, very cold winter (Dwd)
+      25: Cold, no dry season, hot summer (Dfa)
+      26: Cold, no dry season, warm summer (Dfb)
+      27: Cold, no dry season, cold summer (Dfc)
+      28: Cold, no dry season, very cold winter (Dfd)
+      29: Polar, tundra (ET)
+      30: Polar, frost (EF)
+   presentConfidence:
+    variable: Per-pixel confidence on the climate type of "presentClass"
+    content:
+      value_range: 0...100
+   futureConfidence:
+    variable: Per-pixel confidence on the climate type of "futureClass"
+    content:
+      value_range: 0...100

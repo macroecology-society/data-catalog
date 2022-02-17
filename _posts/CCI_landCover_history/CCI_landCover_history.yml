@@ -1,0 +1,41 @@
+---
+ title: CCI_landCover_history
+ short_description: |
+  Historical maximum extent of generic land cover types derived from the 
+  CCI land cover dataset
+ long_description: |
+  This dataset provides historical representations of the spatial distribution 
+  of generic land cover classes. To derive these data, we thematicaly aggregated 
+  the CCI land cover into generic class groups (e.g. `agriculture`, `desertic`) 
+  on a yearly basis. Then, for each derived layer, we derived a mask with its 
+  maximum historical extent. Finally, we resampled the output to a 1-km 
+  resolution, depicting per-pixel percentages of the given class group.
+ documentation: carsten.meyer@idiv.de
+ data_access: carsten.meyer@idiv.de
+ license: CC-BY-SA-4.0
+ version: 2.0.7
+ categories: land cover
+ status: available
+ metadata:
+   format: Grid
+   spatial_resolution: 1 km
+   temporal_resolution: Yearly
+   temporal_range: [1992, 2018]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   desertic:
+    variable: Maximum historical extent of bare land and rocky areas (%)
+    content:
+      value_range: 0...100
+    water:
+     variable: Maximum historical extent of water (%)
+     content:
+      value_range: 0...100
+    agriculture:
+     variable: Maximum historical extent of agriculture (%)
+     content:
+      value_range: 0...100
+    wetlands:
+     variable: Maximum historical extent of wetlands (%)
+     content:
+      value_range: 0...100

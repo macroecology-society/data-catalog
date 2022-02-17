@@ -1,0 +1,35 @@
+---
+ title: FVCF
+ short_description: |
+  Fused MODIS-AVHRR Vegetation Continuous Fields (VCF)
+ long_description: |
+  This dataset extends on the AVHRR-based VCF dataset developed 
+  by Hansen et al. (2016), complementing the last years of the 
+  time-series (2017-2019) by integrating MODIS VCF data. Here, 
+  we used a Random Forest (RF) model to translate the MODIS VCF 
+  data into a AVHRR-like values, and derive a contiguous time-series.
+ documentation: carsten.meyer@idiv.de
+ data_access: carsten.meyer@idiv.de
+ license: CC-BY-SA-4.0
+ version: 1
+ categories: land cover
+ status: "available"
+ metadata:
+  format: "Grid"
+  spatial_resolution: 5 km
+  temporal_resolution: yearly
+  temporal_range: [1982,2019]
+  spatial_extent: [-180,180,-90,90]
+ subdatasets:
+  TreeCover:
+   variable: Tree cover density (%)
+   content:
+    value_range: 0...100
+  NonTreeVegetation:
+   variable: Short vegetation density (%)
+   content:
+    value_range: 0...100
+  NonVegetated:
+   variable: Density of non-vegetated surfaces (%) 
+   content:
+    value_range: 0...100

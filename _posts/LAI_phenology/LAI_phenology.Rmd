@@ -1,0 +1,97 @@
+---
+title: "LAI_phenology"
+description: |
+  Typical phenology of deciduous forests derived with PROBA-V data time-series
+preview: LAI_phenology.png
+slug: LAI_phenology
+categories:
+  - land cover
+  - ecology
+date: 2022-02-17
+output:
+  distill::distill_article:
+    highlight_downlit: false
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div style="width=80%;margin-top:0;margin-bottom:0;">
+<h3 style="margin-top:5;margin-bottom:5;">Details</h3>
+<p align="justify">
+This dataset provides information on the average per-pixel phenology of deciduous forests. It maps the Start of Season (SoS), Mid of Season (MoS) and End of Season (EoS), which is through a threshold method applied over a time-series of intra and inter-annual Normalized Difference Vegetation Index (NDVI). The NDVI time-series was measured with the PROBA-V between 1999 and 2017.
+</p>
+
+<h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`SoS`<span style="color:#C8C8C8;"> | </span>Start of Season (i.e. greenup)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|e.g. 1...366|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`MoS`<span style="color:#C8C8C8;"> | </span>Mid of Season (i.e. maturity)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|e.g. 1...366|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`EoS`<span style="color:#C8C8C8;"> | </span>End of Season (i.e. senescence)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|e.g. 1...366|
+</details>
+<h3 style="margin-top:5;margin-bottom:5;">masDMT query</h3>
+<div style="width=80%;margin-top:5;margin-bottom:5;background-color:#777777;">
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resolution
+list_data("LAI_phenology")
+
+# data call for specific subdataset 
+list_data("LAI_phenology/SoS")
+
+# data call to subdataset with a specific resolution
+list_data("LAI_phenology/SoS/1km")
+```
+</div>
+<hr style="margin-top:0;margin-bottom:0;">
+<h3 style="margin-bottom:0;">References</h3>
+<p style='margin-top:0;margin-bottom:5;'>
+             <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/LAI_phenology/LAI_phenology.bib' download='LAI_phenology/LAI_phenology.bibtex'><small>(bibtex)</small></a></p>
+[1] Bórnez, Descals, Verger, and Peñuelas (2020)
+<hr>
+</div>
+
+<aside>
+<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#228B22;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p style="margin-top:0;margin-bottom:0;">**Format**</p>
+<p style="margin-top:0;">Grid</p>
+<p style="margin-top:0;">**Spatial extent:**</p>
+<img src="LAI_phenology_extent.png" width=120, height=90>
+<p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
+<p style="margin-top:0;">Multi-year snapshot</p>
+<p style="margin-top:0;margin-bottom:0;">**Resolution**</p>
+<p style="margin-top:0;">1 km</p>
+<p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
+<p style="margin-top:0;">start year to end year</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://www.sciencedirect.com/science/article/pii/S0303243419301278?via%3Dihub'>documentation</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style="margin:0;padding:0;" href="mailto:k.bornez@creaf.uab.cat?subject=Data access request: ">Data access</a></p></p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p style="margin-top:0;margin-bottom:0;">**license:**</p>
+<p style="margin-top:0;">CC-BY-SA-4.0</p>
+<p style="margin-top:0;margin-bottom:0;">**Version**</p>
+<p style="margin-top:0;">1</p>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="120;">
+<br>
+<br>
+<p style="margin-bottom:0;padding:0;">**Where there  mistakes?**</p>
+<p><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/LAI_phenology/LAI_phenology.yml'>Propose an edit at our GitHub repository</a></p>
+</aside>

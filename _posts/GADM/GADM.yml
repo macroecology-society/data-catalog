@@ -1,0 +1,104 @@
+---
+ title: GADM
+ short_description: |
+  Global database of administrative areas
+ long_description: |
+  The GADM dataset provides up-to-date administrative boundaries, 
+  vectorized on a country-by-country basis and up to five management 
+  levels. In addition, we aggregated the GADM dataset into continents 
+  and regions. The regional aggregation dissolves countries following 
+  the global geoscheme of the United Nations Statistical Division (UNSD).
+ documentation: https://gadm.org/
+ data_access: https://gadm.org/
+ license: CC-BY-SA-4.0
+ version: 3.6
+ categories: land managenent
+ status: available
+ metadata:
+   format: Vector
+   spatial_resolution: 10 m
+   temporal_resolution: NA
+   temporal_range: [2019,2019]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   continents:
+    variable: Continent boundaries
+    content:
+     ogc_fid: Unique feature identifier
+     region: Continent name
+   unsd:
+    variable: Continent boundaries
+    content:
+     ogc_fid: Unique feature identifier
+     region: Region name
+   level0:
+    variable: Country boundaries
+    content:
+     ogc_fid0: Unique feature identifier
+     gid_0: Country ISO3 code
+     name_0: Country name
+   level1:
+    variable: Level 1 administrative boundaries (e.g. Regions)
+    content:
+     ogc_fid0: Unique feature identifier
+     gid_0: Country ISO3 code
+     name_0: Country name
+     gif_1: Unique identifier of administrative area (level 1)
+     name_1: Name of administrative area (level 1)
+     engtype_1: Type of administrative area (English name)
+   level2:
+    variable: Level 2 administrative boundaries (e.g. Districts)
+    content:
+     ogc_fid0: Unique feature identifier
+     gid_0: Country ISO3 code
+     name_0: Country name
+     gif_1: Unique identifier of administrative area (level 1)
+     name_1: Name of administrative area (level 1)
+     gid_2: Unique identifier of administrative area (level 2)
+     name_2: Name of administrative area (level 2)
+     engtype_2: Type of administrative area (English name)
+   level3:
+    variable: Level 3 administrative boundaries (e.g. Counties)
+    content:
+     ogc_fid0: Unique feature identifier
+     gid_0: Country ISO3 code
+     name_0: Country name
+     gif_1: Unique identifier of administrative area (level 1)
+     name_1: Name of administrative area (level 1)
+     gid_2: Unique identifier of administrative area (level 2)
+     name_2: Name of administrative area (level 2)
+     gid_3: Unique identifier of administrative area (level 3)
+     name_3: Name of administrative area (level 3)
+     engtype_3: Type of administrative area (English name)
+   level4:
+    variable: Level 4 administrative boundaries (e.g. Municiplality)
+    content:
+     ogc_fid0: Unique feature identifier
+     gid_0: Country ISO3 code
+     name_0: Country name
+     gif_1: Unique identifier of administrative area (level 1)
+     name_1: Name of administrative area (level 1)
+     gid_2: Unique identifier of administrative area (level 2)
+     name_2: Name of administrative area (level 2)
+     gid_3: Unique identifier of administrative area (level 3)
+     name_3: Name of administrative area (level 3)
+     gid_4: Unique identifier of administrative area (level 4)
+     name_4: Name of administrative area (level 4)
+     engtype_4: Type of administrative area (English name)
+   level5:
+    variable: Level 5 administrative boundaries (e.g. Commune)
+    content:
+     ogc_fid0: Unique feature identifier
+     gid_0: Country ISO3 code
+     name_0: Country name
+     gif_1: Unique identifier of administrative area (level 1)
+     name_1: Name of administrative area (level 1)
+     gid_2: Unique identifier of administrative area (level 2)
+     name_2: Name of administrative area (level 2)
+     gid_3: Unique identifier of administrative area (level 3)
+     name_3: Name of administrative area (level 3)
+     gid_4: Unique identifier of administrative area (level 4)
+     name_4: Name of administrative area (level 4)
+     gid_5: Unique identifier of administrative area (level 5)
+     name_5: Name of administrative area (level 5)
+     engtype_5: Type of administrative area (English name)

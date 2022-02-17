@@ -1,0 +1,26 @@
+---
+ title: fireFrequency
+ short_description: |
+  Global annual maps of intra-annual fire frequency
+ long_description: |
+  This dataset provides yearly data on global, annual 
+  fire extents and prevailance. It uses data from MODIS 
+  MCD64A1 product to count the number of months with 
+  observed fires at each pixel within each year.
+ documentation: carsten.meyer@idiv.de
+ data_access: carsten.meyer@idiv.de
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: [land cover,climate]
+ status: available
+ metadata:
+   format: Grid
+   spatial_resolution: 1 km
+   temporal_resolution: Yearly
+   temporal_range: [2001,2020]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   nrMonths:
+    variable: Number of burning months
+    content:
+     value_range: 0...12

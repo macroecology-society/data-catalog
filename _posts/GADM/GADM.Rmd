@@ -1,0 +1,180 @@
+---
+title: "GADM"
+description: |
+  Global database of administrative areas
+preview: GADM.png
+slug: GADM
+categories:
+  - land managenent
+date: 2022-02-17
+output:
+  distill::distill_article:
+    highlight_downlit: false
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div style="width=80%;margin-top:0;margin-bottom:0;">
+<h3 style="margin-top:5;margin-bottom:5;">Details</h3>
+<p align="justify">
+The GADM dataset provides up-to-date administrative boundaries, vectorized on a country-by-country basis and up to five management levels. In addition, we aggregated the GADM dataset into continents and regions. The regional aggregation dissolves countries following the global geoscheme of the United Nations Statistical Division (UNSD).
+</p>
+
+<h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`continents`<span style="color:#C8C8C8;"> | </span>Continent boundaries</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|ogc_fid|Unique feature identifier|
+|region|Continent name|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`unsd`<span style="color:#C8C8C8;"> | </span>Continent boundaries</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|ogc_fid|Unique feature identifier|
+|region|Region name|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`level0`<span style="color:#C8C8C8;"> | </span>Country boundaries</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|ogc_fid0|Unique feature identifier|
+|gid_0|Country ISO3 code|
+|name_0|Country name|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`level1`<span style="color:#C8C8C8;"> | </span>Level 1 administrative boundaries (e.g. Regions)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|ogc_fid0|Unique feature identifier|
+|gid_0|Country ISO3 code|
+|name_0|Country name|
+|gif_1|Unique identifier of administrative area (level 1)|
+|name_1|Name of administrative area (level 1)|
+|engtype_1|Type of administrative area (English name)|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`level2`<span style="color:#C8C8C8;"> | </span>Level 2 administrative boundaries (e.g. Districts)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|ogc_fid0|Unique feature identifier|
+|gid_0|Country ISO3 code|
+|name_0|Country name|
+|gif_1|Unique identifier of administrative area (level 1)|
+|name_1|Name of administrative area (level 1)|
+|gid_2|Unique identifier of administrative area (level 2)|
+|name_2|Name of administrative area (level 2)|
+|engtype_2|Type of administrative area (English name)|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`level3`<span style="color:#C8C8C8;"> | </span>Level 3 administrative boundaries (e.g. Counties)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|ogc_fid0|Unique feature identifier|
+|gid_0|Country ISO3 code|
+|name_0|Country name|
+|gif_1|Unique identifier of administrative area (level 1)|
+|name_1|Name of administrative area (level 1)|
+|gid_2|Unique identifier of administrative area (level 2)|
+|name_2|Name of administrative area (level 2)|
+|gid_3|Unique identifier of administrative area (level 3)|
+|name_3|Name of administrative area (level 3)|
+|engtype_3|Type of administrative area (English name)|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`level4`<span style="color:#C8C8C8;"> | </span>Level 4 administrative boundaries (e.g. Municiplality)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|ogc_fid0|Unique feature identifier|
+|gid_0|Country ISO3 code|
+|name_0|Country name|
+|gif_1|Unique identifier of administrative area (level 1)|
+|name_1|Name of administrative area (level 1)|
+|gid_2|Unique identifier of administrative area (level 2)|
+|name_2|Name of administrative area (level 2)|
+|gid_3|Unique identifier of administrative area (level 3)|
+|name_3|Name of administrative area (level 3)|
+|gid_4|Unique identifier of administrative area (level 4)|
+|name_4|Name of administrative area (level 4)|
+|engtype_4|Type of administrative area (English name)|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`level5`<span style="color:#C8C8C8;"> | </span>Level 5 administrative boundaries (e.g. Commune)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|ogc_fid0|Unique feature identifier|
+|gid_0|Country ISO3 code|
+|name_0|Country name|
+|gif_1|Unique identifier of administrative area (level 1)|
+|name_1|Name of administrative area (level 1)|
+|gid_2|Unique identifier of administrative area (level 2)|
+|name_2|Name of administrative area (level 2)|
+|gid_3|Unique identifier of administrative area (level 3)|
+|name_3|Name of administrative area (level 3)|
+|gid_4|Unique identifier of administrative area (level 4)|
+|name_4|Name of administrative area (level 4)|
+|gid_5|Unique identifier of administrative area (level 5)|
+|name_5|Name of administrative area (level 5)|
+|engtype_5|Type of administrative area (English name)|
+</details>
+<h3 style="margin-top:5;margin-bottom:5;">masDMT query</h3>
+<div style="width=80%;margin-top:5;margin-bottom:5;background-color:#777777;">
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resolution
+list_data("GADM")
+
+# data call for specific subdataset 
+list_data("GADM/continents")
+
+# data call to subdataset with a specific resolution
+list_data("GADM/continents/10m")
+```
+</div>
+<hr style="margin-top:0;margin-bottom:0;">
+<h3 style="margin-bottom:0;">References</h3>
+<p style='margin-top:0;margin-bottom:5;'>
+             <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/GADM/GADM.bib' download='GADM/GADM.bibtex'><small>(bibtex)</small></a></p>
+[1]  (2012)
+<hr>
+</div>
+
+<aside>
+<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#228B22;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p style="margin-top:0;margin-bottom:0;">**Format**</p>
+<p style="margin-top:0;">Vector</p>
+<p style="margin-top:0;">**Spatial extent:**</p>
+<img src="GADM_extent.png" width=120, height=90>
+<p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
+<p style="margin-top:0;">NA</p>
+<p style="margin-top:0;margin-bottom:0;">**Resolution**</p>
+<p style="margin-top:0;">10 m</p>
+<p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
+<p style="margin-top:0;">2019 to 2019</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://gadm.org/'>documentation</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://gadm.org/'>Data access</a></p></p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p style="margin-top:0;margin-bottom:0;">**license:**</p>
+<p style="margin-top:0;">CC-BY-SA-4.0</p>
+<p style="margin-top:0;margin-bottom:0;">**Version**</p>
+<p style="margin-top:0;">3.6</p>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="120;">
+<br>
+<br>
+<p style="margin-bottom:0;padding:0;">**Where there  mistakes?**</p>
+<p><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GADM/GADM.yml'>Propose an edit at our GitHub repository</a></p>
+</aside>

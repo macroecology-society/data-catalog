@@ -1,0 +1,35 @@
+---
+ title: GSW_history
+ short_description: |
+  Historical metrics on Global Surface Water (GSW)
+ long_description: |
+  This dataset provides historical metrics on the 
+  global behavior of surface water measured over 
+  the full extent of the GSW dataset. The original 
+  data, provided at a 30-m resolution, was aggregagted 
+  to 300-m and depicts per-pixel percentages.
+ documentation: https://global-surface-water.appspot.com/
+ data_access: https://global-surface-water.appspot.com/download
+ license: CC-BY-SA-4.0
+ version: 1.3
+ categories: water
+ status: available
+ metadata:
+   format: Grid
+   spatial_resolution: 300 m
+   temporal_resolution: Multi-temporal snapshot
+   temporal_range: [1992, 2018]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+  maxExtent:
+   variable: Maximum recorded extent (%)
+   content:
+    value_range: 0...100
+  occurrence:
+   variable: Intra and inter-annual water cover instability (%)
+   content:
+    value_range: 0...100
+  recurrence:
+   variable: Inter-annual water return frequency (%)
+   content:
+    value_range: 0...100

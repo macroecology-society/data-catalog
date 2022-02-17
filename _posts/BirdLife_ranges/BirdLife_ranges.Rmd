@@ -1,0 +1,88 @@
+---
+title: "BirdLife_ranges"
+description: |
+  Range maps of the Birdlife initiative
+preview: BirdLife_ranges.png
+slug: BirdLife_ranges
+categories:
+  - ecology
+date: 2022-02-17
+output:
+  distill::distill_article:
+    highlight_downlit: false
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div style="width=80%;margin-top:0;margin-bottom:0;">
+<h3 style="margin-top:5;margin-bottom:5;">Details</h3>
+<p align="justify">
+This dataset provides range maps for thousands of bird species, combining expert knowledge on species-specific ranges and behavior.sources
+</p>
+
+<h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`rangeMaps`<span style="color:#C8C8C8;"> | </span>bird class species</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|ogc_fid|Unique feature identifier|
+|species|Species name|
+|presence|Code specifying occupancy type|
+|origin|Code specifying origin type|
+|seasonal|Code specifying seasonal presence type|
+|compiler|Name of actor responsible for the record|
+|citation|Citation of the record|
+</details>
+<h3 style="margin-top:5;margin-bottom:5;">masDMT query</h3>
+<div style="width=80%;margin-top:5;margin-bottom:5;background-color:#777777;">
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resolution
+list_data("BirdLife_ranges")
+
+# data call for specific subdataset 
+list_data("BirdLife_ranges/rangeMaps")
+
+# data call to subdataset with a specific resolution
+list_data("BirdLife_ranges/rangeMaps/5km")
+```
+</div>
+<hr style="margin-top:0;margin-bottom:0;">
+<h3 style="margin-bottom:0;">References</h3>
+<p style='margin-top:0;margin-bottom:5;'>
+             <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/BirdLife_ranges/BirdLife_ranges.bib' download='BirdLife_ranges/BirdLife_ranges.bibtex'><small>(bibtex)</small></a></p>
+[1]  ()
+<hr>
+</div>
+
+<aside>
+<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#228B22;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p style="margin-top:0;margin-bottom:0;">**Format**</p>
+<p style="margin-top:0;">Vector</p>
+<p style="margin-top:0;">**Spatial extent:**</p>
+<img src="BirdLife_ranges_extent.png" width=120, height=90>
+<p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
+<p style="margin-top:0;">Multi-temporal snapshot</p>
+<p style="margin-top:0;margin-bottom:0;">**Resolution**</p>
+<p style="margin-top:0;">5 km</p>
+<p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
+<p style="margin-top:0;">2020 to 2020</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://www.birdlife.org/'>documentation</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://www.birdlife.org/'>Data access</a></p></p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p style="margin-top:0;margin-bottom:0;">**license:**</p>
+<p style="margin-top:0;">CC-BY-SA-4.0</p>
+<p style="margin-top:0;margin-bottom:0;">**Version**</p>
+<p style="margin-top:0;">2021-2</p>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="120;">
+<br>
+<br>
+<p style="margin-bottom:0;padding:0;">**Where there  mistakes?**</p>
+<p><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/BirdLife_ranges/BirdLife_ranges.yml'>Propose an edit at our GitHub repository</a></p>
+</aside>

@@ -1,0 +1,39 @@
+---
+ title: GM90
+ short_description: |
+  Global, high-resolution geomorphological variables
+ long_description: |
+  This dataset provides 300-m, mean aggregates 
+  of the Geomorpho90m dataset for selected 
+  geomorphological variables. 
+ documentation: https://www.nature.com/articles/s41597-020-0479-6
+ data_access: https://doi.pangaea.de/10.1594/PANGAEA.899135
+ license: CC-BY-SA-4.0
+ version: 1
+ categories: geomorphology
+ status: "available"
+ metadata:
+  format: "Grid"
+  spatial_resolution: 300 m
+  temporal_resolution: snapshot
+  temporal_range: 2000
+  spatial_extent: [-180,180,-90,90]
+ subdatasets:
+  # example applied to gridded data
+  convergence:
+   variable: 
+   content:
+    value_range: 0...n
+  streamPower:
+   variable: 
+   content:
+    value_range: 0...n
+  wetness:
+   variable: 
+   content:
+    value_range: 0...n
+  uniformity:
+   variable: 
+   content:
+    value_range: 0...n
+

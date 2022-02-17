@@ -1,0 +1,40 @@
+---
+ title: gluStats
+ short_description: |
+  Database on Global Land Use (GLU) statistics
+ long_description: |
+  This dataset compiles extensive records on cropland 
+  production, livestock, and forestry, compiled from 
+  from numerous national and subnational data sources, 
+  many of which digitized and standardized by the MAS lab.
+ documentation: carsten.meyer@idiv.de
+ data_access: carsten.meyer@idiv.de
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: ["land use", "land cover"]
+ status: developing
+ metadata:
+   format: Table
+   spatial_resolution: 1 m
+   temporal_resolution: Yearly
+   temporal_range: [1950,2021]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   agriStatis:
+      variable: |
+        Statistics on cropland areas and yelds, often 
+        associated to specific cropland types.
+      content:
+        TBD: TBD
+   forestStats:
+      variable: |
+        Statistics on forestry, including 
+        information on ood harvesting volumes.
+      content:
+        TBD: TBD
+   livestockStats:
+      variable: |
+        Statistics on multiple types of livestock, 
+        including head counts and grazing extents.
+      content:
+        TBD: TBD

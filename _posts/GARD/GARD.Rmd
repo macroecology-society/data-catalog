@@ -1,0 +1,109 @@
+---
+title: "GARD"
+description: |
+  Global Assessment of Reptile Distributions (GARD)
+preview: GARD.png
+slug: GARD
+categories:
+  - ecology
+date: 2022-02-17
+output:
+  distill::distill_article:
+    highlight_downlit: false
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div style="width=80%;margin-top:0;margin-bottom:0;">
+<h3 style="margin-top:5;margin-bottom:5;">Details</h3>
+<p align="justify">
+GARD is a comprehensive, global database of distribution maps for over 11,000 reptile and amphibian species.
+</p>
+
+<h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`rangeMaps`<span style="color:#C8C8C8;"> | </span></summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|ogc_fid0|Feature unique identifier|
+|id_no|Species unique identifier|
+|binomial|Species name|
+|presence|Type of presence|
+|origin|Type of origin|
+|seasonal|Type of seasonal presence|
+|compiler|Who compiled the record|
+|yrcompiled|Year when the record was compiled|
+|citation|Citation of the record|
+|source|Source of the record|
+|dist_comm|Distribution commentary|
+|island|Is the range in an island?|
+|subspecies|Subspecies name|
+|subpop|Subpopulation|
+|tax_comm|Taxonomic comments|
+|kingdom|Species kingdom|
+|phylum|Species taxonimic phylum|
+|class|Species taxonimic class|
+|order|Species taxonimic order|
+|family|Species taxonimic family|
+|genus|Species taxonimic genus|
+|category|Range map status|
+|marine|Is it a marine range?|
+|terrestrial|Is it a terrestrial range?|
+|freshwater|Is it a freshwater range?|
+|shape_leng|Shape perimeter (m)|
+|shape_area|Shape area (m2)|
+</details>
+<h3 style="margin-top:5;margin-bottom:5;">masDMT query</h3>
+<div style="width=80%;margin-top:5;margin-bottom:5;background-color:#777777;">
+```{r eval=FALSE, echo=TRUE}
+# data call without specifying subdataset and resolution
+list_data("GARD")
+
+# data call for specific subdataset 
+list_data("GARD/rangeMaps")
+
+# data call to subdataset with a specific resolution
+list_data("GARD/rangeMaps/20km")
+```
+</div>
+<hr style="margin-top:0;margin-bottom:0;">
+<h3 style="margin-bottom:0;">References</h3>
+<p style='margin-top:0;margin-bottom:5;'>
+             <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/GARD/GARD.bib' download='GARD/GARD.bibtex'><small>(bibtex)</small></a></p>
+[1] Roll, Feldman, Novosolov, Allison, Bauer, Bernard, Böhm, Castro-Herrera, Chirio, Collen, Colli, Dabool, Das, Doan, Grismer, Hoogmoed, Itescu, Kraus, LeBreton, Lewin, Martins, Maza, Meirte, Nagy, de
+C. Nogueira, Pauwels, Pincheira-Donoso, Powney, Sindaco, Tallowin, Torres-Carvajal, Trape, Vidan, Uetz, Wagner, Wang, Orme, Grenyer, and Meiri (2017)
+<hr>
+</div>
+
+<aside>
+<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#228B22;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p style="margin-top:0;margin-bottom:0;">**Format**</p>
+<p style="margin-top:0;">Grid</p>
+<p style="margin-top:0;">**Spatial extent:**</p>
+<img src="GARD_extent.png" width=120, height=90>
+<p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
+<p style="margin-top:0;">Multi-temporal snapshot</p>
+<p style="margin-top:0;margin-bottom:0;">**Resolution**</p>
+<p style="margin-top:0;">20 km</p>
+<p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
+<p style="margin-top:0;">2020 to 2020</p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://www.nature.com/articles/s41559-017-0332-2'>documentation</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='http://www.gardinitiative.org/'>Data access</a></p></p>
+<hr style="margin-top:0;margin-bottom:0;">
+<p style="margin-top:0;margin-bottom:0;">**license:**</p>
+<p style="margin-top:0;">CC-BY-SA-4.0</p>
+<p style="margin-top:0;margin-bottom:0;">**Version**</p>
+<p style="margin-top:0;">1.1</p>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/macroecology-society/masDMT/master/docs/sidebar_credits.png" width="120;">
+<br>
+<br>
+<p style="margin-bottom:0;padding:0;">**Where there  mistakes?**</p>
+<p><a href='https://github.com/macroecology-society/data-catalog/tree/main/_posts/GARD/GARD.yml'>Propose an edit at our GitHub repository</a></p>
+</aside>
