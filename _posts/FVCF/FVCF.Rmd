@@ -6,7 +6,7 @@ preview: FVCF.png
 slug: FVCF
 categories:
   - land cover
-date: 2022-02-17
+date: 2022-02-18
 output:
   distill::distill_article:
     highlight_downlit: false

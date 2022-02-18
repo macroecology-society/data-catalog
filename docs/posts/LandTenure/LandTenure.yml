@@ -3,11 +3,12 @@
  short_description: |
   National-scale land tenure data
  long_description: |
-  This dataset compiles land tenure databases compiled by 
-  the MAS lab. This is an ongoing data collection effort, 
-  and the subdatasets identified here will be extended in due time.
- documentation: mas@idiv.de
- data_access: mas@idiv.de
+  This dataset compiles land tenure databases compiled 
+  by the MAS lab. This is an ongoing data collection 
+  effort, and the subdatasets identified here will 
+  be extended in due time.
+ documentation: carsten.meyer@idiv.de
+ data_access: carsten.meyer@idiv.de
  license: CC-BY-SA-4.0
  version: 1.0
  categories: land management

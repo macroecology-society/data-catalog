@@ -6,8 +6,10 @@
   This dataset provides a global map of bathymetric, 
   expressing the depth of the ocean on a pixel-by-pixel 
   basis, as well as land surface elevation.
- documentation: https://www.gebco.net/data_and_products/gridded_bathymetry_data/
- data_access: https://www.gebco.net/data_and_products/gridded_bathymetry_data/
+ documentation: carsten.meyer@idiv.de
+ data_access: carsten.meyer@idiv.de
+ #documentation: https://www.gebco.net/data_and_products/gridded_bathymetry_data/
+ #data_access: https://www.gebco.net/data_and_products/gridded_bathymetry_data/
  license: CC-BY-SA-4.0
  version: 2.0
  categories: geomorphology

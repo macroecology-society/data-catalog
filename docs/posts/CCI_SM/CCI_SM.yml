@@ -8,8 +8,10 @@
   aggregated those monthly estimates into monthly averages weighted 
   based on prediction uncertainties, and then used those monthly 
   estimates to derive annual climatologies.
- documentation: https://climate.esa.int/en/projects/soil-moisture/key-documents/
- data_access: https://climate.esa.int/en/projects/soil-moisture/data/
+ #documentation: https://climate.esa.int/en/projects/soil-moisture/key-documents/
+ documentation: carsten.meyer@idiv.de
+ data_access: carsten.meyer@idiv.de
+ #data_access: https://climate.esa.int/en/projects/soil-moisture/data/
  license: CC-BY-SA-4.0
  version: v06.1
  categories: climate

@@ -9,7 +9,8 @@
   maximum,  annual, per-pixel percentages, and on the frequency of months 
   with observed snow cover.
  documentation: Link to online documentation, or e-mail of who to ask information to.
- data_access: https://catalogue.ceda.ac.uk/uuid/d9df331e346f4a50b18bcf41a64b98c7
+ data_access: carsten.meyer@idiv.de
+ #data_access: https://catalogue.ceda.ac.uk/uuid/d9df331e346f4a50b18bcf41a64b98c7
  license: CC-BY-SA-4.0
  version: 1 
  categories: [land cover,climate]

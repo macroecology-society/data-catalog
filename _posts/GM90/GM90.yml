@@ -7,7 +7,8 @@
   of the Geomorpho90m dataset for selected 
   geomorphological variables. 
  documentation: https://www.nature.com/articles/s41597-020-0479-6
- data_access: https://doi.pangaea.de/10.1594/PANGAEA.899135
+ #data_access: https://doi.pangaea.de/10.1594/PANGAEA.899135
+ data_access: carsten.meyer@idiv.de
  license: CC-BY-SA-4.0
  version: 1
  categories: geomorphology

@@ -8,7 +8,8 @@
   geometry at a constant-frequency discharge, derived with discharge 
   data from 3693 gauge stations, and 7376 Landsat TM, ETM+ scenes.
  documentation: https://www.science.org/doi/10.1126/science.aat0636
- data_access: https://zenodo.org/record/1297434
+ #data_access: https://zenodo.org/record/1297434
+ data_access: carsten.meyer@idiv.de
  license: CC-BY-SA-4.0
  version: 1.0
  categories: water

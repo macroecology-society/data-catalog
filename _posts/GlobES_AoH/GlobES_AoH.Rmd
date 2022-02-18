@@ -6,7 +6,7 @@ preview: GlobES_AoH.png
 slug: GlobES_AoH
 categories:
   - ecology
-date: 2022-02-17
+date: 2022-02-18
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -23,6 +23,13 @@ This dataset maps the AoH for over 34,000 species, based on the habitat dependen
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`AoH`<span style="color:#C8C8C8;"> | </span>area of Habitat</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|TBD|TBD|
+</details>
 <h3 style="margin-top:5;margin-bottom:5;">masDMT query</h3>
 <div style="width=80%;margin-top:5;margin-bottom:5;background-color:#777777;">
 ```{r eval=FALSE, echo=TRUE}
@@ -30,10 +37,10 @@ This dataset maps the AoH for over 34,000 species, based on the habitat dependen
 list_data("GlobES_AoH")
 
 # data call for specific subdataset 
-list_data("GlobES_AoH/")
+list_data("GlobES_AoH/AoH")
 
 # data call to subdataset with a specific resolution
-list_data("GlobES_AoH//1km")
+list_data("GlobES_AoH/AoH/1km")
 ```
 </div>
 <hr style="margin-top:0;margin-bottom:0;">
@@ -55,8 +62,8 @@ list_data("GlobES_AoH//1km")
 <p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
 <p style="margin-top:0;">1992 to 2018</p>
 <hr style="margin-top:0;margin-bottom:0;">
-<p><p style='margin-top:0;margin-bottom:0;'><a style="margin:0;padding:0;" href="mailto:mas@idiv.de?subject=Data information request: ">documentation</a></p></p>
-<p><p style='margin-top:0;margin-bottom:0;'><a style="margin:0;padding:0;" href="mailto:mas@idiv.de?subject=Data access request: ">Data access</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style="margin:0;padding:0;" href="mailto:carsten.meyer@idiv.de?subject=Data information request: ">documentation</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style="margin:0;padding:0;" href="mailto:carsten.meyer@idiv.de?subject=Data access request: ">Data access</a></p></p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**license:**</p>
 <p style="margin-top:0;">CC-BY-SA-4.0</p>

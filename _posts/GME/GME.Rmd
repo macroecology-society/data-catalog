@@ -6,7 +6,7 @@ preview: GME.png
 slug: GME
 categories:
   - geomorphology
-date: 2022-02-17
+date: 2022-02-18
 output:
   distill::distill_article:
     highlight_downlit: false

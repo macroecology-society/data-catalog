@@ -9,7 +9,8 @@
   body datasets (G1WBM, GSWO, and OpenStreetMap) to 
   extract river networks.
  documentation: http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/
- data_access: http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/
+ #data_access: http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/
+ data_access: carsten.meyer@idiv.de
  license: CC-BY-SA-4.0
  version: 1.0
  categories: water

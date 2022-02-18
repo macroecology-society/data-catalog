@@ -6,7 +6,7 @@ preview: MOD13C2.png
 slug: MOD13C2
 categories:
   - vegetation
-date: 2022-02-17
+date: 2022-02-18
 output:
   distill::distill_article:
     highlight_downlit: false

@@ -15,7 +15,8 @@
   300-m pixels underlying a 1-km pixel. Additionally, the period of 1992 to 
   1996 was covered by replicating the 1997 state.
  documentation: https://climate.esa.int/en/projects/permafrost/key-documents/
- data_access: https://climate.esa.int/en/projects/permafrost/data/
+ data_access: carsten.meyer@idiv.de
+ #data_access: https://climate.esa.int/en/projects/permafrost/data/
  license: CC-BY-SA-4.0
  version: 1.0
  categories: [climate, geomorphology]

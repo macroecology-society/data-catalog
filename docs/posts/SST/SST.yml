@@ -9,8 +9,10 @@
   combines data from the Advanced Very High Resolution Radiometers 
   (AVHRRs), the series of Along Track Scanning Radiometers (ATSRs), 
   and the Sea and Land Surface Temperature Radiometer (SLSTR).
- documentation: https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-sea-surface-temperature?tab=overview
- data_access: https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-sea-surface-temperature?tab=overview
+ #documentation: https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-sea-surface-temperature?tab=overview
+ documentation: carsten.meyer@idiv.de
+ #data_access: https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-sea-surface-temperature?tab=overview
+ data_access: carsten.meyer@idiv.de
  license: CC-BY-SA-4.0
  version: 2.1
  categories: ocean

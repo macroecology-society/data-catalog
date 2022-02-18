@@ -7,7 +7,8 @@
   of different vegetation types. It is based on AVHRR satellite 
   data and mapped on an yearly basis between 1982 and 2016.
  documentation: https://www.nature.com/articles/s41586-018-0411-9
- data_access: https://lpdaac.usgs.gov/products/vcf5kyrv001/
+ #data_access: https://lpdaac.usgs.gov/products/vcf5kyrv001/
+ data_access: carsten.meyer@idiv.de
  license: CC-BY-SA-4.0
  version: 1.0 
  categories: land cover

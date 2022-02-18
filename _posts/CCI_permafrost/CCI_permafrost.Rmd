@@ -7,7 +7,7 @@ slug: CCI_permafrost
 categories:
   - climate
   - geomorphology
-date: 2022-02-17
+date: 2022-02-18
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -48,7 +48,7 @@ list_data("CCI_permafrost/percentCover/300m")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/CCI_permafrost/CCI_permafrost.bib' download='CCI_permafrost/CCI_permafrost.bibtex'><small>(bibtex)</small></a></p>
-[1] Obu, Westermann, Bartsch, et al. (2019)
+[1] Obu, Westermann, Bartsch, Berdnikov, Christiansen, Dashtseren, Delaloye, Elberling, Etzelmüller, Kholodov, Khomutov, Kääb, Leibman, Lewkowicz, Panda, Romanovsky, Way, Westergaard-Nielsen, Wu, Yamkhin, and Zou (2019)
 <hr>
 </div>
 
@@ -67,7 +67,7 @@ list_data("CCI_permafrost/percentCover/300m")
 <p style="margin-top:0;">1992 to 2018</p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://climate.esa.int/en/projects/permafrost/key-documents/'>documentation</a></p></p>
-<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://climate.esa.int/en/projects/permafrost/data/'>Data access</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style="margin:0;padding:0;" href="mailto:carsten.meyer@idiv.de?subject=Data access request: ">Data access</a></p></p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**license:**</p>
 <p style="margin-top:0;">CC-BY-SA-4.0</p>

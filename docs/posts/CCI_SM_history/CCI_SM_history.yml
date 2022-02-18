@@ -6,8 +6,10 @@
   This dataset builds on global soil moisture dataset of ESA's Climate Change 
   Initiative (CCI), providing simple metrics on its temporal variability on a 
   per-pixel basis. 
- documentation: https://climate.esa.int/en/projects/soil-moisture/key-documents/
- data_access: https://climate.esa.int/en/projects/soil-moisture/data/
+ #documentation: https://climate.esa.int/en/projects/soil-moisture/key-documents/
+ documentation: carsten.meyer@idiv.de
+ data_access: carsten.meyer@idiv.de
+ #data_access: https://climate.esa.int/en/projects/soil-moisture/data/
  license: CC-BY-SA-4.0
  version: v06.1
  categories: climate

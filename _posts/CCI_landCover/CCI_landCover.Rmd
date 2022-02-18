@@ -7,7 +7,7 @@ preview: CCI_landCover.png
 slug: CCI_landCover
 categories:
   - land cover
-date: 2022-02-17
+date: 2022-02-18
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -84,7 +84,7 @@ list_data("CCI_landCover/landCover/300m")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/CCI_landCover/CCI_landCover.bib' download='CCI_landCover/CCI_landCover.bibtex'><small>(bibtex)</small></a></p>
-[1] Santoro, Kirches, Wevers, et al. (2017)
+[1] Santoro, Kirches, Wevers, Boettcher, Brockmann, Lamarche, Bontemps, Moreau, and Defourny (2017)
 <hr>
 </div>
 

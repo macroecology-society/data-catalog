@@ -18,3 +18,7 @@
    temporal_range: [1992,2018]
    spatial_extent: [-180,180,-90,90]
  subdatasets:
+  AoH:
+    variable: area of Habitat
+    content:
+      TBD: TBD

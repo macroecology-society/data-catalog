@@ -9,8 +9,10 @@
   consistent NTL dataset by harmonizing DMSP data, availble up to 2013, 
   with simulated DMSP-like NTL observations from the VIIRS data. With 
   this method, we obtain a longer DMSP time-series, up to 2018.
- documentation: https://www.nature.com/articles/s41597-020-0510-y
- data_access: https://doi.org/10.6084/m9.figshare.9828827.v2
+ #documentation: https://www.nature.com/articles/s41597-020-0510-y
+ documentation: carsten.meyer@idiv.de
+ #data_access: https://doi.org/10.6084/m9.figshare.9828827.v2
+ data_access: carsten.meyer@idiv.de
  license: CC-BY-SA-4.0
  version: 1.0
  categories: land cover

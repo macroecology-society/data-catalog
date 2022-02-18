@@ -7,7 +7,7 @@ preview: DMSP.png
 slug: DMSP
 categories:
   - land cover
-date: 2022-02-17
+date: 2022-02-18
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -66,8 +66,8 @@ list_data("DMSP/nightLights/1km")
 <p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
 <p style="margin-top:0;">1992 to 2020</p>
 <hr style="margin-top:0;margin-bottom:0;">
-<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://www.nature.com/articles/s41597-020-0510-y'>documentation</a></p></p>
-<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://doi.org/10.6084/m9.figshare.9828827.v2'>Data access</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style="margin:0;padding:0;" href="mailto:carsten.meyer@idiv.de?subject=Data information request: ">documentation</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style="margin:0;padding:0;" href="mailto:carsten.meyer@idiv.de?subject=Data access request: ">Data access</a></p></p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**license:**</p>
 <p style="margin-top:0;">CC-BY-SA-4.0</p>

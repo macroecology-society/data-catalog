@@ -2,8 +2,10 @@
  title: globalMines
  short_description: Global, spatial distribution of mining operations
  long_description: This dataset draws individual mining operations, derived through a dense database of Landsat acquisitions. Individual polygons are drawn within a 10 km buffer from the approximate geographical coordinates of more than 6,000 active mining sites across the globe.
- documentation: https://www.nature.com/articles/s41597-020-00624-w
- data_access: https://www.fineprint.global/visualisations/viewer/
+ #documentation: https://www.nature.com/articles/s41597-020-00624-w
+ documentation: carsten.meyer@idiv.de
+ #data_access: https://www.fineprint.global/visualisations/viewer/
+ data_access: carsten.meyer@idiv.de
  license: CC-BY-SA-4.0
  version: 1.0
  categories: land cover

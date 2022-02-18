@@ -6,7 +6,7 @@ preview: GRWL_class.png
 slug: GRWL_class
 categories:
   - water
-date: 2022-02-17
+date: 2022-02-18
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -88,7 +88,7 @@ list_data("GRWL_class/cannal/30m")
 <p style="margin-top:0;">1982 to 2018</p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://www.science.org/doi/10.1126/science.aat0636'>documentation</a></p></p>
-<p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://zenodo.org/record/1297434'>Data access</a></p></p>
+<p><p style='margin-top:0;margin-bottom:0;'><a style="margin:0;padding:0;" href="mailto:carsten.meyer@idiv.de?subject=Data access request: ">Data access</a></p></p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**license:**</p>
 <p style="margin-top:0;">CC-BY-SA-4.0</p>

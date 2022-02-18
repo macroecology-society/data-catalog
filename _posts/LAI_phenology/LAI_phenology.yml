@@ -10,7 +10,7 @@
   and inter-annual Normalized Difference Vegetation Index (NDVI). 
   The NDVI time-series was measured with the PROBA-V between 1999 and 2017.
  documentation: https://www.sciencedirect.com/science/article/pii/S0303243419301278?via%3Dihub
- data_access: k.bornez@creaf.uab.cat
+ data_access: carsten.meyer@idiv.de
  license: CC-BY-SA-4.0
  version: 1.0
  categories: [land cover, ecology]

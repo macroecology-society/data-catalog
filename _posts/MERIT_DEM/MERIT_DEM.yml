@@ -11,7 +11,8 @@
   Furthermore, the dataset was combined with GEBCO bathymetry 
   data, which was added to oceanic data gaps in the MERIT DEM.
  documentation: http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/
- data_access: http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/
+ #data_access: http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/
+ data_access: carsten.meyer@idiv.de
  license: CC-BY-SA-4.0
  version: 1.0
  categories: geomorphology
