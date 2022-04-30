@@ -6,7 +6,7 @@ preview: linearDistance.png
 slug: linearDistance
 categories:
   - utilities
-date: 2022-02-18
+date: 2022-04-30
 output:
   distill::distill_article:
     highlight_downlit: false

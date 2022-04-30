@@ -7,8 +7,7 @@
   and seasonal water. The original dataset, a classification of water 
   seasonality with a  30 m resolution, was aggregated to 300 m. The 
   output depict per-pixel percentages of permanent and seasonal water, 
-  as well as the percentage of missing data. This data was collected 
-  through Google Earth Engine (GEE). 
+  as well as the percentage of missing data.
  documentation: https://global-surface-water.appspot.com/
  data_access: https://global-surface-water.appspot.com/download
  license: CC-BY-SA-4.0

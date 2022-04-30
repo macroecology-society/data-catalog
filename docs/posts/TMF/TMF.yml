@@ -3,7 +3,7 @@
  short_description: |
   Annual tropical moist forest cover densities
  long_description: |
-  The European Commission’s Joint Research Centre developed a dataset 
+  The Joint Research Centre of the European Commission developed a dataset 
   on forest cover change in tropical moist forests (TMF) using 39 years 
   of Landsat time series (30 m). We aggregated these data to a 300 m 
   resolution, deriving yearly layers on sub-pixel proportions of forests. 

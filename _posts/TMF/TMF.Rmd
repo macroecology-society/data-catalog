@@ -6,7 +6,7 @@ preview: TMF.png
 slug: TMF
 categories:
   - land cover
-date: 2022-02-18
+date: 2022-04-30
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <div style="width=80%;margin-top:0;margin-bottom:0;">
 <h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-The European Commissionís Joint Research Centre developed a dataset on forest cover change in tropical moist forests (TMF) using 39 years of Landsat time series (30 m). We aggregated these data to a 300 m resolution, deriving yearly layers on sub-pixel proportions of forests. Futhermore, using the long-term change information of the original dataset, we reconstructed yearly extents of mangrove forest. Note that mangroves are a subset of the forest cover density layers, and therefore should not be used complementary.
+The Joint Research Centre of the European Commission developed a dataset on forest cover change in tropical moist forests (TMF) using 39 years of Landsat time series (30 m). We aggregated these data to a 300 m resolution, deriving yearly layers on sub-pixel proportions of forests. Futhermore, using the long-term change information of the original dataset, we reconstructed yearly extents of mangrove forest. Note that mangroves are a subset of the forest cover density layers, and therefore should not be used complementary.
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
@@ -54,7 +54,7 @@ list_data("TMF/forestDensity/300m")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/TMF/TMF.bib' download='TMF/TMF.bibtex'><small>(bibtex)</small></a></p>
-[1] Vancutsem, Achard, Pekel, Vieilledent, Carboni, Simonetti, Gallego, Arag√£o, and Nasi (2021)
+[1] Vancutsem, Achard, Pekel, et al. (2021)
 <hr>
 </div>
 

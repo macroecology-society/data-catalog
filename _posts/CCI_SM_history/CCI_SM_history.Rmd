@@ -6,7 +6,7 @@ preview: CCI_SM_history.png
 slug: CCI_SM_history
 categories:
   - climate
-date: 2022-02-18
+date: 2022-04-30
 output:
   distill::distill_article:
     highlight_downlit: false

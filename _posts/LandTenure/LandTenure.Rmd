@@ -6,7 +6,7 @@ preview: LandTenure.png
 slug: LandTenure
 categories:
   - land management
-date: 2022-02-18
+date: 2022-04-30
 output:
   distill::distill_article:
     highlight_downlit: false

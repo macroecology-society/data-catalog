@@ -6,7 +6,7 @@ preview: economic_db.png
 slug: economic_db
 categories:
   - economy
-date: 2022-02-18
+date: 2022-04-30
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -45,7 +45,13 @@ list_data("economic_db/GDP/1m")
 ```
 </div>
 <hr style="margin-top:0;margin-bottom:0;">
-
+<h3 style="margin-bottom:0;">References</h3>
+<p style='margin-top:0;margin-bottom:5;'>
+             <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/economic_db/economic_db.bib' download='economic_db/economic_db.bibtex'><small>(bibtex)</small></a></p>
+[1] World Bank (2022)
+[2] World Bank (2022)
+[3] University of Minnesota (2022)
+[4] UNSD (2022)
 <hr>
 </div>
 

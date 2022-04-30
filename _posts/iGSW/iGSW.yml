@@ -1,0 +1,30 @@
+---
+ title: iGSW
+ short_description: |
+  Annual, Gap-filled Global Surface Water (GSW) from 1992 to 2018
+ long_description: |
+  This dataset fills data gaps in the GSW dataset and correct for 
+  prediction biases in the original data using machine learning. It 
+  maps annual per-pixel percentages of surface water, both permanent 
+  and seasonal.
+ documentation: mas@idiv.de
+ data_access: mas@idiv.de
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: [land use, land cover]
+ status: developing
+ metadata:
+   format: Grid
+   spatial_resolution: 300 m
+   temporal_resolution: Yearly
+   temporal_range: [1992,2018]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   permanent:
+    variable: Per-pixel percentage of permanent water
+    content:
+     value_range: 0...100
+   seasonal:
+    variable: Per-pixel percentage of seasonal water
+    content:
+     value_range: 0...100

@@ -6,7 +6,7 @@ preview: GSW.png
 slug: GSW
 categories:
   - water
-date: 2022-02-18
+date: 2022-04-30
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <div style="width=80%;margin-top:0;margin-bottom:0;">
 <h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-This dataset offers yearly data on the spatial extent of permanent and seasonal water. The original dataset, a classification of water seasonality with a  30 m resolution, was aggregated to 300 m. The output depict per-pixel percentages of permanent and seasonal water, as well as the percentage of missing data. This data was collected through Google Earth Engine (GEE). 
+This dataset offers yearly data on the spatial extent of permanent and seasonal water. The original dataset, a classification of water seasonality with a  30 m resolution, was aggregated to 300 m. The output depict per-pixel percentages of permanent and seasonal water, as well as the percentage of missing data.
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>

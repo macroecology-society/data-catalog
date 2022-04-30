@@ -6,7 +6,7 @@ preview: BirdLife_ranges.png
 slug: BirdLife_ranges
 categories:
   - ecology
-date: 2022-02-18
+date: 2022-04-30
 output:
   distill::distill_article:
     highlight_downlit: false

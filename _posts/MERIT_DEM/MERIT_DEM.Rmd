@@ -6,7 +6,7 @@ preview: MERIT_DEM.png
 slug: MERIT_DEM
 categories:
   - geomorphology
-date: 2022-02-18
+date: 2022-04-30
 output:
   distill::distill_article:
     highlight_downlit: false

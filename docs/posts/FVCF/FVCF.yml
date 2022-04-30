@@ -3,11 +3,12 @@
  short_description: |
   Fused MODIS-AVHRR Vegetation Continuous Fields (VCF)
  long_description: |
-  This dataset extends on the AVHRR-based VCF dataset developed 
-  by Hansen et al. (2016), complementing the last years of the 
-  time-series (2017-2019) by integrating MODIS VCF data. Here, 
-  we used a Random Forest (RF) model to translate the MODIS VCF 
-  data into a AVHRR-like values, and derive a contiguous time-series.
+  This dataset extends on the AVHRR-based VCF dataset 
+  developed by Hansen et al. (2016) by integrating MODIS 
+  and Copernicus data. We used a Random Forest model to 
+  translate these data into AVHRR-like layers, assuring 
+  their continuity past 2016 in support of multi-decadal 
+  monitoring applications.
  documentation: carsten.meyer@idiv.de
  data_access: carsten.meyer@idiv.de
  license: CC-BY-SA-4.0

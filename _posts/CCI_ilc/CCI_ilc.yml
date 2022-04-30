@@ -1,0 +1,44 @@
+---
+ title: CCI_ilc
+ short_description: |
+  Annual and improved CCI land cover with associated 
+  data on Vegetation continuous Fields (VCF).
+ long_description: |
+  This dataset corrects issues observed in land cover dataset of 
+  ESA's Climate Change Initiative (CCI). The original data depicts 
+  implausible changes caused by methodological artificats, which often 
+  manifest as extensive, country-wide land cover transitions. We corrected 
+  for these issues by modelling annual Vegetation Continuous Fields (VCF) at 
+  a 300-m, which we then used to identify and correct misclassified pixels. 
+  The output is a bias-corrected CCI land cover dataset, with novel class 
+  combinations and per-pixel percentages for dominant vegetated classes, which 
+  can be used to 
+ documentation: carsten.meyer@idiv.de
+ data_access: carsten.meyer@idiv.de
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: land cover
+ status: developing
+ metadata:
+  format: Grid
+  spatial_resolution: 300 m
+  temporal_resolution: Yearly
+  temporal_range: [1992,2018]
+  spatial_extent: [-180,180,-90,90]
+ subdatasets:
+  landCover:
+   variable: Per-pixel canopy densities (%)
+   content:
+    value_range: 0...100
+ treeCover:
+   variable: Per-pixel percentage of tree cover (%)
+   content:
+    value_range: 0...100
+ shortVegetation:
+   variable: Per-pixel percentage of short vegetation (%)
+   content:
+    value_range: 0...100
+ nonVegetated:
+   variable: Per-pixel percentage of non-vegetated surfaces (%)
+   content:
+    value_range: 0...100

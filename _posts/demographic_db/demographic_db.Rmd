@@ -6,7 +6,7 @@ preview: demographic_db.png
 slug: demographic_db
 categories:
   - sociology
-date: 2022-02-18
+date: 2022-04-30
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -45,7 +45,12 @@ list_data("demographic_db/populationProfile/1m")
 ```
 </div>
 <hr style="margin-top:0;margin-bottom:0;">
-
+<h3 style="margin-bottom:0;">References</h3>
+<p style='margin-top:0;margin-bottom:5;'>
+             <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/demographic_db/demographic_db.bib' download='demographic_db/demographic_db.bibtex'><small>(bibtex)</small></a></p>
+[1] World Bank (2022)
+[2] World Bank (2022)
+[3] University of Minnesota (2022)
 <hr>
 </div>
 

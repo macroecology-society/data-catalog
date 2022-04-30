@@ -6,7 +6,7 @@ preview: FVCF.png
 slug: FVCF
 categories:
   - land cover
-date: 2022-02-18
+date: 2022-04-30
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <div style="width=80%;margin-top:0;margin-bottom:0;">
 <h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-This dataset extends on the AVHRR-based VCF dataset developed by Hansen et al. (2016), complementing the last years of the time-series (2017-2019) by integrating MODIS VCF data. Here, we used a Random Forest (RF) model to translate the MODIS VCF data into a AVHRR-like values, and derive a contiguous time-series.
+This dataset extends on the AVHRR-based VCF dataset developed by Hansen et al. (2016) by integrating MODIS and Copernicus data. We used a Random Forest model to translate these data into AVHRR-like layers, assuring their continuity past 2016 in support of multi-decadal monitoring applications.
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
