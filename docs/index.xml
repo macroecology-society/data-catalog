@@ -252,15 +252,6 @@ that fuses data from Copernicus, MODIS, and AVHRR</description>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/geoprocessing_tiles/geoprocessing_tiles.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
-      <title>Annual forest cover</title>
-      <link>https://macroecology-society.github.io/data-catalog/posts/GFC</link>
-      <description>Yearly global canopy cover percentages</description>
-      <category>land cover</category>
-      <guid>https://macroecology-society.github.io/data-catalog/posts/GFC</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
-      <media:content url="https://macroecology-society.github.io/data-catalog/posts/GFC/GFC.png" medium="image" type="image/png" width="200" height="100"/>
-    </item>
-    <item>
       <title>Global floodplains</title>
       <link>https://macroecology-society.github.io/data-catalog/posts/GFPLAIN</link>
       <description>Maximum extent of the 200-year floodplains</description>

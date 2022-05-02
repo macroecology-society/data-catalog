@@ -58,7 +58,7 @@
     ],
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset corrects issues observed in land cover dataset of ESA’s\r\nClimate Change Initiative (CCI). The original data maps implausible\r\nchanges caused by methodological artificats, which often manifest as\r\nfalse, country-wide land cover transitions. We corrected for these\r\nanomalies with the support ofannual Vegetation Continuous Fields (VCF)\r\ndata mapped at a 300-m resolution, which we used to identify and correct\r\nerrogenous pixels. The output is a bias-corrected land cover dataset\r\nwith novel class combinations and per-pixel percentages for dominant\r\nvegetated classes.\r\n\r\n\r\nSubdatasets\r\n\r\nlandCover | land cover\r\nclassification\r\ncontent\r\ndescription\r\nvalue_range\r\nTBD\r\ntreeCover | Per-pixel\r\npercentage of tree cover (%)\r\ncontent\r\ndescription\r\nvalue_range\r\n0…100\r\nshortVegetation |\r\nPer-pixel percentage of short vegetation (%)\r\ncontent\r\ndescription\r\nvalue_range\r\n0…100\r\nnonVegetated |\r\nPer-pixel percentage of non-vegetated surfaces (%)\r\ncontent\r\ndescription\r\nvalue_range\r\n0…100\r\n\r\nmasDMT query\r\n\r\n\r\n\r\n# data call without specifying subdataset and resolution\r\nlist_data(\"CCI_ilc\")\r\n\r\n# data call for specific subdataset \r\nlist_data(\"CCI_ilc/landCover\")\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"CCI_ilc/landCover/300m\")\r\n\r\n\r\n\r\n\r\ndeveloping\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nYearly\r\n\r\n\r\nResolution\r\n\r\n\r\n300 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n1992 to 2018\r\n\r\n\r\n\r\ndocumentation\r\n\r\n\r\n\r\n\r\nData\r\naccess\r\n\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nWhere there mistakes?\r\n\r\n\r\nPropose\r\nan edit at our GitHub repository\r\n\r\n",
     "preview": "posts/CCI_ilc/CCI_ilc.png",
-    "last_modified": "2022-05-02T11:11:49+02:00",
+    "last_modified": "2022-05-02T12:19:37+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
@@ -399,22 +399,6 @@
     "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset consists of several, pre-designed tiling systems designed\r\nwithin the MAS group, which can be used to tile large spatial datasets\r\nwhen making use of multicore processing.\r\n\r\n\r\nSubdatasets\r\n\r\nhighResolution | Tiling\r\nsystem designed to download 300-m data from GEE\r\ncontent\r\ndescription\r\nleft\r\nMinimum longitude\r\nbottom\r\nMinimum latitude\r\nright\r\nMaximum longitude\r\ntop\r\nMaximum latitude\r\ntile\r\nUnique tile identifier\r\nmidResolution | Tiling\r\nsystem designed to process 300-m data\r\ncontent\r\ndescription\r\nleft\r\nMinimum longitude\r\nbottom\r\nMinimum latitude\r\nright\r\nMaximum longitude\r\ntop\r\nMaximum latitude\r\ntile\r\nUnique tile identifier\r\n\r\nmasDMT query\r\n\r\n\r\n\r\n# data call without specifying subdataset and resolution\r\nlist_data(\"geoprocessing_tiles\")\r\n\r\n# data call for specific subdataset \r\nlist_data(\"geoprocessing_tiles/highResolution\")\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"geoprocessing_tiles/highResolution/1m\")\r\n\r\n\r\n\r\n\r\navailable\r\n\r\n\r\nFormat\r\n\r\n\r\nVector\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nNA\r\n\r\n\r\nResolution\r\n\r\n\r\n1 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n2919 to 2019\r\n\r\n\r\n\r\ndocumentation\r\n\r\n\r\n\r\n\r\nData\r\naccess\r\n\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1\r\n\r\n\r\nWhere there mistakes?\r\n\r\n\r\nPropose\r\nan edit at our GitHub repository\r\n\r\n",
     "preview": "posts/geoprocessing_tiles/geoprocessing_tiles.png",
     "last_modified": "2022-05-02T11:17:31+02:00",
-    "input_file": {},
-    "preview_width": 200,
-    "preview_height": 100
-  },
-  {
-    "path": "posts/GFC/",
-    "title": "Annual forest cover",
-    "description": "Yearly global canopy cover percentages",
-    "author": [],
-    "date": "2022-05-02",
-    "categories": [
-      "land cover"
-    ],
-    "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThis dataset extends on Hansen’s Global Forest Change (GFC) data\r\nproduct. The original dataset depicts yearly forest cover changes and\r\noverall gains within a given observation period. Here, we combine both\r\ndata components to derive yearly forest cover data. To the baseline of\r\nthe GFC, mapped for 2000, we removed percent changes on a yearly basis\r\nusing the reference year of change. From 2012 to 2019, we additionally\r\nadded information on gains. The year of 2012 is the first where gains\r\nare quantified. For that reason, tree cover percentages from 2001 to\r\n2011 should be handled with care.\r\n\r\n\r\nSubdatasets\r\n\r\ncanopyDensity | Tree\r\ncanopy density (%)\r\ncontent\r\ndescription\r\nvalue_range\r\ne.g. 0…100\r\nforestDensity | Forest\r\ncover density (%) of pixels with a minimum canopy density of 30%\r\ncontent\r\ndescription\r\nvalue_range\r\ne.g. 0…100\r\n\r\nmasDMT query\r\n\r\n\r\n\r\n# data call without specifying subdataset and resolution\r\nlist_data(\"GFC\")\r\n\r\n# data call for specific subdataset \r\nlist_data(\"GFC/canopyDensity\")\r\n\r\n# data call to subdataset with a specific resolution\r\nlist_data(\"GFC/canopyDensity/300m\")\r\n\r\n\r\n\r\nReferences\r\n\r\n\r\n(bibtex)\r\n\r\n\r\n[1] Hansen, Potapov, Moore, Hancher, Turubanova, Tyukavina, Thau,\r\nStehman, Goetz, Loveland, Kommareddy, Egorov, Chini, Justice, and\r\nTownshend (2013)\r\n\r\n\r\n\r\navailable\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nYearly\r\n\r\n\r\nResolution\r\n\r\n\r\n300 m\r\n\r\n\r\nTime frame\r\n\r\n\r\n2000 to 2019\r\n\r\n\r\n\r\ndocumentation\r\n\r\n\r\n\r\n\r\nData\r\naccess\r\n\r\n\r\n\r\nlicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1.7\r\n\r\n\r\nWhere there mistakes?\r\n\r\n\r\nPropose\r\nan edit at our GitHub repository\r\n\r\n",
-    "preview": "posts/GFC/GFC.png",
-    "last_modified": "2022-05-02T11:17:46+02:00",
     "input_file": {},
     "preview_width": 200,
     "preview_height": 100
