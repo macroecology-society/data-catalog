@@ -1,5 +1,6 @@
 ---
- title: CCI_landCover_history
+ title: CCI land cover history
+ dataset_id: CCI_landCover_history
  short_description: |
   Historical maximum extent of generic land cover types derived from the 
   CCI land cover dataset

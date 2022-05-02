@@ -1,12 +1,12 @@
 ---
-title: "tidalFlats"
+title: "Global map of tidal flats"
 description: |
   Global distribution of tidal flats
 preview: tidalFlats.png
 slug: tidalFlats
 categories:
   - water
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -47,7 +47,7 @@ list_data("tidalFlats/tidalFlats/300m")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/tidalFlats/tidalFlats.bib' download='tidalFlats/tidalFlats.bibtex'><small>(bibtex)</small></a></p>
-[1] Murray, Phinn, DeWitt, Ferrari, Johnston, Lyons, Clinton, Thau, and Fuller (2019)
+<p>[1] Murray, Phinn, DeWitt, Ferrari, Johnston, Lyons, Clinton, Thau, and Fuller (2019)</p>
 <hr>
 </div>
 
@@ -57,7 +57,7 @@ list_data("tidalFlats/tidalFlats/300m")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="tidalFlats_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

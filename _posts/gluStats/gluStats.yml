@@ -1,7 +1,8 @@
 ---
- title: gluStats
+ title: Global land use database
+ dataset_id: gluStats
  short_description: |
-  Database on Global Land Use (GLU) statistics
+  Multi-temporal database with statistics on agricultural production and land use
  long_description: |
   This dataset compiles extensive records on cropland 
   production, livestock, and forestry, compiled from 

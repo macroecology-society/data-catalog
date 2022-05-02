@@ -1,5 +1,6 @@
 ---
- title: travelTime
+ title: Travel time to the nearest city
+ dataset_id: travelTime
  short_description: |
   Global map of travel time disparities
  long_description: |

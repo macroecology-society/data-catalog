@@ -1,5 +1,6 @@
 ---
- title: TerraClimate
+ title: Annual water balance 
+ dataset_id: TerraClimate
  short_description: |
   Global climate and water balance time series.
  long_description: |

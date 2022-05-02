@@ -1,12 +1,12 @@
 ---
-title: "GMBA"
+title: "Global mountain inventory"
 description: |
-  Global Mountain Biodiversity Assessment (GMBA)
+  Delineation of indiviudal mountains
 preview: GMBA.png
 slug: GMBA
 categories:
   - geomorphology
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <div style="width=80%;margin-top:0;margin-bottom:0;">
 <h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-This dataset provides expert-drawn spatial extents of individual mountains resulting in robust global inventory.
+This dataset provides expert-drawn spatial extents of individual mountains resulting in robust global inventory. It was conducted in the scope of the Global Mountain Biodiversity Assessment (GMBA).
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
@@ -49,7 +49,7 @@ list_data("GMBA/inventory/2degrees")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/GMBA/GMBA.bib' download='GMBA/GMBA.bibtex'><small>(bibtex)</small></a></p>
-[1] Körner, Jetz, Paulsen, Payne, Rudmann-Maurer, and M. Spehn (2017)
+<p>[1] Körner, Jetz, Paulsen, Payne, Rudmann-Maurer, and M. Spehn (2017)</p>
 <hr>
 </div>
 
@@ -59,7 +59,7 @@ list_data("GMBA/inventory/2degrees")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Vector</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="GMBA_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Snapshot</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

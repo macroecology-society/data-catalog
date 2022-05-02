@@ -1,5 +1,5 @@
 ---
-title: "CCI_permafrost"
+title: "Annual permafrost extents"
 description: |
   Time-series of the extent of permafrost in the northern hemisphere
 preview: CCI_permafrost.png
@@ -7,7 +7,7 @@ slug: CCI_permafrost
 categories:
   - climate
   - geomorphology
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -48,7 +48,7 @@ list_data("CCI_permafrost/percentCover/300m")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/CCI_permafrost/CCI_permafrost.bib' download='CCI_permafrost/CCI_permafrost.bibtex'><small>(bibtex)</small></a></p>
-[1] Obu, Westermann, Bartsch, Berdnikov, Christiansen, Dashtseren, Delaloye, Elberling, Etzelmüller, Kholodov, Khomutov, Kääb, Leibman, Lewkowicz, Panda, Romanovsky, Way, Westergaard-Nielsen, Wu, Yamkhin, and Zou (2019)
+<p>[1] Obu, Westermann, Bartsch, Berdnikov, Christiansen, Dashtseren, Delaloye, Elberling, Etzelmüller, Kholodov, Khomutov, Kääb, Leibman, Lewkowicz, Panda, Romanovsky, Way, Westergaard-Nielsen, Wu, Yamkhin, and Zou (2019)</p>
 <hr>
 </div>
 
@@ -58,7 +58,7 @@ list_data("CCI_permafrost/percentCover/300m")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="CCI_permafrost_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

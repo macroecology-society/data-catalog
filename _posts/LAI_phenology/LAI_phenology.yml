@@ -1,5 +1,6 @@
 ---
- title: LAI_phenology
+ title: Land surface phenology 
+ dataset_id: LAI_phenology
  short_description: |
   Typical phenology of deciduous forests derived with PROBA-V data time-series
  long_description: |

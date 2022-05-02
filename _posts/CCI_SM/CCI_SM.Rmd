@@ -1,12 +1,13 @@
 ---
-title: "CCI_SM"
+title: "Annual soil moisture"
 description: |
-  Global time-series of soil moisture, from 1978 to the present
+  Global intra-annual metrics on the variability 
+  of soil moisture content from 1978 to the present
 preview: CCI_SM.png
 slug: CCI_SM
 categories:
   - climate
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -19,7 +20,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <div style="width=80%;margin-top:0;margin-bottom:0;">
 <h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-This product is based on daily soil moisture estimates, developed in the context of the Climate Change Initiative (CCI). Here, we aggregated those monthly estimates into monthly averages weighted based on prediction uncertainties, and then used those monthly estimates to derive annual climatologies.
+This product is based on daily soil moisture estimates, developed in the context of the Climate Change Initiative (CCI). We derived  monthly averages weighted weighted by per-pixel uncertainties and used them to derive annual climatologies.
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
@@ -75,8 +76,8 @@ list_data("CCI_SM/mean/25km")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/CCI_SM/CCI_SM.bib' download='CCI_SM/CCI_SM.bibtex'><small>(bibtex)</small></a></p>
-[1] Gruber, Scanlon, van der
-Schalie, Wagner, and Dorigo (2019)
+<p>[1] Gruber, Scanlon, van der
+Schalie, Wagner, and Dorigo (2019)</p>
 <hr>
 </div>
 
@@ -86,7 +87,7 @@ Schalie, Wagner, and Dorigo (2019)
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="CCI_SM_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

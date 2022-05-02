@@ -1,5 +1,6 @@
 ---
- title: MOD13C2
+ title: Global Normalized Difference Vegetation Index (NDVI)
+ dataset_id: MOD13C2
  short_description: |
   Global, annual, NDVI metrics derived with MODIS 
  long_description: |

@@ -1,12 +1,12 @@
 ---
-title: "BirdLife_ranges"
+title: "Range maps of bird species"
 description: |
-  Range maps of the Birdlife initiative
+  Range maps of bird species provided by the Birdlife initiative
 preview: BirdLife_ranges.png
 slug: BirdLife_ranges
 categories:
   - ecology
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <div style="width=80%;margin-top:0;margin-bottom:0;">
 <h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-This dataset provides range maps for thousands of bird species, combining expert knowledge on species-specific ranges and behavior.sources
+This dataset provides range maps for over 10,000 bird species, combining expert knowledge on species-specific ranges and behavior. We harmonized these data with that provided by other sources of range map data such as the IUCN Red List.
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
@@ -53,7 +53,7 @@ list_data("BirdLife_ranges/rangeMaps/5km")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/BirdLife_ranges/BirdLife_ranges.bib' download='BirdLife_ranges/BirdLife_ranges.bibtex'><small>(bibtex)</small></a></p>
-[1]  ()
+<p>[1]  ()</p>
 <hr>
 </div>
 
@@ -63,7 +63,7 @@ list_data("BirdLife_ranges/rangeMaps/5km")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Vector</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="BirdLife_ranges_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Multi-temporal snapshot</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

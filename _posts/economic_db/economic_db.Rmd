@@ -1,12 +1,13 @@
 ---
-title: "economic_db"
+title: "Economic indicators"
 description: |
-  Global database on economic indicators
+  Global database on economic indicators obtained at 
+  multiple scales, from microdata to international reports
 preview: economic_db.png
 slug: economic_db
 categories:
   - economy
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -48,10 +49,10 @@ list_data("economic_db/GDP/1m")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/economic_db/economic_db.bib' download='economic_db/economic_db.bibtex'><small>(bibtex)</small></a></p>
-[1] World Bank (2022)
-[2] World Bank (2022)
-[3] University of Minnesota (2022)
-[4] UNSD (2022)
+<p>[1] World Bank (2022)</p>
+<p>[2] World Bank (2022)</p>
+<p>[3] University of Minnesota (2022)</p>
+<p>[4] UNSD (2022)</p>
 <hr>
 </div>
 
@@ -61,7 +62,7 @@ list_data("economic_db/GDP/1m")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Table</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="economic_db_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Snapshot / Yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

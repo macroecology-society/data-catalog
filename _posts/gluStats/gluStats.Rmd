@@ -1,13 +1,13 @@
 ---
-title: "gluStats"
+title: "Global land use database"
 description: |
-  Database on Global Land Use (GLU) statistics
+  Multi-temporal database with statistics on agricultural production and land use
 preview: gluStats.png
 slug: gluStats
 categories:
   - land use
   - land cover
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -68,10 +68,10 @@ list_data("gluStats/agriStatis/1m")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/gluStats/gluStats.bib' download='gluStats/gluStats.bibtex'><small>(bibtex)</small></a></p>
-[1] World Bank (2022)
-[2] FAO (2022)
-[3] World Bank (2022)
-[4] FAO (2022)
+<p>[1] World Bank (2022)</p>
+<p>[2] FAO (2022)</p>
+<p>[3] World Bank (2022)</p>
+<p>[4] FAO (2022)</p>
 <hr>
 </div>
 
@@ -81,7 +81,7 @@ list_data("gluStats/agriStatis/1m")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Table</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="gluStats_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

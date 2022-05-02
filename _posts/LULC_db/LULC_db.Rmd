@@ -1,5 +1,5 @@
 ---
-title: "LULC_db"
+title: "Reference data on land use and cover"
 description: |
   Global ground-truth database on land use and land cover
 preview: LULC_db.png
@@ -7,7 +7,7 @@ slug: LULC_db
 categories:
   - land cover
   - land use
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -47,10 +47,10 @@ list_data("LULC_db/TBD/1m")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/LULC_db/LULC_db.bib' download='LULC_db/LULC_db.bibtex'><small>(bibtex)</small></a></p>
-[1] Thenkabail, Teluguntla, Xiong, Oliphant, Congalton, Ozdogan, Gumma, Tilton, Giri, Milesi, Phalke, Massey, Yadav, Sankey, Zhong, Aneece, and Foley (2021)
-[2] Global Biodiversity Information Facility (2020)
-[3] Hudson, Newbold, Contu, Hill, Lysenko, De Palma, Phillips, Senior, Bennett, Booth, Choimes, Correia, Day, Echeverría-Londoño, Garon, Harrison, Ingram, Jung, Kemp, Kirkpatrick, Martin, Pan, White, Aben, Abrahamczyk, Adum, Aguilar-Barquero, Aizen, Ancrenaz, Arbeláez-Cortés, Armbrecht, Azhar, Azpiroz, Baeten, Báldi, Banks, Barlow, Batáry, Bates, Bayne, Beja, Berg, Berry, Bicknell, Bihn, Böhning-Gaese, Boekhout, Boutin, Bouyer, Brearley, Brito, Brunet, Buczkowski, Buscardo, Cabra-García, Calviño-Cancela, Cameron, Cancello, Carrijo, Carvalho, Castro, Castro-Luna, Cerda, Cerezo, Chauvat, Clarke, Cleary, Connop, D'Aniello, da
-Silva, Darvill, Dauber, Dejean, Diekötter, Dominguez-Haydar, Dormann, Dumont, Dures, Dynesius, Edenius, Elek, Entling, Farwig, Fayle, Felicioli, Felton, Ficetola, Filgueiras, Fonte, Fraser, Fukuda, Furlani, Ganzhorn, Garden, Gheler-Costa, Giordani, Giordano, Gottschalk, Goulson, Gove, Grogan, Hanley, Hanson, Hashim, Hawes, Hébert, Helden, Henden, Hernández, Herzog, Higuera-Diaz, Hilje, Horgan, Horváth, Hylander, Isaacs-Cubides, Ishitani, Jacobs, Jaramillo, Jauker, Jonsell, Jung, Kapoor, Kati, Katovai, Kessler, Knop, Kolb, Kőrösi, Lachat, Lantschner, Le Féon, LeBuhn, Légaré, Letcher, Littlewood, López-Quintero, Louhaichi, Lövei, Lucas-Borja, Luja, Maeto, Magura, Mallari, Marin-Spiotta, Marshall, Martínez, Mayfield, Mikusinski, Milder, Miller, Morales, Muchane, Muchane, Naidoo, Nakamura, Naoe, Nates-Parra, Navarrete Gutierrez, Neuschulz, Noreika, Norfolk, Noriega, Nöske, O'Dea, Oduro, Ofori-Boateng, Oke, Osgathorpe, Paritsis, Parra-H, Pelegrin, Peres, Persson, Petanidou, Phalan, Philips, Poveda, Power, Presley, Proença, Quaranta, Quintero, Redpath-Downing, Reid, Reis, Ribeiro, Richardson, Richardson, Robles, Römbke, Romero-Duque, Rosselli, Rossiter, Roulston, Rousseau, Sadler, Sáfián, Saldaña-Vázquez, Samnegård, Schüepp, Schweiger, Sedlock, Shahabuddin, Sheil, Silva, Slade, Smith-Pardo, Sodhi, Somarriba, Sosa, Stout, Struebig, Sung, Threlfall, Tonietto, Tóthmérész, Tscharntke, Turner, Tylianakis, Vanbergen, Vassilev, Verboven, Vergara, Vergara, Verhulst, Walker, Wang, Watling, Wells, Williams, Willig, Woinarski, Wolf, Woodcock, Yu, Zaitsev, Collen, Ewers, Mace, Purves, Scharlemann, and Purvis (2014)
+<p>[1] Thenkabail, Teluguntla, Xiong, Oliphant, Congalton, Ozdogan, Gumma, Tilton, Giri, Milesi, Phalke, Massey, Yadav, Sankey, Zhong, Aneece, and Foley (2021)</p>
+<p>[2] Global Biodiversity Information Facility (2020)</p>
+<p>[3] Hudson, Newbold, Contu, Hill, Lysenko, De Palma, Phillips, Senior, Bennett, Booth, Choimes, Correia, Day, Echeverría-Londoño, Garon, Harrison, Ingram, Jung, Kemp, Kirkpatrick, Martin, Pan, White, Aben, Abrahamczyk, Adum, Aguilar-Barquero, Aizen, Ancrenaz, Arbeláez-Cortés, Armbrecht, Azhar, Azpiroz, Baeten, Báldi, Banks, Barlow, Batáry, Bates, Bayne, Beja, Berg, Berry, Bicknell, Bihn, Böhning-Gaese, Boekhout, Boutin, Bouyer, Brearley, Brito, Brunet, Buczkowski, Buscardo, Cabra-García, Calviño-Cancela, Cameron, Cancello, Carrijo, Carvalho, Castro, Castro-Luna, Cerda, Cerezo, Chauvat, Clarke, Cleary, Connop, D'Aniello, da
+Silva, Darvill, Dauber, Dejean, Diekötter, Dominguez-Haydar, Dormann, Dumont, Dures, Dynesius, Edenius, Elek, Entling, Farwig, Fayle, Felicioli, Felton, Ficetola, Filgueiras, Fonte, Fraser, Fukuda, Furlani, Ganzhorn, Garden, Gheler-Costa, Giordani, Giordano, Gottschalk, Goulson, Gove, Grogan, Hanley, Hanson, Hashim, Hawes, Hébert, Helden, Henden, Hernández, Herzog, Higuera-Diaz, Hilje, Horgan, Horváth, Hylander, Isaacs-Cubides, Ishitani, Jacobs, Jaramillo, Jauker, Jonsell, Jung, Kapoor, Kati, Katovai, Kessler, Knop, Kolb, Kőrösi, Lachat, Lantschner, Le Féon, LeBuhn, Légaré, Letcher, Littlewood, López-Quintero, Louhaichi, Lövei, Lucas-Borja, Luja, Maeto, Magura, Mallari, Marin-Spiotta, Marshall, Martínez, Mayfield, Mikusinski, Milder, Miller, Morales, Muchane, Muchane, Naidoo, Nakamura, Naoe, Nates-Parra, Navarrete Gutierrez, Neuschulz, Noreika, Norfolk, Noriega, Nöske, O'Dea, Oduro, Ofori-Boateng, Oke, Osgathorpe, Paritsis, Parra-H, Pelegrin, Peres, Persson, Petanidou, Phalan, Philips, Poveda, Power, Presley, Proença, Quaranta, Quintero, Redpath-Downing, Reid, Reis, Ribeiro, Richardson, Richardson, Robles, Römbke, Romero-Duque, Rosselli, Rossiter, Roulston, Rousseau, Sadler, Sáfián, Saldaña-Vázquez, Samnegård, Schüepp, Schweiger, Sedlock, Shahabuddin, Sheil, Silva, Slade, Smith-Pardo, Sodhi, Somarriba, Sosa, Stout, Struebig, Sung, Threlfall, Tonietto, Tóthmérész, Tscharntke, Turner, Tylianakis, Vanbergen, Vassilev, Verboven, Vergara, Vergara, Verhulst, Walker, Wang, Watling, Wells, Williams, Willig, Woinarski, Wolf, Woodcock, Yu, Zaitsev, Collen, Ewers, Mace, Purves, Scharlemann, and Purvis (2014)</p>
 <hr>
 </div>
 
@@ -60,7 +60,7 @@ Silva, Darvill, Dauber, Dejean, Diekötter, Dominguez-Haydar, Dormann, Dumont, D
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="LULC_db_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Snapshot / Yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

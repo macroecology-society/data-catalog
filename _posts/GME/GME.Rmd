@@ -1,12 +1,12 @@
 ---
-title: "GME"
+title: "Global mountain classification"
 description: |
   Global Mountain Maps
 preview: GME.png
 slug: GME
 categories:
   - geomorphology
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -76,9 +76,9 @@ list_data("GME/k1Class/300m")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/GME/GME.bib' download='GME/GME.bibtex'><small>(bibtex)</small></a></p>
-[1] Körner, Jetz, Paulsen, et al. (2017)
-[2] Körner, Paulsen, and Spehn (2011)
-[3] Karagulle, Frye, Sayre, Breyer, Aniello, Vaughan, and Wright (2017)
+<p>[1] Körner, Jetz, Paulsen, et al. (2017)</p>
+<p>[2] Körner, Paulsen, and Spehn (2011)</p>
+<p>[3] Karagulle, Frye, Sayre, Breyer, Aniello, Vaughan, and Wright (2017)</p>
 <hr>
 </div>
 
@@ -88,7 +88,7 @@ list_data("GME/k1Class/300m")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="GME_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Snapshot</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

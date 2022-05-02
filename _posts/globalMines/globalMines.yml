@@ -1,6 +1,8 @@
 ---
- title: globalMines
- short_description: Global, spatial distribution of mining operations
+ title: Gobal mininng operations
+ dataset_id: globalMines
+ short_description: |
+  Delineation of mining operations observed between 2000 and 2017
  long_description: |
   This dataset draws individual mining operations, derived through a 
   dense database of Landsat acquisitions. Individual polygons are drawn 

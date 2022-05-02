@@ -1,5 +1,6 @@
 ---
- title: GME
+ title: Global mountain classification
+ dataset_id: GME
  short_description: Global Mountain Maps
  long_description: |
   This dataset offers different classifications of mountains following 

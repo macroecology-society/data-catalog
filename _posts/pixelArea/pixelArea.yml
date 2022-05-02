@@ -1,7 +1,8 @@
 ---
- title: pixelArea
+ title: Global pixel areas
+ dataset_id: pixelArea
  short_description: |
-  Global map of per-pixel areas
+  Per-pixel areas for global applications
  long_description: |
   This dataset provides per-pixel estimtes of areas 
   within a WGS84, lat/lon grid. This layer was derived 

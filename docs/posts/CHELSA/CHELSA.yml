@@ -1,7 +1,14 @@
 ---
- title: CHELSA
- short_description: Global time-series of precipitation and temperature.
- long_description: CHELSA provides monthly data on precipitation and temperature, derived by downscaling global atmospheric models. The temperature data is based  on  statistical  downscaling  of  atmospheric  temperatures, while the precipitation data incorporates orographic predictors such as wind fields, valley exposition,  and  boundary  layer  height,  with  a  subsequent  bias  correction.
+ title: Global high-resolution climate
+ dataset_id: CHELSA
+ short_description: Global monthly time-series of precipitation and temperature.
+ long_description: |
+  CHELSA provides monthly data on precipitation and temperature, derived by 
+  downscaling global atmospheric models. The temperature data is based  on  
+  statistical  downscaling  of  atmospheric  temperatures, while the 
+  precipitation data incorporates orographic predictors such as wind fields, 
+  valley exposition,  and  boundary  layer  height,  with  a  subsequent  
+  bias  correction.
  #documentation: https://chelsa-climate.org/wp-admin/download-page/CHELSA_tech_specification_V2.pdf
  documentation: carsten.meyer@idiv.de
  data_access: carsten.meyer@idiv.de

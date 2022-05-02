@@ -1,5 +1,5 @@
 ---
-title: "LAI_phenology"
+title: "Land surface phenology"
 description: |
   Typical phenology of deciduous forests derived with PROBA-V data time-series
 preview: LAI_phenology.png
@@ -7,7 +7,7 @@ slug: LAI_phenology
 categories:
   - land cover
   - ecology
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -62,7 +62,7 @@ list_data("LAI_phenology/SoS/1km")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/LAI_phenology/LAI_phenology.bib' download='LAI_phenology/LAI_phenology.bibtex'><small>(bibtex)</small></a></p>
-[1] Bórnez, Descals, Verger, and Peñuelas (2020)
+<p>[1] Bórnez, Descals, Verger, and Peñuelas (2020)</p>
 <hr>
 </div>
 
@@ -72,7 +72,7 @@ list_data("LAI_phenology/SoS/1km")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="LAI_phenology_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Multi-year snapshot</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

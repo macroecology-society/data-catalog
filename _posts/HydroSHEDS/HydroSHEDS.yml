@@ -1,15 +1,14 @@
 ---
-  title: HydroSHEDS
+  title: Global hydrological basins
+  dataset_id: HydroSHEDS
   short_description: |
-    Global database of deliniated watershed with 
-    different levels of spatial disaggregation
+    Deliniated of watershed at different hierarchical levels
   long_description: |
-    HydroBASINS offers spatial data on watershed 
-    boundaries at multiple hierarchical levels. 
-    The watershed deliniation follows the topological 
-    concept of the Pfafstetter coding system (levels 1-12). 
-    Here, we use only a subset of the afformentioned dataset, 
-    comprising Pfafstetter levels 2, 3, and 12.
+    These data were obtaiend from the HydroBASINS dataset, which offers 
+    spatial data on watershed boundaries at multiple hierarchical levels. 
+    The watershed deliniation follows the topological concept of the 
+    Pfafstetter coding system (levels 1-12). Here, we use only a subset 
+    of the afformentioned dataset, comprising Pfafstetter levels 2, 3, and 12.
   documentation: https://www.hydrosheds.org/page/hydrobasins
   data_access: https://www.hydrosheds.org/page/hydrobasins
   license: CC-BY-SA-4.0

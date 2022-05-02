@@ -1,5 +1,6 @@
 ---
- title: CCI_landCover
+ title: CCI land cover
+ dataset_id: CCI_landCover
  short_description: |
   Global, yearly land cover derived in the context of the 
   Climate Change Initiative (CCI), from 1992 to the present

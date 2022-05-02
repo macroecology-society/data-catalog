@@ -1,7 +1,9 @@
 ---
- title: demographic_db
+ title: Global demographic data
+ dataset_id: demographic_db
  short_description: |
-  Global database on human populations
+   Database on human demography collected at multiple 
+   scales, from microdata to national census
  long_description: |
   This database harmonizes national, subnational, 
   and household level datasets on population counts.

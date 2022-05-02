@@ -1,8 +1,9 @@
 ---
- title: DMSP
+ title: Annual nighttime lights
+ dataset_id: DMSP
  short_description: |
-  Gime-series of Nighttime light mapped by the 
-  Defense Meteorological Satellite Program (DMSP) 
+  Global time-series of Nighttime light intensities mapped by 
+  the Defense Meteorological Satellite Program (DMSP)
  long_description: |
   This dataset provides yearly, global maps on the spatial and temporal 
   variability of night lights (NTL). This dataset derives a temporally 

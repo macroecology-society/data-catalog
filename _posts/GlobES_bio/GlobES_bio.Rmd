@@ -1,12 +1,12 @@
 ---
-title: "GlobES_bio"
+title: "Annual ecosystem diversity"
 description: |
-  Global, multi-temporal, biodiversity metrics
+  Global time-series on ecosystem diversity metrics
 preview: GlobES_bio.png
 slug: GlobES_bio
 categories:
   - ecology
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -61,7 +61,7 @@ list_data("GlobES_bio/inverseSimpson/1km")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="GlobES_bio_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

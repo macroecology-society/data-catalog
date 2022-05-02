@@ -1,7 +1,8 @@
 ---
- title: GlobES_bio
+ title: Annual ecosystem diversity
+ dataset_id: GlobES_bio
  short_description: |
-  Global, multi-temporal, biodiversity metrics
+  Global time-series on ecosystem diversity metrics
  long_description: |
   This dataset provides yearly, global time-series of 
   ecosystem diversity measured with per-pixel ecosystem areas.

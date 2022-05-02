@@ -1,11 +1,13 @@
 ---
- title: LULC_db
+ title: Reference data on land use and cover
+ dataset_id: LULC_db
  short_description: |
   Global ground-truth database on land use and land cover
  long_description: |
-  This database is the result of an intensive data collection effort, 
-  harmonizing hundreds of datasets on land use and land cover. Additionally, 
-  we include GBIF data, making use of fine-scale observations on crop species.
+  This database is the result of an intensive data collection 
+  effort, harmonizing hundreds of datasets on land use and land 
+  cover. Additionally, we include GBIF data, making use of 
+  fine-scale observations on crop species.
  documentation: mas@idiv.de
  data_access: mas@idiv.de
  license: CC-BY-SA-4.0

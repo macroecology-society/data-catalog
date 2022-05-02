@@ -1,5 +1,5 @@
 ---
-title: "GLW_aw"
+title: "Global livestock area"
 description: |
   Gridded Livestock of the World (GLW) database, reflecting the most recently 
   compiled and harmonized subnational livestock distribution data for 2010. 
@@ -7,7 +7,7 @@ preview: GLW_aw.png
 slug: GLW_aw
 categories:
   - land use
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -90,7 +90,7 @@ list_data("GLW_aw/cattle/10km")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/GLW_aw/GLW_aw.bib' download='GLW_aw/GLW_aw.bibtex'><small>(bibtex)</small></a></p>
-[1] Gilbert, Nicolas, Cinardi, Van Boeckel, Vanwambeke, Wint, and Robinson (2018)
+<p>[1] Gilbert, Nicolas, Cinardi, Van Boeckel, Vanwambeke, Wint, and Robinson (2018)</p>
 <hr>
 </div>
 
@@ -100,7 +100,7 @@ list_data("GLW_aw/cattle/10km")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="GLW_aw_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Single year snapshot</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

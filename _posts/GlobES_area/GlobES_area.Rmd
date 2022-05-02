@@ -1,12 +1,12 @@
 ---
-title: "GlobES_area"
+title: "Annual ecosystem areas"
 description: |
-  Global annual maps of per-pixel ecosystems areas from 1992 to 2018
+  Global, per-pixel areas for 71 ecosystem types
 preview: GlobES_area.png
 slug: GlobES_area
 categories:
   - ecology
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -537,7 +537,7 @@ list_data("GlobES_area/0101/1km")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="GlobES_area_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

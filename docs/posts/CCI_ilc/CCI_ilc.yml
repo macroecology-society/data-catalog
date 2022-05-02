@@ -1,18 +1,18 @@
 ---
- title: CCI_ilc
+ title: Bias-corrected CCI land cover
+ dataset_id: CCI_ilc
  short_description: |
-  Annual and improved CCI land cover with associated 
-  data on Vegetation continuous Fields (VCF).
+  Trend-corrected CCI land cover dataset with annual and global 
+  data on per-pixel percentages of 27 classes.
  long_description: |
-  This dataset corrects issues observed in land cover dataset of 
-  ESA's Climate Change Initiative (CCI). The original data depicts 
-  implausible changes caused by methodological artificats, which often 
-  manifest as extensive, country-wide land cover transitions. We corrected 
-  for these issues by modelling annual Vegetation Continuous Fields (VCF) at 
-  a 300-m, which we then used to identify and correct misclassified pixels. 
-  The output is a bias-corrected CCI land cover dataset, with novel class 
-  combinations and per-pixel percentages for dominant vegetated classes, which 
-  can be used to 
+  This dataset corrects issues observed in land cover dataset of ESA's Climate 
+  Change Initiative (CCI). The original data maps implausible changes caused by 
+  methodological artificats, which often manifest as false, country-wide land 
+  cover transitions. We corrected for these anomalies with the support ofannual 
+  Vegetation Continuous Fields (VCF) data mapped at a 300-m resolution, which 
+  we used to identify and correct errogenous pixels. The output is a 
+  bias-corrected land cover dataset with novel class combinations and 
+  per-pixel percentages for dominant vegetated classes.
  documentation: carsten.meyer@idiv.de
  data_access: carsten.meyer@idiv.de
  license: CC-BY-SA-4.0
@@ -27,18 +27,18 @@
   spatial_extent: [-180,180,-90,90]
  subdatasets:
   landCover:
-   variable: Per-pixel canopy densities (%)
+   variable: land cover classification
    content:
-    value_range: 0...100
- treeCover:
+    value_range: TBD
+  treeCover:
    variable: Per-pixel percentage of tree cover (%)
    content:
     value_range: 0...100
- shortVegetation:
+  shortVegetation:
    variable: Per-pixel percentage of short vegetation (%)
    content:
     value_range: 0...100
- nonVegetated:
+  nonVegetated:
    variable: Per-pixel percentage of non-vegetated surfaces (%)
    content:
     value_range: 0...100

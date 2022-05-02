@@ -1,12 +1,13 @@
 ---
-title: "FVCF"
+title: "Fused vegetation continuous fields"
 description: |
-  Fused MODIS-AVHRR Vegetation Continuous Fields (VCF)
+  Annual and global Vegetation Continuous Fields (VCF) 
+  that fuses data from Copernicus, MODIS, and AVHRR
 preview: FVCF.png
 slug: FVCF
 categories:
   - land cover
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -68,7 +69,7 @@ list_data("FVCF/TreeCover/5km")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="FVCF_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

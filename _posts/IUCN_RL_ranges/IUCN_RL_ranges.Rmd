@@ -1,12 +1,12 @@
 ---
-title: "IUCN_RL_ranges"
+title: "Range maps"
 description: |
   Range maps of the IUCN Red List of Species
 preview: IUCN_RL_ranges.png
 slug: IUCN_RL_ranges
 categories:
   - ecology
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -92,8 +92,8 @@ list_data("IUCN_RL_ranges/amphibia/5km")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/IUCN_RL_ranges/IUCN_RL_ranges.bib' download='IUCN_RL_ranges/IUCN_RL_ranges.bibtex'><small>(bibtex)</small></a></p>
-[1] for
-Conservation and ature (2020)
+<p>[1] for
+Conservation and ature (2020)</p>
 <hr>
 </div>
 
@@ -103,7 +103,7 @@ Conservation and ature (2020)
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Vector</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="IUCN_RL_ranges_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Multi-temporal snapshot</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

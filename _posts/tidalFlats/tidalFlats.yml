@@ -1,5 +1,6 @@
 ---
- title: tidalFlats
+ title: Global map of tidal flats
+ dataset_id: tidalFlats
  short_description: |
   Global distribution of tidal flats
  long_description: |

@@ -1,5 +1,6 @@
 ---
- title: GEBCO
+ title: Global ocean bathymetry
+ dataset_id: GEBCO
  short_description: |
   General Bathymetric Chart of the Oceans (GEBCO)
  long_description: |

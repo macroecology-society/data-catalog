@@ -1,12 +1,12 @@
 ---
-title: "GADM"
+title: "Global administrative boundaries"
 description: |
-  Global database of administrative areas
+  Global database with an up-to-date delineation of administrative areas
 preview: GADM.png
 slug: GADM
 categories:
   - land managenent
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -145,7 +145,7 @@ list_data("GADM/continents/10m")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/GADM/GADM.bib' download='GADM/GADM.bibtex'><small>(bibtex)</small></a></p>
-[1]  (2012)
+<p>[1]  (2012)</p>
 <hr>
 </div>
 
@@ -155,7 +155,7 @@ list_data("GADM/continents/10m")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Vector</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="GADM_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">NA</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

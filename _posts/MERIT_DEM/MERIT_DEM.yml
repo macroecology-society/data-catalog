@@ -1,5 +1,6 @@
 ---
- title: MERIT_DEM
+ title: Global elevation
+ dataset_id: MERIT_DEM
  short_description: |
   Multi-Error-Removed Improved-Terrain (MERIT) Digital Elevation Model (DEM)
  long_description: |

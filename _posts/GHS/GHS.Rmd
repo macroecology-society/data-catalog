@@ -1,12 +1,14 @@
 ---
-title: "GHS"
+title: "Global human settlements"
 description: |
-  Global Human Settlements (GHS)
+  Multi-temporal characterization of human settlements 
+  distinguishing types of land use (e.g. urban, rural), 
+  counting population, and identifying built-up structures.
 preview: GHS.png
 slug: GHS
 categories:
   - land cover
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -63,9 +65,9 @@ list_data("GHS/built/300m")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/GHS/GHS.bib' download='GHS/GHS.bibtex'><small>(bibtex)</small></a></p>
-[1] Schiavina, Freire, and MacManus (2019)
-[2] Pesaresi, Florczyk, Schiavina, Melchiorri, and Maffenini (2019)
-[3] Corbane, Florczyk, Pesaresi, Martino, Panagiotis, and Vasileios (2019)
+<p>[1] Schiavina, Freire, and MacManus (2019)</p>
+<p>[2] Pesaresi, Florczyk, Schiavina, Melchiorri, and Maffenini (2019)</p>
+<p>[3] Corbane, Florczyk, Pesaresi, Martino, Panagiotis, and Vasileios (2019)</p>
 <hr>
 </div>
 
@@ -75,7 +77,7 @@ list_data("GHS/built/300m")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="GHS_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Multi-temporal snapshot</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

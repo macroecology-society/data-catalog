@@ -1,13 +1,13 @@
 ---
-title: "CCI_ilc"
+title: "Bias-corrected CCI land cover"
 description: |
-  Annual and improved CCI land cover with associated 
-  data on Vegetation continuous Fields (VCF).
+  Trend-corrected CCI land cover dataset with annual and global 
+  data on per-pixel percentages of 27 classes.
 preview: CCI_ilc.png
 slug: CCI_ilc
 categories:
   - land cover
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -20,12 +20,33 @@ knitr::opts_chunk$set(echo = FALSE)
 <div style="width=80%;margin-top:0;margin-bottom:0;">
 <h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-This dataset corrects issues observed in land cover dataset of ESA's Climate Change Initiative (CCI). The original data depicts implausible changes caused by methodological artificats, which often manifest as extensive, country-wide land cover transitions. We corrected for these issues by modelling annual Vegetation Continuous Fields (VCF) at a 300-m, which we then used to identify and correct misclassified pixels. The output is a bias-corrected CCI land cover dataset, with novel class combinations and per-pixel percentages for dominant vegetated classes, which can be used to 
+This dataset corrects issues observed in land cover dataset of ESA's Climate Change Initiative (CCI). The original data maps implausible changes caused by methodological artificats, which often manifest as false, country-wide land cover transitions. We corrected for these anomalies with the support ofannual Vegetation Continuous Fields (VCF) data mapped at a 300-m resolution, which we used to identify and correct errogenous pixels. The output is a bias-corrected land cover dataset with novel class combinations and per-pixel percentages for dominant vegetated classes.
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`landCover`<span style="color:#C8C8C8;"> | </span>Per-pixel canopy densities (%)</summary>
+<summary style="font-size:16px;">`landCover`<span style="color:#C8C8C8;"> | </span>land cover classification</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|TBD|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`treeCover`<span style="color:#C8C8C8;"> | </span>Per-pixel percentage of tree cover (%)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0...100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`shortVegetation`<span style="color:#C8C8C8;"> | </span>Per-pixel percentage of short vegetation (%)</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0...100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`nonVegetated`<span style="color:#C8C8C8;"> | </span>Per-pixel percentage of non-vegetated surfaces (%)</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
@@ -55,7 +76,7 @@ list_data("CCI_ilc/landCover/300m")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="CCI_ilc_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

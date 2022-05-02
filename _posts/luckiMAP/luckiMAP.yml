@@ -1,11 +1,14 @@
 ---
- title: luckiMAP
+ title: Annual commodity areas
+ dataset_id: luckiMAP
  short_description: |
-  Global time-series of crop-specific areas
+  Global time-series of per-pixel areas on 
+  individual crop types and other land uses.
  long_description: |
-  This database offers yearly maps of crop types and cropping areas 
-  obtained through the statistical and spatial-temporal downscaling 
-  of national and sub-national statistics on crop production.
+  This database offers yearly global maps on per-pixel areas 
+  different commodities, from specific crop types to pasturelands. 
+  These data are derived through the spatial-temporal downscaling 
+  of national and sub-national statistics.
  documentation: mas@idiv.de
  data_access: mas@idiv.de
  license: CC-BY-SA-4.0

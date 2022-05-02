@@ -1,13 +1,14 @@
 ---
- title: CCI_SM
+ title: Annual soil moisture
+ dataset_id: CCI_SM
  short_description: |
-  Global time-series of soil moisture, from 1978 to the present
+  Global intra-annual metrics on the variability 
+  of soil moisture content from 1978 to the present
  long_description: |
   This product is based on daily soil moisture estimates, developed 
-  in the context of the Climate Change Initiative (CCI). Here, we 
-  aggregated those monthly estimates into monthly averages weighted 
-  based on prediction uncertainties, and then used those monthly 
-  estimates to derive annual climatologies.
+  in the context of the Climate Change Initiative (CCI). We derived  
+  monthly averages weighted weighted by per-pixel uncertainties and 
+  used them to derive annual climatologies.
  #documentation: https://climate.esa.int/en/projects/soil-moisture/key-documents/
  documentation: carsten.meyer@idiv.de
  data_access: carsten.meyer@idiv.de

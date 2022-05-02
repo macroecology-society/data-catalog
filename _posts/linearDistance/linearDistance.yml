@@ -1,5 +1,6 @@
 ---
- title: linearDistance
+ title: Global distance maps
+ dataset_id: linearDistance
  short_description: Maps of linear distance to different land features
  long_description: |
   This dataset consists of a series of maps quantifying the 

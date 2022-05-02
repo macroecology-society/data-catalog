@@ -1,12 +1,13 @@
 ---
-title: "AVHRR"
+title: "Global vegetation dynamics"
 description: |
-  Global, annual, NDVI metrics derived with AVHRR 
+  Annual bias and trend-corrected metrics on intra-annual 
+  vegetation dynamics expressed through the NDVI
 preview: AVHRR.png
 slug: AVHRR
 categories:
   - vegetation
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -19,12 +20,39 @@ knitr::opts_chunk$set(echo = FALSE)
 <div style="width=80%;margin-top:0;margin-bottom:0;">
 <h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-This 5-km dataset  on the annual Normalized Difference Vegetation Index (NDVI) metrics, estimated from daily observations. These data are bias and trend corrected following the methodology adopted by Hansen et al. (2016).
+This dataset  provides intra-annual metrics based on a daily time-series of Normalized Difference Vegetation Indices (NDVI). This time-series was corrected to account for the continued deterioration of the AVHRR sensors following the methodology proposed by Hansen et al. (2016).
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`ndviPeak`<span style="color:#C8C8C8;"> | </span>Mean of NDVI values between the 75th and 100th percentile</summary>
+<summary style="font-size:16px;">`ndviAmplitude`<span style="color:#C8C8C8;"> | </span>Intra-annual NDVI amplitude</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`ndviP10to30`<span style="color:#C8C8C8;"> | </span>Mean of NDVI values between the 10th and 30th percentiles</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|-1...1|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`ndviP30to50`<span style="color:#C8C8C8;"> | </span>Mean of NDVI values between the 30th and 50th percentiles</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|-1...1|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`ndviP50to70`<span style="color:#C8C8C8;"> | </span>Mean of NDVI values between the 50th and 70th percentiles</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|-1...1|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`ndviP70to90`<span style="color:#C8C8C8;"> | </span>Mean of NDVI values between the 70th and 90th percentiles</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
@@ -37,18 +65,18 @@ This 5-km dataset  on the annual Normalized Difference Vegetation Index (NDVI) m
 list_data("AVHRR")
 
 # data call for specific subdataset 
-list_data("AVHRR/ndviPeak")
+list_data("AVHRR/ndviAmplitude")
 
 # data call to subdataset with a specific resolution
-list_data("AVHRR/ndviPeak/5km")
+list_data("AVHRR/ndviAmplitude/5km")
 ```
 </div>
 <hr style="margin-top:0;margin-bottom:0;">
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/AVHRR/AVHRR.bib' download='AVHRR/AVHRR.bibtex'><small>(bibtex)</small></a></p>
-[1] Song, Hansen, Stehman, Potapov, Tyukavina, Vermote, and Townshend (2018)
-[2] Vermote and NOAA CDR Program (2022)
+<p>[1] Song, Hansen, Stehman, et al. (2018)</p>
+<p>[2] Vermote and NOAA CDR Program (2022)</p>
 <hr>
 </div>
 
@@ -58,7 +86,7 @@ list_data("AVHRR/ndviPeak/5km")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="AVHRR_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

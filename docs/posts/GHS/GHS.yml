@@ -1,7 +1,10 @@
 ---
- title: GHS
+ title: Global human settlements
+ dataset_id: GHS
  short_description: |
-  Global Human Settlements (GHS)
+  Multi-temporal characterization of human settlements 
+  distinguishing types of land use (e.g. urban, rural), 
+  counting population, and identifying built-up structures.
  long_description: |
   Produced by the Joint Research Centre (JRC), this dataset 
   offers a global, multi-temporal perspetice on the spatial 

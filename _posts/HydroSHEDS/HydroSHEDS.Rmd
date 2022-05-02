@@ -1,13 +1,12 @@
 ---
-title: "HydroSHEDS"
+title: "Global hydrological basins"
 description: |
-  Global database of deliniated watershed with 
-  different levels of spatial disaggregation
+  Deliniated of watershed at different hierarchical levels
 preview: HydroSHEDS.png
 slug: HydroSHEDS
 categories:
   - water
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -20,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <div style="width=80%;margin-top:0;margin-bottom:0;">
 <h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-HydroBASINS offers spatial data on watershed boundaries at multiple hierarchical levels. The watershed deliniation follows the topological concept of the Pfafstetter coding system (levels 1-12). Here, we use only a subset of the afformentioned dataset, comprising Pfafstetter levels 2, 3, and 12.
+These data were obtaiend from the HydroBASINS dataset, which offers spatial data on watershed boundaries at multiple hierarchical levels. The watershed deliniation follows the topological concept of the Pfafstetter coding system (levels 1-12). Here, we use only a subset of the afformentioned dataset, comprising Pfafstetter levels 2, 3, and 12.
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
@@ -104,7 +103,7 @@ list_data("HydroSHEDS/level2/500m")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/HydroSHEDS/HydroSHEDS.bib' download='HydroSHEDS/HydroSHEDS.bibtex'><small>(bibtex)</small></a></p>
-[1] Lehner and Grill (2013)
+<p>[1] Lehner and Grill (2013)</p>
 <hr>
 </div>
 
@@ -114,7 +113,7 @@ list_data("HydroSHEDS/level2/500m")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Vector</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="HydroSHEDS_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Multiyear snapshot</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

@@ -1,5 +1,6 @@
 ---
- title: TMF
+ title: Tropical moist forest cover
+ dataset_id: TMF
  short_description: |
   Annual tropical moist forest cover densities
  long_description: |

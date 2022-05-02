@@ -1,11 +1,13 @@
 ---
- title: BirdLife_ranges
+ title: Range maps of bird species
+ dataset_id: BirdLife_ranges
  short_description: |
-  Range maps of the Birdlife initiative
+  Range maps of bird species provided by the Birdlife initiative
  long_description: |
-  This dataset provides range maps for thousands 
-  of bird species, combining expert knowledge on 
-  species-specific ranges and behavior.sources
+  This dataset provides range maps for over 10,000 bird species, 
+  combining expert knowledge on species-specific ranges and behavior. 
+  We harmonized these data with that provided by other sources of 
+  range map data such as the IUCN Red List.
  documentation: https://www.birdlife.org/
  data_access: https://www.birdlife.org/
  license: CC-BY-SA-4.0

@@ -1,10 +1,12 @@
 ---
- title: fireRegime
+ title: Global fire regime
+ dataset_id: fireRegime
  short_description: |
-  Global annual maps on fire regimes
+  Characterization of the frequency and recurrence of fires
  long_description: |
-  This dataset offers multi-temporal metrics that describe per-pixel 
-  frequencies of fires. It provides data on the mean frequency of ires 
+  This dataset offers multi-temporal metrics that describe the frequency and 
+  recurrency of fires on a per-pixel basis. These metrics are derived from 
+  annual maximum fire extents as mapped by the MODIS MCD64A1 product.
  documentation: carsten.meyer@idiv.de
  data_access: carsten.meyer@idiv.de
  license: CC-BY-SA-4.0
@@ -23,14 +25,14 @@
     content:
      value_range: 0...1
    meanInterval:
-    variable: Mean interval between burning years
+    variable: Mean interval between fire years
     content:
      value_range: 0...n
    minInterval:
-    variable: Minium interval between burning years
+    variable: Minium interval between fire years
     content:
      value_range: 0...n
    maxInterval:
-    variable: Maximum interval between burning years
+    variable: Maximum interval between fire years
     content:
      value_range: 0...n

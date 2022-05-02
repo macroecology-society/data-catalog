@@ -1,10 +1,17 @@
 ---
- title: GlobES_AoH
+ title: Annual Area of Habitat (AoH)
+ dataset_id: GlobES_AoH
  short_description: |
-  Global annual maps of species-specific Area of Habitat (AoH)
+  Global and species-specific layers on the area 
+  of habitat mapped on a species-by-species basis.
  long_description: |
-  This dataset maps the AoH for over 34,000 species, based on the 
-  habitat dependencies of each species as reported by the IUCN Red List.
+  This dataset maps the AoH for over 34,000 species, based 
+  on the habitat dependencies of each species as reported 
+  by the IUCN Red List. It is derived by intersecting the 
+  GlobES dataset with the species-specific range maps and 
+  accounts for the accessibilty to habitat patches outside 
+  the expert-drawn ranges motivated by knowledge of the 
+  dispersal ability of each species.
  documentation: carsten.meyer@idiv.de
  data_access: carsten.meyer@idiv.de
  license: CC-BY-SA-4.0

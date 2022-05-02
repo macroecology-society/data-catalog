@@ -1,7 +1,8 @@
 ---
- title: FLO1K
+ title: Annual streamflow dynamics
+ dataset_id: FLO1K
  short_description: |
-  Global time-series of land surface streamflow
+  Global time-series on the intra-annual variability of the land surface streamflow
  long_description: |
   This dataset provides yearly statistical metrics 
   on streamflow dynamics. They were derived with 

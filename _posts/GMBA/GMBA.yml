@@ -1,9 +1,12 @@
 ---
- title: GMBA
- short_description: Global Mountain Biodiversity Assessment (GMBA)
+ title: Global mountain inventory
+ dataset_id: GMBA
+ short_description: |
+  Delineation of indiviudal mountains
  long_description: |
   This dataset provides expert-drawn spatial extents of individual 
-  mountains resulting in robust global inventory.
+  mountains resulting in robust global inventory. It was conducted in 
+  the scope of the Global Mountain Biodiversity Assessment (GMBA).
  documentation: https://www.gmba.unibe.ch/
  data_access: https://ilias.unibe.ch/goto_ilias3_unibe_cat_1000515.html
  license:  CC-BY-SA-4.0

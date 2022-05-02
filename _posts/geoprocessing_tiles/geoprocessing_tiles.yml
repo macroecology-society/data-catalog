@@ -1,7 +1,8 @@
 ---
- title: geoprocessing_tiles
+ title: Global tiling system
+ dataset_id: geoprocessing_tiles
  short_description: |
-  Global tiling systems
+  Delineation of equally sized tiles for high-performance computing
  long_description: |
   This dataset consists of several, pre-designed tiling systems 
   designed within the MAS group, which can be used to tile large 

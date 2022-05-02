@@ -1,12 +1,12 @@
 ---
-title: "FLO1K"
+title: "Annual streamflow dynamics"
 description: |
-  Global time-series of land surface streamflow
+  Global time-series on the intra-annual variability of the land surface streamflow
 preview: FLO1K.png
 slug: FLO1K
 categories:
   - water
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -61,7 +61,7 @@ list_data("FLO1K/min/1km")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/FLO1K/FLO1K.bib' download='FLO1K/FLO1K.bibtex'><small>(bibtex)</small></a></p>
-[1] Barbarossa, Huijbregts, Beusen, Beck, King, and Schipper (2018)
+<p>[1] Barbarossa, Huijbregts, Beusen, Beck, King, and Schipper (2018)</p>
 <hr>
 </div>
 
@@ -71,7 +71,7 @@ list_data("FLO1K/min/1km")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="FLO1K_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

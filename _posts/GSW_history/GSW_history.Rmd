@@ -1,12 +1,12 @@
 ---
-title: "GSW_history"
+title: "Global surface water history"
 description: |
-  Historical metrics on Global Surface Water (GSW)
+  Historical metrics on Surface water dynamics
 preview: GSW_history.png
 slug: GSW_history
 categories:
   - water
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <div style="width=80%;margin-top:0;margin-bottom:0;">
 <h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-This dataset provides historical metrics on the global behavior of surface water measured over the full extent of the GSW dataset. The original data, provided at a 30-m resolution, was aggregagted to 300-m and depicts per-pixel percentages.
+This dataset provides historical metrics on the global behavior of surface water measured between 1984 and 2020. The original data, provided at a 30-m resolution, was aggregagted up to a 300-m through averaging.
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
@@ -61,7 +61,7 @@ list_data("GSW_history/maxExtent/300m")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/GSW_history/GSW_history.bib' download='GSW_history/GSW_history.bibtex'><small>(bibtex)</small></a></p>
-[1] Pekel, Cottam, Gorelick, et al. (2016)
+<p>[1] Pekel, Cottam, Gorelick, et al. (2016)</p>
 <hr>
 </div>
 
@@ -71,7 +71,7 @@ list_data("GSW_history/maxExtent/300m")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="GSW_history_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Multi-temporal snapshot</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

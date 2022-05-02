@@ -1,5 +1,6 @@
 ---
- title: IUCN_RL_ranges
+ title: Range maps
+ dataset_id: IUCN_RL_ranges
  short_description: |
   Range maps of the IUCN Red List of Species
  long_description: |

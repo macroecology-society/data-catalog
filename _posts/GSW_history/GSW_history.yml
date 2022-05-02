@@ -1,13 +1,13 @@
 ---
- title: GSW_history
+ title: Global surface water history
+ dataset_id: GSW_history
  short_description: |
-  Historical metrics on Global Surface Water (GSW)
+  Historical metrics on Surface water dynamics
  long_description: |
-  This dataset provides historical metrics on the 
-  global behavior of surface water measured over 
-  the full extent of the GSW dataset. The original 
-  data, provided at a 30-m resolution, was aggregagted 
-  to 300-m and depicts per-pixel percentages.
+  This dataset provides historical metrics on the global 
+  behavior of surface water measured between 1984 and 2020. 
+  The original data, provided at a 30-m resolution, was 
+  aggregagted up to a 300-m through averaging.
  documentation: https://global-surface-water.appspot.com/
  data_access: https://global-surface-water.appspot.com/download
  license: CC-BY-SA-4.0

@@ -1,13 +1,13 @@
 ---
-title: "luckiProb"
+title: "Global commodity probabilities"
 description: |
-  Gridd probability layers on different agriculture management practices
+  Annual probability layers for different agriculture commodities
 preview: luckiProb.png
 slug: luckiProb
 categories:
   - land use
   - land cover
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <div style="width=80%;margin-top:0;margin-bottom:0;">
 <h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-We mapped probabilities for the spatial distribution of hundreds of crop types and livestok using a linear binomial model.
+We mapped probabilities for the spatial distribution of hundreds of crop types and other land management practices (e.g. logging, pasturelands), returing per-pixel probabilities for each category.
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
@@ -55,7 +55,7 @@ list_data("luckiProb/TBD/1km")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="luckiProb_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

@@ -1,10 +1,13 @@
 ---
- title: luckiProb
+ title: Global commodity probabilities
+ dataset_id: luckiProb
  short_description: |
-  Gridd probability layers on different agriculture management practices
+  Annual probability layers for different agriculture commodities
  long_description: |
-  We mapped probabilities for the spatial distribution of hundreds 
-  of crop types and livestok using a linear binomial model.
+  We mapped probabilities for the spatial distribution 
+  of hundreds of crop types and other land management 
+  practices (e.g. logging, pasturelands), returing 
+  per-pixel probabilities for each category.
  documentation: mas@idiv.de
  data_access: mas@idiv.de
  license: CC-BY-SA-4.0

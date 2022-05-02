@@ -1,7 +1,8 @@
 ---
- title: GM90
+ title: Global geomorphology
+ dataset_id: GM90
  short_description: |
-  Global, high-resolution geomorphological variables
+  High-resolution geomorphological variables
  long_description: |
   This dataset provides 300-m, mean aggregates 
   of the Geomorpho90m dataset for selected 

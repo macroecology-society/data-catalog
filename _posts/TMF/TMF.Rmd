@@ -1,12 +1,12 @@
 ---
-title: "TMF"
+title: "Tropical moist forest cover"
 description: |
   Annual tropical moist forest cover densities
 preview: TMF.png
 slug: TMF
 categories:
   - land cover
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -54,7 +54,7 @@ list_data("TMF/forestDensity/300m")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/TMF/TMF.bib' download='TMF/TMF.bibtex'><small>(bibtex)</small></a></p>
-[1] Vancutsem, Achard, Pekel, et al. (2021)
+<p>[1] Vancutsem, Achard, Pekel, Vieilledent, Carboni, Simonetti, Gallego, Aragão, and Nasi (2021)</p>
 <hr>
 </div>
 
@@ -64,7 +64,7 @@ list_data("TMF/forestDensity/300m")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="TMF_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

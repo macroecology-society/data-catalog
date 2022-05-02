@@ -1,7 +1,8 @@
 ---
- title: mapBiomas
+ title: Land cover of Brazil
+ dataset_id: mapBiomas
  short_description: |
-  High-resolution land cover of Brazil.
+  Annual and high-resolution land cover of Brazil
  long_description: |
   This product belongs to the Brazilian Annual Land Use and Land Cover 
   Mapping Project, producing the first annual, high-resolution land cover 

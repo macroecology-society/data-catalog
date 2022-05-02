@@ -1,5 +1,6 @@
 ---
- title: GBL
+ title: Global bare land
+ dataset_id: GBL
  short_description: |
   High-resolution map of the global extent of bare land as of 2010
  long_description: |

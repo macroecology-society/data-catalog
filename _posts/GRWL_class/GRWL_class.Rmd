@@ -1,12 +1,12 @@
 ---
-title: "GRWL_class"
+title: "Global classification of river networks"
 description: |
-  Global River Widths from Landsat (GRWL) Database
+  Classification of water bodies connected to river networks
 preview: GRWL_class.png
 slug: GRWL_class
 categories:
   - water
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <div style="width=80%;margin-top:0;margin-bottom:0;">
 <h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-This dataset distinguishes water bodies connected to river networks. The GRWL Database is the first global compilation of river planform geometry at a constant-frequency discharge, derived with discharge data from 3693 gauge stations, and 7376 Landsat TM, ETM+ scenes.
+This dataset distinguishes water bodies connected to river networks. As a part of the Global River Widths from Landsat (GRWL) Database, this is the first global compilation of river planform geometry at a constant-frequency discharge, derived with discharge data from 3693 gauge stations, and 7376 Landsat TM, ETM+ scenes.
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
@@ -68,7 +68,7 @@ list_data("GRWL_class/cannal/30m")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/GRWL_class/GRWL_class.bib' download='GRWL_class/GRWL_class.bibtex'><small>(bibtex)</small></a></p>
-[1] Allen and Pavelsky (2018)
+<p>[1] Allen and Pavelsky (2018)</p>
 <hr>
 </div>
 
@@ -76,9 +76,9 @@ list_data("GRWL_class/cannal/30m")
 <p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#228B22;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
-<p style="margin-top:0;">Grid / Vector</p>
+<p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="GRWL_class_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Multi-temporal snapshot</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

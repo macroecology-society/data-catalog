@@ -1,5 +1,6 @@
 ---
- title: LandTenure
+ title: Global database on land ownership
+ dataset_id: LandTenure
  short_description: |
   National-scale land tenure data
  long_description: |

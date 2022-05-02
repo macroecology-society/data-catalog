@@ -1,12 +1,12 @@
 ---
-title: "geoprocessing_tiles"
+title: "Global tiling system"
 description: |
-  Global tiling systems
+  Delineation of equally sized tiles for high-performance computing
 preview: geoprocessing_tiles.png
 slug: geoprocessing_tiles
 categories:
   - utilities
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -69,7 +69,7 @@ list_data("geoprocessing_tiles/highResolution/1m")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Vector</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="geoprocessing_tiles_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">NA</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

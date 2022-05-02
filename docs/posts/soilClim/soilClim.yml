@@ -1,5 +1,6 @@
 ---
- title: soilClim
+ title: Soil climatologies
+ dataset_id: soilClim
  short_description: |
   Soil temperature bioclimatic variables
  long_description: |

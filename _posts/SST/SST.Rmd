@@ -1,12 +1,12 @@
 ---
-title: "SST"
+title: "Global Sea surface temperature"
 description: |
-  Yearly maximum Sea Surface Temperature (SST)
+  Annual maximum Sea Surface Temperature (SST)
 preview: SST.png
 slug: SST
 categories:
   - ocean
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <div style="width=80%;margin-top:0;margin-bottom:0;">
 <h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-This dataset maps the global, yearly maximum SST from daily, mean estimates. The daily estimates are the result of the fusion of data from multiple satellite sensors. It combines data from the Advanced Very High Resolution Radiometers (AVHRRs), the series of Along Track Scanning Radiometers (ATSRs), and the Sea and Land Surface Temperature Radiometer (SLSTR).
+This dataset maps the global, yearly maximum SST derived from daily mean estimates. The daily estimates are the result of the fusion of data from multiple satellite sensors. It combines data from the Advanced Very High Resolution Radiometers (AVHRRs), the series of Along Track Scanning Radiometers (ATSRs), and the Sea and Land Surface Temperature Radiometer (SLSTR).
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
@@ -54,7 +54,7 @@ list_data("SST/max/5km")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="SST_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

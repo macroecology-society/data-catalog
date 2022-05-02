@@ -1,5 +1,6 @@
 ---
- title: CCI_permafrost
+ title: Annual permafrost extents 
+ dataset_id: CCI_permafrost
  short_description: |
   Time-series of the extent of permafrost in the northern hemisphere
  long_description: |

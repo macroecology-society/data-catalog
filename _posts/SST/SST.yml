@@ -1,14 +1,16 @@
 ---
- title: SST
+ title: Global Sea surface temperature
+ dataset_id: SST
  short_description: |
-  Yearly maximum Sea Surface Temperature (SST)
+  Annual maximum Sea Surface Temperature (SST)
  long_description: |
-  This dataset maps the global, yearly maximum SST from 
-  daily, mean estimates. The daily estimates are the result 
-  of the fusion of data from multiple satellite sensors. It 
-  combines data from the Advanced Very High Resolution Radiometers 
-  (AVHRRs), the series of Along Track Scanning Radiometers (ATSRs), 
-  and the Sea and Land Surface Temperature Radiometer (SLSTR).
+  This dataset maps the global, yearly maximum SST derived 
+  from daily mean estimates. The daily estimates are the 
+  result of the fusion of data from multiple satellite 
+  sensors. It combines data from the Advanced Very High 
+  Resolution Radiometers (AVHRRs), the series of Along 
+  Track Scanning Radiometers (ATSRs), and the Sea and 
+  Land Surface Temperature Radiometer (SLSTR).
  #documentation: https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-sea-surface-temperature?tab=overview
  documentation: carsten.meyer@idiv.de
  #data_access: https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-sea-surface-temperature?tab=overview

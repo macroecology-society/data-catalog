@@ -1,7 +1,8 @@
 ---
- title: GFPLAIN
+ title: Global floodplains
+ dataset_id: GFPLAIN
  short_description: |
-  Global mask of 200-year floodplains
+  Maximum extent of the 200-year floodplains
  long_description: |
   Geomorphological deliniation of global historical floodplains. 
   This dataset was derived with topographic data from the Shuttle 

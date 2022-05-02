@@ -1,5 +1,6 @@
 ---
- title: LTQA
+ title: Annual Landsat data quality
+ dataset_id: LTQA
  short_description: |
   Landsat acquisition quality mapped on a yearly basis
  long_description: |

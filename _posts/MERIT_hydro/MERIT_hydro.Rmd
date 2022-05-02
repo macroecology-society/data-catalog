@@ -1,5 +1,5 @@
 ---
-title: "MERIT_hydro"
+title: "Global rivers"
 description: |
   Hydrological variables derived with the Multi-Error-Removed 
   Improved-Terrain (MERIT) Digital Elevation Model (DEM)
@@ -7,7 +7,7 @@ preview: MERIT_hydro.png
 slug: MERIT_hydro
 categories:
   - water
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -48,7 +48,7 @@ list_data("MERIT_hydro/riverDensity/300m")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/MERIT_hydro/MERIT_hydro.bib' download='MERIT_hydro/MERIT_hydro.bibtex'><small>(bibtex)</small></a></p>
-[1] Yamazaki, Ikeshima, Sosa, Bates, Allen, and Pavelsky (2019)
+<p>[1] Yamazaki, Ikeshima, Sosa, Bates, Allen, and Pavelsky (2019)</p>
 <hr>
 </div>
 
@@ -58,7 +58,7 @@ list_data("MERIT_hydro/riverDensity/300m")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="MERIT_hydro_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Multi-temporal snapshot</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

@@ -1,12 +1,12 @@
 ---
-title: "iGFC"
+title: "Global forest cover dynamics"
 description: |
-  Forest cover density time-series from 1992 to 2018
+  Annual time-series on forest canopy densities over nearly three decades
 preview: iGFC.png
 slug: iGFC
 categories:
   - land cover
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <div style="width=80%;margin-top:0;margin-bottom:0;">
 <h3 style="margin-top:5;margin-bottom:5;">Details</h3>
 <p align="justify">
-This dataset fuses multiple remote sensing datasets with different spatial and temporal resolutions to construct a consistent, annual, and gap-free time-series on tree cover starting in 1992 as informed by state-of-the-art data on canopy densities obtained through the Global Forest Change dataset.
+We fused multiple remote sensing datasets mapped at different spatial and temporal resolutions to construct a consistent, annual, and gap-free time-series on tree canpy densities starting in 1992. These data are modelled with samples completed from Global Forest Change dataset.
 </p>
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
@@ -54,7 +54,7 @@ list_data("iGFC/canopyDensity/300m")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="iGFC_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

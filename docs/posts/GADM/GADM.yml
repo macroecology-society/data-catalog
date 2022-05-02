@@ -1,7 +1,8 @@
 ---
- title: GADM
+ title: Global administrative boundaries
+ dataset_id: GADM
  short_description: |
-  Global database of administrative areas
+  Global database with an up-to-date delineation of administrative areas
  long_description: |
   The GADM dataset provides up-to-date administrative boundaries, 
   vectorized on a country-by-country basis and up to five management 

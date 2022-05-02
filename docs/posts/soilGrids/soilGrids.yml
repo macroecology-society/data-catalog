@@ -1,5 +1,6 @@
 ---
- title: soilGrids
+ title: Soil characteristics
+ dataset_id: soilGrids
  short_description: |
   Gridded soil database (soilGrids) 
  long_description: |

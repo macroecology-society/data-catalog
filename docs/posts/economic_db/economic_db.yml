@@ -1,7 +1,9 @@
 ---
- title: economic_db
+ title: Economic indicators
+ dataset_id: economic_db
  short_description: |
-  Global database on economic indicators
+  Global database on economic indicators obtained at 
+  multiple scales, from microdata to international reports
  long_description: |
   This database harmonizes national, subnational, and household level 
   datasets to provide globally consistent data on variables relevant 

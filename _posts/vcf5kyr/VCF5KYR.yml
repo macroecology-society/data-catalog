@@ -1,7 +1,8 @@
 ---
- title: VCF5KYR
+ title: Global Vegetation Continuous Fields
+ dataset_id: VCF5KYR
  short_description: |
-  AVHRR Vegetation Continuous Fields (VCF)
+  Vegetation Continuous Fields (VCF) derived with AVHRR
  long_description: |
   This dataset provides global maps with per-pixel percentages 
   of different vegetation types. It is based on AVHRR satellite 

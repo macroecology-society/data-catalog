@@ -1,12 +1,14 @@
 ---
- title: GRWL_class
+ title: Global classification of river networks
+ dataset_id: GRWL_class
  short_description: |
-  Global River Widths from Landsat (GRWL) Database
+  Classification of water bodies connected to river networks
  long_description: |
   This dataset distinguishes water bodies connected to river networks. 
-  The GRWL Database is the first global compilation of river planform 
-  geometry at a constant-frequency discharge, derived with discharge 
-  data from 3693 gauge stations, and 7376 Landsat TM, ETM+ scenes.
+  As a part of the Global River Widths from Landsat (GRWL) Database, this 
+  is the first global compilation of river planform geometry at a 
+  constant-frequency discharge, derived with discharge data from 3693 
+  gauge stations, and 7376 Landsat TM, ETM+ scenes.
  documentation: https://www.science.org/doi/10.1126/science.aat0636
  #data_access: https://zenodo.org/record/1297434
  data_access: carsten.meyer@idiv.de
@@ -15,7 +17,7 @@
  categories: water
  status: available
  metadata:
-   format: Grid / Vector
+   format: Grid
    spatial_resolution: [30 m, 300 m]
    temporal_resolution: Multi-temporal snapshot
    temporal_range: [1982,2018]

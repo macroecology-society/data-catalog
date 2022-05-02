@@ -1,7 +1,8 @@
 ---
- title: GAIA
+ title: Global impervious surfaces
+ dataset_id: GAIA
  short_description: |
-  Global time-series of impervious surfaces
+  Annual time-series of impervious surfaces
  long_description: |
   This dataset was derived thorugh the classification of dense 
   satellite time series obtained with multiple Landsat sensors. 

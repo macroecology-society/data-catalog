@@ -1,12 +1,13 @@
 ---
- title: fireFrequency
+ title: Annual Fire frequency
+ dataset_id: fireFrequency
  short_description: |
-  Global annual maps of intra-annual fire frequency
+  Global time-series on the intra-annual frequency of fires
  long_description: |
-  This dataset provides yearly data on global, annual 
-  fire extents and prevailance. It uses data from MODIS 
-  MCD64A1 product to count the number of months with 
-  observed fires at each pixel within each year.
+  This dataset provides yearly data on the global extent and 
+  prevailance of fires. It uses data from MODIS MCD64A1 product 
+  to count the number of months with observed fires at each pixel 
+  within each year.
  documentation: carsten.meyer@idiv.de
  data_access: carsten.meyer@idiv.de
  license: CC-BY-SA-4.0

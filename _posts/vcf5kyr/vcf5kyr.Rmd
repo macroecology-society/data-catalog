@@ -1,12 +1,12 @@
 ---
-title: "VCF5KYR"
+title: "Global Vegetation Continuous Fields"
 description: |
-  AVHRR Vegetation Continuous Fields (VCF)
+  Vegetation Continuous Fields (VCF) derived with AVHRR
 preview: VCF5KYR.png
 slug: VCF5KYR
 categories:
   - land cover
-date: 2022-04-30
+date: 2022-05-02
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -61,7 +61,7 @@ list_data("VCF5KYR/TreeCover/5km")
 <h3 style="margin-bottom:0;">References</h3>
 <p style='margin-top:0;margin-bottom:5;'>
              <a target='_blank' href='https://raw.githubusercontent.com/data-catalog/main/_posts/VCF5KYR/VCF5KYR.bib' download='VCF5KYR/VCF5KYR.bibtex'><small>(bibtex)</small></a></p>
-[1] Song, Hansen, Stehman, Potapov, Tyukavina, Vermote, and Townshend (2018)
+<p>[1] Song, Hansen, Stehman, et al. (2018)</p>
 <hr>
 </div>
 
@@ -71,7 +71,7 @@ list_data("VCF5KYR/TreeCover/5km")
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="VCF5KYR_extent.png" width=120, height=90>
+<img src="_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

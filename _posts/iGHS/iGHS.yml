@@ -1,12 +1,12 @@
 ---
- title: iGHS
+ title: Annual population counts
+ dataset_id: iGHS
  short_description: |
-  Interpolated Global Human Settlement (GHS) data
+  Global per-pixel counts of human populations
  long_description: |
-  This dataset extends on the GHS population dataset. 
-  The original depicts number of inhabitats per pixel 
-  in 1975, 1990, 2000, and 2015. Here, we linearly 
-  interpolated this data on a yearly basis, deriving 
+  This dataset extends on the Global Human Settlement (GHS) dataset which 
+  maps tthe number of inhabitats per pixel in 1975, 1990, 2000, and 2015. 
+  Here, we linearly interpolated this data on a yearly basis, deriving 
   global population counts between 1992 and 2018.
  documentation: carsten.meyer@idiv.de
  data_access: carsten.meyer@idiv.de

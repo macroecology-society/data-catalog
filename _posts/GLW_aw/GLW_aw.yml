@@ -1,5 +1,6 @@
 ---
- title: GLW_aw
+ title: Global livestock area
+ dataset_id: GLW_aw
  short_description: |
   Gridded Livestock of the World (GLW) database, reflecting the most recently 
   compiled and harmonized subnational livestock distribution data for 2010. 

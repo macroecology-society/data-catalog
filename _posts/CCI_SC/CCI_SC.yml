@@ -1,7 +1,8 @@
 ---
- title: CCI_SC
+ title: Global snow cover densities
+ dataset_id: CCI_SC
  short_description: |
-  Global time-series of annual snow cover
+  Annual time-series on per-pixel proportions of snow cover
  long_description: |
   This dataset extends on the AVHRR-based, daily, per-pixel proportions 
   of snow cover estimated in the scope of Climate Change Initiative (CCI). 

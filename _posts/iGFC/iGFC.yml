@@ -1,14 +1,14 @@
 ---
- title: iGFC
+ title: Global forest cover dynamics
+ dataset_id: iGFC
  short_description: |
-  Forest cover density time-series from 1992 to 2018
+  Annual time-series on forest canopy densities over nearly three decades
  long_description: |
-  This dataset fuses multiple remote sensing datasets 
-  with different spatial and temporal resolutions to 
-  construct a consistent, annual, and gap-free time-series 
-  on tree cover starting in 1992 as informed by 
-  state-of-the-art data on canopy densities obtained through 
-  the Global Forest Change dataset.
+  We fused multiple remote sensing datasets mapped at 
+  different spatial and temporal resolutions to construct 
+  a consistent, annual, and gap-free time-series on tree 
+  canpy densities starting in 1992. These data are modelled 
+  with samples completed from Global Forest Change dataset.
  documentation: carsten.meyer@idiv.de
  data_access: carsten.meyer@idiv.de
  license: CC-BY-SA-4.0

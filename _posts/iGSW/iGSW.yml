@@ -1,12 +1,13 @@
 ---
- title: iGSW
+ title: Bias-corrected global surface water
+ dataset_id: iGSW
  short_description: |
-  Annual, Gap-filled Global Surface Water (GSW) from 1992 to 2018
+  Annual, gap-filled, and trend-adjusted Global Surface Water
  long_description: |
-  This dataset fills data gaps in the GSW dataset and correct for 
-  prediction biases in the original data using machine learning. It 
-  maps annual per-pixel percentages of surface water, both permanent 
-  and seasonal.
+  This dataset fills data gaps in the Global Surface Water (GSW) dataset 
+  by Pekel et al (2016) and correct for prediction biases in the original 
+  data using machine learning. It maps annual per-pixel percentages of 
+  surface water, both permanent and seasonal.
  documentation: mas@idiv.de
  data_access: mas@idiv.de
  license: CC-BY-SA-4.0

@@ -1,5 +1,6 @@
 ---
- title: MERIT_hydro
+ title: Global rivers
+ dataset_id: MERIT_hydro
  short_description: |
   Hydrological variables derived with the Multi-Error-Removed 
   Improved-Terrain (MERIT) Digital Elevation Model (DEM)

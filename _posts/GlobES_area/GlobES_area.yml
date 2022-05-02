@@ -1,7 +1,8 @@
 ---
- title: GlobES_area
+ title: Annual ecosystem areas
+ dataset_id: GlobES_area
  short_description: |
-  Global annual maps of per-pixel ecosystems areas from 1992 to 2018
+  Global, per-pixel areas for 71 ecosystem types
  long_description: |
   This dataset provides yearly, global time-series of per-pixel areas 
   (in hectares) of 71 ecosystem types, including natural, semi-natural 

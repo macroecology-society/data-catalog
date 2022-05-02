@@ -1,9 +1,8 @@
 ---
- title: BECK_climateMap
+ title: Global climate classification
+ dataset_id: BECK_climateMap
  short_description: |
-  Global Koppen-Geiger climate classification at a 1-km resolution for the 
-  present-day (1980 to 2016) and for projected future conditions (2071 to 2100) 
-  under climate change
+  High-resolution climate classification following the Koppen-Geiger class cheme.
  long_description: |
   The present-day map is derived from an ensemble of four high-resolution, 
   topographically-corrected climatic maps. The future map is derived from an 
