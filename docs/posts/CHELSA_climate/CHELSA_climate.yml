@@ -15,35 +15,178 @@
    format: Grid
    spatial_resolution: 1 km
    temporal_resolution: Yearly
-   temporal_range: [1979,2019]
+   temporal_range: [1980,2018]
    spatial_extent: [-180,180,-90,90]
  subdatasets:
-   Precipitation:
-    variable: Total precipitation (mm)
+   annualAridity:
+    variable: Annual Aridity Index, estimated as "annual precipitation" / "annual evapotranspiration"
     content:
-     value_range: 0...n
-   pet:
-    variable: Totall Potential Evapotranspiration (mm)
+     value_range: 0..n
+   meanAridity:
+    variable: Mean of monthly Aridity Indexes, estimated as "annual precipitation" / "annual evapotranspiration"
     content:
-     value_range: 0...n
-   ai:
-    variable: Aridity index (AI)
+     value_range: 0..n
+   cloudsP0:
+    variable: 0th Percentile of cloud cover (%) derived from monthly means
     content:
-     value_range: 0...n
+     value_range: 0..100
+   cloudsP25:
+    variable: 25th Percentile of cloud cover (%) derived from monthly means
+    content:
+     value_range: 0..100
+   cloudsP50:
+    variable: 50th Percentile of cloud cover (%) derived from monthly means
+    content:
+     value_range: 0..100
+   cloudsP75:
+    variable: 75th Percentile of cloud cover (%) derived from monthly means
+    content:
+     value_range: 0..100
+   cloudsP100:
+    variable: 100th Percentile of cloud cover (%) derived from monthly means
+    content:
+     value_range: 0..100
+   hursP0:
+    variable: 0th Percentile of relative humidity (%) derived from monthly means
+    content:
+     value_range: 0..100
+   hursP25:
+    variable: 25th Percentile of relative humidity (%) derived from monthly means
+    content:
+     value_range: 0..100
+   hursP50:
+    variable: 50th Percentile of relative humidity (%) derived from monthly means
+    content:
+     value_range: 0..100
+   hursP75:
+    variable: 75th Percentile of relative humidity (%) derived from monthly means
+    content:
+     value_range: 0..100
+   hursP100:
+    variable: 100th Percentile of relative humidity (%) derived from monthly means
+    content:
+     value_range: 0..100
+   precP0:
+    variable: 0th Percentile of precipitation (mm) derived from monthly totals
+    content:
+     value_range: 0..100
+   precP25:
+    variable: 25th Percentile of precipitation (mm) derived from monthly totals
+    content:
+     value_range: 0..100
+   precP50:
+    variable: 50th Percentile of precipitation (mm) derived from monthly totals
+    content:
+     value_range: 0..100
+   precP75:
+    variable: 75th Percentile of precipitation (mm) derived from monthly totals
+    content:
+     value_range: 0..100
+   precP100:
+    variable: 100th Percentile of precipitation (mm) derived from monthly totals
+    content:
+     value_range: 0..100
+   petP0:
+    variable: 0th Percentile of potential evaporation (mm) derived from monthly totals
+    content:
+     value_range: 0..100
+   petP25:
+    variable: 25th Percentile of potential evaporation (mm) derived from monthly totals
+    content:
+     value_range: 0..100
+   petP50:
+    variable: 50th Percentile of potential evaporation (mm) derived from monthly totals
+    content:
+     value_range: 0..100
+   petP75:
+    variable: 75th Percentile of potential evaporation (mm) derived from monthly totals
+    content:
+     value_range: 0..100
+   petP100:
+    variable: 100th Percentile of potential evaporation (mm) derived from monthly totals
+    content:
+     value_range: 0..100
+   tmeanP0:
+    variable: 0th Percentile of temperature (celcius) derived from monthly means
+    content:
+     value_range: 0..100
+   tmeanP25:
+    variable: 25th Percentile of temperature (celcius) derived from monthly means
+    content:
+     value_range: 0..100
+   tmeanP50:
+    variable: 50th Percentile of temperature (celcius) derived from monthly means
+    content:
+     value_range: 0..100
+   tmeanP75:
+    variable: 75th Percentile of temperature (celcius) derived from monthly means
+    content:
+     value_range: 0..100
+   tmeanP100:
+    variable: 100th Percentile of temperature (celcius) derived from monthly means
+    content:
+     value_range: 0..100
+   tminP0:
+    variable: 0th Percentile of temperature (celcius) derived from monthly minimums
+    content:
+     value_range: 0..100
+   tminP25:
+    variable: 25th Percentile of temperature (celcius) derived from monthly maximums
+    content:
+     value_range: 0..100
+   tminP50:
+    variable: 50th Percentile of temperature (celcius) derived from monthly maximums
+    content:
+     value_range: 0..100
+   tminP75:
+    variable: 75th Percentile of temperature (celcius) derived from monthly maximums
+    content:
+     value_range: 0..100
+   tminP100:
+    variable: 100th Percentile of temperature (celcius) derived from monthly maximums
+    content:
+     value_range: 0..100
+   tmaxP0:
+    variable: 0th Percentile of temperature (celcius) derived from monthly maximums
+    content:
+     value_range: 0..100
+   tmaxP25:
+    variable: 25th Percentile of temperature (celcius) derived from monthly maximums
+    content:
+     value_range: 0..100
+   tmaxP50:
+    variable: 50th Percentile of temperature (celcius) derived from monthly maximums
+    content:
+     value_range: 0..100
+   tmaxP75:
+    variable: 75th Percentile of temperature (celcius) derived from monthly maximums
+    content:
+     value_range: 0..100
+   tmaxP100:
+    variable: 100th Percentile of temperature (celcius) derived from monthly maximums
+    content:
+     value_range: 0..100
    pci:
     variable: Precipitation Concentration Index (PCI)
     content:
-     value_range: 0...n
-   temperatureMin:
-    variable: Minimum annual temperature (K/10)
+     value_range: 0..n
+   thc:
+    variable: Pearson correlation between mean monthly temperature and the monthly mean relative humidity
+    content:
+     value_range: -100..100
+   tpc:
+    variable: Pearson correlation between mean monthly temperature and the total monthly precipitation
+    content:
+     value_range: -100..100
+   totalPrecipitation:
+    variable: Total precipitation (mm)
     content:
      value_range: 0...n
-   temperatureMean:
-    variable: Mean annual temperature (K/10)
+   totalPET:
+    variable: Total Potential Evapotranspiration (mm)
     content:
      value_range: 0...n
-   temperatureMax:
-    variable: Maximum annual temperature (K/10)
+   temperatureAmplitude:
+    variable: Aplitude between the annual maximum and minimum temperatures (celcius)
     content:
      value_range: 0...n
-

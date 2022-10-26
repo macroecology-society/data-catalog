@@ -1,0 +1,66 @@
+---
+ title: Range maps
+ dataset_id: rangeMap
+ short_description: |
+  Species range maps harmonized from different sources
+ long_description: |
+  This dataset provides range maps for thousands of species. 
+  The data is divided into multiple subdasets, with each 
+  corresponding to a different taxonomic kingdom.
+ documentation: https://www.iucnredlist.org/
+ data_access: https://www.iucnredlist.org/
+ license: CC-BY-SA-4.0
+ version: 2022-2
+ categories: ecology
+ status: available
+ metadata:
+   format: Vector
+   spatial_resolution: 2 deg
+   temporal_resolution: Multi-temporal snapshot
+   temporal_range: [2020,2020]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   animalia:
+    variable: Range of animal species, including vertebrates and insects
+    content:
+     ogc_fid: Unique feature identifier
+     binomial: Species scientifc name
+     presence: Code specifying occupancy type
+     origin: Code specifying origin type
+     seasonal: Code specifying seasonal presence type
+     compiler: Name of actor responsible for the record
+     year: Year when the record was generated
+     citation: Citation of the record
+   plantae:
+    variable: Range of plant spcies
+    content:
+     ogc_fid: Unique feature identifier
+     binomial: Species scientifc name
+     presence: Code specifying occupancy type
+     origin: Code specifying origin type
+     seasonal: Code specifying seasonal presence type
+     compiler: Name of actor responsible for the record
+     year: Year when the record was generated
+     citation: Citation of the record
+   fungi:
+    variable: Range of eukaryotic organisms, including yeasts, molds and mushrooms
+    content:
+     ogc_fid: Unique feature identifier
+     sbinomial: Species scientifc name
+     presence: Code specifying occupancy type
+     origin: Code specifying origin type
+     seasonal: Code specifying seasonal presence type
+     compiler: Name of actor responsible for the record
+     year: Year when the record was generated
+     citation: Citation of the record
+   chromista:
+    variable: Range of single-celled and multicellular eukaryotic species
+    content:
+     ogc_fid: Unique feature identifier
+     binomial: Species scientifc name
+     presence: Code specifying occupancy type
+     origin: Code specifying origin type
+     seasonal: Code specifying seasonal presence type
+     compiler: Name of actor responsible for the record
+     year: Year when the record was generated
+     citation: Citation of the record

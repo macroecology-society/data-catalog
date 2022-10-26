@@ -6,7 +6,7 @@ preview: CHELSA_climate.png
 slug: CHELSA_climate
 categories:
   - climate
-date: 2022-05-02
+date: 2022-10-26
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -24,49 +24,301 @@ This dataset provides annual aggregates of CHELSA's monthly precipitation, Poten
 
 <h3 style="margin-top:5;margin-bottom:5;">Subdatasets</h3>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`Precipitation`<span style="color:#C8C8C8;"> | </span>Total precipitation (mm)</summary>
+<summary style="font-size:16px;">`annualAridity`<span style="color:#C8C8C8;"> | </span>Annual Aridity Index, estimated as "annual precipitation" / "annual evapotranspiration"</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
-|value_range|0...n|
+|value_range|0..n|
 </details>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`pet`<span style="color:#C8C8C8;"> | </span>Totall Potential Evapotranspiration (mm)</summary>
+<summary style="font-size:16px;">`meanAridity`<span style="color:#C8C8C8;"> | </span>Mean of monthly Aridity Indexes, estimated as "annual precipitation" / "annual evapotranspiration"</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
-|value_range|0...n|
+|value_range|0..n|
 </details>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`ai`<span style="color:#C8C8C8;"> | </span>Aridity index (AI)</summary>
+<summary style="font-size:16px;">`cloudsP0`<span style="color:#C8C8C8;"> | </span>0th Percentile of cloud cover (%) derived from monthly means</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
-|value_range|0...n|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`cloudsP25`<span style="color:#C8C8C8;"> | </span>25th Percentile of cloud cover (%) derived from monthly means</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`cloudsP50`<span style="color:#C8C8C8;"> | </span>50th Percentile of cloud cover (%) derived from monthly means</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`cloudsP75`<span style="color:#C8C8C8;"> | </span>75th Percentile of cloud cover (%) derived from monthly means</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`cloudsP100`<span style="color:#C8C8C8;"> | </span>100th Percentile of cloud cover (%) derived from monthly means</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`hursP0`<span style="color:#C8C8C8;"> | </span>0th Percentile of relative humidity (%) derived from monthly means</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`hursP25`<span style="color:#C8C8C8;"> | </span>25th Percentile of relative humidity (%) derived from monthly means</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`hursP50`<span style="color:#C8C8C8;"> | </span>50th Percentile of relative humidity (%) derived from monthly means</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`hursP75`<span style="color:#C8C8C8;"> | </span>75th Percentile of relative humidity (%) derived from monthly means</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`hursP100`<span style="color:#C8C8C8;"> | </span>100th Percentile of relative humidity (%) derived from monthly means</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`precP0`<span style="color:#C8C8C8;"> | </span>0th Percentile of precipitation (mm) derived from monthly totals</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`precP25`<span style="color:#C8C8C8;"> | </span>25th Percentile of precipitation (mm) derived from monthly totals</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`precP50`<span style="color:#C8C8C8;"> | </span>50th Percentile of precipitation (mm) derived from monthly totals</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`precP75`<span style="color:#C8C8C8;"> | </span>75th Percentile of precipitation (mm) derived from monthly totals</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`precP100`<span style="color:#C8C8C8;"> | </span>100th Percentile of precipitation (mm) derived from monthly totals</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`petP0`<span style="color:#C8C8C8;"> | </span>0th Percentile of potential evaporation (mm) derived from monthly totals</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`petP25`<span style="color:#C8C8C8;"> | </span>25th Percentile of potential evaporation (mm) derived from monthly totals</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`petP50`<span style="color:#C8C8C8;"> | </span>50th Percentile of potential evaporation (mm) derived from monthly totals</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`petP75`<span style="color:#C8C8C8;"> | </span>75th Percentile of potential evaporation (mm) derived from monthly totals</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`petP100`<span style="color:#C8C8C8;"> | </span>100th Percentile of potential evaporation (mm) derived from monthly totals</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`tmeanP0`<span style="color:#C8C8C8;"> | </span>0th Percentile of temperature (celcius) derived from monthly means</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`tmeanP25`<span style="color:#C8C8C8;"> | </span>25th Percentile of temperature (celcius) derived from monthly means</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`tmeanP50`<span style="color:#C8C8C8;"> | </span>50th Percentile of temperature (celcius) derived from monthly means</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`tmeanP75`<span style="color:#C8C8C8;"> | </span>75th Percentile of temperature (celcius) derived from monthly means</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`tmeanP100`<span style="color:#C8C8C8;"> | </span>100th Percentile of temperature (celcius) derived from monthly means</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`tminP0`<span style="color:#C8C8C8;"> | </span>0th Percentile of temperature (celcius) derived from monthly minimums</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`tminP25`<span style="color:#C8C8C8;"> | </span>25th Percentile of temperature (celcius) derived from monthly maximums</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`tminP50`<span style="color:#C8C8C8;"> | </span>50th Percentile of temperature (celcius) derived from monthly maximums</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`tminP75`<span style="color:#C8C8C8;"> | </span>75th Percentile of temperature (celcius) derived from monthly maximums</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`tminP100`<span style="color:#C8C8C8;"> | </span>100th Percentile of temperature (celcius) derived from monthly maximums</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`tmaxP0`<span style="color:#C8C8C8;"> | </span>0th Percentile of temperature (celcius) derived from monthly maximums</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`tmaxP25`<span style="color:#C8C8C8;"> | </span>25th Percentile of temperature (celcius) derived from monthly maximums</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`tmaxP50`<span style="color:#C8C8C8;"> | </span>50th Percentile of temperature (celcius) derived from monthly maximums</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`tmaxP75`<span style="color:#C8C8C8;"> | </span>75th Percentile of temperature (celcius) derived from monthly maximums</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`tmaxP100`<span style="color:#C8C8C8;"> | </span>100th Percentile of temperature (celcius) derived from monthly maximums</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|0..100|
 </details>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
 <summary style="font-size:16px;">`pci`<span style="color:#C8C8C8;"> | </span>Precipitation Concentration Index (PCI)</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
-|value_range|0...n|
+|value_range|0..n|
 </details>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`temperatureMin`<span style="color:#C8C8C8;"> | </span>Minimum annual temperature (K/10)</summary>
+<summary style="font-size:16px;">`thc`<span style="color:#C8C8C8;"> | </span>Pearson correlation between mean monthly temperature and the monthly mean relative humidity</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|-100..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`tpc`<span style="color:#C8C8C8;"> | </span>Pearson correlation between mean monthly temperature and the total monthly precipitation</summary>
+<hr style="margin-top:0;margin-bottom:20px;">
+|content|description|
+|-------|-----------|
+|value_range|-100..100|
+</details>
+<details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
+<summary style="font-size:16px;">`totalPrecipitation`<span style="color:#C8C8C8;"> | </span>Total precipitation (mm)</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...n|
 </details>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`temperatureMean`<span style="color:#C8C8C8;"> | </span>Mean annual temperature (K/10)</summary>
+<summary style="font-size:16px;">`totalPET`<span style="color:#C8C8C8;"> | </span>Total Potential Evapotranspiration (mm)</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
 |value_range|0...n|
 </details>
 <details style='cursor:pointer;border:none;box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;padding:10px;margin:0;'>
-<summary style="font-size:16px;">`temperatureMax`<span style="color:#C8C8C8;"> | </span>Maximum annual temperature (K/10)</summary>
+<summary style="font-size:16px;">`temperatureAmplitude`<span style="color:#C8C8C8;"> | </span>Aplitude between the annual maximum and minimum temperatures (celcius)</summary>
 <hr style="margin-top:0;margin-bottom:20px;">
 |content|description|
 |-------|-----------|
@@ -79,10 +331,10 @@ This dataset provides annual aggregates of CHELSA's monthly precipitation, Poten
 list_data("CHELSA_climate")
 
 # data call for specific subdataset 
-list_data("CHELSA_climate/Precipitation")
+list_data("CHELSA_climate/annualAridity")
 
 # data call to subdataset with a specific resolution
-list_data("CHELSA_climate/Precipitation/1km")
+list_data("CHELSA_climate/annualAridity/1km")
 ```
 </div>
 <hr style="margin-top:0;margin-bottom:0;">
@@ -91,18 +343,18 @@ list_data("CHELSA_climate/Precipitation/1km")
 </div>
 
 <aside>
-<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#228B22;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
+<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#e6691c;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="_extent.png" width=120, height=90>
+<img src="CHELSA_climate_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>
 <p style="margin-top:0;">1 km</p>
 <p style="margin-top:0;margin-bottom:0;">**Time frame**</p>
-<p style="margin-top:0;">1979 to 2019</p>
+<p style="margin-top:0;">1980 to 2018</p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://chelsa-climate.org/wp-admin/download-page/CHELSA_tech_specification_V2.pdf'>documentation</a></p></p>
 <p><p style='margin-top:0;margin-bottom:0;'><a style='margin:0;padding:0;' href='https://chelsa-climate.org/downloads/'>Data access</a></p></p>

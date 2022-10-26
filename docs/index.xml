@@ -12,7 +12,7 @@
       <link>https://macroecology-society.github.io/data-catalog/</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Oct 2022 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Global vegetation dynamics</title>
       <link>https://macroecology-society.github.io/data-catalog/posts/AVHRR</link>
@@ -20,7 +20,7 @@
 vegetation dynamics expressed through the NDVI</description>
       <category>vegetation</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/AVHRR</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/AVHRR/AVHRR.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -29,7 +29,7 @@ vegetation dynamics expressed through the NDVI</description>
       <description>High-resolution climate classification following the Koppen-Geiger class cheme.</description>
       <category>climate</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/BECK_climateMap</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/BECK_climateMap/BECK_climateMap.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -38,8 +38,17 @@ vegetation dynamics expressed through the NDVI</description>
       <description>Range maps of bird species provided by the Birdlife initiative</description>
       <category>ecology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/BirdLife_ranges</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/BirdLife_ranges/BirdLife_ranges.png" medium="image" type="image/png" width="200" height="100"/>
+    </item>
+    <item>
+      <title>Cumulative Basin Metrics (CBM)</title>
+      <link>https://macroecology-society.github.io/data-catalog/posts/CBM</link>
+      <description>Mean values of selected metrics aggregated dow-/upstream</description>
+      <category>climate</category>
+      <guid>https://macroecology-society.github.io/data-catalog/posts/CBM</guid>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://macroecology-society.github.io/data-catalog/posts/CBM/CBM.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
       <title>Bias-corrected CCI land cover</title>
@@ -48,7 +57,7 @@ vegetation dynamics expressed through the NDVI</description>
 data on per-pixel percentages of 27 classes.</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/CCI_ilc</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/CCI_ilc/CCI_ilc.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -58,7 +67,7 @@ data on per-pixel percentages of 27 classes.</description>
 Climate Change Initiative (CCI), from 1992 to the present</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/CCI_landCover</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/CCI_landCover/CCI_landCover.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -68,7 +77,7 @@ Climate Change Initiative (CCI), from 1992 to the present</description>
 CCI land cover dataset</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/CCI_landCover_history</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/CCI_landCover_history/CCI_landCover_history.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -78,7 +87,7 @@ CCI land cover dataset</description>
       <category>climate</category>
       <category>geomorphology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/CCI_permafrost</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/CCI_permafrost/CCI_permafrost.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -88,7 +97,7 @@ CCI land cover dataset</description>
       <category>land cover</category>
       <category>climate</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/CCI_SC</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/CCI_SC/CCI_SC.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -98,7 +107,7 @@ CCI land cover dataset</description>
 of soil moisture content from 1978 to the present</description>
       <category>climate</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/CCI_SM</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/CCI_SM/CCI_SM.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -107,7 +116,7 @@ of soil moisture content from 1978 to the present</description>
       <description>Historical metrics on the spatial and temporal variability of soil moisture since 1978</description>
       <category>climate</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/CCI_SM_history</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/CCI_SM_history/CCI_SM_history.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -116,7 +125,7 @@ of soil moisture content from 1978 to the present</description>
       <description>Global monthly time-series of precipitation and temperature.</description>
       <category>climate</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/CHELSA</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/CHELSA/CHELSA.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -125,7 +134,7 @@ of soil moisture content from 1978 to the present</description>
       <description>Global time-series of climate variables</description>
       <category>climate</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/CHELSA_climate</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/CHELSA_climate/CHELSA_climate.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -135,7 +144,7 @@ of soil moisture content from 1978 to the present</description>
 scales, from microdata to national census</description>
       <category>sociology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/demographic_db</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/demographic_db/demographic_db.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -145,7 +154,7 @@ scales, from microdata to national census</description>
 the Defense Meteorological Satellite Program (DMSP)</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/DMSP</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/DMSP/DMSP.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -155,7 +164,7 @@ the Defense Meteorological Satellite Program (DMSP)</description>
 multiple scales, from microdata to international reports</description>
       <category>economy</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/economic_db</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/economic_db/economic_db.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -165,7 +174,7 @@ multiple scales, from microdata to international reports</description>
       <category>land cover</category>
       <category>climate</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/fireFrequency</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/fireFrequency/fireFrequency.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -175,7 +184,7 @@ multiple scales, from microdata to international reports</description>
       <category>land cover</category>
       <category>climate</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/fireRegime</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/fireRegime/fireRegime.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -184,7 +193,7 @@ multiple scales, from microdata to international reports</description>
       <description>Global time-series on the intra-annual variability of the land surface streamflow</description>
       <category>water</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/FLO1K</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/FLO1K/FLO1K.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -194,7 +203,7 @@ multiple scales, from microdata to international reports</description>
 that fuses data from Copernicus, MODIS, and AVHRR</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/FVCF</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/FVCF/FVCF.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -203,7 +212,7 @@ that fuses data from Copernicus, MODIS, and AVHRR</description>
       <description>Global database with an up-to-date delineation of administrative areas</description>
       <category>land managenent</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GADM</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GADM/GADM.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -212,7 +221,7 @@ that fuses data from Copernicus, MODIS, and AVHRR</description>
       <description>Annual time-series of impervious surfaces</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GAIA</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GAIA/GAIA.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -221,7 +230,7 @@ that fuses data from Copernicus, MODIS, and AVHRR</description>
       <description>Global Assessment of Reptile Distributions (GARD)</description>
       <category>ecology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GARD</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GARD/GARD.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -230,7 +239,7 @@ that fuses data from Copernicus, MODIS, and AVHRR</description>
       <description>High-resolution map of the global extent of bare land as of 2010</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GBL</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GBL/GBL.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -239,7 +248,7 @@ that fuses data from Copernicus, MODIS, and AVHRR</description>
       <description>General Bathymetric Chart of the Oceans (GEBCO)</description>
       <category>geomorphology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GEBCO</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GEBCO/GEBCO.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -248,7 +257,7 @@ that fuses data from Copernicus, MODIS, and AVHRR</description>
       <description>Delineation of equally sized tiles for high-performance computing</description>
       <category>utilities</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/geoprocessing_tiles</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/geoprocessing_tiles/geoprocessing_tiles.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -257,7 +266,7 @@ that fuses data from Copernicus, MODIS, and AVHRR</description>
       <description>Maximum extent of the 200-year floodplains</description>
       <category>water</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GFPLAIN</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GFPLAIN/GFPLAIN.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -268,7 +277,7 @@ distinguishing types of land use (e.g. urban, rural),
 counting population, and identifying built-up structures.</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GHS</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GHS/GHS.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -277,7 +286,7 @@ counting population, and identifying built-up structures.</description>
       <description>Delineation of mining operations observed between 2000 and 2017</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/globalMines</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/globalMines/globalMines.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -287,7 +296,7 @@ counting population, and identifying built-up structures.</description>
 of habitat mapped on a species-by-species basis.</description>
       <category>ecology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GlobES_AoH</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GlobES_AoH/GlobES_AoH.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -296,7 +305,7 @@ of habitat mapped on a species-by-species basis.</description>
       <description>Global, per-pixel areas for 71 ecosystem types</description>
       <category>ecology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GlobES_area</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GlobES_area/GlobES_area.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -305,7 +314,7 @@ of habitat mapped on a species-by-species basis.</description>
       <description>Global time-series on ecosystem diversity metrics</description>
       <category>ecology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GlobES_bio</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GlobES_bio/GlobES_bio.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -315,7 +324,7 @@ of habitat mapped on a species-by-species basis.</description>
       <category>land use</category>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/gluStats</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/gluStats/gluStats.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -325,7 +334,7 @@ of habitat mapped on a species-by-species basis.</description>
 compiled and harmonized subnational livestock distribution data for 2010.</description>
       <category>land use</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GLW_aw</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GLW_aw/GLW_aw.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -335,7 +344,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</descr
 compiled and harmonized subnational livestock distribution data for 2010.</description>
       <category>land use</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GLW_nr</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GLW_nr/GLW_nr.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -344,7 +353,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</descr
       <description>High-resolution geomorphological variables</description>
       <category>geomorphology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GM90</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GM90/GM90.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -353,7 +362,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</descr
       <description>Delineation of indiviudal mountains</description>
       <category>geomorphology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GMBA</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GMBA/GMBA.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -362,7 +371,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</descr
       <description>Global Mountain Maps</description>
       <category>geomorphology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GME</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GME/GME.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -371,7 +380,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</descr
       <description>Classification of water bodies connected to river networks</description>
       <category>water</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GRWL_class</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GRWL_class/GRWL_class.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -380,7 +389,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</descr
       <description>Annual time-series on permanent and seasonal surface water</description>
       <category>water</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GSW</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GSW/GSW.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -389,7 +398,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</descr
       <description>Historical metrics on Surface water dynamics</description>
       <category>water</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/GSW_history</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/GSW_history/GSW_history.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -398,7 +407,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</descr
       <description>Deliniated of watershed at different hierarchical levels</description>
       <category>water</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/HydroSHEDS</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/HydroSHEDS/HydroSHEDS.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -407,7 +416,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</descr
       <description>Annual time-series on forest canopy densities over nearly three decades</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/iGFC</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/iGFC/iGFC.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -416,7 +425,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</descr
       <description>Global per-pixel counts of human populations</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/iGHS</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/iGHS/iGHS.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -426,17 +435,8 @@ compiled and harmonized subnational livestock distribution data for 2010.</descr
       <category>land use</category>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/iGSW</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/iGSW/iGSW.png" medium="image" type="image/png" width="200" height="100"/>
-    </item>
-    <item>
-      <title>Range maps</title>
-      <link>https://macroecology-society.github.io/data-catalog/posts/IUCN_RL_ranges</link>
-      <description>Range maps of the IUCN Red List of Species</description>
-      <category>ecology</category>
-      <guid>https://macroecology-society.github.io/data-catalog/posts/IUCN_RL_ranges</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
-      <media:content url="https://macroecology-society.github.io/data-catalog/posts/IUCN_RL_ranges/IUCN_RL_ranges.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
       <title>Land surface phenology</title>
@@ -445,7 +445,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</descr
       <category>land cover</category>
       <category>ecology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/LAI_phenology</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/LAI_phenology/LAI_phenology.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -454,7 +454,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</descr
       <description>National-scale land tenure data</description>
       <category>land management</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/LandTenure</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/LandTenure/LandTenure.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -463,7 +463,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</descr
       <description>Maps of linear distance to different land features</description>
       <category>utilities</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/linearDistance</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/linearDistance/linearDistance.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -472,7 +472,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</descr
       <description>Landsat acquisition quality mapped on a yearly basis</description>
       <category>utilities</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/LTQA</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/LTQA/LTQA.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -483,7 +483,7 @@ individual crop types and other land uses.</description>
       <category>land use</category>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/luckiMAP</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/luckiMAP/luckiMAP.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -493,7 +493,7 @@ individual crop types and other land uses.</description>
       <category>land use</category>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/luckiProb</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/luckiProb/luckiProb.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -503,7 +503,7 @@ individual crop types and other land uses.</description>
       <category>land cover</category>
       <category>land use</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/LULC_db</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/LULC_db/LULC_db.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -512,7 +512,7 @@ individual crop types and other land uses.</description>
       <description>Annual and high-resolution land cover of Brazil</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/mapBiomas</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/mapBiomas/mapBiomas.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -521,7 +521,7 @@ individual crop types and other land uses.</description>
       <description>Multi-Error-Removed Improved-Terrain (MERIT) Digital Elevation Model (DEM)</description>
       <category>geomorphology</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/MERIT_DEM</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/MERIT_DEM/MERIT_DEM.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -531,7 +531,7 @@ individual crop types and other land uses.</description>
 Improved-Terrain (MERIT) Digital Elevation Model (DEM)</description>
       <category>water</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/MERIT_hydro</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/MERIT_hydro/MERIT_hydro.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -540,7 +540,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</description>
       <description>Global, annual, NDVI metrics derived with MODIS</description>
       <category>vegetation</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/MOD13C2</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/MOD13C2/MOD13C2.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -549,8 +549,17 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</description>
       <description>Per-pixel areas for global applications</description>
       <category>utilities</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/pixelArea</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/pixelArea/pixelArea.png" medium="image" type="image/png" width="200" height="100"/>
+    </item>
+    <item>
+      <title>Range maps</title>
+      <link>https://macroecology-society.github.io/data-catalog/posts/rangeMap</link>
+      <description>Species range maps harmonized from different sources</description>
+      <category>ecology</category>
+      <guid>https://macroecology-society.github.io/data-catalog/posts/rangeMap</guid>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://macroecology-society.github.io/data-catalog/posts/rangeMap/rangeMap.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
       <title>Soil climatologies</title>
@@ -559,7 +568,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</description>
       <category>climate</category>
       <category>soil</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/soilClim</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/soilClim/soilClim.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -568,7 +577,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</description>
       <description>Gridded soil database (soilGrids)</description>
       <category>soil</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/soilGrids</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/soilGrids/soilGrids.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -577,7 +586,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</description>
       <description>Annual maximum Sea Surface Temperature (SST)</description>
       <category>ocean</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/SST</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/SST/SST.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -586,7 +595,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</description>
       <description>Global climate and water balance time series.</description>
       <category>climate</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/TerraClimate</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/TerraClimate/TerraClimate.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -595,7 +604,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</description>
       <description>Global distribution of tidal flats</description>
       <category>water</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/tidalFlats</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/tidalFlats/tidalFlats.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -604,7 +613,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</description>
       <description>Annual tropical moist forest cover densities</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/TMF</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/TMF/TMF.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -613,7 +622,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</description>
       <description>Global map of travel time disparities</description>
       <category>land management</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/travelTime</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/travelTime/travelTime.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
     <item>
@@ -622,7 +631,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</description>
       <description>Vegetation Continuous Fields (VCF) derived with AVHRR</description>
       <category>land cover</category>
       <guid>https://macroecology-society.github.io/data-catalog/posts/VCF5KYR</guid>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
       <media:content url="https://macroecology-society.github.io/data-catalog/posts/VCF5KYR/VCF5KYR.png" medium="image" type="image/png" width="200" height="100"/>
     </item>
   </channel>

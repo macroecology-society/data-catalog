@@ -51,16 +51,17 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  { color: #00769e; background-color: #f1f3f5; }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
+code span { color: #00769e; } /* Normal */
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { } /* Attribute */
+code span.at { color: #657422; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007ba5; } /* ControlFlow */
+code span.cf { color: #00769e; } /* ControlFlow */
 code span.ch { color: #20794d; } /* Char */
 code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #5e5e5e; } /* Comment */
@@ -74,9 +75,9 @@ code span.fl { color: #ad0000; } /* Float */
 code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #007ba5; } /* Keyword */
+code span.kw { color: #00769e; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #007ba5; } /* Other */
+code span.ot { color: #00769e; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
 code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
@@ -786,6 +787,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1027,10 +1029,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     position: relative;
     margin-bottom: 2.5em;
     margin-top: 1.5em;
-  }
-
-  .figure img {
-    width: 100%;
   }
 
   .figure .caption {
@@ -1862,9 +1860,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -1876,6 +1886,31 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           placement: 'bottom-start'
         });
       });
+
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
 
       // clear polling timer
       clearInterval(tid);
@@ -1975,6 +2010,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // mark non-body figures created by knitr chunks as 100% width
     $('.layout-chunk').each(function(i, val) {
       var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
       if ($(this).attr('data-layout') !== "l-body") {
         figures.css('width', '100%');
       } else {
@@ -1997,7 +2034,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
       $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
       });
     }
 
@@ -2036,7 +2073,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2283,7 +2320,7 @@ function init_posts_list() {
 <a href="posts/AVHRR/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["vegetation"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2301,7 +2338,7 @@ vegetation dynamics expressed through the NDVI</p>
 <a href="posts/BECK_climateMap/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["climate"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2318,7 +2355,7 @@ vegetation dynamics expressed through the NDVI</p>
 <a href="posts/BirdLife_ranges/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["ecology"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2332,10 +2369,27 @@ vegetation dynamics expressed through the NDVI</p>
 <p>Range maps of bird species provided by the Birdlife initiative</p>
 </div>
 </a>
+<a href="posts/CBM/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["climate"]}</script>
+<div class="metadata">
+<div class="publishedDate">Oct. 26, 2022</div>
+<div class="dt-authors"></div>
+</div>
+<div class="thumbnail">
+<img src="posts/CBM/CBM.png"/>
+</div>
+<div class="description">
+<h2>Cumulative Basin Metrics (CBM)</h2>
+<div class="dt-tags">
+<div class="dt-tag">climate</div>
+</div>
+<p>Mean values of selected metrics aggregated dow-/upstream</p>
+</div>
+</a>
 <a href="posts/CCI_ilc/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2353,11 +2407,11 @@ data on per-pixel percentages of 27 classes.</p>
 <a href="posts/CCI_landCover/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
-<img src="posts/CCI_landCover/CCI_landCover.png"/>
+<img data-src="posts/CCI_landCover/CCI_landCover.png"/>
 </div>
 <div class="description">
 <h2>CCI land cover</h2>
@@ -2371,7 +2425,7 @@ Climate Change Initiative (CCI), from 1992 to the present</p>
 <a href="posts/CCI_landCover_history/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2389,7 +2443,7 @@ CCI land cover dataset</p>
 <a href="posts/CCI_permafrost/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["climate","geomorphology"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2407,7 +2461,7 @@ CCI land cover dataset</p>
 <a href="posts/CCI_SC/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover","climate"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2425,7 +2479,7 @@ CCI land cover dataset</p>
 <a href="posts/CCI_SM/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["climate"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2443,7 +2497,7 @@ of soil moisture content from 1978 to the present</p>
 <a href="posts/CCI_SM_history/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["climate"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2460,7 +2514,7 @@ of soil moisture content from 1978 to the present</p>
 <a href="posts/CHELSA/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["climate"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2477,7 +2531,7 @@ of soil moisture content from 1978 to the present</p>
 <a href="posts/CHELSA_climate/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["climate"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2494,7 +2548,7 @@ of soil moisture content from 1978 to the present</p>
 <a href="posts/demographic_db/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["sociology"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2512,7 +2566,7 @@ scales, from microdata to national census</p>
 <a href="posts/DMSP/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2530,7 +2584,7 @@ the Defense Meteorological Satellite Program (DMSP)</p>
 <a href="posts/economic_db/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["economy"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2548,7 +2602,7 @@ multiple scales, from microdata to international reports</p>
 <a href="posts/fireFrequency/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover","climate"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2566,7 +2620,7 @@ multiple scales, from microdata to international reports</p>
 <a href="posts/fireRegime/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover","climate"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2584,7 +2638,7 @@ multiple scales, from microdata to international reports</p>
 <a href="posts/FLO1K/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["water"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2601,7 +2655,7 @@ multiple scales, from microdata to international reports</p>
 <a href="posts/FVCF/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2619,7 +2673,7 @@ that fuses data from Copernicus, MODIS, and AVHRR</p>
 <a href="posts/GADM/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land managenent"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2636,7 +2690,7 @@ that fuses data from Copernicus, MODIS, and AVHRR</p>
 <a href="posts/GAIA/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2653,7 +2707,7 @@ that fuses data from Copernicus, MODIS, and AVHRR</p>
 <a href="posts/GARD/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["ecology"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2670,7 +2724,7 @@ that fuses data from Copernicus, MODIS, and AVHRR</p>
 <a href="posts/GBL/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2687,7 +2741,7 @@ that fuses data from Copernicus, MODIS, and AVHRR</p>
 <a href="posts/GEBCO/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["geomorphology"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2704,7 +2758,7 @@ that fuses data from Copernicus, MODIS, and AVHRR</p>
 <a href="posts/geoprocessing_tiles/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["utilities"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2721,7 +2775,7 @@ that fuses data from Copernicus, MODIS, and AVHRR</p>
 <a href="posts/GFPLAIN/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["water"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2738,7 +2792,7 @@ that fuses data from Copernicus, MODIS, and AVHRR</p>
 <a href="posts/GHS/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2757,7 +2811,7 @@ counting population, and identifying built-up structures.</p>
 <a href="posts/globalMines/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2774,7 +2828,7 @@ counting population, and identifying built-up structures.</p>
 <a href="posts/GlobES_AoH/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["ecology"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2792,7 +2846,7 @@ of habitat mapped on a species-by-species basis.</p>
 <a href="posts/GlobES_area/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["ecology"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2809,7 +2863,7 @@ of habitat mapped on a species-by-species basis.</p>
 <a href="posts/GlobES_bio/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["ecology"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2826,7 +2880,7 @@ of habitat mapped on a species-by-species basis.</p>
 <a href="posts/gluStats/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land use","land cover"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2844,7 +2898,7 @@ of habitat mapped on a species-by-species basis.</p>
 <a href="posts/GLW_aw/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land use"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2862,7 +2916,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</p>
 <a href="posts/GLW_nr/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land use"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2880,7 +2934,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</p>
 <a href="posts/GM90/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["geomorphology"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2897,7 +2951,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</p>
 <a href="posts/GMBA/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["geomorphology"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2914,7 +2968,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</p>
 <a href="posts/GME/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["geomorphology"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2931,7 +2985,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</p>
 <a href="posts/GRWL_class/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["water"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2948,7 +3002,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</p>
 <a href="posts/GSW/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["water"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2965,7 +3019,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</p>
 <a href="posts/GSW_history/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["water"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2982,7 +3036,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</p>
 <a href="posts/HydroSHEDS/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["water"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -2999,7 +3053,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</p>
 <a href="posts/iGFC/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3016,7 +3070,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</p>
 <a href="posts/iGHS/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3033,7 +3087,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</p>
 <a href="posts/iGSW/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land use","land cover"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3048,27 +3102,10 @@ compiled and harmonized subnational livestock distribution data for 2010.</p>
 <p>Annual, gap-filled, and trend-adjusted Global Surface Water</p>
 </div>
 </a>
-<a href="posts/IUCN_RL_ranges/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["ecology"]}</script>
-<div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
-<div class="dt-authors"></div>
-</div>
-<div class="thumbnail">
-<img data-src="posts/IUCN_RL_ranges/IUCN_RL_ranges.png"/>
-</div>
-<div class="description">
-<h2>Range maps</h2>
-<div class="dt-tags">
-<div class="dt-tag">ecology</div>
-</div>
-<p>Range maps of the IUCN Red List of Species</p>
-</div>
-</a>
 <a href="posts/LAI_phenology/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover","ecology"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3086,7 +3123,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</p>
 <a href="posts/LandTenure/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land management"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3103,7 +3140,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</p>
 <a href="posts/linearDistance/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["utilities"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3120,7 +3157,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</p>
 <a href="posts/LTQA/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["utilities"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3137,7 +3174,7 @@ compiled and harmonized subnational livestock distribution data for 2010.</p>
 <a href="posts/luckiMAP/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land use","land cover"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3156,7 +3193,7 @@ individual crop types and other land uses.</p>
 <a href="posts/luckiProb/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land use","land cover"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3174,7 +3211,7 @@ individual crop types and other land uses.</p>
 <a href="posts/LULC_db/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover","land use"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3192,7 +3229,7 @@ individual crop types and other land uses.</p>
 <a href="posts/mapBiomas/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3209,7 +3246,7 @@ individual crop types and other land uses.</p>
 <a href="posts/MERIT_DEM/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["geomorphology"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3226,7 +3263,7 @@ individual crop types and other land uses.</p>
 <a href="posts/MERIT_hydro/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["water"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3244,7 +3281,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</p>
 <a href="posts/MOD13C2/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["vegetation"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3261,7 +3298,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</p>
 <a href="posts/pixelArea/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["utilities"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3275,10 +3312,27 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</p>
 <p>Per-pixel areas for global applications</p>
 </div>
 </a>
+<a href="posts/rangeMap/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["ecology"]}</script>
+<div class="metadata">
+<div class="publishedDate">Oct. 26, 2022</div>
+<div class="dt-authors"></div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/rangeMap/rangeMap.png"/>
+</div>
+<div class="description">
+<h2>Range maps</h2>
+<div class="dt-tags">
+<div class="dt-tag">ecology</div>
+</div>
+<p>Species range maps harmonized from different sources</p>
+</div>
+</a>
 <a href="posts/soilClim/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["climate","soil"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3296,7 +3350,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</p>
 <a href="posts/soilGrids/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["soil"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3313,7 +3367,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</p>
 <a href="posts/SST/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["ocean"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3330,7 +3384,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</p>
 <a href="posts/TerraClimate/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["climate"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3347,7 +3401,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</p>
 <a href="posts/tidalFlats/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["water"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3364,7 +3418,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</p>
 <a href="posts/TMF/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3381,7 +3435,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</p>
 <a href="posts/travelTime/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land management"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3398,7 +3452,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</p>
 <a href="posts/VCF5KYR/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["land cover"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 2, 2022</div>
+<div class="publishedDate">Oct. 26, 2022</div>
 <div class="dt-authors"></div>
 </div>
 <div class="thumbnail">
@@ -3442,11 +3496,11 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</p>
 <ul>
 <li>
 <a href="#category:articles">articles</a>
-<span class="category-count">(65)</span>
+<span class="category-count">(66)</span>
 </li>
 <li>
 <a href="#category:climate">climate</a>
-<span class="category-count">(11)</span>
+<span class="category-count">(12)</span>
 </li>
 <li>
 <a href="#category:ecology">ecology</a>
@@ -3523,8 +3577,7 @@ Improved-Terrain (MERIT) Digital Elevation Model (DEM)</p>
 d-title, d-byline {display: none}
 </style>
 </div>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

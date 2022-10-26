@@ -6,7 +6,7 @@ preview: mapBiomas.png
 slug: mapBiomas
 categories:
   - land cover
-date: 2022-05-02
+date: 2022-10-26
 output:
   distill::distill_article:
     highlight_downlit: false
@@ -245,12 +245,12 @@ list_data("mapBiomas/amazonia/30m")
 </div>
 
 <aside>
-<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#228B22;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
+<p style="padding:5px;margin-top:0;margin-bottom:20px;border-radius:10px;text-align:center;background:#e6691c;color:#ffffff;height:25px;width:70px;box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">available</p>
 <hr style="margin-top:0;margin-bottom:0;">
 <p style="margin-top:0;margin-bottom:0;">**Format**</p>
 <p style="margin-top:0;">Grid</p>
 <p style="margin-top:0;">**Spatial extent:**</p>
-<img src="_extent.png" width=120, height=90>
+<img src="mapBiomas_extent.png" width=120, height=90>
 <p style="margin-top:0;margin-bottom:0;">**Temporal frequency:**</p>
 <p style="margin-top:0;">Yearly</p>
 <p style="margin-top:0;margin-bottom:0;">**Resolution**</p>

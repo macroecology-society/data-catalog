@@ -1,0 +1,65 @@
+---
+ title: Cumulative Basin Metrics (CBM)
+ dataset_id: CBM
+ short_description: Mean values of selected metrics aggregated dow-/upstream
+ long_description: |
+  The CBM dataset uses higher-level basin delineations of the HydroSHEDS dataset. 
+  For each pixel, the corresponding value is an average estimated along the downstream 
+  (or upstream) path of water based on the connectivity of each basin.
+ documentation: carsten.meyer@idiv.de
+ data_access: carsten.meyer@idiv.de
+ license: CC-BY-SA-4.0
+ version: 1.0
+ categories: climate
+ status: available
+ metadata:
+   format: Grid
+   spatial_resolution: 300 m
+   temporal_resolution: Yearly
+   temporal_range: [1992,2018]
+   spatial_extent: [-180,180,-90,90]
+ subdatasets:
+   aridity:
+    variable: Annual Aridity Index, estimated as "annual precipitation" / "annual evapotranspiration"
+    content:
+     value_range: 0..n
+   precipitation:
+    variable: Total annual precipitation (mm)
+    content:
+     value_range: 0...n
+   pci:
+    variable: Precipitation Concentration Index (PCI)
+    content:
+     value_range: 0...n
+   snowCover:
+    variable: maximum annual extent of snow cover (%)
+    content:
+     value_range: 0...n
+   nightLightsDown:
+    variable: Downstream night-light intensity
+    content:
+     value_range: 0...n
+   nightLightsUp:
+    variable: Upstream night-light intensity
+    content:
+     value_range: 0...n
+   smMean:
+    variable: Soil moisture mean deriverd from monthly means
+    content:
+     value_range: 0...n
+   smAmplitude:
+    variable: Soil moisture amplitude derived from monthly means
+    content:
+     value_range: 0...n
+   TreeCover:
+    variable: Upstream density of tree cover (%)
+    content:
+     value_range: 0...n
+   NonTreeVegetation:
+    variable: Upstream density of short vegetation density (%)
+    content:
+     value_range: 0...n
+   NonVegetated:
+    variable: Upstream density of non-vegetated surfaces (%)
+    content:
+     value_range: 0...n
